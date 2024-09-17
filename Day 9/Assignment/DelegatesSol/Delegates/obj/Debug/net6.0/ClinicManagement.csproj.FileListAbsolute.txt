@@ -1,0 +1,15 @@
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\bin\Debug\net6.0\ClinicManagement.exe
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\bin\Debug\net6.0\ClinicManagement.deps.json
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\bin\Debug\net6.0\ClinicManagement.runtimeconfig.json
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\bin\Debug\net6.0\ClinicManagement.dll
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\bin\Debug\net6.0\ClinicManagement.pdb
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.AssemblyInfoInputs.cache
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.AssemblyInfo.cs
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.csproj.CoreCompileInputs.cache
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.sourcelink.json
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.dll
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\refint\ClinicManagement.dll
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.pdb
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ClinicManagement.genruntimeconfig.cache
+C:\Users\Disha.Gupta\source\repos\Training\Day 9\Assignment\DelegatesSol\Delegates\obj\Debug\net6.0\ref\ClinicManagement.dll

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\calculatorsol\\calculator\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|solutionrelative:calculator\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\calculatorsol\\calculator\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|solutionrelative:calculator\\validate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\calculatorsol\\calculator\\ivalidateage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|solutionrelative:calculator\\ivalidateage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\calculatorsol\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B386C7EB-BC7E-494E-9637-2E0FC19A6486}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\Customer.cs",
+              "RelativeDocumentMoniker": "Calculator\\Customer.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\Customer.cs",
+              "RelativeToolTip": "Calculator\\Customer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:37:58.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Validate.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\Validate.cs",
+              "RelativeDocumentMoniker": "Calculator\\Validate.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\Validate.cs",
+              "RelativeToolTip": "Calculator\\Validate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:37:43.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IValidateAge.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\IValidateAge.cs",
+              "RelativeDocumentMoniker": "Calculator\\IValidateAge.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\IValidateAge.cs",
+              "RelativeToolTip": "Calculator\\IValidateAge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:37:23.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\Program.cs",
+              "RelativeDocumentMoniker": "Calculator\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\CalculatorSol\\Calculator\\Program.cs",
+              "RelativeToolTip": "Calculator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T04:36:41.947Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

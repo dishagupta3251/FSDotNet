@@ -1,0 +1,14 @@
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\bin\Debug\net6.0\College.exe
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\bin\Debug\net6.0\College.deps.json
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\bin\Debug\net6.0\College.runtimeconfig.json
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\bin\Debug\net6.0\College.dll
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\bin\Debug\net6.0\College.pdb
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\College.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\College.AssemblyInfoInputs.cache
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\College.AssemblyInfo.cs
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\College.csproj.CoreCompileInputs.cache
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\College.dll
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\refint\College.dll
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\College.pdb
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\College.genruntimeconfig.cache
+C:\Users\Disha.Gupta\source\repos\CollegeSol\College\obj\Debug\net6.0\ref\College.dll

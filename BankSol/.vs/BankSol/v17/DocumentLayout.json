@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|c:\\users\\disha.gupta\\source\\repos\\banksol\\bank\\nri_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|solutionrelative:bank\\nri_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|c:\\users\\disha.gupta\\source\\repos\\banksol\\bank\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|solutionrelative:bank\\itransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|c:\\users\\disha.gupta\\source\\repos\\banksol\\bank\\salary_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|solutionrelative:bank\\salary_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|c:\\users\\disha.gupta\\source\\repos\\banksol\\bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|solutionrelative:bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|c:\\users\\disha.gupta\\source\\repos\\banksol\\bank\\saving_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A89203DF-6964-47C3-A9D8-5FC5103C793A}|Bank\\Bank.csproj|solutionrelative:bank\\saving_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\ITransaction.cs",
+              "RelativeDocumentMoniker": "Bank\\ITransaction.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\ITransaction.cs",
+              "RelativeToolTip": "Bank\\ITransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:55:09.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NRI_Account.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\NRI_Account.cs",
+              "RelativeDocumentMoniker": "Bank\\NRI_Account.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\NRI_Account.cs",
+              "RelativeToolTip": "Bank\\NRI_Account.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:53:08.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Salary_Account.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Salary_Account.cs",
+              "RelativeDocumentMoniker": "Bank\\Salary_Account.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Salary_Account.cs",
+              "RelativeToolTip": "Bank\\Salary_Account.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:52:36.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Saving_Account.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Saving_Account.cs",
+              "RelativeDocumentMoniker": "Bank\\Saving_Account.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Saving_Account.cs",
+              "RelativeToolTip": "Bank\\Saving_Account.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:52:20.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Program.cs",
+              "RelativeDocumentMoniker": "Bank\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Program.cs",
+              "RelativeToolTip": "Bank\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T16:51:07.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

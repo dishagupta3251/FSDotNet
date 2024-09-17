@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta\\source\\repos\\CardNumberSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5698A9B5-AC01-4644-AF63-F8484D516622}|CardNumber\\CardNumber.csproj|c:\\users\\disha.gupta\\source\\repos\\cardnumbersol\\cardnumber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5698A9B5-AC01-4644-AF63-F8484D516622}|CardNumber\\CardNumber.csproj|solutionrelative:cardnumber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5698A9B5-AC01-4644-AF63-F8484D516622}|CardNumber\\CardNumber.csproj|c:\\users\\disha.gupta\\source\\repos\\cardnumbersol\\cardnumber\\cardoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5698A9B5-AC01-4644-AF63-F8484D516622}|CardNumber\\CardNumber.csproj|solutionrelative:cardnumber\\cardoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5698A9B5-AC01-4644-AF63-F8484D516622}|CardNumber\\CardNumber.csproj|c:\\users\\disha.gupta\\source\\repos\\cardnumbersol\\cardnumber\\ioperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5698A9B5-AC01-4644-AF63-F8484D516622}|CardNumber\\CardNumber.csproj|solutionrelative:cardnumber\\ioperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\CardNumberSol\\CardNumber\\IOperations.cs",
+              "RelativeDocumentMoniker": "CardNumber\\IOperations.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\CardNumberSol\\CardNumber\\IOperations.cs",
+              "RelativeToolTip": "CardNumber\\IOperations.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:58:29.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardOperations.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\CardNumberSol\\CardNumber\\CardOperations.cs",
+              "RelativeDocumentMoniker": "CardNumber\\CardOperations.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\CardNumberSol\\CardNumber\\CardOperations.cs",
+              "RelativeToolTip": "CardNumber\\CardOperations.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwEsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:58:15.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\CardNumberSol\\CardNumber\\Program.cs",
+              "RelativeDocumentMoniker": "CardNumber\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\CardNumberSol\\CardNumber\\Program.cs",
+              "RelativeToolTip": "CardNumber\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T14:14:38.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

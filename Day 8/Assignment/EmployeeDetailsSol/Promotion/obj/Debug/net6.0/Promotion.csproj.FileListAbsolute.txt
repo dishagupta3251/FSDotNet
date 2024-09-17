@@ -1,0 +1,15 @@
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\bin\Debug\net6.0\Promotion.exe
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\bin\Debug\net6.0\Promotion.deps.json
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\bin\Debug\net6.0\Promotion.runtimeconfig.json
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\bin\Debug\net6.0\Promotion.dll
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\bin\Debug\net6.0\Promotion.pdb
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.AssemblyInfoInputs.cache
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.AssemblyInfo.cs
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.csproj.CoreCompileInputs.cache
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.sourcelink.json
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.dll
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\refint\Promotion.dll
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.pdb
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\Promotion.genruntimeconfig.cache
+C:\Users\Disha.Gupta\source\repos\Training\Day 8\Assignment\PromotionSol\Promotion\obj\Debug\net6.0\ref\Promotion.dll

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\longest_shortestsol\\longest_shortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|solutionrelative:longest_shortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\longest_shortestsol\\longest_shortest\\icalulate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|solutionrelative:longest_shortest\\icalulate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\longest_shortestsol\\longest_shortest\\shortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|solutionrelative:longest_shortest\\shortest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 7\\assignment\\longest_shortestsol\\longest_shortest\\longest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{386CBD86-B045-4031-8BE5-EDED272DEBB6}|Longest_Shortest\\Longest_Shortest.csproj|solutionrelative:longest_shortest\\longest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICalulate.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\ICalulate.cs",
+              "RelativeDocumentMoniker": "Longest_Shortest\\ICalulate.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\ICalulate.cs",
+              "RelativeToolTip": "Longest_Shortest\\ICalulate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:55:18.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shortest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\Shortest.cs",
+              "RelativeDocumentMoniker": "Longest_Shortest\\Shortest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\Shortest.cs",
+              "RelativeToolTip": "Longest_Shortest\\Shortest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:35:31.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Longest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\Longest.cs",
+              "RelativeDocumentMoniker": "Longest_Shortest\\Longest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\Longest.cs",
+              "RelativeToolTip": "Longest_Shortest\\Longest.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:35:15.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\Program.cs",
+              "RelativeDocumentMoniker": "Longest_Shortest\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 7\\Assignment\\Longest_ShortestSol\\Longest_Shortest\\Program.cs",
+              "RelativeToolTip": "Longest_Shortest\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA8wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:32:20.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

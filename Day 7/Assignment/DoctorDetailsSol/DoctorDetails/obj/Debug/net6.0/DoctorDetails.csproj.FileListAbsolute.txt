@@ -1,0 +1,14 @@
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\bin\Debug\net6.0\DoctorDetails.exe
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\bin\Debug\net6.0\DoctorDetails.deps.json
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\bin\Debug\net6.0\DoctorDetails.runtimeconfig.json
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\bin\Debug\net6.0\DoctorDetails.dll
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\bin\Debug\net6.0\DoctorDetails.pdb
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\DoctorDetails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\DoctorDetails.AssemblyInfoInputs.cache
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\DoctorDetails.AssemblyInfo.cs
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\DoctorDetails.csproj.CoreCompileInputs.cache
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\DoctorDetails.dll
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\refint\DoctorDetails.dll
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\DoctorDetails.pdb
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\DoctorDetails.genruntimeconfig.cache
+C:\Users\Disha.Gupta\source\repos\DoctorDetailsSol\DoctorDetails\obj\Debug\net6.0\ref\DoctorDetails.dll

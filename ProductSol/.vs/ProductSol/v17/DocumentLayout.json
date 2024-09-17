@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|c:\\users\\disha.gupta\\source\\repos\\productsol\\product\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|solutionrelative:product\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|c:\\users\\disha.gupta\\source\\repos\\productsol\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|solutionrelative:product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|c:\\users\\disha.gupta\\source\\repos\\productsol\\product\\isupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|solutionrelative:product\\isupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|c:\\users\\disha.gupta\\source\\repos\\productsol\\product\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|solutionrelative:product\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|c:\\users\\disha.gupta\\source\\repos\\productsol\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|solutionrelative:product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|c:\\users\\disha.gupta\\source\\repos\\productsol\\product\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|solutionrelative:product\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|c:\\users\\disha.gupta\\source\\repos\\productsol\\product\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1C2FED8-006A-4F68-B282-17E79D53CE66}|Product\\Product.csproj|solutionrelative:product\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Customer.cs",
+              "RelativeDocumentMoniker": "Product\\Customer.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Customer.cs",
+              "RelativeToolTip": "Product\\Customer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T10:01:07.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\ProductService.cs",
+              "RelativeDocumentMoniker": "Product\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\ProductService.cs",
+              "RelativeToolTip": "Product\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:42:07.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Product.cs",
+              "RelativeDocumentMoniker": "Product\\Product.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Product.cs",
+              "RelativeToolTip": "Product\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:04:28.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Supplier.cs",
+              "RelativeDocumentMoniker": "Product\\Supplier.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Supplier.cs",
+              "RelativeToolTip": "Product\\Supplier.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:03:46.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISupplier.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\ISupplier.cs",
+              "RelativeDocumentMoniker": "Product\\ISupplier.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\ISupplier.cs",
+              "RelativeToolTip": "Product\\ISupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:24:11.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\ICustomer.cs",
+              "RelativeDocumentMoniker": "Product\\ICustomer.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\ICustomer.cs",
+              "RelativeToolTip": "Product\\ICustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:23:46.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Program.cs",
+              "RelativeDocumentMoniker": "Product\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\ProductSol\\Product\\Program.cs",
+              "RelativeToolTip": "Product\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:21:33.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
