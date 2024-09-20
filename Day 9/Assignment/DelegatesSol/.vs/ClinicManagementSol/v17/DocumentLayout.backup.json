@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\",
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\Delegates.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 9\\assignment\\delegatessol\\delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\Delegates.csproj|solutionrelative:delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 9\\assignment\\delegatessol\\delegates\\clinicmanagementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\clinicmanagementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 9\\assignment\\delegatessol\\delegates\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 9\\assignment\\delegatessol\\delegates\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 9\\assignment\\delegatessol\\delegates\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 9\\assignment\\delegatessol\\delegates\\clinicmanagementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\clinicmanagementservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 9\\assignment\\delegatessol\\delegates\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 9\\assignment\\delegatessol\\delegates\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 9\\assignment\\delegatessol\\delegates\\iauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\iauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 9\\assignment\\delegatessol\\delegates\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta\\source\\repos\\training\\day 9\\assignment\\delegatessol\\delegates\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 9\\assignment\\delegatessol\\delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89714FBA-772C-485D-91C7-EB71536C5535}|Delegates\\ClinicManagement.csproj|solutionrelative:delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,69 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ClinicManagementServices.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\ClinicManagementServices.cs",
+              "RelativeDocumentMoniker": "Delegates\\ClinicManagementServices.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\ClinicManagementServices.cs",
+              "RelativeToolTip": "Delegates\\ClinicManagementServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:41:21.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Program.cs",
               "RelativeDocumentMoniker": "Delegates\\Program.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Program.cs",
               "RelativeToolTip": "Delegates\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T04:59:11.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Register.cs",
-              "RelativeDocumentMoniker": "Delegates\\Register.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Register.cs",
-              "RelativeToolTip": "Delegates\\Register.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T14:04:59.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Appointments.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Appointments.cs",
-              "RelativeDocumentMoniker": "Delegates\\Appointments.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Appointments.cs",
-              "RelativeToolTip": "Delegates\\Appointments.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T13:57:10.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClinicManagementServices.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\ClinicManagementServices.cs",
-              "RelativeDocumentMoniker": "Delegates\\ClinicManagementServices.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\ClinicManagementServices.cs",
-              "RelativeToolTip": "Delegates\\ClinicManagementServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:08:50.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Doctor.cs",
               "RelativeDocumentMoniker": "Delegates\\Doctor.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Doctor.cs",
               "RelativeToolTip": "Delegates\\Doctor.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T13:56:50.548Z",
               "EditorCaption": ""
@@ -105,13 +83,39 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Patients.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Patients.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Patients.cs",
               "RelativeDocumentMoniker": "Delegates\\Patients.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Patients.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Patients.cs",
               "RelativeToolTip": "Delegates\\Patients.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAqwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T13:56:35.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\IAuthentication.cs",
+              "RelativeDocumentMoniker": "Delegates\\IAuthentication.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\IAuthentication.cs",
+              "RelativeToolTip": "Delegates\\IAuthentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:44:11.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Appointments.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Appointments.cs",
+              "RelativeDocumentMoniker": "Delegates\\Appointments.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 9\\Assignment\\DelegatesSol\\Delegates\\Appointments.cs",
+              "RelativeToolTip": "Delegates\\Appointments.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:57:10.273Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<HospitalWebApplication.Models.Doctor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center mb-4">Doctors Details</h1>
+
+<div class="d-flex flex-wrap justify-content-center" style="background-color: #f0f4f8; padding: 20px; border-radius: 10px;">
+    @foreach (var doctor in Model)
+    {
+        <div class="card m-2" style="width: 12rem; background-color: #fff3cd; border: 1px solid #ffeeba; transition: transform 0.2s; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);">
+            <img src="@doctor.Image" class="card-img-top" alt="Doctor Image" style="height: 120px; object-fit: cover; border-radius: 10px 10px 0 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+            <div class="card-body">
+                <h5 class="card-title text-danger">@doctor.Name</h5>
+                <p class="card-text" style="color: #6c757d;">Expert in various fields.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item" style="background-color: #fff; color: #343a40;">Phone: @doctor.Phone</li>
+                <li class="list-group-item" style="background-color: #fff; color: #343a40;">Specialization: @doctor.Speciality</li>
+                <li class="list-group-item" style="background-color: #fff; color: #343a40;">Experience: @doctor.Experience years</li>
+            </ul>
+            <div class="card-body text-center">
+                <a href="#" class="btn btn-danger btn-block">Book</a>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        }
+</style>
