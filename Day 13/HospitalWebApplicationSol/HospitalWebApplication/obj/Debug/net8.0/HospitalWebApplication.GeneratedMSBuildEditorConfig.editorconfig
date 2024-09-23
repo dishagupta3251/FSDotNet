@@ -26,16 +26,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 13\HospitalWebApplicationSol\HospitalWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Doctor/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Operations/Add_Doctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xBZGRfRG9jdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Operations/DeleteDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xEZWxldGVEb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Operations/EditDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xFZGl0RG9jdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Operations/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Operations/ViewAllDoctors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xWaWV3QWxsRG9jdG9ycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 13/HospitalWebApplicationSol/HospitalWebApplication/Views/Shared/Error.cshtml]

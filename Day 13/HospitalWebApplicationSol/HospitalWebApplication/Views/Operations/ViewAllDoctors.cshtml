@@ -1,0 +1,51 @@
+﻿@model IEnumerable<HospitalWebApplication.Models.Doctor>
+
+@{
+    ViewData["Title"] = "Doctors Management";
+}
+
+<!-- Add Bootstrap CSS -->
+
+
+<h1 class="text-center mb-4">Doctors Management</h1>
+
+<div class="container">
+    <div class="d-flex justify-content-between mb-3">
+        <a asp-action="Add_Doctor" class="btn btn-success btn-sm">Add Doctor </a>
+    </div>
+
+    <div class="row">
+        @foreach (var doctor in Model)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-sm">
+                    <img src="@doctor.Image" class="card-img-top" alt="Doctor Image" style="height: 170px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">@doctor.Name</h5>
+                        <p class="card-text text-muted">Specialization: @doctor.Speciality</p>
+                        <p class="card-text text-muted">Experience: @doctor.Experience years</p>
+                        <p class="card-text text-muted">Phone: @doctor.Phone</p>
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="EditDoctor" asp-route-pid="@doctor.Id" class="btn btn-warning btn-sm">Edit </a>
+                            <a asp-action="DeleteDoctor" asp-route-pid="@doctor.Id" class="btn btn-danger btn-sm">Delete </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+
+
+<style>
+    body {
+        background-color: #eef1f5;
+    }
+
+    .card {
+        border-radius: 15px;
+    }
+</style>
