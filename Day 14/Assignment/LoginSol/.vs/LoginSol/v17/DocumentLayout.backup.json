@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\views\\login\\sign_up.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\views\\login\\sign_up.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\views\\login\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\views\\login\\viewallusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\views\\login\\viewallusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 14\\assignment\\loginsol\\login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3DA4FA-321E-4B1D-8EC9-C31DAD60AC7D}|Login\\Login.csproj|solutionrelative:login\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Controllers\\LoginController.cs*",
+              "RelativeToolTip": "Login\\Controllers\\LoginController.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwCgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:18:32.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Login\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Services\\LoginService.cs",
+              "RelativeToolTip": "Login\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:01:51.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Login\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T11:19:31.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sign_Up.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\Sign_Up.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Login\\Sign_Up.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\Sign_Up.cshtml",
+              "RelativeToolTip": "Login\\Views\\Login\\Sign_Up.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T09:25:15.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Interfaces\\ILoginService.cs",
+              "RelativeDocumentMoniker": "Login\\Interfaces\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Interfaces\\ILoginService.cs",
+              "RelativeToolTip": "Login\\Interfaces\\ILoginService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:43:38.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Login\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Login\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:04:44.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "Login\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "Login\\Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:59:40.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Login\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T09:45:56.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\Success.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Login\\Success.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\Success.cshtml",
+              "RelativeToolTip": "Login\\Views\\Login\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T11:27:30.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewAllUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\ViewAllUsers.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Login\\ViewAllUsers.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Views\\Login\\ViewAllUsers.cshtml",
+              "RelativeToolTip": "Login\\Views\\Login\\ViewAllUsers.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwCcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T17:39:03.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Program.cs",
+              "RelativeDocumentMoniker": "Login\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Program.cs",
+              "RelativeToolTip": "Login\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvw4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:42:38.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Models\\User.cs",
+              "RelativeToolTip": "Login\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:40:30.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Login.csproj",
+              "RelativeDocumentMoniker": "Login\\Login.csproj",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Login.csproj",
+              "RelativeToolTip": "Login\\Login.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T08:42:06.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Login\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T09:21:25.564Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
