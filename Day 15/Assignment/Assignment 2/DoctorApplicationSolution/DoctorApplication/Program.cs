@@ -1,3 +1,8 @@
+using DoctorApplication.Interfaces;
+using DoctorApplication.Models;
+using DoctorApplication.Respositories;
+using DoctorApplication.Services;
+
 namespace DoctorApplication
 {
     public class Program
@@ -8,6 +13,19 @@ namespace DoctorApplication
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            #region Repository Injection
+            builder.Services.AddScoped<IRepository<int, Doctor>, DoctorRepository>();
+            builder.Services.AddScoped<IRepository<int, Appointment>, AppointmentRepository>();
+            builder.Services.AddScoped<IRepository<string, User>, UserRepository>();
+            #endregion
+
+            #region Service Injection
+            builder.Services.AddScoped<IBookAppointmentServices, BookAppointmentServices>();
+            builder.Services.AddScoped<ILoginUserService, LoginUserServices>();
+            #endregion
+
+         
 
             var app = builder.Build();
 

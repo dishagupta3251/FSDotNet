@@ -18,7 +18,7 @@ namespace DoctorApplication.Controllers
         [HttpPost]
         public IActionResult Login(string username, string password) { 
            var user= _loginUserService.UserLogin(username, password);
-            if (user != null) {
+            if (user == null) {
                 return View();
             }
             return RedirectToAction("Booking","BookAppointment");

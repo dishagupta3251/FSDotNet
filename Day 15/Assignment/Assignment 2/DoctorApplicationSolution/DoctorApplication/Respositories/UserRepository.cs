@@ -8,7 +8,7 @@ namespace DoctorApplication.Respositories
         List<User> _users=new List<User>
         {
             new User(){Username="disha123",Password="985940"},
-            new User(){Username="niharika",Password="3472834sfh"}
+            new User(){Username="niharika",Password="bon"}
         };
 
         public async Task<User> AddAsync(User entity)

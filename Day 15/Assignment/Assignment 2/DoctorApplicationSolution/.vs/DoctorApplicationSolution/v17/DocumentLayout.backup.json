@@ -3,68 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\bookappointment\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\bookappointment\\myappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\controllers\\bookappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\controllers\\bookappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\respositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\respositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\services\\loginuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\services\\loginuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\bookappointment\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\bookappointment\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\services\\bookappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\services\\bookappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\interfaces\\ibookappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\interfaces\\ibookappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\controllers\\bookappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\controllers\\bookappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\respositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\respositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\respositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\respositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\respositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\respositories\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,8 +55,36 @@
       "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\interfaces\\iloginuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\interfaces\\ibookappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\interfaces\\ibookappointmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\services\\loginuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\services\\loginuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\respositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\respositories\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|solutionrelative:doctorapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288154A9-2DA6-4435-AD36-E9534F35C18F}|DoctorApplication\\DoctorApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 15\\assignment\\assignment 2\\doctorapplicationsolution\\doctorapplication\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,82 +115,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\BookAppointment\\MyAppointments.cshtml",
+              "RelativeDocumentMoniker": "DoctorApplication\\Views\\BookAppointment\\MyAppointments.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\BookAppointment\\MyAppointments.cshtml*",
+              "RelativeToolTip": "DoctorApplication\\Views\\BookAppointment\\MyAppointments.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T18:08:09.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Booking.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\BookAppointment\\Booking.cshtml",
+              "RelativeDocumentMoniker": "DoctorApplication\\Views\\BookAppointment\\Booking.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\BookAppointment\\Booking.cshtml",
+              "RelativeToolTip": "DoctorApplication\\Views\\BookAppointment\\Booking.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T17:09:45.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "DoctorApplication\\Views\\Login\\Login.cshtml",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\Login\\Login.cshtml",
               "RelativeToolTip": "DoctorApplication\\Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T04:45:03.862Z",
+              "WhenOpened": "2024-09-27T16:53:16.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DoctorApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T04:10:32.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "BookAppointmentServices.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Services\\BookAppointmentServices.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Services\\BookAppointmentServices.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Services\\BookAppointmentServices.cs",
-              "RelativeToolTip": "DoctorApplication\\Services\\BookAppointmentServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Services\\BookAppointmentServices.cs*",
+              "RelativeToolTip": "DoctorApplication\\Services\\BookAppointmentServices.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:37:59.397Z"
+              "WhenOpened": "2024-09-26T09:37:59.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LoginUserServices.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Services\\LoginUserServices.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Services\\LoginUserServices.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Services\\LoginUserServices.cs",
               "RelativeToolTip": "DoctorApplication\\Services\\LoginUserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:37:35.217Z"
+              "WhenOpened": "2024-09-26T09:37:35.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BookAppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Controllers\\BookAppointmentController.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Controllers\\BookAppointmentController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Controllers\\BookAppointmentController.cs",
-              "RelativeToolTip": "DoctorApplication\\Controllers\\BookAppointmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Controllers\\BookAppointmentController.cs*",
+              "RelativeToolTip": "DoctorApplication\\Controllers\\BookAppointmentController.cs*",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T18:05:15.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Controllers\\LoginController.cs",
               "RelativeToolTip": "DoctorApplication\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T14:56:15.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Models\\ErrorViewModel.cs",
@@ -195,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DoctorApplication\\Views\\Home\\Index.cshtml",
@@ -203,12 +239,11 @@
               "RelativeToolTip": "DoctorApplication\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T03:59:47.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T03:59:47.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "DoctorApplication\\Views\\Home\\Privacy.cshtml",
@@ -221,28 +256,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Models\\Doctor.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Models\\Doctor.cs",
               "RelativeToolTip": "DoctorApplication\\Models\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T16:40:00.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Respositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Respositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Respositories\\UserRepository.cs",
-              "RelativeToolTip": "DoctorApplication\\Respositories\\UserRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwB0AAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Respositories\\UserRepository.cs*",
+              "RelativeToolTip": "DoctorApplication\\Respositories\\UserRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T04:50:06.721Z"
+              "WhenOpened": "2024-09-26T04:50:06.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -252,98 +288,105 @@
               "RelativeDocumentMoniker": "DoctorApplication\\Program.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Program.cs",
               "RelativeToolTip": "DoctorApplication\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T15:00:00.086Z"
+              "WhenOpened": "2024-09-26T15:00:00.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "DoctorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Respositories\\DoctorRepository.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Respositories\\DoctorRepository.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Respositories\\DoctorRepository.cs",
               "RelativeToolTip": "DoctorApplication\\Respositories\\DoctorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T07:13:01.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppointmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Respositories\\AppointmentRepository.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Respositories\\AppointmentRepository.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Respositories\\AppointmentRepository.cs",
               "RelativeToolTip": "DoctorApplication\\Respositories\\AppointmentRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA0wAYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T07:12:45.824Z"
+              "WhenOpened": "2024-09-26T07:12:45.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Models\\User.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Models\\User.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Models\\User.cs",
               "RelativeToolTip": "DoctorApplication\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:52:06.45Z"
+              "WhenOpened": "2024-09-25T16:52:06.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Models\\Appointment.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Models\\Appointment.cs",
               "RelativeToolTip": "DoctorApplication\\Models\\Appointment.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA6wBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:52:25.156Z"
+              "WhenOpened": "2024-09-25T16:52:25.156Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Interfaces\\IRepository.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "DoctorApplication\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T17:12:35.178Z"
+              "WhenOpened": "2024-09-25T17:12:35.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "ILoginUserService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Interfaces\\ILoginUserService.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Interfaces\\ILoginUserService.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Interfaces\\ILoginUserService.cs",
               "RelativeToolTip": "DoctorApplication\\Interfaces\\ILoginUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:39:00.618Z"
+              "WhenOpened": "2024-09-26T09:39:00.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "IBookAppointmentServices.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Interfaces\\IBookAppointmentServices.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Interfaces\\IBookAppointmentServices.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Interfaces\\IBookAppointmentServices.cs",
-              "RelativeToolTip": "DoctorApplication\\Interfaces\\IBookAppointmentServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Interfaces\\IBookAppointmentServices.cs*",
+              "RelativeToolTip": "DoctorApplication\\Interfaces\\IBookAppointmentServices.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:39:32.348Z"
+              "WhenOpened": "2024-09-26T09:39:32.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "UserNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Exceptions\\UserNotFoundException.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Exceptions\\UserNotFoundException.cs",
@@ -355,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "NoSuchDoctorFound.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Exceptions\\NoSuchDoctorFound.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Exceptions\\NoSuchDoctorFound.cs",
@@ -367,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "NoSuchAppointmentException.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\Exceptions\\NoSuchAppointmentException.cs",
               "RelativeDocumentMoniker": "DoctorApplication\\Exceptions\\NoSuchAppointmentException.cs",
@@ -379,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "DoctorApplication.csproj",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 15\\Assignment\\Assignment 2\\DoctorApplicationSolution\\DoctorApplication\\DoctorApplication.csproj",
               "RelativeDocumentMoniker": "DoctorApplication\\DoctorApplication.csproj",

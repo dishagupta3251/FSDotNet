@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 15\Assignment\Assignment 2\DoctorApplicationSolution\DoctorApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 15/Assignment/Assignment 2/DoctorApplicationSolution/DoctorApplication/Views/BookAppointment/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0FwcG9pbnRtZW50XEJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 15/Assignment/Assignment 2/DoctorApplicationSolution/DoctorApplication/Views/BookAppointment/MyAppointments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0FwcG9pbnRtZW50XE15QXBwb2ludG1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Disha.Gupta.PYRAMIDINDIA/Documents/Training/Day 15/Assignment/Assignment 2/DoctorApplicationSolution/DoctorApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

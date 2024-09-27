@@ -1,0 +1,69 @@
+﻿@model IEnumerable<DoctorApplication.Models.Appointment>
+
+<h2>My Appointments</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:red">@ViewBag.Message</p>
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Doctor</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var appointment in Model)
+        {
+            <tr>
+                <td>@appointment.DoctorId</td>
+                <td>@appointment.AppointmentStartDate</td>
+                <td>@appointment.AppointmentEndDate</td>
+                <td>
+                    <form method="post" asp-action="CancelAppointment">
+                        <input type="hidden" name="appointmentId" value="@appointment.Id" />
+                        <button type="submit">Cancel</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: #f44336;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #e74c3c;
+        }
+</style>

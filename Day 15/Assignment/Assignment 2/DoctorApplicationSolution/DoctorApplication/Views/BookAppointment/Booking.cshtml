@@ -1,0 +1,83 @@
+﻿@model IEnumerable<DoctorApplication.Models.Doctor>
+
+<h2>Book an Appointment</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:red">@ViewBag.Message</p>
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Specialization</th>
+            <th>Book Appointment</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doctor in Model)
+        {
+            <tr>
+                <td>@doctor.Name</td>
+                <td>@doctor.Specialization</td>
+                <td>
+                    <form method="post" asp-action="Book">
+                        <input type="hidden" name="doctorId" value="@doctor.Id" />
+
+                        <label>Select Date:</label>
+                        <input type="date" name="appointmentDate" required />
+
+                        <label>Select Time:</label>
+                        <input type="time" name="appointmentTime" required />
+
+                        <button type="submit">Book</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+    input[type="date"], input[type="time"] {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+</style>
