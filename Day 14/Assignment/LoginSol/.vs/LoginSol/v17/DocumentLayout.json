@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "Login\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Login\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwCgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T09:18:32.702Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Login\\Services\\LoginService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA5wBMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:01:51.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T09:01:51.844Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "Login\\Views\\Login\\Login.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T11:19:31.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T11:19:31.888Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "Login\\Views\\Login\\Sign_Up.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T09:25:15.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T09:25:15.134Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Login\\Interfaces\\ILoginService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:43:38.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T08:43:38.416Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "Login\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:04:44.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T09:04:44.078Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Login\\Interfaces\\IUser.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:59:40.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T08:59:40.364Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Login\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T09:45:56.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T09:45:56.572Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "Login\\Views\\Login\\Success.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T11:27:30.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T11:27:30.664Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "Login\\Views\\Login\\ViewAllUsers.cshtml",
               "ViewState": "AgIAABYAAAAAAAAAAAAiwCcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T17:39:03.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:39:03.062Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "Login\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvw4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:42:38.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T09:42:38.679Z"
             },
             {
               "$type": "Document",
@@ -221,21 +211,19 @@
               "RelativeToolTip": "Login\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T08:40:30.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T08:40:30.12Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Login",
+              "Title": "Login.csproj",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Login.csproj",
               "RelativeDocumentMoniker": "Login\\Login.csproj",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 14\\Assignment\\LoginSol\\Login\\Login.csproj",
               "RelativeToolTip": "Login\\Login.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-23T08:42:06.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T08:42:06.195Z"
             },
             {
               "$type": "Document",
@@ -247,8 +235,7 @@
               "RelativeToolTip": "Login\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T09:21:25.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T09:21:25.564Z"
             }
           ]
         }

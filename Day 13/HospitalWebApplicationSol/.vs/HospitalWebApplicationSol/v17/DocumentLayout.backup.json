@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\views\\operations\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\views\\operations\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\views\\operations\\viewalldoctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\views\\operations\\viewalldoctors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\hospitalwebapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\hospitalwebapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\controllers\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\views\\operations\\editdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\views\\operations\\editdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\views\\operations\\deletedoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\views\\operations\\deletedoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\views\\operations\\add_doctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\views\\operations\\add_doctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\views\\operations\\deletedoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\views\\operations\\deletedoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\hospitalwebapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|solutionrelative:hospitalwebapplication\\hospitalwebapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E18B6608-8B8B-4C31-9B89-BF0495ECFD79}|HospitalWebApplication\\HospitalWebApplication.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 13\\hospitalwebapplicationsol\\hospitalwebapplication\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -66,8 +66,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OperationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\OperationsController.cs",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Controllers\\OperationsController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\OperationsController.cs",
+              "RelativeToolTip": "HospitalWebApplication\\Controllers\\OperationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:17:39.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewAllDoctors.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
+              "RelativeToolTip": "HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T17:37:11.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "HospitalWebApplication\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:50:23.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HospitalWebApplication.csproj",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\HospitalWebApplication.csproj",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\HospitalWebApplication.csproj",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\HospitalWebApplication.csproj",
+              "RelativeToolTip": "HospitalWebApplication\\HospitalWebApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T16:14:25.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
+              "RelativeToolTip": "HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T18:33:01.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Program.cs",
+              "RelativeToolTip": "HospitalWebApplication\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:52:00.618Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -82,106 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ViewAllDoctors.cshtml",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
-              "RelativeToolTip": "HospitalWebApplication\\Views\\Operations\\ViewAllDoctors.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T17:37:11.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OperationsController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\OperationsController.cs",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Controllers\\OperationsController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\OperationsController.cs",
-              "RelativeToolTip": "HospitalWebApplication\\Controllers\\OperationsController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T16:17:39.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DoctorController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\DoctorController.cs",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Controllers\\DoctorController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\DoctorController.cs",
-              "RelativeToolTip": "HospitalWebApplication\\Controllers\\DoctorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:50:23.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Program.cs",
-              "RelativeToolTip": "HospitalWebApplication\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T17:52:00.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HospitalWebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T16:20:33.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Models\\Doctor.cs",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Models\\Doctor.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Models\\Doctor.cs",
-              "RelativeToolTip": "HospitalWebApplication\\Models\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T10:47:04.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomePage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
-              "RelativeToolTip": "HospitalWebApplication\\Views\\Operations\\HomePage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T18:33:01.412Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DeleteDoctor.cshtml",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
-              "RelativeToolTip": "HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T18:16:25.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Add_Doctor.cshtml",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\Add_Doctor.cshtml",
               "RelativeDocumentMoniker": "HospitalWebApplication\\Views\\Operations\\Add_Doctor.cshtml",
@@ -193,7 +172,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Models\\Doctor.cs",
+              "RelativeToolTip": "HospitalWebApplication\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T10:47:04.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HospitalWebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:20:33.893Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "DeleteDoctor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
+              "RelativeDocumentMoniker": "HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
+              "RelativeToolTip": "HospitalWebApplication\\Views\\Operations\\DeleteDoctor.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T18:16:25.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\appsettings.json",
               "RelativeDocumentMoniker": "HospitalWebApplication\\appsettings.json",
@@ -217,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "HospitalWebApplication\\Models\\ErrorViewModel.cs",
@@ -226,18 +241,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T11:13:50.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HospitalWebApplication.csproj",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\HospitalWebApplication.csproj",
-              "RelativeDocumentMoniker": "HospitalWebApplication\\HospitalWebApplication.csproj",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 13\\HospitalWebApplicationSol\\HospitalWebApplication\\HospitalWebApplication.csproj",
-              "RelativeToolTip": "HospitalWebApplication\\HospitalWebApplication.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-22T16:14:25.444Z"
             }
           ]
         }

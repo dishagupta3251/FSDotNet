@@ -17,7 +17,7 @@ namespace HospitalWebApplication.Controllers
         {
             return View();
         }
-     
+        [HttpGet]
         public IActionResult ViewAllDoctors()
         {
             return View(doctors);
@@ -40,10 +40,9 @@ namespace HospitalWebApplication.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit(int pid)
+        public IActionResult Edit()
         {
-            Doctor doctor = doctors.FirstOrDefault(p => p.Id == pid);
-            return View(doctor);
+            return View();
         }
         [HttpPost]
         public IActionResult EditDoctor(int pid, Doctor doctor)

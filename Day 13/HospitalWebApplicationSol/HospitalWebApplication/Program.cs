@@ -24,7 +24,7 @@ namespace HospitalWebApplication
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Operations}/{action=ViewAllDoctors}/{id?}");
 
             app.Run();
         }
