@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "PizzaStoreAPI.Controllers.CustomerController",
+    "Method": "ViewPizzas",
+    "RelativePath": "api/Customer/ViewPizzas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PizzaStoreAPI.Controllers.CustomerController",
+    "Method": "ViewToppings",
+    "RelativePath": "api/Customer/ViewToppings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

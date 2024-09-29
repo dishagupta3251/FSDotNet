@@ -1,4 +1,12 @@
 
+using Microsoft.AspNetCore.Cors.Infrastructure;
+using PizzaStoreAPI.Interface;
+using PizzaStoreAPI.Interfaces;
+using PizzaStoreAPI.Models;
+using PizzaStoreAPI.Repositories;
+using PizzaStoreAPI.Respositories;
+using PizzaStoreAPI.Services;
+
 namespace PizzaStoreAPI
 {
     public class Program
@@ -14,6 +22,26 @@ namespace PizzaStoreAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            
+
+            #region RepositoryInjection
+            builder.Services.AddScoped<IRepository<int, Pizza>, PizzaRepository>();
+            builder.Services.AddScoped<IRepository<int, Customer>, CustomerRepository>();
+            builder.Services.AddScoped<IRepository<int, Order>, OrderRepository>();
+            builder.Services.AddScoped<IRepository<int, Cart>, CartRepository>();
+            builder.Services.AddScoped<IRepository<int, OrderDetails>, OrderDetailsRepository>();
+            builder.Services.AddScoped<IRepository<int,Toppings>, ToppingsRepository>();
+            #endregion
+
+
+            #region ServiceInjection
+            builder.Services.AddScoped<ICustomerService, CustomerService>();
+            builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+
+
+            #endregion
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -23,7 +51,7 @@ namespace PizzaStoreAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            
 
             app.UseAuthorization();
 

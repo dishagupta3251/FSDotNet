@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\PizzaStoreAPISolution\\PizzaStoreAPI\\PizzaStoreAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 16\\Assignment\\PizzaStoreAPISolution\\PizzaStoreAPI\\PizzaStoreAPI.csproj",
       "projectName": "PizzaStoreAPI",
-      "projectPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\PizzaStoreAPISolution\\PizzaStoreAPI\\PizzaStoreAPI.csproj",
+      "projectPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 16\\Assignment\\PizzaStoreAPISolution\\PizzaStoreAPI\\PizzaStoreAPI.csproj",
       "packagesPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\PizzaStoreAPISolution\\PizzaStoreAPI\\obj\\",
+      "outputPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 16\\Assignment\\PizzaStoreAPISolution\\PizzaStoreAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

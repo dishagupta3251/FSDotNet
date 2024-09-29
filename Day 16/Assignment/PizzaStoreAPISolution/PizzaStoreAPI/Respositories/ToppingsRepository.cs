@@ -7,15 +7,15 @@ namespace PizzaStoreAPI.Respositories
 {
     public class ToppingsRepository : IRepository<int, Toppings>
     {
-        List<Toppings> _toppings=new List<Toppings>()
+        static List<Toppings> _toppings=new List<Toppings>()
         {
-            new Toppings(){Pizza_Toppings="Onion"} ,
-            new Toppings(){Pizza_Toppings="Tomato" } ,
-            new Toppings(){Pizza_Toppings="Olives" } 
+            new Toppings(){Id=1,Pizza_Toppings="Onion"} ,
+            new Toppings(){Id=2,Pizza_Toppings="Tomato" } ,
+            new Toppings(){Id=3,Pizza_Toppings="Olives" } 
         };
         public async Task<Toppings> Add(Toppings entity)
         {
-
+            entity.Id=_toppings.Count+1;
             _toppings.Add(entity);
             return entity;
         }

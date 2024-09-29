@@ -14,4 +14,4 @@
             return (this ?? new CartDTO()).CartNumber == (other ?? new CartDTO()).CartNumber;
         }
     }
-}
+}  
