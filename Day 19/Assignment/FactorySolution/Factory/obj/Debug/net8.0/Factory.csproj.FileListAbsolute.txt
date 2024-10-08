@@ -1,0 +1,15 @@
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\bin\Debug\net8.0\Factory.exe
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\bin\Debug\net8.0\Factory.deps.json
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\bin\Debug\net8.0\Factory.runtimeconfig.json
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\bin\Debug\net8.0\Factory.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\bin\Debug\net8.0\Factory.pdb
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.AssemblyInfoInputs.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.AssemblyInfo.cs
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.csproj.CoreCompileInputs.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.sourcelink.json
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\refint\Factory.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.pdb
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\Factory.genruntimeconfig.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 19\Assignment\FactorySolution\Factory\obj\Debug\net8.0\ref\Factory.dll
