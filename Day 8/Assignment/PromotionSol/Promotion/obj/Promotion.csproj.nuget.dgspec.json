@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj": {}
+    "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj": {
+    "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj",
+        "projectUniqueName": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj",
         "projectName": "Promotion",
-        "projectPath": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj",
-        "packagesPath": "C:\\Users\\Disha.Gupta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Disha.Gupta\\source\\repos\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\obj\\",
+        "projectPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\Promotion.csproj",
+        "packagesPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 8\\Assignment\\PromotionSol\\Promotion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Disha.Gupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
