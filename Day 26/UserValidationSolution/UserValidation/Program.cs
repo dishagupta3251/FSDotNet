@@ -41,11 +41,11 @@ namespace UserValidation
         }
         public static async Task SendToEmail(string email, string otp)
         {
-            var client = new SendGridClient("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");
-            var from = new EmailAddress("dishaguptalko@gmail.com", "Verification");
-            var to = new EmailAddress(email);
-            var subject = "Your OTP Code";
-            var plainTextContent = $"Your OTP is: {otp}";
+            //var client = new SendGridClient("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");
+           //var from = new EmailAddress("dishaguptalko@gmail.com", "Verification");
+            //var to = new EmailAddress(email);
+            //var subject = "Your OTP Code";
+            //var plainTextContent = $"Your OTP is: {otp}";
 
             var htmlContent = $@"
     <div style='font-family: Arial, sans-serif; color: #333;'>
