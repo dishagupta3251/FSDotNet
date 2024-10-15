@@ -1,6 +1,5 @@
 ﻿using System.Xml.Serialization;
-using SendGrid;
-using SendGrid.Helpers.Mail;
+
 using System;
 using System.Threading.Tasks;
 
@@ -41,13 +40,7 @@ namespace UserValidation
         }
         public static async Task SendToEmail(string email, string otp)
         {
-            //var client = new SendGridClient("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");
-           //var from = new EmailAddress("dishaguptalko@gmail.com", "Verification");
-            //var to = new EmailAddress(email);
-            //var subject = "Your OTP Code";
-            //var plainTextContent = $"Your OTP is: {otp}";
-
-            var htmlContent = $@"
+                        var htmlContent = $@"
     <div style='font-family: Arial, sans-serif; color: #333;'>
         <div style='background-color: #4CAF50; padding: 20px; text-align: center;'>
             <h1 style='color: white;'>Customer Verification</h1>
