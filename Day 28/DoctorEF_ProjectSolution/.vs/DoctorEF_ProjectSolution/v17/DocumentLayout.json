@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\services\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\services\\patientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\services\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\services\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\repository\\ihospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\repository\\ihospitalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +39,24 @@
       "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\migrations\\hospitalcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\migrations\\hospitalcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\migrations\\20241016161032_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\migrations\\20241016161032_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\context\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\context\\hospitalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Migrations\\20241016113003_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DoctorEF_Project\\Migrations\\20241016113003_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 28\\doctoref_projectsolution\\doctoref_project\\doctoref_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD92311A-0337-4806-B134-0B1321950F47}|DoctorEF_Project\\DoctorEF_Project.csproj|solutionrelative:doctoref_project\\doctoref_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +66,186 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "HospitalContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Migrations\\HospitalContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Migrations\\HospitalContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Migrations\\HospitalContextModelSnapshot.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Migrations\\HospitalContextModelSnapshot.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:09:00.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241016161032_init.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Migrations\\20241016161032_init.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Migrations\\20241016161032_init.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Migrations\\20241016161032_init.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Migrations\\20241016161032_init.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:10:32.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20241016113003_init.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Migrations\\20241016113003_init.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Migrations\\20241016113003_init.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Migrations\\20241016113003_init.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Migrations\\20241016113003_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:30:03.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientServices.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Services\\PatientServices.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Services\\PatientServices.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Services\\PatientServices.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Services\\PatientServices.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:19:41.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Services\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Services\\DoctorService.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Services\\DoctorService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:26:57.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Repository\\IRepository.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:23:16.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HospitalService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Services\\HospitalService.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Services\\HospitalService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Services\\HospitalService.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Services\\HospitalService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T04:00:51.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IHospitalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Repository\\IHospitalRepository.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Repository\\IHospitalRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Repository\\IHospitalRepository.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Repository\\IHospitalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:58:21.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DoctorEF_Project.csproj",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\DoctorEF_Project.csproj",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\DoctorEF_Project.csproj",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\DoctorEF_Project.csproj",
+              "RelativeToolTip": "DoctorEF_Project\\DoctorEF_Project.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-16T03:57:31.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HospitalContext.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Context\\HospitalContext.cs",
+              "RelativeDocumentMoniker": "DoctorEF_Project\\Context\\HospitalContext.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Context\\HospitalContext.cs",
+              "RelativeToolTip": "DoctorEF_Project\\Context\\HospitalContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:10:21.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "DoctorEF_Project\\Models\\Appointment.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Models\\Appointment.cs",
               "RelativeToolTip": "DoctorEF_Project\\Models\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T09:17:16.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "DoctorEF_Project\\Models\\Patient.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Models\\Patient.cs",
               "RelativeToolTip": "DoctorEF_Project\\Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T09:16:43.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "DoctorEF_Project\\Models\\Doctor.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Models\\Doctor.cs",
               "RelativeToolTip": "DoctorEF_Project\\Models\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T09:14:51.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Program.cs",
               "RelativeDocumentMoniker": "DoctorEF_Project\\Program.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 28\\DoctorEF_ProjectSolution\\DoctorEF_Project\\Program.cs",
               "RelativeToolTip": "DoctorEF_Project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAwHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T09:10:53.628Z",
               "EditorCaption": ""
