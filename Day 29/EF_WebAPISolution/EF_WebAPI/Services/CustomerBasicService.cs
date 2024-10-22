@@ -1,6 +1,7 @@
 ﻿using EF_WebAPI.Interfaces;
 using EF_WebAPI.Models;
 using EF_WebAPI.Models.DTO;
+using EFCoreFirstAPI.Interfaces;
 
 namespace EF_WebAPI.Services
 {

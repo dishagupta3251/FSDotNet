@@ -1,9 +1,9 @@
 ﻿using EF_WebAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EF_WebAPI.Contexts
+namespace EFCoreFirstAPI.Contexts
 {
-    public class ShoppingContext: DbContext
+    public class ShoppingContext : DbContext
     {
         public ShoppingContext(DbContextOptions contextOptions) : base(contextOptions)
         {
@@ -15,7 +15,9 @@ namespace EF_WebAPI.Contexts
         public DbSet<OrderDetail> OrderDetails { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
 
+        public DbSet<User> Users { get; set; }
         override protected void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CartItem>().HasKey(ci => ci.SNo).HasName("PK_CartItem");
@@ -38,14 +40,30 @@ namespace EF_WebAPI.Contexts
                 .HasForeignKey(od => od.OrderNumber)
                 .HasConstraintName("FK_OrderDetail_Order");
 
+            modelBuilder.Entity<ProductImage>()
+                .HasOne(p => p.Product)
+                .WithMany(pi => pi.ProductImages)
+                .HasForeignKey(pi => pi.ProductId)
+                .HasConstraintName("FK_Product_Image");
+
             modelBuilder.Entity<Cart>()
                 .HasOne(c => c.Customer)
                 .WithOne(c => c.Cart)
                 .HasForeignKey<Cart>(c => c.CustomerId)
                 .HasConstraintName("FK_Cart_Customer");
+            
+            modelBuilder.Entity<Customer>()
+                .HasOne(c => c.User)
+                .WithOne(c=>c.Customer)
+                .HasForeignKey<Customer>(c => c.Username)
+                .HasConstraintName("FK_Customer_User");
+
+            modelBuilder.Entity<User>()
+                .HasOne(u=>u.Customer)
+               .WithOne(u => u.User)
+               .HasConstraintName("FK_User_Customer");
 
 
         }
-
     }
 }

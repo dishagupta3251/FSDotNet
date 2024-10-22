@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "EF_WebAPI.Controllers.CustomerController",
+    "ContainingType": "EFCoreFirstAPI.Controllers.CustomerController",
     "Method": "CreateCustomer",
     "RelativePath": "api/Customer",
     "HttpMethod": "POST",
@@ -10,6 +10,117 @@
       {
         "Name": "customer",
         "Type": "EF_WebAPI.Models.DTO.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EF_WebAPI.Controllers.GetProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/GetProduct/getAllProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EF_WebAPI.Controllers.GetProductController",
+    "Method": "GetProduct",
+    "RelativePath": "api/GetProduct/getProductById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EF_WebAPI.Controllers.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Product/CreateProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "EF_WebAPI.Models.DTO.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EF_WebAPI.Controllers.ProductController",
+    "Method": "UpdateProductPrice",
+    "RelativePath": "api/Product/UpdateProductPrice",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "price",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EF_WebAPI.Controllers.ProductImageController",
+    "Method": "CreateProductImage",
+    "RelativePath": "api/ProductImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productImage",
+        "Type": "EF_WebAPI.Models.DTO.ProductImageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EF_WebAPI.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDTO",
+        "Type": "EF_WebAPI.Models.DTO.LoginResponseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EF_WebAPI.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDTO",
+        "Type": "EF_WebAPI.Models.DTO.UserCreateDTO",
         "IsRequired": true
       }
     ],

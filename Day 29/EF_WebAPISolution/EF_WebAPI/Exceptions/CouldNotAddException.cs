@@ -1,24 +1,12 @@
-﻿using System.Runtime.Serialization;
-
-namespace EF_WebAPI.Exceptions
+﻿namespace EFCoreFirstAPI.Exceptions
 {
-    [Serializable]
-    internal class CouldNotAddException : Exception
+    public class CouldNotAddException : Exception
     {
-        public CouldNotAddException()
+        string _message;
+        public CouldNotAddException(string entityName)
         {
+            _message = $"Could not add {entityName}";
         }
-
-        public CouldNotAddException(string? message) : base(message)
-        {
-        }
-
-        public CouldNotAddException(string? message, Exception? innerException) : base(message, innerException)
-        {
-        }
-
-        protected CouldNotAddException(SerializationInfo info, StreamingContext context) : base(info, context)
-        {
-        }
+        override public string Message => _message;
     }
 }

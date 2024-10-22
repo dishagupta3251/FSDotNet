@@ -1,24 +1,12 @@
-﻿using System.Runtime.Serialization;
-
-namespace EF_WebAPI.Exceptions
+﻿namespace EFCoreFirstAPI.Exceptions
 {
-    [Serializable]
-    internal class CollectionEmptyException : Exception
+    public class CollectionEmptyException : Exception
     {
-        public CollectionEmptyException()
+        string _message;
+        public CollectionEmptyException(string entityName)
         {
+            _message = $"This collection is empty -  {entityName}";
         }
-
-        public CollectionEmptyException(string? message) : base(message)
-        {
-        }
-
-        public CollectionEmptyException(string? message, Exception? innerException) : base(message, innerException)
-        {
-        }
-
-        protected CollectionEmptyException(SerializationInfo info, StreamingContext context) : base(info, context)
-        {
-        }
+        override public string Message => _message;
     }
 }

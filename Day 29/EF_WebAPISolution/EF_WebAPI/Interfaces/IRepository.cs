@@ -1,12 +1,11 @@
-﻿namespace EF_WebAPI.Interfaces
+﻿namespace EFCoreFirstAPI.Interfaces
 {
-    public interface IRepository<K, T> where T: class 
+    public interface IRepository<K, T> where T : class
     {
-        public Task<T> Add(T entity);
-        public Task<T> Delete(K key);
-        public Task<T> Get(K key);
-        public Task<IEnumerable<T>> GetAll();
-
-        public Task<T> Update(K key, T entity);
+        Task<IEnumerable<T>> GetAll();
+        Task<T> Get(K key);
+        Task<T> Add(T entity);
+        Task<T> Update(K key, T entity);
+        Task<T> Delete(K key);
     }
 }

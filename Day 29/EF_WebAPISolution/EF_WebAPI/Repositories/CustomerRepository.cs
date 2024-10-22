@@ -1,7 +1,8 @@
-﻿using EF_WebAPI.Contexts;
-using EF_WebAPI.Exceptions;
-using EF_WebAPI.Interfaces;
+﻿
 using EF_WebAPI.Models;
+using EFCoreFirstAPI.Contexts;
+using EFCoreFirstAPI.Exceptions;
+using EFCoreFirstAPI.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace EF_WebAPI.Repositories
