@@ -18,7 +18,7 @@ namespace EF_WebAPI.Controllers
             _logger = logger;
         }
         [HttpPost("Register")]
-        public async Task<ActionResult> Register(UserCreateDTO createDTO)
+        public async Task<ActionResult<LoginResponseDTO>> Register(UserCreateDTO createDTO)
         {
             try
             {
@@ -37,7 +37,7 @@ namespace EF_WebAPI.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<ActionResult> Login(LoginResponseDTO requestDTO)
+        public async Task<ActionResult<LoginResponseDTO>>Login(LoginResponseDTO requestDTO)
         {
             try
             {

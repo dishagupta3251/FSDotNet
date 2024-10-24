@@ -55,11 +55,36 @@ namespace UnitTest1
             };
             var loginResponse= await controller.Register(user);
             Assert.IsNotNull(loginResponse);
-            var resultObject = loginResponse as OkObjectResult;
+            var resultObject = loginResponse.Result as OkObjectResult;
             // Assert
             Assert.IsNotNull(resultObject);
             Assert.AreEqual(200, resultObject.StatusCode);
 
+        }
+        [Test]
+        [TestCase("disha","gupta",Roles.Admin)]
+        public async Task TestLogin(string username, string password,Roles role)
+        {
+
+            UserCreateDTO user = new UserCreateDTO()
+            {
+                Username = username,
+                Password = password,
+                Role = Roles.Admin,
+
+            };
+            var loginResponse = await controller.Register(user);
+            Assert.IsNotNull(loginResponse);
+            LoginResponseDTO loginResponseDTO = new LoginResponseDTO()
+            {
+                Username = username,
+                Password = password,
+            };
+            var response= await controller.Login(loginResponseDTO);
+            Assert.IsNotNull(response);
+            var resultObject = response.Result as OkObjectResult;
+            Assert.IsNotNull(resultObject);
+            Assert.AreEqual(200, resultObject.StatusCode);
         }
 
     }

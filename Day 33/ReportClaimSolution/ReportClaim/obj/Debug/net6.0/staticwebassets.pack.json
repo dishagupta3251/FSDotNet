@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\AddressProof_638653817737447426.png",
+      "PackagePath": "staticwebassets\\uploads\\AddressProof_638653817737447426.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\AddressProof_638653830283605654.png",
+      "PackagePath": "staticwebassets\\uploads\\AddressProof_638653830283605654.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\CancelledCheck_638653817737482435.png",
+      "PackagePath": "staticwebassets\\uploads\\CancelledCheck_638653817737482435.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\CancelledCheck_638653830283776903.png",
+      "PackagePath": "staticwebassets\\uploads\\CancelledCheck_638653830283776903.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\DeathCertificate_638653817737307748.png",
+      "PackagePath": "staticwebassets\\uploads\\DeathCertificate_638653817737307748.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\DeathCertificate_638653830283103855.png",
+      "PackagePath": "staticwebassets\\uploads\\DeathCertificate_638653830283103855.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\Others_638653817737555660.png",
+      "PackagePath": "staticwebassets\\uploads\\Others_638653817737555660.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\Others_638653830283839976.png",
+      "PackagePath": "staticwebassets\\uploads\\Others_638653830283839976.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\PhotoId_638653817737081019.png",
+      "PackagePath": "staticwebassets\\uploads\\PhotoId_638653817737081019.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\PhotoId_638653830280884963.png",
+      "PackagePath": "staticwebassets\\uploads\\PhotoId_638653830280884963.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\PolicyCertificate_638653817737356479.png",
+      "PackagePath": "staticwebassets\\uploads\\PolicyCertificate_638653817737356479.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\PolicyCertificate_638653830283439750.png",
+      "PackagePath": "staticwebassets\\uploads\\PolicyCertificate_638653830283439750.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\SettlementForm_638653817737254481.png",
+      "PackagePath": "staticwebassets\\uploads\\SettlementForm_638653817737254481.png"
+    },
+    {
+      "Id": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\wwwroot\\uploads\\SettlementForm_638653830281841182.png",
+      "PackagePath": "staticwebassets\\uploads\\SettlementForm_638653830281841182.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ReportClaim.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ReportClaim.props",
+      "PackagePath": "build\\ReportClaim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ReportClaim.props",
+      "PackagePath": "buildMultiTargeting\\ReportClaim.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ReportClaim.props",
+      "PackagePath": "buildTransitive\\ReportClaim.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

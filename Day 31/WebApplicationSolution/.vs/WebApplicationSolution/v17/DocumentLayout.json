@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\contexts\\eventbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\contexts\\eventbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Migrations\\20241023090737_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication\\Migrations\\20241023090737_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\services\\bookingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\mapper\\bookingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\mapper\\bookingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\contexts\\eventbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\contexts\\eventbookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\mapper\\bookingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\mapper\\bookingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\dto\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,32 +103,12 @@
       "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\migrations\\20241021082904_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\migrations\\20241021082904_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 31\\webapplicationsolution\\webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E583C6D-246E-4E14-B8FF-6E002D228613}|WebApplication\\WebApplication1.csproj|solutionrelative:webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,11 +118,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "20241023090737_init.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Migrations\\20241023090737_init.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Migrations\\20241023090737_init.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Migrations\\20241023090737_init.cs",
+              "RelativeToolTip": "WebApplication\\Migrations\\20241023090737_init.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:07:38.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "WebApplication\\Controllers\\BookingController.cs",
@@ -130,12 +143,11 @@
               "RelativeToolTip": "WebApplication\\Controllers\\BookingController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T13:26:44.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T13:26:44.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "WebApplication\\Controllers\\EventController.cs",
@@ -147,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "BookingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Mapper\\BookingProfile.cs",
               "RelativeDocumentMoniker": "WebApplication\\Mapper\\BookingProfile.cs",
@@ -155,12 +167,11 @@
               "RelativeToolTip": "WebApplication\\Mapper\\BookingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T11:52:27.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T11:52:27.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "EventProfile.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Mapper\\EventProfile.cs",
               "RelativeDocumentMoniker": "WebApplication\\Mapper\\EventProfile.cs",
@@ -172,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Interfaces\\IBookingService.cs",
               "RelativeDocumentMoniker": "WebApplication\\Interfaces\\IBookingService.cs",
@@ -184,20 +195,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BookingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Repositories\\BookingRepository.cs",
               "RelativeDocumentMoniker": "WebApplication\\Repositories\\BookingRepository.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Repositories\\BookingRepository.cs",
               "RelativeToolTip": "WebApplication\\Repositories\\BookingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T11:40:58.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "BookingDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\DTO\\BookingDTO.cs",
               "RelativeDocumentMoniker": "WebApplication\\Models\\DTO\\BookingDTO.cs",
@@ -210,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "EventDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\DTO\\EventDTO.cs",
               "RelativeDocumentMoniker": "WebApplication\\Models\\DTO\\EventDTO.cs",
@@ -222,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "IEventService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Interfaces\\IEventService.cs",
               "RelativeDocumentMoniker": "WebApplication\\Interfaces\\IEventService.cs",
@@ -240,14 +251,14 @@
               "RelativeDocumentMoniker": "WebApplication\\Services\\BookingServices.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Services\\BookingServices.cs",
               "RelativeToolTip": "WebApplication\\Services\\BookingServices.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T11:23:59.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "EventServices.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Services\\EventServices.cs",
               "RelativeDocumentMoniker": "WebApplication\\Services\\EventServices.cs",
@@ -259,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "WebApplication\\Interfaces\\IUserService.cs",
@@ -271,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Mapper\\UserProfile.cs",
               "RelativeDocumentMoniker": "WebApplication\\Mapper\\UserProfile.cs",
@@ -283,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 9,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "WebApplication\\Models\\DTO\\UserDTO.cs",
@@ -291,11 +302,12 @@
               "RelativeToolTip": "WebApplication\\Models\\DTO\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T10:16:54.202Z"
+              "WhenOpened": "2024-10-21T10:16:54.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApplication\\Controllers\\UserController.cs",
@@ -307,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "WebApplication\\Services\\UserService.cs",
@@ -319,19 +331,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Repositories\\EventRepository.cs",
               "RelativeDocumentMoniker": "WebApplication\\Repositories\\EventRepository.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Repositories\\EventRepository.cs",
               "RelativeToolTip": "WebApplication\\Repositories\\EventRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwDkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T09:30:03.555Z"
+              "WhenOpened": "2024-10-21T09:30:03.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "WebApplication\\Repositories\\UserRepository.cs",
@@ -343,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "WebApplication\\Interfaces\\IRepository.cs",
@@ -355,45 +368,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20241021082904_init.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Migrations\\20241021082904_init.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Migrations\\20241021082904_init.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Migrations\\20241021082904_init.cs",
-              "RelativeToolTip": "WebApplication\\Migrations\\20241021082904_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T08:29:04.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication\\Program.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Program.cs",
               "RelativeToolTip": "WebApplication\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T06:43:26.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "EventBookingContext.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Contexts\\EventBookingContext.cs",
               "RelativeDocumentMoniker": "WebApplication\\Contexts\\EventBookingContext.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Contexts\\EventBookingContext.cs",
               "RelativeToolTip": "WebApplication\\Contexts\\EventBookingContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wBkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T06:33:12.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "WebApplication\\Models\\Booking.cs",
@@ -405,43 +406,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 7,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\Event.cs",
               "RelativeDocumentMoniker": "WebApplication\\Models\\Event.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\Event.cs",
               "RelativeToolTip": "WebApplication\\Models\\Event.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T06:32:30.147Z"
+              "WhenOpened": "2024-10-21T06:32:30.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\User.cs",
               "RelativeDocumentMoniker": "WebApplication\\Models\\User.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\Models\\User.cs",
               "RelativeToolTip": "WebApplication\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T06:32:19.999Z"
+              "WhenOpened": "2024-10-21T06:32:19.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication\\appsettings.json",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\appsettings.json",
               "RelativeToolTip": "WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-21T06:29:48.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 31\\WebApplicationSolution\\WebApplication\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication\\WebApplication1.csproj",
