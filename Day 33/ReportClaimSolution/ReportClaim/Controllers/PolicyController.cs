@@ -20,8 +20,22 @@ namespace ReportClaim.Controllers
         {
             try
             {
-                var policy = await _policyService.CreatePolicy(policyDTO);
-                return Ok(policy);
+                if (ModelState.IsValid)
+                {
+
+                    var policy = await _policyService.CreatePolicy(policyDTO);
+                    return Ok(policy);
+                }
+                else
+                {
+                    return BadRequest(new ErrorReponseDTO
+                    {
+                        ErrorCode = 400,
+                        ErrorMessage = "one or more fields validate error"
+                    });
+                }
+
+              
             }
             catch (Exception ex)
             {
@@ -31,3 +45,5 @@ namespace ReportClaim.Controllers
         
     }
 }
+
+

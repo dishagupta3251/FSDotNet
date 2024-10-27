@@ -70,8 +70,21 @@ namespace ReportClaim.Controllers
         {
             try
             {
-                var report = await _reportService.CreateReport(reportDTO);
-                return Ok(report.Id);
+
+                if (ModelState.IsValid)
+                {
+                    var report = await _reportService.CreateReport(reportDTO);
+                    return Ok(report.Id);
+                }
+                else
+                {
+                    return BadRequest(new ErrorReponseDTO
+                    {
+                        ErrorCode = 400,
+                        ErrorMessage = "one or more fields validate error"
+                    });
+                }
+                
             }
             catch (Exception ex)
             {

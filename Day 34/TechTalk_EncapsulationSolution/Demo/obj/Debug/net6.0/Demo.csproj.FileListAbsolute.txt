@@ -1,0 +1,5 @@
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 34\TechTalk_EncapsulationSolution\Demo\obj\Debug\net6.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 34\TechTalk_EncapsulationSolution\Demo\obj\Debug\net6.0\Demo.AssemblyInfoInputs.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 34\TechTalk_EncapsulationSolution\Demo\obj\Debug\net6.0\Demo.AssemblyInfo.cs
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 34\TechTalk_EncapsulationSolution\Demo\obj\Debug\net6.0\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 34\TechTalk_EncapsulationSolution\Demo\obj\Debug\net6.0\Demo.sourcelink.json

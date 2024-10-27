@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using ReportClaim.Contexts;
+using ReportClaim.Filter;
 using ReportClaim.Interfaces;
 using ReportClaim.Models;
 using ReportClaim.Repositories;
@@ -19,6 +20,10 @@ namespace ReportClaim
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+            #endregion
+
+            #region Filters
+            builder.Services.AddScoped<ReportExceptionFilter>();
             #endregion
 
             #region Repositories

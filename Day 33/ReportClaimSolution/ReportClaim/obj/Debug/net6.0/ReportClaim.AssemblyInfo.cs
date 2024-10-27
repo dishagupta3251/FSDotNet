@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReportClaim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1ae1c2eaa6a85ff4d4d18c5286643eaf319e3c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef3c6cc9c896338b5fcbc811e8ad5a50a9617418")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReportClaim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReportClaim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

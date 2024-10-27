@@ -1,14 +1,23 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ReportClaim.Models
 {
     public class Report
     {
         public int Id { get; set; }
-        public DateTime DateTime { get; set; }
+        [Required(ErrorMessage = "IncidentDate can not be blank")]
+        public DateTime IncidentDate { get; set; }
+
+        [Required(ErrorMessage = "ClaimName can not be blank")]
         public string ClaimaintName { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "ClaimPhone can not be blank")]
         public string ClaimaintPhone { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "ClaimEmail can not be blank")]
         public string ClaimaintEmail { get; set; } = string.Empty;
+
         public string SettlementForm { get; set; } = string.Empty;
         public string DeathCertificate { get; set; } = string.Empty;
         public string PolicyCertificate { get; set; } = string.Empty;

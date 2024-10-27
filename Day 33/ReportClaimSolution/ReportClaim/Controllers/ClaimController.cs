@@ -20,8 +20,21 @@ namespace ReportClaim.Controllers
         {
             try
             {
-                var claim = await _claimService.CreateClaim(claimDTO);
-                return Ok(claim);
+                if (ModelState.IsValid)
+                {
+
+                    var claim = await _claimService.CreateClaim(claimDTO);
+                    return Ok(claim);
+                }
+                else
+                {
+                    return BadRequest(new ErrorResponseDTO
+                    {
+                        ErrorCode = 400,
+                        ErrorMessage = "one or more fields validate error"
+                    });
+                }
+                
             }
             catch (Exception ex)
             {
