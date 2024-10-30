@@ -29,8 +29,9 @@ namespace ReportClaim.Repositories
               
         }
 
-        public async Task<Policy> Delete(Policy entity)
+        public async Task<Policy> Delete(int key)
         {
+            var entity= await GetById(key);
             try
             {
                 _context.Policies.Remove(entity);
@@ -66,6 +67,7 @@ namespace ReportClaim.Repositories
             {
                 var oldPolicy=await GetById(entity.Id);
                 oldPolicy.PolicyNumber = entity.PolicyNumber;
+                await _context.SaveChangesAsync();
                 return oldPolicy;
 
             }

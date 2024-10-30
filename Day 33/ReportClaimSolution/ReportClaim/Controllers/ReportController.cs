@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ReportClaim.Interfaces;
 using ReportClaim.Models;
@@ -25,6 +26,7 @@ namespace ReportClaim.Controllers
 
         [HttpGet]
         [Route("getPolicy")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<PolicyDTO>>> GetPolicies()
         {
             List<string> policyNumbers = new List<string>();
@@ -46,6 +48,7 @@ namespace ReportClaim.Controllers
 
         [HttpGet]
         [Route("getClaim")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<ClaimDTO>>> GetClaims()
         {
             List<string> claimTypes = new List<string>();
@@ -66,6 +69,7 @@ namespace ReportClaim.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult> CreateReport([FromForm] ReportDTO reportDTO)
         {
             try

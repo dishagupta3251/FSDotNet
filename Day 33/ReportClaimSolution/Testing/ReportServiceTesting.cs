@@ -42,7 +42,7 @@ namespace Testing
                 ClaimaintName = "John Doe",
                 ClaimaintPhone = "1234567890",
                 ClaimaintEmail = "johndoe@example.com",
-                DateTime = DateTime.Now,
+                IncidentDate = DateTime.Now,
                 PhotoId = null,
                 SettlementForm = null,
                 DeathCertificate = null,
@@ -60,7 +60,7 @@ namespace Testing
                 ClaimaintName = reportDTO.ClaimaintName,
                 ClaimaintPhone = reportDTO.ClaimaintPhone,
                 ClaimaintEmail = reportDTO.ClaimaintEmail,
-                DateTime = reportDTO.DateTime
+                IncidentDate = reportDTO.IncidentDate
             };
 
             mapper.Setup(m => m.Map<Report>(reportDTO)).Returns(report);
@@ -87,7 +87,7 @@ namespace Testing
                 ClaimaintName = "John Doe",
                 ClaimaintPhone = "1234567890",
                 ClaimaintEmail = "johndoe@example.com",
-                DateTime = DateTime.Now
+                IncidentDate = DateTime.Now
             };
 
             var report = new Report
@@ -98,7 +98,7 @@ namespace Testing
                 ClaimaintName = reportDTO.ClaimaintName,
                 ClaimaintPhone = reportDTO.ClaimaintPhone,
                 ClaimaintEmail = reportDTO.ClaimaintEmail,
-                DateTime = reportDTO.DateTime
+                IncidentDate = reportDTO.IncidentDate
             };
 
             await reportService.CreateReport(reportDTO);

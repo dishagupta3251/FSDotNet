@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ReportClaim.Interfaces;
 using ReportClaim.Models.DTO;
@@ -16,6 +17,7 @@ namespace ReportClaim.Controllers
             _claimService = claimService;
         }
         [HttpPost]
+        [Authorize(Roles ="Admin,Clamaint")]
         public async Task<ActionResult> CreateClaim(ClaimDTO claimDTO)
         {
             try
@@ -28,7 +30,7 @@ namespace ReportClaim.Controllers
                 }
                 else
                 {
-                    return BadRequest(new ErrorResponseDTO
+                    return BadRequest(new ErrorReponseDTO
                     {
                         ErrorCode = 400,
                         ErrorMessage = "one or more fields validate error"

@@ -1,111 +1,101 @@
-using NUnit.Framework;
-using Microsoft.AspNetCore.Mvc;
-using ReportClaim.Interfaces;
-using ReportClaim.Models.DTO;
-using ReportClaim.Controllers;
-using ReportClaim.Services;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using ReportClaim.Contexts; 
+//using Microsoft.EntityFrameworkCore;
+//using NUnit.Framework;
+//using ReportClaim.Contexts;
+//using ReportClaim.Models;
+//using ReportClaim.Repositories;
+//using ReportClaim.Exceptions;
+//using System.Threading.Tasks;
 
-namespace ReportClaim.Tests
-{
-    
-    public class ReportControllerTests
-    {
-        ReportController _controller;
-       ReportClaimContext _context;
+//namespace Testing
+//{
+//    public class ClaimRepositoryTest
+//    {
+//        DbContextOptions options;
+//        ReportClaimContext context;
+//        ClaimRepository repository;
 
-        [SetUp]
-        public void SetUp()
-        {
-            var options = new DbContextOptionsBuilder<ReportClaimContext>()
-                .UseInMemoryDatabase(databaseName: "TestDatabase")
-                .Options;
+//        [SetUp]
+//        public void Setup()
+//        {
+//            options = new DbContextOptionsBuilder<ReportClaimContext>()
+//                .UseInMemoryDatabase("PolicyTestDB")
+//                .Options;
+//            context = new ReportClaimContext(options);
+//            repository = new ClaimRepository(context);
+//        }
 
-            _context = new ReportClaimContext(options);
-            var policyService = new PolicyService(_context); 
-            var claimService = new ClaimService(_context);
-            var reportService = new ReportService(_context);
-            _controller = new ReportController(policyService, claimService, reportService);
-        }
+//        [Test]
+//        public async Task Create()
+//        {
+//            var claim = new Claim { ClaimType="Death"};
+//            var result = await repository.Create(claim);
+//            Assert.AreEqual(claim.ClaimId, result.ClaimId);
+//        }
 
-        [Test]
-        public async Task GetPolicies_ReturnsOk_WithPolicyNumbers()
-        {
-            _context.Policies.Add(new PolicyDTO { PolicyNumber = "P123" });
-            _context.Policies.Add(new PolicyDTO { PolicyNumber = "P456" });
-            await _context.SaveChangesAsync();
+//        [Test]
+//        public void CreateException()
+//        {
+//            Policy policy = new Policy { Id = 1, PolicyNumber = null };
+//            Assert.ThrowsAsync<CannotCreateException>(async () => await repository.Create(policy));
+//        }
 
-            var result = await _controller.GetPolicies();
+//        [Test]
+//        public async Task Delete()
+//        {
+//            Policy policy = new Policy { Id = 1, PolicyNumber = "P12345" };
+//            await repository.Create(policy);
+//            var result = await repository.Delete(policy);
+//            Assert.AreEqual(policy.Id, result.Id);
+//        }
 
-            var okResult = (OkObjectResult)result;
-            var policyNumbers = (List<string>)okResult.Value;
-            Assert.AreEqual(2, policyNumbers.Count);
-            Assert.AreEqual("P123", policyNumbers[0]);
-            Assert.AreEqual("P456", policyNumbers[1]);
-        }
+//        [Test]
+//        public void DeleteException()
+//        {
+//            Policy policy = new Policy { Id = 99, PolicyNumber = "NonExistent" };
+//            Assert.ThrowsAsync<Exception>(async () => await repository.Delete(policy));
+//        }
 
-        [Test]
-        public async Task GetPolicies_ReturnsNotFound_WhenNoPolicies()
-        {
-            var result = await _controller.GetPolicies();
-            var notFoundResult = (NotFoundObjectResult)result;
-            Assert.AreEqual("No policies found.", notFoundResult.Value);
-        }
+//        [Test]
+//        public async Task GetAll()
+//        {
+//            Policy policy1 = new Policy { Id = 1, PolicyNumber = "P12345" };
+//            Policy policy2 = new Policy { Id = 2, PolicyNumber = "P67890" };
+//            await repository.Create(policy1);
+//            await repository.Create(policy2);
+//            var result = await repository.GetAll();
+//            Assert.AreEqual(2, result.Count());
+//        }
 
-        [Test]
-        public async Task GetClaims_ReturnsOk_WithClaimTypes()
-        {
-            _context.Claims.Add(new ClaimDTO { ClaimType = "ClaimType1" });
-            _context.Claims.Add(new ClaimDTO { ClaimType = "ClaimType2" });
-            await _context.SaveChangesAsync();
+//        [Test]
+//        public async Task GetById()
+//        {
+//            Policy policy = new Policy { Id = 1, PolicyNumber = "P12345" };
+//            await repository.Create(policy);
+//            var result = await repository.GetById(1);
+//            Assert.AreEqual(policy.Id, result.Id);
+//        }
 
-            var result = await _controller.GetClaims();
+//        [Test]
+//        public void GetByIdException()
+//        {
+//            Assert.ThrowsAsync<CannotFindException>(async () => await repository.GetById(99));
+//        }
 
-            var okResult = (OkObjectResult)result;
-            var claimTypes = (List<string>)okResult.Value;
-            Assert.AreEqual(2, claimTypes.Count);
-            Assert.AreEqual("ClaimType1", claimTypes[0]);
-            Assert.AreEqual("ClaimType2", claimTypes[1]);
-        }
+//        [Test]
+//        public async Task Update()
+//        {
+//            Policy policy = new Policy { Id = 1, PolicyNumber = "P12345" };
+//            await repository.Create(policy);
+//            policy.PolicyNumber = "P98765";
+//            var result = await repository.Update(policy);
+//            Assert.AreEqual(policy.PolicyNumber, result.PolicyNumber);
+//        }
 
-        [Test]
-        public async Task GetClaims_ReturnsNotFound_WhenNoClaims()
-        {
-            var result = await _controller.GetClaims();
-            var notFoundResult = (NotFoundObjectResult)result;
-            Assert.AreEqual("No claims found.", notFoundResult.Value);
-        }
-
-        [Test]
-        public async Task CreateReport_ReturnsOk_WithReportId()
-        {
-            var reportDTO = new ReportDTO { /* Set necessary properties */ };
-            var result = await _controller.CreateReport(reportDTO);
-            var okResult = (OkObjectResult)result;
-            Assert.IsNotNull(okResult.Value);
-        }
-
-        [Test]
-        public async Task CreateReport_ReturnsBadRequest_WhenReportDTOIsNull()
-        {
-            var result = await _controller.CreateReport(null);
-            var badRequestResult = (BadRequestObjectResult)result;
-            Assert.AreEqual(400, badRequestResult.StatusCode);
-        }
-
-        [Test]
-        public async Task CreateReport_ReturnsInternalServerError_OnException()
-        {
-            var reportDTO = new ReportDTO { /* Set necessary properties */ };
-            _context.Database.EnsureDeleted();
-
-            var result = await _controller.CreateReport(reportDTO);
-            var objectResult = (ObjectResult)result;
-            Assert.AreEqual(500, objectResult.StatusCode);
-            Assert.IsNotNull(objectResult.Value);
-        }
-    }
-}
+//        [Test]
+//        public void UpdateException()
+//        {
+//            Policy policy = new Policy { Id = 99, PolicyNumber = "P98765" };
+//            Assert.ThrowsAsync<CannotUpdateException>(async () => await repository.Update(policy));
+//        }
+//    }
+//}

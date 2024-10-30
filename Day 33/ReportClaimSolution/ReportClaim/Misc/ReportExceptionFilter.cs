@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using ReportClaim.Models.DTO;
 
-namespace ReportClaim.Filter
+namespace ReportClaim.Misc
 {
-    public class ReportExceptionFilter:ExceptionFilterAttribute
+    public class ReportExceptionFilter : ExceptionFilterAttribute
     {
         public override void OnException(ExceptionContext context)
         {

@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,128 +31,60 @@
       "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\filter\\reportexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\filter\\reportexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\dto\\errorreponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\dto\\errorreponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\misc\\reportexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\misc\\reportexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\dto\\policydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\dto\\policydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\validation\\policynumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\validation\\policynumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\contexts\\reportclaimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\contexts\\reportclaimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\reportrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\reportrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\claimrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\claimrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\reportservicetesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\reportservicetesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\policyservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\policyservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\policyrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\policyrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\claimservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\claimservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\mapper\\policyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\mapper\\policyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\mapper\\claimprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\mapper\\claimprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\exceptions\\cannotupdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\exceptions\\cannotupdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\exceptions\\cannotfindexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\exceptions\\cannotfindexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\exceptions\\cannotcreateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\exceptions\\cannotcreateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\repositories\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\repositories\\claimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\services\\policyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\services\\policyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\misc\\policynumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\misc\\policynumbervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\repositories\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\repositories\\policyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\dto\\reportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\dto\\reportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\interfaces\\ipolicyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\dto\\claimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\dto\\claimdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\reportclaim\\exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FABCBB0-9868-4541-8BB4-87709C238BEF}|ReportClaim\\ReportClaim.csproj|solutionrelative:reportclaim\\exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\claimservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\claimservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 33\\reportclaimsolution\\testing\\claimrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35B60226-CB94-47ED-A861-63CF8E4B9E5D}|Testing\\Testing.csproj|solutionrelative:testing\\claimrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,413 +94,280 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClaimController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ClaimController.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Controllers\\ClaimController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ClaimController.cs",
-              "RelativeToolTip": "ReportClaim\\Controllers\\ClaimController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA4wC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:33:14.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ErrorReponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\ErrorReponseDTO.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Models\\DTO\\ErrorReponseDTO.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\ErrorReponseDTO.cs",
-              "RelativeToolTip": "ReportClaim\\Models\\DTO\\ErrorReponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:25:12.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReportExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Filter\\ReportExceptionFilter.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Filter\\ReportExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Filter\\ReportExceptionFilter.cs",
-              "RelativeToolTip": "ReportClaim\\Filter\\ReportExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:23:23.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PolicyNumberValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Validation\\PolicyNumberValidator.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Validation\\PolicyNumberValidator.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Validation\\PolicyNumberValidator.cs",
-              "RelativeToolTip": "ReportClaim\\Validation\\PolicyNumberValidator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T08:18:29.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Program.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Program.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Program.cs",
-              "RelativeToolTip": "ReportClaim\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowBkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T04:11:04.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ReportServiceTesting.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ReportServiceTesting.cs",
-              "RelativeDocumentMoniker": "Testing\\ReportServiceTesting.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ReportServiceTesting.cs",
-              "RelativeToolTip": "Testing\\ReportServiceTesting.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:19:44.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReportRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ReportRepositoryTest.cs",
-              "RelativeDocumentMoniker": "Testing\\ReportRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ReportRepositoryTest.cs",
-              "RelativeToolTip": "Testing\\ReportRepositoryTest.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAMwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:19:31.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PolicyServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\PolicyServiceTest.cs",
-              "RelativeDocumentMoniker": "Testing\\PolicyServiceTest.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\PolicyServiceTest.cs",
-              "RelativeToolTip": "Testing\\PolicyServiceTest.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:19:11.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PolicyRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\PolicyRepositoryTest.cs",
-              "RelativeDocumentMoniker": "Testing\\PolicyRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\PolicyRepositoryTest.cs",
-              "RelativeToolTip": "Testing\\PolicyRepositoryTest.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:19:02.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ClaimServiceTest.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimServiceTest.cs",
-              "RelativeDocumentMoniker": "Testing\\ClaimServiceTest.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimServiceTest.cs",
-              "RelativeToolTip": "Testing\\ClaimServiceTest.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:18:39.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClaimRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimRepositoryTest.cs",
-              "RelativeDocumentMoniker": "Testing\\ClaimRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimRepositoryTest.cs",
-              "RelativeToolTip": "Testing\\ClaimRepositoryTest.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA8wB0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:17:50.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "ReportClaim\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:16:52.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IPolicyService.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IPolicyService.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Interfaces\\IPolicyService.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IPolicyService.cs",
-              "RelativeToolTip": "ReportClaim\\Interfaces\\IPolicyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:16:41.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IClaimService.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IClaimService.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Interfaces\\IClaimService.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IClaimService.cs",
-              "RelativeToolTip": "ReportClaim\\Interfaces\\IClaimService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:15:49.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ReportController.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Controllers\\ReportController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ReportController.cs",
-              "RelativeToolTip": "ReportClaim\\Controllers\\ReportController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAgwFIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:15:03.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PolicyController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\PolicyController.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Controllers\\PolicyController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\PolicyController.cs",
-              "RelativeToolTip": "ReportClaim\\Controllers\\PolicyController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "ReportClaim\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:14:44.476Z",
+              "WhenOpened": "2024-10-30T15:19:33.595Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReportClaimContext.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Contexts\\ReportClaimContext.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Contexts\\ReportClaimContext.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Contexts\\ReportClaimContext.cs",
-              "RelativeToolTip": "ReportClaim\\Contexts\\ReportClaimContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:13:53.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PolicyProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Mapper\\PolicyProfile.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Mapper\\PolicyProfile.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Mapper\\PolicyProfile.cs",
-              "RelativeToolTip": "ReportClaim\\Mapper\\PolicyProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:12:59.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ClaimProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Mapper\\ClaimProfile.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Mapper\\ClaimProfile.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Mapper\\ClaimProfile.cs",
-              "RelativeToolTip": "ReportClaim\\Mapper\\ClaimProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:12:45.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CannotUpdateException.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CannotUpdateException.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Exceptions\\CannotUpdateException.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CannotUpdateException.cs",
-              "RelativeToolTip": "ReportClaim\\Exceptions\\CannotUpdateException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:12:34.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CannotFindException.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CannotFindException.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Exceptions\\CannotFindException.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CannotFindException.cs",
-              "RelativeToolTip": "ReportClaim\\Exceptions\\CannotFindException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:12:17.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CannotCreateException.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CannotCreateException.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Exceptions\\CannotCreateException.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CannotCreateException.cs",
-              "RelativeToolTip": "ReportClaim\\Exceptions\\CannotCreateException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:12:10.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Services\\ReportService.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\ReportService.cs",
-              "RelativeToolTip": "ReportClaim\\Services\\ReportService.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAwwEwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:11:19.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "PolicyService.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\PolicyService.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Services\\PolicyService.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\PolicyService.cs",
-              "RelativeToolTip": "ReportClaim\\Services\\PolicyService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:11:10.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ReportRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\ReportRepository.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Repositories\\ReportRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\ReportRepository.cs",
-              "RelativeToolTip": "ReportClaim\\Repositories\\ReportRepository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAwwFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:10:28.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "PolicyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\PolicyRepository.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Repositories\\PolicyRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\PolicyRepository.cs",
-              "RelativeToolTip": "ReportClaim\\Repositories\\PolicyRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:10:17.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ClaimRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\ClaimRepository.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Repositories\\ClaimRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\ClaimRepository.cs",
-              "RelativeToolTip": "ReportClaim\\Repositories\\ClaimRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:09:39.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PolicyDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\PolicyDTO.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Models\\DTO\\PolicyDTO.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\PolicyDTO.cs",
-              "RelativeToolTip": "ReportClaim\\Models\\DTO\\PolicyDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:09:08.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ClaimDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\ClaimDTO.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Models\\DTO\\ClaimDTO.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\ClaimDTO.cs",
-              "RelativeToolTip": "ReportClaim\\Models\\DTO\\ClaimDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:08:46.311Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\Report.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Models\\Report.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\Report.cs",
-              "RelativeToolTip": "ReportClaim\\Models\\Report.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Title": "ReportExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Misc\\ReportExceptionFilter.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Misc\\ReportExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Misc\\ReportExceptionFilter.cs",
+              "RelativeToolTip": "ReportClaim\\Misc\\ReportExceptionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:07:36.613Z",
+              "WhenOpened": "2024-10-30T15:09:39.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "PolicyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\PolicyDTO.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Models\\DTO\\PolicyDTO.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\PolicyDTO.cs",
+              "RelativeToolTip": "ReportClaim\\Models\\DTO\\PolicyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:08:17.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PolicyNumberValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Misc\\PolicyNumberValidator.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Misc\\PolicyNumberValidator.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Misc\\PolicyNumberValidator.cs",
+              "RelativeToolTip": "ReportClaim\\Misc\\PolicyNumberValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:07:10.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Policy.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\Policy.cs",
               "RelativeDocumentMoniker": "ReportClaim\\Models\\Policy.cs",
               "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\Policy.cs",
               "RelativeToolTip": "ReportClaim\\Models\\Policy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:07:08.711Z",
+              "WhenOpened": "2024-10-30T15:07:03.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Claim.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\Claim.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Models\\Claim.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\Claim.cs",
-              "RelativeToolTip": "ReportClaim\\Models\\Claim.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "PolicyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\PolicyRepository.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Repositories\\PolicyRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\PolicyRepository.cs",
+              "RelativeToolTip": "ReportClaim\\Repositories\\PolicyRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:07:01.19Z"
+              "WhenOpened": "2024-10-30T14:58:48.262Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ReportDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\ReportDTO.cs",
-              "RelativeDocumentMoniker": "ReportClaim\\Models\\DTO\\ReportDTO.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\DTO\\ReportDTO.cs",
-              "RelativeToolTip": "ReportClaim\\Models\\DTO\\ReportDTO.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "IPolicyService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IPolicyService.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Interfaces\\IPolicyService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IPolicyService.cs",
+              "RelativeToolTip": "ReportClaim\\Interfaces\\IPolicyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:07:00.341Z"
+              "WhenOpened": "2024-10-30T15:04:33.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Models\\User.cs",
+              "RelativeToolTip": "ReportClaim\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:57:43.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Repositories\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\ReportRepository.cs",
+              "RelativeToolTip": "ReportClaim\\Repositories\\ReportRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:55:18.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\UserService.cs",
+              "RelativeToolTip": "ReportClaim\\Services\\UserService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:51:02.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "ReportClaim\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:50:44.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Program.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Program.cs",
+              "RelativeToolTip": "ReportClaim\\Program.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAYwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:42:04.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CollectionEmptyException.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Exceptions\\CollectionEmptyException.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeToolTip": "ReportClaim\\Exceptions\\CollectionEmptyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:40:02.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ReportClaim\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:39:43.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClaimServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimServiceTest.cs",
+              "RelativeDocumentMoniker": "Testing\\ClaimServiceTest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimServiceTest.cs",
+              "RelativeToolTip": "Testing\\ClaimServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:39:15.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClaimRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimRepositoryTest.cs",
+              "RelativeDocumentMoniker": "Testing\\ClaimRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\Testing\\ClaimRepositoryTest.cs",
+              "RelativeToolTip": "Testing\\ClaimRepositoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:39:14.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "ReportClaim\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwFoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:34:40.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\PolicyController.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Controllers\\PolicyController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\PolicyController.cs",
+              "RelativeToolTip": "ReportClaim\\Controllers\\PolicyController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:34:05.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "ReportClaim\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:32:58.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ReportClaim\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:32:53.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "ReportClaim\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 33\\ReportClaimSolution\\ReportClaim\\Services\\TokenService.cs",
+              "RelativeToolTip": "ReportClaim\\Services\\TokenService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:31:17.039Z",
+              "EditorCaption": ""
             }
           ]
         }

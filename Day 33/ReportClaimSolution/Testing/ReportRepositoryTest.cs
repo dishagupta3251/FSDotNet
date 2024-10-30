@@ -126,7 +126,7 @@ namespace ReportClaim.Tests
             var report = new Report { Id = 1, ClaimaintName = "John Doe" };
             await _repo.Create(report);
 
-            await _repo.Delete(report);
+            await _repo.Delete(report.Id);
 
             var reports = await _repo.GetAll();
             Assert.AreEqual(0, reports.Count());
@@ -137,7 +137,7 @@ namespace ReportClaim.Tests
         {
             var report = new Report { Id = 99 }; 
 
-            Assert.ThrowsAsync<Exception>(async () => await _repo.Delete(report));
+            Assert.ThrowsAsync<Exception>(async () => await _repo.Delete(report.Id));
         }
     }
 }

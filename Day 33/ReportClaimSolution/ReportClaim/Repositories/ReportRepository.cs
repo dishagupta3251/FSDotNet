@@ -27,8 +27,9 @@ namespace ReportClaim.Repositories
             }
         }
 
-        public async Task<Report> Delete(Report entity)
+        public async Task<Report> Delete(int key)
         {
+            var entity=await GetById(key);
             try
             {
                 reportClaim.Reports.Remove(entity);
@@ -71,6 +72,7 @@ namespace ReportClaim.Repositories
                 oldReport.DeathCertificate = entity.DeathCertificate;
                 oldReport.PolicyCertificate = entity.PolicyCertificate;
                 oldReport.SettlementForm = entity.SettlementForm;
+                await reportClaim.SaveChangesAsync();
                 return oldReport;
 
             }

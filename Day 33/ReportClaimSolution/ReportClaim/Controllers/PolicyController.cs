@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ReportClaim.Interfaces;
 using ReportClaim.Models;
@@ -16,6 +17,7 @@ namespace ReportClaim.Controllers
             _policyService = policyService;
         }
         [HttpPost]
+        [Authorize(Roles ="Admin")]
         public async Task<ActionResult> InputPolicy(PolicyDTO policyDTO)
         {
             try

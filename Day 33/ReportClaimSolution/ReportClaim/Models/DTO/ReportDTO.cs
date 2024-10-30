@@ -4,7 +4,7 @@
     {
         public int PolicyId { get; set; }
         public int ClaimId { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime IncidentDate { get; set; }
         public string ClaimaintName { get; set; } = string.Empty;
         public string ClaimaintPhone { get; set; } = string.Empty;
         public string ClaimaintEmail { get; set; } = string.Empty;

@@ -44,7 +44,7 @@ namespace Testing
         {
             Policy policy = new Policy { Id = 1, PolicyNumber = "P12345" };
             await repository.Create(policy);
-            var result = await repository.Delete(policy);
+            var result = await repository.Delete(policy.Id);
             Assert.AreEqual(policy.Id, result.Id);
         }
 
@@ -52,7 +52,7 @@ namespace Testing
         public void DeleteException()
         {
             Policy policy = new Policy { Id = 99, PolicyNumber = "NonExistent" };
-            Assert.ThrowsAsync<Exception>(async () => await repository.Delete(policy));
+            Assert.ThrowsAsync<Exception>(async () => await repository.Delete(policy.Id));
         }
 
         [Test]

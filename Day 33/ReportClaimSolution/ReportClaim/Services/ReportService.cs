@@ -27,7 +27,7 @@ public class ReportService : IReportService
                 ClaimaintName = entity.ClaimaintName,
                 ClaimaintPhone = entity.ClaimaintPhone,
                 ClaimaintEmail = entity.ClaimaintEmail,
-                DateTime = entity.DateTime
+                IncidentDate = entity.IncidentDate
             };
 
             // Handle file uploads and conversions

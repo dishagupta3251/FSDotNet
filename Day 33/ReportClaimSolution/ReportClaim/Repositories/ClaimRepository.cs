@@ -28,8 +28,9 @@ namespace ReportClaim.Repositories
             }
         }
 
-        public async Task<Claim> Delete(Claim entity)
+        public async Task<Claim> Delete(int key)
         {
+            var entity = await GetById(key);
             try
             {
                 _context.Claims.Remove(entity);
@@ -66,6 +67,7 @@ namespace ReportClaim.Repositories
             {
                 var oldClaim = await GetById(entity.ClaimId);
                 oldClaim.ClaimType = entity.ClaimType;
+                await _context.SaveChangesAsync();
                 return oldClaim;
 
             }
