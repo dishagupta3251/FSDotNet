@@ -27,7 +27,7 @@ namespace UnitTesting.RepositoryTest
             User user = new User()
             {
                
-                FullName = "test",
+                FirstName = "test",
                 Username = "test123",
                 Email = "test@gmail.com",
                 ContactNumber = "9372768901",

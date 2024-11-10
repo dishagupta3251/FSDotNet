@@ -53,7 +53,7 @@ namespace BusTicketingApp.Repositories
         {
             try
             {
-                var seatEntity = await _ticketingContext.Seats.FirstOrDefaultAsync(s => s.SeatId == key);
+                var seatEntity = await _ticketingContext.Seats.FirstOrDefaultAsync(s => s.SeatsId == key);
                 if (seatEntity == null) throw new Exception();
                 return seatEntity;
             }

@@ -6,11 +6,11 @@ namespace BusTicketingApp.Interfaces
     public interface IUserServices
     {
         public Task<LoginResponseDTO> Login(LoginRequestDTO loginRequestDTO);
-        public Task<LoginResponseDTO> Register(UserRegisterDTO user);
+        public Task<string> Register(UserRegisterDTO user);
 
         public Task<IEnumerable<User>> GetAll();
         public Task<UserProfileDTO> GetById(string id);
-        public Task<OperationStatusDTO> Update(UserRegisterDTO user,string key);
+        public Task<OperationStatusDTO> UpdatePassword(string username,string password);
         public Task<OperationStatusDTO> Delete(string key);
     }
 }

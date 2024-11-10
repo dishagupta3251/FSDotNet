@@ -7,6 +7,7 @@ using BusTicketingApp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
@@ -26,21 +27,6 @@ namespace BusTicketingApp
             });
             #endregion
 
-            #region Repository
-            builder.Services.AddScoped<IRepository<User,string>,UserRepository>();
-            builder.Services.AddScoped<IRepository<AvailableRoute,int>,AvailableRouteRepository>();
-            #endregion
-
-            #region Services
-            builder.Services.AddScoped<IUserServices, UserService>();
-            builder.Services.AddScoped<IRoutingService, RoutingService>();
-            builder.Services.AddScoped<ITokenService, TokenService>();
-            #endregion
-
-            #region OtherServices
-            builder.Services.AddAutoMapper(typeof(User));
-            builder.Services.AddAutoMapper(typeof (AvailableRoute));
-            #endregion
 
             #region Authentication
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -56,6 +42,40 @@ namespace BusTicketingApp
                     };
                 });
             #endregion
+
+            #region Repository
+            builder.Services.AddScoped<IRepository<User,string>,UserRepository>();
+            builder.Services.AddScoped<IRepository<AvailableRoute,int>,AvailableRouteRepository>();
+            builder.Services.AddScoped<IRepository<Bus, int>, BusRepository>();
+            builder.Services.AddScoped<IRepository<Seats, int>, SeatRepository>();
+            builder.Services.AddScoped<IRepository<BusOperator, int>, BusOperatorRepository>();
+            builder.Services.AddScoped<IRepository<Booking, int>, BookingRepository>();
+            builder.Services.AddScoped<IRepository<Customer, int>, CustomerRepository>();
+            builder.Services.AddScoped<IRepository<BusSchedule, int>, BusScheduleRepository>();
+            builder.Services.AddScoped<IRepository<Payment, int>, PaymentRepository>();
+            #endregion
+
+            #region Services
+            builder.Services.AddScoped<IUserServices, UserService>();
+            builder.Services.AddScoped<IRoutingService, RoutingService>();
+            builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<IBookingService, BookingService>();
+            builder.Services.AddScoped<ICustomerService, CustomerService>();
+            builder.Services.AddScoped<IBusOperatorService, BusOperatorService>();
+            builder.Services.AddScoped<ISeatService, SeatService>();    
+            builder.Services.AddScoped<IBusService, BusService>();
+            #endregion
+
+            #region OtherServices
+            builder.Services.AddAutoMapper(typeof(User));
+            builder.Services.AddAutoMapper(typeof (AvailableRoute));
+            builder.Services.AddAutoMapper(typeof(Bus));
+            builder.Services.AddAutoMapper(typeof(Customer));
+            builder.Services.AddAutoMapper(typeof(BusSchedule));
+            builder.Services.AddAutoMapper(typeof(BusOperator));
+            builder.Services.AddAutoMapper(typeof(Payment));
+            #endregion
+
 
 
 
@@ -114,9 +134,9 @@ namespace BusTicketingApp
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
+
             app.UseAuthorization();
-            app.UseAuthentication();  
-           
 
             app.MapControllers();
 

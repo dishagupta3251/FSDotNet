@@ -1,13 +1,12 @@
 ﻿using AutoMapper;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
-using Microsoft.AspNetCore.Routing.Template;
 
 namespace BusTicketingApp.Mapper
 {
-    public class RoutingProfiles:Profile
+    public class RouteMapper:Profile
     {
-        public RoutingProfiles()
+        public RouteMapper()
         {
             CreateMap<AvailableRoute, AvailableRouteDTO>();
             CreateMap<AvailableRouteDTO, AvailableRoute>();

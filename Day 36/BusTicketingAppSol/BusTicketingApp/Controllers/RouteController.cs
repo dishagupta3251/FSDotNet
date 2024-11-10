@@ -29,7 +29,7 @@ namespace BusTicketingApp.Controllers
             }
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<AvailableRouteDTO>>> AvailableRoutes()
+        public async Task<ActionResult<IEnumerable<AvailableRoute>>> AvailableRoutes()
         {
             try
             {

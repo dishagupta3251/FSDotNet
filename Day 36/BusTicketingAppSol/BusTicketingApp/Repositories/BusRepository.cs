@@ -19,30 +19,14 @@ namespace BusTicketingApp.Repositories
             
             try
             {
-                int halfSeats = entity.NumberOfSeats / 2;
-                _ticketingContext.Buses.Add(entity);
-                for(int i=1;i<=entity.NumberOfSeats;i++)
-                {
-                    var seat = new Seats()
-                    {
-                           SeatNumber = i,
-                           Side=i<=halfSeats?"L":"R",
-                           SeatType=i%2==0?"A":"W",
-                           IsBooked=false,
-                           Price= i % 2 == 0?  entity.StandardFare:entity.PremiumFare,
-                           BusId=entity.BusId,
-
-
-                    };
-                    _ticketingContext.Seats.Add(seat); //Creating seats based on busId
-                    await _ticketingContext.SaveChangesAsync();
-                }
+                
+                 _ticketingContext.Buses.Add(entity);
                 await _ticketingContext.SaveChangesAsync();
                 return entity;
             }
             catch
             {
-                throw new CouldNotAddException("User");
+                throw new CouldNotAddException("Bus");
             }
         }
 
@@ -93,7 +77,7 @@ namespace BusTicketingApp.Repositories
         public async Task<Bus> Update(Bus entity, int key)
         {
             var exsistingBus = await Get(key);
-            exsistingBus.BusName = entity.BusName??exsistingBus.BusName;
+            exsistingBus.BusNumber = entity.BusNumber??exsistingBus.BusNumber;
             exsistingBus.BusType = entity.BusType==exsistingBus.BusType?exsistingBus.BusType:entity.BusType;
            
             exsistingBus.Status = entity.Status ?? exsistingBus.Status;

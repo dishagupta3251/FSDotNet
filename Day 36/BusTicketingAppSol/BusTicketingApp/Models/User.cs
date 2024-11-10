@@ -14,7 +14,7 @@ namespace BusTicketingApp.Models
         [Key]
         public int UserId { get; set; }
 
-        public string FullName { get; set; }=string.Empty;
+        public string FirstName { get; set; }=string.Empty;
 
         public string Username { get; set; } = string.Empty;
         [Required(ErrorMessage = "Cannot be empty")]

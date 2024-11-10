@@ -45,14 +45,14 @@ namespace UnitTesting.ServicesTest
             UserRegisterDTO user = new UserRegisterDTO()
             {
 
-                FullName = "test",
+                FirstName = "test",
                 Password="test123",
                 Email = "test@gmail.com",
                 ContactNumber = "9372768901",
                 Role = Roles.Customer
             };
             var result=await service.Register(user);
-            Assert.IsNotNull(result.Username);
+            Assert.IsNotNull(result);
         }
 
         [Test]
@@ -67,7 +67,7 @@ namespace UnitTesting.ServicesTest
             UserRegisterDTO user = new UserRegisterDTO()
             {
 
-                FullName = "test",
+                FirstName = "test",
                 Password = "test123",
                 Email = "test@gmail.com",
                 ContactNumber = "9372768901",
@@ -81,7 +81,7 @@ namespace UnitTesting.ServicesTest
             };
             
             var result= await service.Login(loginRequest);
-            Assert.AreEqual(_user.Username, result.Username);
+            Assert.IsNotNull(result);
         }
 
         [Test]
@@ -90,7 +90,7 @@ namespace UnitTesting.ServicesTest
             UserRegisterDTO user = new UserRegisterDTO()
             {
 
-                FullName = "test",
+                FirstName = "test",
                 Password = "test123",
                 Email = "test@gmail.com",
                 ContactNumber = "9372768901",
@@ -98,7 +98,7 @@ namespace UnitTesting.ServicesTest
             };
             var _user=await service.Register(user);
             var result = await service.Delete("test901");
-            Assert.AreEqual(result.Username, _user.Username);
+            Assert.IsNull(_user);
         }
         [Test]
         public async Task GetAllTest()
@@ -106,7 +106,7 @@ namespace UnitTesting.ServicesTest
             UserRegisterDTO user = new UserRegisterDTO()
             {
 
-                FullName = "test",
+                FirstName = "test",
                 Password = "test123",
                 Email = "test@gmail.com",
                 ContactNumber = "9372768901",

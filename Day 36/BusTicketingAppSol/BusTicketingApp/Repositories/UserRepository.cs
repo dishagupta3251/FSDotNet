@@ -21,7 +21,7 @@ namespace BusTicketingApp.Repositories
         {
             try
             {
-                entity.Username = GenerateUsername(entity.FullName, entity.ContactNumber);
+                entity.Username = GenerateUsername(entity.FirstName, entity.ContactNumber);
                 _ticketingContext.Users.Add(entity);
                 await _ticketingContext.SaveChangesAsync();
                 return entity;
@@ -85,13 +85,16 @@ namespace BusTicketingApp.Repositories
         public async Task<User> Update(User entity, string key)
         {
             var existingUser = await Get(key);
-            existingUser.FullName = entity.FullName ?? existingUser.FullName;
+            existingUser.FirstName = entity.FirstName ?? existingUser.FirstName;
             existingUser.Email = entity.Email ?? existingUser.Email;
             existingUser.ContactNumber = entity.ContactNumber ?? existingUser.ContactNumber;
             existingUser.Password = entity.Password ?? existingUser.Password;
             existingUser.PasswordHash = entity.PasswordHash ?? existingUser.PasswordHash;
             existingUser.Role = entity.Role==existingUser.Role?existingUser.Role:entity.Role;
-            existingUser.Username = GenerateUsername(existingUser.FullName, existingUser.ContactNumber);
+            if (entity.FirstName != existingUser.FirstName || entity.ContactNumber != existingUser.ContactNumber)
+            {
+                existingUser.Username = GenerateUsername(existingUser.FirstName, existingUser.ContactNumber);
+            }
 
             _ticketingContext.Users.Update(existingUser);
             await _ticketingContext.SaveChangesAsync();

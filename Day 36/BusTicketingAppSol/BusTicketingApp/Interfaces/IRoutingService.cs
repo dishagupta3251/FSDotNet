@@ -5,8 +5,10 @@ namespace BusTicketingApp.Interfaces
 {
     public interface IRoutingService
     {
-        public Task<AvailableRoute> AddNewRoutes(AvailableRouteDTO routeData);
-        public Task<IEnumerable<AvailableRouteDTO>> GetAllRoutes();
+        public Task<int> AddNewRoutes(AvailableRouteDTO routeData);
+
+        public Task<int> GetIdByJourney(string checkSource, string checkDestination);
+        public Task<IEnumerable<AvailableRoute>> GetAllRoutes();
 
     }
 }

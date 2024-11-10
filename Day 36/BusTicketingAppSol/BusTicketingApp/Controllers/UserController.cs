@@ -1,6 +1,7 @@
 ﻿using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,6 +44,7 @@ namespace BusTicketingApp.Controllers
             var user = await _userServices.GetById(username);
             return Ok(user);
         }
+        [Authorize(Roles ="Admin")]
         [HttpGet("GetAllUsers")]
         public async Task<ActionResult<User>> GetAll()
         {
@@ -50,9 +52,9 @@ namespace BusTicketingApp.Controllers
             return Ok(users);
         }
         [HttpPut("username")]
-        public async Task<ActionResult<OperationStatusDTO>> Update(UserRegisterDTO userRegister,string username)
+        public async Task<ActionResult<OperationStatusDTO>> UpdateUserPassword(string username,string password)
         {
-               var status = await _userServices.Update(userRegister, username);
+               var status = await _userServices.UpdatePassword(username,password);
                return Ok(status);
 
         }

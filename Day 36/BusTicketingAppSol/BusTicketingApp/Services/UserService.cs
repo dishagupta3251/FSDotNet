@@ -88,7 +88,7 @@ namespace BusTicketingApp.Services
             };
         }
 
-        public async Task<LoginResponseDTO> Register(UserRegisterDTO user)
+        public async Task<string> Register(UserRegisterDTO user)
         {
             try
             {
@@ -96,21 +96,18 @@ namespace BusTicketingApp.Services
                 byte[] passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(user.Password));
                 User _user = new User()
                 {
-                    FullName = user.FullName,
+                    FirstName = user.FirstName,
                     Email = user.Email,
                     ContactNumber = user.ContactNumber,
-                    Username = user.FullName + user.ContactNumber.Substring(7),
+                    Username = user.FirstName +     user.ContactNumber.Substring(7),
                     Password = passwordHash,
                     PasswordHash = hmac.Key,
                     Role = user.Role
                 };
 
                 var addesUser = await _userRepository.Add(_user);
-                LoginResponseDTO response = new LoginResponseDTO()
-                {
-                    Username = _user.Username
-                };
-                return response;
+              
+                return _user.Username;
             }
             catch (Exception e)
             {
@@ -120,22 +117,12 @@ namespace BusTicketingApp.Services
         }
 
 
-        public async Task<OperationStatusDTO> Update(UserRegisterDTO user, string key)
+        public async Task<OperationStatusDTO> UpdatePassword(string username,string password)
         {
+            var user = await _userRepository.Get(username);
             using var hmac = new HMACSHA256();
-            var passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(user.Password));
-
-            var updatedUser = new User
-            {
-                FullName = user.FullName,
-                Email = user.Email,
-                ContactNumber = user.ContactNumber,
-                Password = passwordHash,
-                PasswordHash = hmac.Key,
-                Role = user.Role
-            };
-
-            var result = await _userRepository.Update(updatedUser, key);
+            user.PasswordHash= hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+            var result = await _userRepository.Update(user,username);
 
             return new OperationStatusDTO
             {

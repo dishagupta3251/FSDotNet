@@ -8,7 +8,7 @@ namespace BusTicketingApp.Models.DTO
     {
        
         [Required(ErrorMessage = "Name cannot be empty")]
-        public string FullName { get; set; } = string.Empty;
+        public string FirstName { get; set; } = string.Empty;
 
 
         [Required(ErrorMessage = "Password cannot be empty")]
