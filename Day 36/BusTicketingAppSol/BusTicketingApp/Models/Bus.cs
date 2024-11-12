@@ -9,6 +9,11 @@ namespace BusTicketingApp.Models
         AC,
         Non_AC
     }
+    public enum BusStatus
+    {
+        Running,
+        Regret
+    }
    
     public class Bus
     {
@@ -19,7 +24,7 @@ namespace BusTicketingApp.Models
 
         [Required(ErrorMessage ="Cannot be empty")]
         public int NumberOfSeats { get; set; }  
-        public string Status { get; set; } = string.Empty;
+        public BusStatus Status { get; set; }
         public decimal StandardFare { get; set; }
         public decimal PremiumFare { get; set; }
         
@@ -30,7 +35,11 @@ namespace BusTicketingApp.Models
         public BusOperator Operator { get; set; }
 
         public IEnumerable<BusSchedule> Schedules { get; set; } =new List<BusSchedule>();
+
+        public IEnumerable<Booking> Booking { get; set; } = new List<Booking>();
         public IEnumerable<Seats> Seats { get; set; } =new List<Seats>();
+
+        public IEnumerable<SeatsBooked> SeatsBooked { get; set; } =new List<SeatsBooked>();
        
 
 

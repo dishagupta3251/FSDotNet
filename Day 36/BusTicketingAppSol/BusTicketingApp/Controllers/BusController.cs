@@ -24,7 +24,9 @@ namespace BusTicketingApp.Controllers
             try
             {
                 var bus = await _busService.BuildBus(busCreateDTO);
-                return Ok(bus.BusId);
+                return Ok(new { 
+                    message="Bus Id is given below",
+                    data=bus.BusId });
             }
             catch
             {

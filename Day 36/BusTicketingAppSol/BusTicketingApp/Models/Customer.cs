@@ -11,7 +11,7 @@
         
         public IEnumerable<Booking> Bookings { get; set; }
 
-        public IEnumerable<Seats> Seats { get; set; }
+       public IEnumerable<SeatsBooked> Seats { get; set; }
         public User User { get; set; }   
        
     }

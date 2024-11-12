@@ -86,13 +86,12 @@ namespace BusTicketingApp.Repositories
 
                 existingBooking.BookingDate = entity.BookingDate;
                 existingBooking.BookedForDay = entity.BookedForDay;
+                existingBooking.BusNumber = entity.BusNumber;
                 existingBooking.SeatsBooked = entity.SeatsBooked;
                 existingBooking.TotalFare = entity.TotalFare;
                 existingBooking.IsConfirmed = entity.IsConfirmed;
                 existingBooking.CustomerId = entity.CustomerId;
                 existingBooking.RouteId = entity.RouteId;
-                existingBooking.SeatId = entity.SeatId;
-               
                 existingBooking.Payment = entity.Payment ?? existingBooking.Payment;
 
                 _ticketingContext.Bookings.Update(existingBooking);

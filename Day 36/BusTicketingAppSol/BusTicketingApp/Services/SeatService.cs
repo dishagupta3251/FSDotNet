@@ -29,8 +29,20 @@ public class SeatService : ISeatService
         }
     }
 
-  
-
+    public async Task<Seats> SeatById(int id)
+    {
+        try
+        {
+            var seat = await _seatRepository.Get(id);
+            if (seat == null) throw new Exception("Cannot get seat");
+            return seat;
+        }
+        catch(Exception ex)
+        {
+            _logger.LogError(ex, "Error occurred while getting seat by id");
+            throw new Exception();
+        }
+    }
 
     public async Task<IEnumerable<SeatsResponseDTO>> UpdateSeatStatus(List<int> seatIds)
     {
@@ -45,7 +57,6 @@ public class SeatService : ISeatService
                 SeatsResponseDTO dTO = new SeatsResponseDTO
                 {
                     Seat = seat.SeatNumber + seat.SeatType.ToString(),
-                    IsBooked = seat.IsBooked,
                     Price = seat.Price
                 };
 

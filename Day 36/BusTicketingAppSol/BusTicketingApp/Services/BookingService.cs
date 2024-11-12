@@ -15,10 +15,11 @@ namespace BusTicketingApp.Services
         private readonly IRoutingService _routingService;
         private readonly IPaymentService _paymentService;
         private readonly IMapper _mapper;
-        private readonly ILogger _logger;
+        private readonly ILogger<BookingService> _logger;
         private readonly IRepository<Booking,int> _repository;
+        private readonly IRepository<SeatsBooked, int> _seatsBookedRepository;
 
-        public BookingService(ISeatService seatService, IBusService busService, IRoutingService routingService, IRepository<Booking,int> repository,IPaymentService paymentService,IMapper mapper,ILogger logger)
+        public BookingService(ISeatService seatService, IBusService busService, IRoutingService routingService, IRepository<Booking,int> repository,IPaymentService paymentService,IMapper mapper,ILogger<BookingService> logger)
         {
 
             _busService = busService;
@@ -72,10 +73,11 @@ namespace BusTicketingApp.Services
                     var seats = (await _seatService.GetAllSeats()).Where(s => s.IsBooked == false);
                     var response = new BusResponseDTO()
                     {
+                        BusId=bus.BusId,
                         BusNumber =bus.BusNumber,
                         BusType = bus.BusType.ToString(),
                         SeatsLeft = seats.Count(),
-                        Status = bus.Status,
+                        Status = bus.Status.ToString(),
                         StandardFare = bus.StandardFare,
                         PremiumFare = bus.PremiumFare,
                         JourneyDetails=from.ToUpper()+" "+"TO"+" "+to.ToUpper(),
@@ -97,34 +99,60 @@ namespace BusTicketingApp.Services
 
 
 
-        public async Task<IEnumerable<SeatsResponseDTO>> SelectSeats(SeatSelectionRequestDTO requestDTO)
-        {
-            try
-            {
-                var listOfSeats = requestDTO.SelectedSeatIds;
-                if (listOfSeats.Count == 0)
-                    throw new Exception("Seats not selected");
+       
 
-           
-                var bookingResponse = await _seatService.UpdateSeatStatus(listOfSeats);
-
-                return (IEnumerable<SeatsResponseDTO>) bookingResponse;
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error occurred during seat selection");
-                throw new Exception("Cannot perform seat selection");
-            }
-        }
-
-        public async Task<string> PaymentIntiation(PaymentRequestDTO paymentRequestDTO)
+        public async Task<BookingResponseDTO> PaymentIntiation(PaymentRequestDTO paymentRequestDTO)
         {
             try
             {
                 
-                var status = await _paymentService.AddPayment(_mapper.Map<Payment>(paymentRequestDTO));
-                if (status == null) throw new Exception("Cannot retrive status of payment");
-                return status;
+                var payment = await _paymentService.AddPayment(_mapper.Map<Payment>(paymentRequestDTO));
+
+                if (payment == null) throw new Exception("Cannot retrive  add payment");
+
+
+                //updating booking confirm status
+                var booking = await _repository.Get(paymentRequestDTO.BookingId);
+                booking.IsConfirmed = "Confirmed";
+
+                var seats=(await _seatsBookedRepository.GetAll()).Where(s=>s.BookingId==payment.BookingId);
+
+                //creating seatresponseDTO to response to api call
+                List<SeatsResponseDTO> listOfSeatsDTO = new List<SeatsResponseDTO>();
+
+                //updating seats status
+                foreach( var seat_booked in seats)
+                {
+
+                    seat_booked.SeatStatus = Status.Confirmed;
+                    var seat=await _seatService.SeatById(seat_booked.SeatId);
+                    seat.IsBooked = true;
+                    var seatResponseDTO = new SeatsResponseDTO()
+                    {
+                        Seat = seat.SeatNumber + seat.SeatType.ToString(),
+                        Price= seat.Price,
+                    };
+                    listOfSeatsDTO.Add(seatResponseDTO);
+                }
+                var route =await _routingService.GetRoute(booking.RouteId);
+                var response = new BookingResponseDTO()
+                {
+                    BookingId=booking.BookingId,
+                    BookingDate=booking.BookingDate,
+                    BusNumber=booking.BusNumber,
+                    Source=route.Origin,
+                    Destination=route.Destination,
+                    CustomerId=booking.CustomerId,
+                    BookedForDate=booking.BookedForDate,
+                    BookedForDay=booking.BookedForDay,
+                    SeatsBooked=listOfSeatsDTO,
+                    TotalFare=booking.TotalFare,
+                    IsConfirmed=booking.IsConfirmed
+                };
+                return response;   
+               
+
+                
             }
             catch
             {
@@ -147,9 +175,67 @@ namespace BusTicketingApp.Services
           
         }
 
-        public Task<BookingResponseDTO> BookingConfirmation()
+        public async Task<int> BookingConfirmation(SeatSelectionRequestDTO seatSelectionRequestDTO,DateTime date)
         {
-            
+            try
+            {
+            var bus = await _busService.GetBus(seatSelectionRequestDTO.BusId);
+            decimal calculateCost = 0; string seatsBookedForCustomer="";
+
+                var seatsId = seatSelectionRequestDTO.SelectedSeatIds;
+                foreach (var id in seatsId)
+            {
+                var seat =await _seatService.SeatById(id);
+                calculateCost = calculateCost + seat.Price;
+            }
+          
+           
+            foreach (var id in seatsId){
+                   
+                    seatsBookedForCustomer = seatsBookedForCustomer + id;
+                   
+
+            }
+            var booking = new Booking()
+            {
+                BusId=bus.BusId,
+                BookingDate=DateTime.Now,
+                BusNumber = bus.BusNumber,
+                RouteId = bus.RouteId,
+                BookedForDate = date,
+                BookedForDay = (DaysOfWeek)date.DayOfWeek,
+                BookedSeats = seatsBookedForCustomer,
+                TotalFare = calculateCost,
+                IsConfirmed = "Pending",
+                CustomerId = seatSelectionRequestDTO.CustomerId,
+                
+
+
+            };
+                var addedBooking=await _repository.Add(booking);
+               foreach(var id in seatsId)
+                {
+                    var seatsBooked = new SeatsBooked
+                    {
+                        SeatId = id,
+                        CustomerId = seatSelectionRequestDTO.CustomerId,
+                        BusId = seatSelectionRequestDTO.BusId,
+                        BookingId = booking.BookingId,
+                        SeatStatus = 0
+                    };
+                    await _seatsBookedRepository.Add(seatsBooked);
+                }
+             
+             
+                return booking.BookingId; 
+            }
+            catch
+            {
+                throw new Exception("Cannot add booking");
+            }
         }
+
+    
+
     }
 }

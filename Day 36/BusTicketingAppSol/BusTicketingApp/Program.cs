@@ -7,7 +7,6 @@ using BusTicketingApp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
@@ -53,6 +52,8 @@ namespace BusTicketingApp
             builder.Services.AddScoped<IRepository<Customer, int>, CustomerRepository>();
             builder.Services.AddScoped<IRepository<BusSchedule, int>, BusScheduleRepository>();
             builder.Services.AddScoped<IRepository<Payment, int>, PaymentRepository>();
+            builder.Services.AddScoped<IRepository<SeatsBooked, int>, SeatsBookedRepository>();
+            builder.Services.AddScoped<IRepository<Review, int>, ReviewRepository>();
             #endregion
 
             #region Services
@@ -62,6 +63,8 @@ namespace BusTicketingApp
             builder.Services.AddScoped<IBookingService, BookingService>();
             builder.Services.AddScoped<ICustomerService, CustomerService>();
             builder.Services.AddScoped<IBusOperatorService, BusOperatorService>();
+            builder.Services.AddScoped<IPaymentService, PaymentService>();
+            builder.Services.AddScoped<IReviewService, ReviewService>();
             builder.Services.AddScoped<ISeatService, SeatService>();    
             builder.Services.AddScoped<IBusService, BusService>();
             #endregion
@@ -74,6 +77,7 @@ namespace BusTicketingApp
             builder.Services.AddAutoMapper(typeof(BusSchedule));
             builder.Services.AddAutoMapper(typeof(BusOperator));
             builder.Services.AddAutoMapper(typeof(Payment));
+            builder.Services.AddAutoMapper(typeof(Review));
             #endregion
 
 
@@ -123,6 +127,8 @@ namespace BusTicketingApp
             });
 
             var app = builder.Build();
+
+            builder.Logging.AddConsole();
 
 
             // Configure the HTTP request pipeline.

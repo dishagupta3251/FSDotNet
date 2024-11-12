@@ -5,6 +5,7 @@ namespace BusTicketingApp.Models.DTO
 {
     public class BusResponseDTO
     {
+        public int BusId { get; set; }
         public string BusNumber { get; set; } = string.Empty;
         public string BusType { get; set; }
         public int SeatsLeft { get; set; }

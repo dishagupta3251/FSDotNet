@@ -17,12 +17,17 @@ namespace BusTicketingApp.Controllers
             _userServices = userServices;
         }
         [HttpPost("Register")]
-        public async Task<ActionResult<LoginResponseDTO>> Register(UserRegisterDTO createDTO)
+        public async Task<ActionResult> Register(UserRegisterDTO createDTO)
         {
             if (ModelState.IsValid)
             {
                 var user = await _userServices.Register(createDTO);
-                return Ok(user);
+                return Ok(new { 
+                   
+                    message="Your username is given below",
+                    data=user
+                });
+                
             }
             else
             {

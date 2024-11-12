@@ -2,6 +2,7 @@
 {
     public class PaymentRequestDTO
     {
+        
         public int BookingId { get; set; }
         public PaymentTypes Type { get; set; }
     }

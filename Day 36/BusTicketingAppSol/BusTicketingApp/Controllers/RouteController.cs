@@ -36,7 +36,7 @@ namespace BusTicketingApp.Controllers
                 var routes = await _routingService.GetAllRoutes();
                 return Ok(routes);
             }
-            catch (Exception ex)
+            catch 
             {
                
                 return StatusCode(500, "An error occurred while retrieving routes.");

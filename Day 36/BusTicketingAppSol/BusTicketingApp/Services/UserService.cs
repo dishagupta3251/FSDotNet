@@ -83,7 +83,8 @@ namespace BusTicketingApp.Services
                 {
                     Username = user.Username,
                     Role = user.Role.ToString()
-                })
+                }),
+                UserId=user.UserId
 
             };
         }

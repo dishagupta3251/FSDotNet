@@ -4,6 +4,6 @@ namespace BusTicketingApp.Interfaces
 {
     public interface IPaymentService
     {
-        public Task<string> AddPayment(Payment payment);
+        public Task<Payment> AddPayment(Payment payment);
     }
 }

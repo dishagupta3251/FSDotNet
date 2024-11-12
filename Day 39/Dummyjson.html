@@ -48,7 +48,7 @@
                 .then(json => {
                     const products = json.products;
                     const content = document.getElementById('row');
-                    content.innerHTML = ''; // Clear existing content
+                    content.innerHTML = ''; 
                     products.forEach(element => {
                         content.innerHTML += `
                             <div class="col-12 col-md-6 col-lg-4">

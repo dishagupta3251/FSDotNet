@@ -6,6 +6,8 @@
         public string CustomerName { get; set; }
         public string City { get; set; }
         public int Age {  get; set; }
+
+        public int UserId { get; set; }
        
     }
 }

@@ -9,12 +9,14 @@ namespace BusTicketingApp.Services
     public class BusOperatorService : IBusOperatorService
     {
         private readonly IRepository<BusOperator,int> _busOperatorRepository;
+        private readonly IReviewService _reviewService;
         private readonly IMapper _mapper;
         private readonly ILogger<BusOperatorService> _logger;
 
-        public BusOperatorService(IRepository<BusOperator, int> busOperatorRepository, IMapper mapper, ILogger<BusOperatorService> logger)
+        public BusOperatorService(IRepository<BusOperator, int> busOperatorRepository, IMapper mapper, ILogger<BusOperatorService> logger, IReviewService reviewService)
         {
             _busOperatorRepository = busOperatorRepository;
+            _reviewService = reviewService;
             _mapper = mapper;
             _logger = logger;
         }
@@ -102,6 +104,32 @@ namespace BusTicketingApp.Services
             {
                 _logger.LogError($"Error occurred while fetching bus operators: {ex.Message}");
                 throw new Exception("An error occurred while fetching bus operators.");
+            }
+        }
+
+        public async Task<ReviewResponseDTO> GetOperatorReview(int id)
+        {
+            try
+            {
+                var reviews=await _reviewService.GetAllReviewsByOperatorId(id);
+                if (reviews == null) throw new Exception("No reviews can be found");
+                List<string> reviewsList = new List<string>();
+                foreach (var review in reviews) {
+                    reviewsList.Add(review.Reviews);
+                }
+                var busOperator= await _busOperatorRepository.Get(id);
+                return new ReviewResponseDTO
+                {
+                    OperatorName = busOperator.OperatorName,
+                    Reviews = reviewsList,
+                    LicenseNumber = busOperator.LicenseNumber,
+                    CompanyName = busOperator.CompanyName,
+                    OperatorContact= busOperator.OperatorContact
+                   
+                };
+            }
+            catch  { 
+                throw new Exception();
             }
         }
     }

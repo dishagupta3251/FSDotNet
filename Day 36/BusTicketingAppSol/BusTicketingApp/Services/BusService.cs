@@ -1,12 +1,9 @@
-﻿using System.Runtime.CompilerServices;
+﻿
 using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-using BusTicketingApp.Contexts;
 using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
-using DayOfWeek = BusTicketingApp.Models.DaysOfWeek;
-using System;
+
 
 namespace BusTicketingApp.Services
 {
@@ -33,17 +30,7 @@ namespace BusTicketingApp.Services
             {
                 // mapping explicitly
 
-                var newBus = new Bus()
-                {
-                    BusNumber=bus.BusNumber,
-                    BusType=bus.BusType,
-                    NumberOfSeats=bus.NumberOfSeats,
-                    Status=bus.Status,
-                    StandardFare=bus.StandardFare,
-                    PremiumFare=bus.PremiumFare,
-                    OperatorID=bus.OperatorId,
-                    RouteId=bus.RouteId,
-                };
+                var newBus = _mapper.Map<Bus>(bus);
                 var addedBus=await _busRepository.Add(newBus);
 
                 var busSchedule = _mapper.Map<BusSchedule>(newBus);
@@ -87,7 +74,7 @@ namespace BusTicketingApp.Services
             try
             {
                 var bus =await _busRepository.Get(id);
-                var seats = (await _seatRepository.GetAll()).Where(s => s.BusId == id).ToList();
+                var seats = (await _seatRepository.GetAll()).Where(s => s.BusId == id && s.IsBooked==false).ToList();
                 if (bus == null || seats == null) throw new Exception();
 
                 List<SeatsResponseDTO> seatsResponseDTOs = new List<SeatsResponseDTO>();
@@ -95,8 +82,8 @@ namespace BusTicketingApp.Services
                 {
                     var response = new SeatsResponseDTO()
                     {
+                      
                         Seat = seat.SeatNumber + seat.SeatType,
-                        IsBooked=seat.IsBooked,
                         Price=seat.Price,
                     };
                     seatsResponseDTOs.Add(response);
@@ -163,6 +150,16 @@ namespace BusTicketingApp.Services
 
         }
 
-       
+        public async Task<Bus> GetBus(int id)
+        {
+            try
+            {
+                var bus=await _busRepository.Get(id);
+                return bus;
+            }
+            catch { 
+                throw new Exception();
+            }
+        }
     }
 }

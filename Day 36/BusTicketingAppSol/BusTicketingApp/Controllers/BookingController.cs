@@ -1,41 +1,98 @@
 ﻿using BusTicketingApp.Interfaces;
-using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
-using BusTicketingApp.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BusTicketingApp.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class BookingController : ControllerBase
     {
         private readonly IBookingService _bookingService;
-      
+
         public BookingController(IBookingService bookingService)
         {
             _bookingService = bookingService;
         }
-        [HttpPost("book-seats")]
-        public async Task<ActionResult<string>> BookSeats([FromBody] SeatSelectionRequestDTO seatSelectionRequestDTO)
+
+        [HttpGet("history")]
+        public async Task<ActionResult> GetBookingHistory(int customerId)
         {
-            if (seatSelectionRequestDTO.SelectedSeatIds == null || !seatSelectionRequestDTO.SelectedSeatIds.Any())
+            try
             {
-                return BadRequest("No seats selected.");
+                var bookingHistory = await _bookingService.BookingHistory(customerId);
+                return Ok(bookingHistory);
             }
-
-            // You can call your booking service to handle the logic.
-            var booking = await _bookingService.BookSeats(seatSelectionRequestDTO);
-
-            if (booking == null)
+            catch (Exception ex)
             {
-                return StatusCode(500, "Failed to book seats.");
+                return BadRequest(new { message = ex.Message });
             }
+        }
 
-            return Ok(booking);
+        [HttpGet("BusesOnRoute")]
+        public async Task<ActionResult> GetBusesOnRoute(string from,  string to,  DateTime dateTime)
+        {
+            try
+            {
+                var buses = await _bookingService.GetAllBusesOnRoute(from, to, dateTime);
+                return Ok(buses);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpPost("payment")]
+        public async Task<ActionResult> InitiatePayment(PaymentRequestDTO paymentRequest)
+        {
+            try
+            {
+                var paymentResponse = await _bookingService.PaymentIntiation(paymentRequest);
+                return Ok(paymentResponse);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpGet("bus-details")]
+        public async Task<ActionResult> GetBusDetailsWithSeats(int busId)
+        {
+            try
+            {
+                var busDetails = await _bookingService.ViewBusDetailsAlongWithSeats(busId);
+                return Ok(new {
+                    message="A: Aisle W:Window",
+                    data=busDetails});
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpPost("confirm")]
+        public async Task<ActionResult> ConfirmBooking(SeatSelectionRequestDTO seatSelectionRequest, DateTime date)
+        {
+            try
+            {
+                var bookingConfirmationId = await _bookingService.BookingConfirmation(seatSelectionRequest, date);
+                return Ok(
+                    new
+                    {
+                        
+
+                        message="Your booking is pending, once payment is done it is confirmed. Please refer to your booking id to make payment",
+                        id=bookingConfirmationId
+                    }
+                    );
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
     }
-
-}
 }

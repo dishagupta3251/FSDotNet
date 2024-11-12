@@ -8,6 +8,8 @@ namespace BusTicketingApp.Interfaces
         public Task<int> AddNewRoutes(AvailableRouteDTO routeData);
 
         public Task<int> GetIdByJourney(string checkSource, string checkDestination);
+
+        public Task<AvailableRoute> GetRoute(int routeId);
         public Task<IEnumerable<AvailableRoute>> GetAllRoutes();
 
     }

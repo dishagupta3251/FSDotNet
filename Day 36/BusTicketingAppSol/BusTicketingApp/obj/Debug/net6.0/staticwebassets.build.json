@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5Tcj+3CG1dy1YVuTsLVMUDi6g8gpySY4fRHChUMJJ0s=",
+  "Source": "BusTicketingApp",
+  "BasePath": "_content/BusTicketingApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

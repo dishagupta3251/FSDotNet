@@ -10,12 +10,11 @@ namespace BusTicketingApp.Interfaces
 
         public Task<BusWithSeatsResponseDTO> ViewBusDetailsAlongWithSeats(int busId);
 
-        public Task<IEnumerable<SeatsResponseDTO>> SelectSeats(SeatSelectionRequestDTO seatSelection);
 
-        public Task<string> PaymentIntiation(PaymentRequestDTO paymentRequestDTO);
+        public Task<BookingResponseDTO> PaymentIntiation(PaymentRequestDTO paymentRequestDTO);
         public Task<BookingHistoryDTO> BookingHistory(int customerId);
 
-        public Task<BookingResponseDTO> BookingConfirmation();
+        public Task<int> BookingConfirmation(SeatSelectionRequestDTO seatSelectionRequestDTO,DateTime date);
         
     }
 }

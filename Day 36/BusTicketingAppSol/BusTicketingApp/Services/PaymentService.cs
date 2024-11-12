@@ -10,17 +10,17 @@ namespace BusTicketingApp.Services
         {
             _paymentRepository = repository;
         }
-        public async Task<string> AddPayment(Payment payment)
+        public async Task<Payment> AddPayment(Payment payment)
         {
             try
             {
-                var status = "Successful";
+                
                 var paymentAdded=await _paymentRepository.Add(payment);
                 if (paymentAdded == null)
                 {
                     throw new Exception("Payment Failed");
                 }
-                return status ;
+                return paymentAdded ;
             }
             catch 
             {

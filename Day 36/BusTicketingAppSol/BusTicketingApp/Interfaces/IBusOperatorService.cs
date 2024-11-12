@@ -5,9 +5,11 @@ namespace BusTicketingApp.Interfaces
 {
     public interface IBusOperatorService
     {
-        Task<BusOperator> AddBusOperator(BusOperatorCreateDTO busOperatorCreateDTO);
-        Task<BusOperator> UpdateBusOperator(int id, BusOperatorCreateDTO busOperatorCreateDTO);
-        Task<BusOperator> GetBusOperatorById(int id);
-        Task<IEnumerable<BusOperator>> GetAllBusOperators();
+        public Task<BusOperator> AddBusOperator(BusOperatorCreateDTO busOperatorCreateDTO);
+        public Task<BusOperator> UpdateBusOperator(int id, BusOperatorCreateDTO busOperatorCreateDTO);
+        public Task<BusOperator> GetBusOperatorById(int id);
+
+        public Task<ReviewResponseDTO> GetOperatorReview(int id);
+        public Task<IEnumerable<BusOperator>> GetAllBusOperators();
     }
 }

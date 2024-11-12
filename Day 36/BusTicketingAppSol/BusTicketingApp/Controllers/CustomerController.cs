@@ -17,14 +17,14 @@ namespace BusTicketingApp.Controllers
             _customerService = customerService;
         }
 
-        [Authorize(Roles ="Customer")]
+       // [Authorize(Roles ="Customer")]
         [HttpPost]
         public async Task<ActionResult<Customer>> AddCustomer(CustomerCreateDTO customerCreateDTO)
         {
             try
             {
                 var customer = await _customerService.AddCustomer(customerCreateDTO);
-                return CreatedAtAction(nameof(GetCustomerById), new { id = customer.CustomerId }, customer);
+                return Ok(new { id = customer.CustomerId });
             }
             catch (Exception ex)
             {
@@ -32,7 +32,7 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-        [Authorize(Roles ="Customer")]
+       // [Authorize(Roles ="Customer")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCustomer(int id, CustomerCreateDTO customerCreateDTO)
         {
@@ -47,7 +47,7 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-        [Authorize(Roles ="Admin,BusOperator")]
+       // [Authorize(Roles ="Admin,BusOperator")]
         [HttpGet("{id}")]
         public async Task<ActionResult<Customer>> GetCustomerById(int id)
         {
@@ -62,7 +62,7 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-        [Authorize(Roles = "Admin,BusOperator")]
+      //  [Authorize(Roles = "Admin,BusOperator")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Customer>>> GetAllCustomers()
         {

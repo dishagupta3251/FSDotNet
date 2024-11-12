@@ -74,5 +74,7 @@ namespace BusTicketingApp.Controllers
                 return NotFound(new { message = ex.Message });
             }
         }
+
+       
     }
 }

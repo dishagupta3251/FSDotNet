@@ -11,7 +11,8 @@ namespace BusTicketingApp.Models
         public string LicenseNumber { get; set; } = string.Empty;
         public string CompanyName { get; set; } = string.Empty;
         public string OperatorContact { get; set; } = string.Empty;
-       
+        
+        public IEnumerable<Review> Reviews { get; set; }
         public IEnumerable<Bus> Buses { get; set; } 
 
 

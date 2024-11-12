@@ -80,7 +80,7 @@ namespace BusTicketingApp.Repositories
             exsistingBus.BusNumber = entity.BusNumber??exsistingBus.BusNumber;
             exsistingBus.BusType = entity.BusType==exsistingBus.BusType?exsistingBus.BusType:entity.BusType;
            
-            exsistingBus.Status = entity.Status ?? exsistingBus.Status;
+            exsistingBus.Status = entity.Status;
             exsistingBus.StandardFare = entity.StandardFare == 0 ? exsistingBus.StandardFare : entity.StandardFare;
             exsistingBus.PremiumFare = entity.PremiumFare == 0 ? exsistingBus.PremiumFare : entity.PremiumFare;
 

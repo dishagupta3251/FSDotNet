@@ -64,5 +64,19 @@ namespace BusTicketingApp.Services
                 throw new Exception("Cannot get id by journey details");
             }
         }
+
+        public async Task<AvailableRoute> GetRoute(int routeId)
+        {
+            try
+            {
+                var fetchingRoute= await _repository.Get(routeId);
+                if (fetchingRoute == null) throw new Exception("Cannot fetch route");
+                return fetchingRoute;
+            }
+            catch
+            {
+                throw new Exception();
+            }
+        }
     }
 }
