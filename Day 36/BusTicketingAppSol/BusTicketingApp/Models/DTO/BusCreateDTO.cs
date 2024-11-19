@@ -10,6 +10,6 @@
         public decimal PremiumFare { get; set; }
         public int OperatorId { get; set; }
         public int RouteId { get; set; }
-        public DayOfWeek Day { get; set; }
+        public DaysOfWeek Day { get; set; }
     }
 }

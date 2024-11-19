@@ -70,7 +70,7 @@ namespace BusTicketingApp.Repositories
                 var seatBookings = await _ticketingContext.SeatsBooked
                     .ToListAsync();
 
-                if (seatBookings.Count == 0) throw new Exception();
+                
                 return seatBookings;
             }
             catch
@@ -91,7 +91,7 @@ namespace BusTicketingApp.Repositories
                 existingSeatBooking.BookingId = entity.BookingId != 0 ? entity.BookingId : existingSeatBooking.BookingId;
                 existingSeatBooking.SeatStatus= entity.SeatStatus;
 
-                _ticketingContext.SeatsBooked.Update(existingSeatBooking);
+              
                 await _ticketingContext.SaveChangesAsync();
 
                 return existingSeatBooking;

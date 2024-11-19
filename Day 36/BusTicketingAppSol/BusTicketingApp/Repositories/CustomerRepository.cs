@@ -3,6 +3,7 @@ using BusTicketingApp.Exceptions;
 using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace BusTicketingApp.Repositories
 {
@@ -82,11 +83,33 @@ namespace BusTicketingApp.Repositories
             try
             {
                 var existingCustomer = await Get(key);
-                existingCustomer.CustomerName = entity.CustomerName ?? existingCustomer.CustomerName;
-                existingCustomer.Age = entity.Age != 0 ? entity.Age : existingCustomer.Age;
-                existingCustomer.City = entity.City ?? existingCustomer.City;
+                if (!string.IsNullOrEmpty(entity.CustomerName))
+                {
+                    existingCustomer.CustomerName = entity.CustomerName;
+                }
 
-                _ticketingContext.Customers.Update(existingCustomer);
+                if (entity.Age != 0) 
+                {
+                    existingCustomer.Age = entity.Age;
+                }
+
+                if (!string.IsNullOrEmpty(entity.City) && entity.City != existingCustomer.City)
+                {
+                    existingCustomer.City = entity.City;
+                }
+
+
+                if (!string.IsNullOrEmpty(entity.Contact) && entity.Contact != existingCustomer.Contact)
+                {
+                    existingCustomer.Contact = entity.Contact;
+                }
+
+                if (!string.IsNullOrEmpty(entity.Email) && entity.Email != existingCustomer.Email)
+                {
+                    existingCustomer.Email = entity.Email;
+                }
+
+
                 await _ticketingContext.SaveChangesAsync();
 
                 return existingCustomer;

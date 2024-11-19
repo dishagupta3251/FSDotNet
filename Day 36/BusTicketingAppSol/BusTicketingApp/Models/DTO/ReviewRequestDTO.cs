@@ -3,6 +3,6 @@
     public class ReviewRequestDTO
     {
         public int OperatorId { get; set; }
-        public string Review { get; set; } = string.Empty;
+        public string Reviews { get; set; } = string.Empty;
     }
 }

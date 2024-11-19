@@ -44,26 +44,26 @@ public class SeatService : ISeatService
         }
     }
 
-    public async Task<IEnumerable<SeatsResponseDTO>> UpdateSeatStatus(List<int> seatIds)
+    public async Task<SeatsResponseDTO> UpdateSeatStatus(int seatId)
     {
         try
         {
-            List<SeatsResponseDTO> selectedSeats = new List<SeatsResponseDTO>();
 
-            foreach (var id in seatIds)
-            {
-                var seat = await _seatRepository.Get(id);
+           
+                var seat = await _seatRepository.Get(seatId);
                 seat.IsBooked = true; 
+                await _seatRepository.Update(seat,seat.SeatsId);
                 SeatsResponseDTO dTO = new SeatsResponseDTO
                 {
+                    SeatId = seatId,
                     Seat = seat.SeatNumber + seat.SeatType.ToString(),
                     Price = seat.Price
                 };
 
-                selectedSeats.Add(dTO);
-            }
+                
+            
 
-            return selectedSeats; 
+            return dTO; 
         }
         catch (Exception ex)
         {

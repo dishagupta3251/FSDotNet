@@ -12,100 +12,117 @@ namespace UnitTesting.RepositoryTest
         DbContextOptions options;
         TicketingContext context;
         UserRepository repository;
+
         [SetUp]
         public void Setup()
         {
-            options= new DbContextOptionsBuilder<TicketingContext>()
-              .UseInMemoryDatabase("TestRepo")
-              .Options;
-            context=new TicketingContext(options);
-            repository=new UserRepository(context);
+            options = new DbContextOptionsBuilder<TicketingContext>()
+                .UseInMemoryDatabase("TestRepo")
+                .Options;
+
+            context = new TicketingContext(options);
+            repository = new UserRepository(context);
         }
 
-        public async Task<User> AddDetails()
+        private User AddDetails()
         {
-            User user = new User()
+            return new User
             {
-               
                 FirstName = "test",
-                Username = "test123",
-                Email = "test@gmail.com",
-                ContactNumber = "9372768901",
                 Password = Encoding.UTF8.GetBytes("Password"),
                 PasswordHash = Encoding.UTF8.GetBytes("TestPassword"),
                 Role = Roles.Customer
             };
-            return user;
         }
 
         [Test]
         public async Task TestAdd()
         {
-           var user= await AddDetails();
-            var result=await repository.Add(user);
-            Assert.AreEqual(result.UserId, user.UserId);
-        }
-     
-      
-        [Test]
-       
+            var user = AddDetails();
+            var result = await repository.Add(user);
 
-        public async Task TestAddException()
+            Assert.AreEqual(result.FirstName, user.FirstName);
+            Assert.AreEqual(result.Username, "test8901");
+        }
+
+        [Test]
+        public void TestAddException()
         {
             Assert.ThrowsAsync<CouldNotAddException>(async () => await repository.Add(null));
-
         }
+
         [Test]
         public async Task TestDelete()
         {
-            var user = await AddDetails();
-            await repository.Add(user);
-            var deletedUser = await  repository.Delete(user.Username);
-            Assert.AreEqual(deletedUser.UserId, user.UserId);
+            var user = AddDetails();
+            var addedUser = await repository.Add(user);
+
+            var deletedUser = await repository.Delete(addedUser.Username);
+            Assert.AreEqual(deletedUser.Username, addedUser.Username);
         }
+
         [Test]
-        public async Task TestDeleteException()
-        { 
-             Assert.ThrowsAsync<NotFoundException>(async () => await repository.Delete(null));
+        public void TestDeleteException()
+        {
+            Assert.ThrowsAsync<NotFoundException>(async () => await repository.Delete("nonExistentUsername"));
         }
+
         [Test]
         public async Task TestGet()
         {
-            var user = await AddDetails();
-            await repository.Add(user);
-            var _user= await repository.Get(user.Username);
-            Assert.IsNotNull(_user.Username,user.Username);
+            var user = AddDetails();
+            var addedUser = await repository.Add(user);
+
+            var fetchedUser = await repository.Get(addedUser.Username);
+            Assert.AreEqual(fetchedUser.Username, addedUser.Username);
         }
+
         [Test]
-        public async Task TestGetException()
+        public void TestGetException()
         {
-            Assert.ThrowsAsync<NotFoundException>(async () => await repository.Get("hello"));
+            Assert.ThrowsAsync<NotFoundException>(async () => await repository.Get("nonExistentUsername"));
         }
+
         [Test]
         public async Task GetAllTest()
         {
-            var user = await AddDetails();
+            context.Users.RemoveRange(context.Users); // Ensure clean slate.
+            var user = AddDetails();
             await repository.Add(user);
-            var _user = await repository.GetAll();
-            Assert.IsNotNull(_user);
+
+            var users = await repository.GetAll();
+            Assert.IsNotEmpty(users);
         }
+
         [Test]
-        public async Task GetAllTestException()
+        public void GetAllTestException()
         {
+            context.Users.RemoveRange(context.Users); // Ensure no data in the context.
             Assert.ThrowsAsync<CollectionEmptyException>(async () => await repository.GetAll());
         }
+
         [Test]
         public async Task UpdateTest()
         {
-            var user = await AddDetails();
-            await repository.Add(user);
-            var _user=await repository.Update(user,user.Username);
-            Assert.IsNotNull(_user);
+            var user = AddDetails();
+            var addedUser = await repository.Add(user);
+
+            user.FirstName = "UpdatedName";
+            var updatedUser = await repository.Update(user, addedUser.Username);
+
+            Assert.AreEqual(updatedUser.FirstName, "UpdatedName");
         }
+
         [Test]
-        public async Task UpdateTestException()
+        public void UpdateTestException()
         {
-            Assert.ThrowsAsync<NotFoundException>(async () => await repository.Update(null,"hello"));
+            var invalidUser = new User
+            {
+                Username = "nonExistentUsername",
+                FirstName = "Name"
+            };
+
+            Assert.ThrowsAsync<NotFoundException>(async () => await repository.Update(invalidUser, "nonExistentUsername"));
         }
     }
 }

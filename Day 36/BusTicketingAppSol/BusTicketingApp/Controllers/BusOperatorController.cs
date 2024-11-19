@@ -1,6 +1,7 @@
 ﻿using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BusTicketingApp.Controllers
@@ -15,24 +16,12 @@ namespace BusTicketingApp.Controllers
         {
             _busOperatorService = busOperatorService;
         }
+       
 
-        [HttpPost]
-        public async Task<ActionResult<BusOperator>> AddBusOperator(BusOperatorCreateDTO busOperatorCreateDTO)
-        {
-            try
-            {
-                var busOperator = await _busOperatorService.AddBusOperator(busOperatorCreateDTO);
-                return CreatedAtAction(nameof(GetBusOperatorById), new { id = busOperator.OperatorId }, busOperator);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { message = ex.Message });
-            }
-        }
+        [HttpPatch("BusOperatorProfileUpdate")]
+        [Authorize(Roles = "BusOperator")]
 
-        
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateBusOperator(int id,  BusOperatorCreateDTO busOperatorCreateDTO)
+        public async Task<IActionResult> UpdateBusOperator(int id, BusOperatorCreateDTO busOperatorCreateDTO)
         {
             try
             {
@@ -45,8 +34,9 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-       
         [HttpGet("{id}")]
+        [Authorize(Roles = "BusOperator")]
+
         public async Task<ActionResult<BusOperator>> GetBusOperatorById(int id)
         {
             try
@@ -60,8 +50,9 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-     
-        [HttpGet]
+        [HttpGet("GetAll")]
+        [Authorize(Roles = "Admin")]
+
         public async Task<ActionResult<IEnumerable<BusOperator>>> GetAllBusOperators()
         {
             try
@@ -74,7 +65,10 @@ namespace BusTicketingApp.Controllers
                 return NotFound(new { message = ex.Message });
             }
         }
+        
 
-       
+    
+
+
     }
 }

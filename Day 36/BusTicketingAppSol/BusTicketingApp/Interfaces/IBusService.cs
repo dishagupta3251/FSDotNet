@@ -8,6 +8,8 @@ namespace BusTicketingApp.Interfaces
         public Task<Bus> BuildBus(BusCreateDTO bus);
         public Task<Bus> UpdateBus(BusUpdateDTO busDTO, int id);
         public Task<BusWithSeatsResponseDTO> GetBusWithSeats(int id);
+
+        public Task<IEnumerable<Bus>> GetAllBuses();
         public Task<Bus> GetBus(int id);
         public Task<IEnumerable<Bus>> GetBusesByRouteAndDay(int routeId, DateTime dateTime);
     }

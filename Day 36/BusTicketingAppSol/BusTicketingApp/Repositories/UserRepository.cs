@@ -1,4 +1,5 @@
-﻿using BusTicketingApp.Contexts;
+﻿using System.Text;
+using BusTicketingApp.Contexts;
 using BusTicketingApp.Exceptions;
 using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
@@ -12,16 +13,11 @@ namespace BusTicketingApp.Repositories
         public UserRepository(TicketingContext ticketingContext) {
             _ticketingContext = ticketingContext;
         }
-        public string GenerateUsername(string fullname,string number)
-        {
-            string username = fullname + number.Substring(7);
-            return username;
-        }
+        
         public async Task<User> Add(User entity)
         {
             try
             {
-                entity.Username = GenerateUsername(entity.FirstName, entity.ContactNumber);
                 _ticketingContext.Users.Add(entity);
                 await _ticketingContext.SaveChangesAsync();
                 return entity;
@@ -85,18 +81,12 @@ namespace BusTicketingApp.Repositories
         public async Task<User> Update(User entity, string key)
         {
             var existingUser = await Get(key);
-            existingUser.FirstName = entity.FirstName ?? existingUser.FirstName;
-            existingUser.Email = entity.Email ?? existingUser.Email;
-            existingUser.ContactNumber = entity.ContactNumber ?? existingUser.ContactNumber;
+           
+          
             existingUser.Password = entity.Password ?? existingUser.Password;
-            existingUser.PasswordHash = entity.PasswordHash ?? existingUser.PasswordHash;
-            existingUser.Role = entity.Role==existingUser.Role?existingUser.Role:entity.Role;
-            if (entity.FirstName != existingUser.FirstName || entity.ContactNumber != existingUser.ContactNumber)
-            {
-                existingUser.Username = GenerateUsername(existingUser.FirstName, existingUser.ContactNumber);
-            }
+          
 
-            _ticketingContext.Users.Update(existingUser);
+            
             await _ticketingContext.SaveChangesAsync();
 
             return existingUser;

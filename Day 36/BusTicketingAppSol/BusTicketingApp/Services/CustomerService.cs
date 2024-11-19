@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using BusTicketingApp.EmailInterface;
+using BusTicketingApp.EmailModels;
 using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
@@ -12,12 +14,14 @@ namespace BusTicketingApp.Services
         private readonly IRepository<Customer,int> _customerRepository;
         private readonly IMapper _mapper;
         private readonly ILogger<CustomerService> _logger;
+        private readonly IEmailSender _emailSender;
 
-        public CustomerService(IRepository<Customer,int> customerRepository, IMapper mapper, ILogger<CustomerService> logger)
+        public CustomerService(IRepository<Customer,int> customerRepository, IMapper mapper, ILogger<CustomerService> logger,IEmailSender emailSender)
         {
             _customerRepository = customerRepository;
             _mapper = mapper;
             _logger = logger;
+            _emailSender = emailSender;
         }
 
         public async Task<Customer> AddCustomer(CustomerCreateDTO customerCreateDTO)
@@ -36,8 +40,16 @@ namespace BusTicketingApp.Services
                 throw new Exception("An error occurred while adding the customer.");
             }
         }
+        private void SendMail(string mailTo, string title, string body)
+        {
+            var rng = new Random();
+            var message = new Message(new string[] {
+                        mailTo },
+                    title,
+                    body);
+            _emailSender.SendEmail(message);
+        }
 
-   
         public async Task<Customer> UpdateCustomer(int id, CustomerCreateDTO customerCreateDTO)
         {
             try
@@ -49,10 +61,18 @@ namespace BusTicketingApp.Services
                     _logger.LogWarning($"Customer with ID {id} not found for update.");
                     throw new Exception("Customer not found.");
                 }
+                var customer = _mapper.Map<Customer>(customerCreateDTO);
+                var updatedCustomer = await _customerRepository.Update(customer, id);
+                string body = $@"
+<!DOCTYPE html>
+<html>
+<head>
+<h1>OK</h1>
+</head>
 
-             
-                _mapper.Map(customerCreateDTO, existingCustomer);
-                var updatedCustomer = await _customerRepository.Update(existingCustomer, id);
+</html>";
+
+                SendMail(updatedCustomer.Email, "Customer Profile Updated",body );
 
                 _logger.LogInformation($"Successfully updated customer with ID: {id}");
                 return updatedCustomer;

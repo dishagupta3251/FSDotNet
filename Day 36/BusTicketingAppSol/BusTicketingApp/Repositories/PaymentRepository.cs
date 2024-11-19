@@ -87,7 +87,7 @@ namespace BusTicketingApp.Repositories
                 existingPayment.Type = entity.Type;
                 
 
-                _ticketingContext.Payments.Update(existingPayment);
+                
                 await _ticketingContext.SaveChangesAsync();
 
                 return existingPayment;

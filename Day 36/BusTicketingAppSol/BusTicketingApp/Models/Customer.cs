@@ -3,11 +3,16 @@
     public class Customer
     {
         public int CustomerId { get; set; }
-        public string CustomerName { get; set; }
-        public int Age {  get; set; }
+        public string CustomerName { get; set; } = string.Empty;
+        public int Age { get; set; } = 0;
+        public string City { get; set; } = string.Empty;
+        
+        public string Contact { get; set; }= string.Empty;
 
-        public string City { get; set; }
+        public string Email { get; set; } = string.Empty;
         public int UserId { get; set; } 
+
+
         
         public IEnumerable<Booking> Bookings { get; set; }
 

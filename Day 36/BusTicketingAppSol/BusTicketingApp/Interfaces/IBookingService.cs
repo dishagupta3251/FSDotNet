@@ -14,7 +14,7 @@ namespace BusTicketingApp.Interfaces
         public Task<BookingResponseDTO> PaymentIntiation(PaymentRequestDTO paymentRequestDTO);
         public Task<BookingHistoryDTO> BookingHistory(int customerId);
 
-        public Task<int> BookingConfirmation(SeatSelectionRequestDTO seatSelectionRequestDTO,DateTime date);
+        public Task<int> BookingConfirmation(SeatSelectionRequestDTO seatSelectionRequestDTO);
         
     }
 }

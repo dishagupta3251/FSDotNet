@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 using BusTicketingApp.Models.DTO;
 
 namespace BusTicketingApp.Models
@@ -10,14 +11,17 @@ namespace BusTicketingApp.Models
             public int BookingId { get; set; }   
             
             public DateTime BookingDate { get; set; }
-            public string BusNumber { get; set; }
+        public string BusNumber { get; set; } = string.Empty;
             public DateTime BookedForDate {  get; set; }
             public DaysOfWeek BookedForDay { get; set; }
-            
-            public string BookedSeats {  get; set; }
-            public decimal TotalFare { get; set; }         
-            public string IsConfirmed { get; set; }         
+
+        public string BookedSeats { get; set; } = string.Empty;
+
+            public decimal TotalFare { get; set; }
+        public string IsConfirmed { get; set; } = string.Empty;     
             public int CustomerId { get; set; }
+
+            [JsonIgnore]
             public Customer Customer { get; set; }
            
             public int RouteId { get; set; }

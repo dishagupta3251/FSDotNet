@@ -3,6 +3,7 @@ using BusTicketingApp.Models.DTO;
 using BusTicketingApp.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BusTicketingApp.Controllers
 {
@@ -17,12 +18,13 @@ namespace BusTicketingApp.Controllers
             _reviewService = reviewService;
         }
         [HttpPost]
+        [Authorize(Roles ="Customer")]
         public async Task<ActionResult<Review>> PostReview(ReviewRequestDTO reviewRequestDTO)
         {
             try
             {
                 var review =await _reviewService.Post(reviewRequestDTO);
-                if (review != null) throw new Exception("Review not added");
+                if (review == null) throw new Exception("Review not added");
                 return Ok(review);
 
             }
@@ -34,6 +36,7 @@ namespace BusTicketingApp.Controllers
         }
 
         [HttpGet("{operatorid}")]
+        [Authorize(Roles ="Customer,Admin")]
         public async Task<ActionResult<IEnumerable<Review>>> GetReview(int operatorid)
         {
             try

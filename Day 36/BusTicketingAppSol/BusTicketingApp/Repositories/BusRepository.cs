@@ -83,8 +83,6 @@ namespace BusTicketingApp.Repositories
             exsistingBus.Status = entity.Status;
             exsistingBus.StandardFare = entity.StandardFare == 0 ? exsistingBus.StandardFare : entity.StandardFare;
             exsistingBus.PremiumFare = entity.PremiumFare == 0 ? exsistingBus.PremiumFare : entity.PremiumFare;
-
-            _ticketingContext.Buses.Update(exsistingBus);
             await _ticketingContext.SaveChangesAsync();
 
             return exsistingBus;

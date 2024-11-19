@@ -60,13 +60,19 @@ namespace BusTicketingApp.Contexts
                 .HasForeignKey(r => r.OperatorId)
                 .HasConstraintName("FK_Review_Operator");
 
-            modelBuilder.Entity<Customer>()
-                  .HasOne(c => c.User)
-                  .WithOne()
-                  .HasForeignKey<Customer>(c => c.UserId)
+            modelBuilder.Entity<User>()
+                  .HasOne(u => u.Customer)
+                  .WithOne(c => c.User)
+                  .HasForeignKey<Customer>(u => u.UserId)
                   .OnDelete(DeleteBehavior.Restrict);
 
-         modelBuilder.Entity<SeatsBooked>()
+            modelBuilder.Entity<BusOperator>()
+              .HasOne(b => b.Users)
+              .WithOne(u => u.BusOperator)
+              .HasForeignKey<BusOperator>(u => u.UserId)
+              .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<SeatsBooked>()
                 .HasOne(sb=>sb.Seats)
                 .WithOne(s=>s.SeatsBooked)
                 .HasForeignKey<SeatsBooked>(s => s.SeatId)
@@ -117,11 +123,11 @@ namespace BusTicketingApp.Contexts
                 
 
             modelBuilder.Entity<Payment>()
-        .HasOne(p => p.Booking)
-        .WithOne(b => b.Payment)
-        .HasForeignKey<Payment>(p => p.BookingId)
-        .OnDelete(DeleteBehavior.Restrict)
-        .HasConstraintName("FK_Payment_Booking");
+            .HasOne(p => p.Booking)
+            .WithOne(b => b.Payment)
+            .HasForeignKey<Payment>(p => p.BookingId)
+            .OnDelete(DeleteBehavior.Restrict)
+            .HasConstraintName("FK_Payment_Booking");
 
             modelBuilder.Entity<Booking>()
                 .HasOne(b => b.Customer)
@@ -141,13 +147,6 @@ namespace BusTicketingApp.Contexts
                 .HasForeignKey(b => b.RouteId)
                 .OnDelete(DeleteBehavior.Restrict)
                 .HasConstraintName("FK_Booking_Routes");
-
-     
-
-            
-
-
-
                 
         }
     }

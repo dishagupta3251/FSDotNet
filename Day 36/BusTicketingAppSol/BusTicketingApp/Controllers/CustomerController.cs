@@ -17,8 +17,9 @@ namespace BusTicketingApp.Controllers
             _customerService = customerService;
         }
 
-       // [Authorize(Roles ="Customer")]
-        [HttpPost]
+       
+        [HttpPost("CreateCustomer")]
+        [Authorize(Roles = "Customer")]
         public async Task<ActionResult<Customer>> AddCustomer(CustomerCreateDTO customerCreateDTO)
         {
             try
@@ -32,8 +33,9 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-       // [Authorize(Roles ="Customer")]
-        [HttpPut("{id}")]
+        [HttpPatch("UpdateCustomerProfile")]
+
+        [Authorize(Roles = "Customer")]
         public async Task<IActionResult> UpdateCustomer(int id, CustomerCreateDTO customerCreateDTO)
         {
             try
@@ -47,8 +49,9 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-       // [Authorize(Roles ="Admin,BusOperator")]
-        [HttpGet("{id}")]
+       
+        [HttpGet("GetCustomerById")]
+        [Authorize(Roles = "Admin,BusOperator")]
         public async Task<ActionResult<Customer>> GetCustomerById(int id)
         {
             try
@@ -62,8 +65,8 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-      //  [Authorize(Roles = "Admin,BusOperator")]
-        [HttpGet]
+        [HttpGet("GetAllCustomer")]
+        [Authorize(Roles = "Admin,BusOperator")]
         public async Task<ActionResult<IEnumerable<Customer>>> GetAllCustomers()
         {
             try

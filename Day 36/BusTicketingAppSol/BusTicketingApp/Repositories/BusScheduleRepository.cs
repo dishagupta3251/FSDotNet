@@ -93,7 +93,7 @@ namespace BusTicketingApp.Repositories
                 existingSchedule.RouteId = entity.RouteId;
                 existingSchedule.BusId = entity.BusId;
 
-                _ticketingContext.BusSchedules.Update(existingSchedule);
+                
                 await _ticketingContext.SaveChangesAsync();
 
                 return existingSchedule;

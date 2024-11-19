@@ -1,6 +1,7 @@
 ﻿using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +16,8 @@ namespace BusTicketingApp.Controllers
         {
             _routingService=routingService;
         }
-        [HttpPost]
+        [HttpPost("CreateRoute")]
+        [Authorize(Roles = "BusOperator")]
         public async Task<ActionResult<AvailableRoute>> CreateRoute(AvailableRouteDTO availableRouteDTO)
         {
             try
@@ -28,7 +30,8 @@ namespace BusTicketingApp.Controllers
                 throw new Exception("Creation failed");
             }
         }
-        [HttpGet]
+        [HttpGet("GetAllRoutes")]
+        [Authorize(Roles = "Customer,Admin")]
         public async Task<ActionResult<IEnumerable<AvailableRoute>>> AvailableRoutes()
         {
             try

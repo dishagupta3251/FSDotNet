@@ -16,9 +16,9 @@ namespace BusTicketingApp.Controllers
         {
             _busService = busService;
         }
+        [HttpPost("CreateBus")]
+        [Authorize(Roles = "BusOperator")]
         
-        [HttpPost]
-      
         public async Task<ActionResult<int>> AddBus(BusCreateDTO busCreateDTO)
         {
             try
@@ -26,11 +26,26 @@ namespace BusTicketingApp.Controllers
                 var bus = await _busService.BuildBus(busCreateDTO);
                 return Ok(new { 
                     message="Bus Id is given below",
-                    data=bus.BusId });
+                    BusId=bus.BusId });
             }
             catch
             {
                 throw new Exception("Cannot create bus entity");
+            }
+        }
+        [HttpGet("GetAllBuses")]
+        [Authorize(Roles = "BusOperator")]
+        
+        public async Task<ActionResult<IEnumerable<Bus>>> GetAll()
+        {
+            try
+            {
+                var buses = await _busService.GetAllBuses();
+                return Ok(buses);
+            }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
             }
         }
         

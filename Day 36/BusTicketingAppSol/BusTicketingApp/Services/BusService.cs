@@ -1,5 +1,6 @@
 ﻿
 using AutoMapper;
+using BusTicketingApp.Exceptions;
 using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
@@ -13,14 +14,15 @@ namespace BusTicketingApp.Services
         private readonly IRepository<BusSchedule, int> _busScheduleRepository;
         private readonly IRepository<Seats, int> _seatRepository;
         private readonly IRepository<AvailableRoute, int> _availableRouteRepository;
-        private readonly IRepository<BusOperator, int>
-            _busOperatorRepository;
+        private readonly IRepository<SeatsBooked, int> _seatsBookedRespository;
         private readonly IMapper _mapper;
-        public BusService(IRepository<Bus,int> repository,IRepository<BusSchedule,int> repository1,IMapper mapper, IRepository<Seats,int> repository2,IRepository<AvailableRoute,int> repository3)
+
+        public BusService(IRepository<Bus,int> repository,IRepository<BusSchedule,int> repository1,IMapper mapper, IRepository<Seats,int> repository2,IRepository<AvailableRoute,int> repository3, IRepository<SeatsBooked,int> repository4)
         {
             _busRepository = repository;
             _busScheduleRepository = repository1;
             _seatRepository= repository2;
+            _seatsBookedRespository = repository4;
             _availableRouteRepository= repository3;
             _mapper = mapper;
         }
@@ -28,12 +30,19 @@ namespace BusTicketingApp.Services
         {
             try
             {
-                // mapping explicitly
+                
 
                 var newBus = _mapper.Map<Bus>(bus);
                 var addedBus=await _busRepository.Add(newBus);
 
-                var busSchedule = _mapper.Map<BusSchedule>(newBus);
+                var busSchedule = new BusSchedule()
+                {
+                    BusId=addedBus.BusId,
+                    Day=bus.Day,
+                    RouteId=bus.RouteId,
+
+
+                };
 
                await _busScheduleRepository.Add(busSchedule);
 
@@ -68,7 +77,7 @@ namespace BusTicketingApp.Services
                 throw new Exception("Could not add bus");
             }
         }
-
+        
         public async Task<BusWithSeatsResponseDTO> GetBusWithSeats(int id)
         {
             try
@@ -78,17 +87,45 @@ namespace BusTicketingApp.Services
                 if (bus == null || seats == null) throw new Exception();
 
                 List<SeatsResponseDTO> seatsResponseDTOs = new List<SeatsResponseDTO>();
-                foreach (var seat in seats) 
+
+                
+                var seatsBooked = (await _seatsBookedRespository.GetAll()).Where(s => s.SeatStatus.ToString()=="Pending"&& s.BusId==id).ToList();
+
+                if(seatsBooked.Count==0)
                 {
-                    var response = new SeatsResponseDTO()
+                    foreach(var seat in seats)
                     {
-                      
-                        Seat = seat.SeatNumber + seat.SeatType,
-                        Price=seat.Price,
-                    };
-                    seatsResponseDTOs.Add(response);
+                        var response = new SeatsResponseDTO()
+                        {
+                            SeatId = seat.SeatsId,
+                            Seat = seat.SeatNumber + seat.SeatType,
+                            Price = seat.Price,
+                        };
+                        seatsResponseDTOs.Add(response);
+                    }
+                }
+                else
+                {
+                    foreach (var seat in seats)
+                    {
+                        var seatBook = seatsBooked.FirstOrDefault(s => s.SeatId == seat.SeatsId);
+                        if (seatBook == null)
+                        {
+                            var response = new SeatsResponseDTO()
+                            {
+                                SeatId = seat.SeatsId,
+                                Seat = seat.SeatNumber + seat.SeatType,
+                                Price = seat.Price,
+                            };
+                            seatsResponseDTOs.Add(response);
+                        }
+
+
+                    }
 
                 }
+
+                
                 
                 BusWithSeatsResponseDTO busWithSeatsResponseDTO = new BusWithSeatsResponseDTO()
                 {
@@ -117,6 +154,8 @@ namespace BusTicketingApp.Services
                 var schedules = (await _busScheduleRepository.GetAll())
                     .Where(s => s.RouteId == routeId && s.Day == day)
                     .ToList();
+
+                if (schedules == null) throw new Exception("No buses can be found on the given date");
 
                
                 var busIds = schedules.Select(s => s.BusId).Distinct();
@@ -158,6 +197,20 @@ namespace BusTicketingApp.Services
                 return bus;
             }
             catch { 
+                throw new Exception();
+            }
+        }
+
+        public async Task<IEnumerable<Bus>> GetAllBuses()
+        {
+            try
+            {
+                var buses = await _busRepository.GetAll();
+                if (buses.Count() == 0) throw new CollectionEmptyException("Bus");
+                return buses;
+            }
+            catch
+            {
                 throw new Exception();
             }
         }

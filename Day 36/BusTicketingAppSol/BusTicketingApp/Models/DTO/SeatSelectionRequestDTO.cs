@@ -4,6 +4,8 @@
     {
         public int BusId { get; set; }
         public int CustomerId { get; set; }
+
+        public DateTime DateTime { get; set; }
         public List<int> SelectedSeatIds { get; set; }
     }
 }

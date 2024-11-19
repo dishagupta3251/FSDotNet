@@ -83,7 +83,7 @@ namespace BusTicketingApp.Repositories
                 existingReview.Reviews = entity.Reviews ?? existingReview.Reviews;
                 existingReview.OperatorId = entity.OperatorId;
 
-                _ticketingContext.Reviews.Update(existingReview);
+               
                 await _ticketingContext.SaveChangesAsync();
 
                 return existingReview;

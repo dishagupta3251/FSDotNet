@@ -150,6 +150,10 @@ namespace BusTicketingApp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("LicenseNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -162,7 +166,13 @@ namespace BusTicketingApp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("OperatorId");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("BusOperators");
                 });
@@ -209,7 +219,15 @@ namespace BusTicketingApp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Contact")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -352,15 +370,6 @@ namespace BusTicketingApp.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"), 1L, 1);
 
-                    b.Property<string>("ContactNumber")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -437,6 +446,17 @@ namespace BusTicketingApp.Migrations
                     b.Navigation("Operator");
                 });
 
+            modelBuilder.Entity("BusTicketingApp.Models.BusOperator", b =>
+                {
+                    b.HasOne("BusTicketingApp.Models.User", "Users")
+                        .WithOne("BusOperator")
+                        .HasForeignKey("BusTicketingApp.Models.BusOperator", "UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Users");
+                });
+
             modelBuilder.Entity("BusTicketingApp.Models.BusSchedule", b =>
                 {
                     b.HasOne("BusTicketingApp.Models.Bus", "Bus")
@@ -461,7 +481,7 @@ namespace BusTicketingApp.Migrations
             modelBuilder.Entity("BusTicketingApp.Models.Customer", b =>
                 {
                     b.HasOne("BusTicketingApp.Models.User", "User")
-                        .WithOne()
+                        .WithOne("Customer")
                         .HasForeignKey("BusTicketingApp.Models.Customer", "UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -585,6 +605,15 @@ namespace BusTicketingApp.Migrations
             modelBuilder.Entity("BusTicketingApp.Models.Seats", b =>
                 {
                     b.Navigation("SeatsBooked")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BusTicketingApp.Models.User", b =>
+                {
+                    b.Navigation("BusOperator")
+                        .IsRequired();
+
+                    b.Navigation("Customer")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

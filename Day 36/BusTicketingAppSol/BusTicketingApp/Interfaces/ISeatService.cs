@@ -9,6 +9,6 @@ namespace BusTicketingApp.Interfaces
 
         public Task<Seats> SeatById(int id);
 
-        public Task<IEnumerable<SeatsResponseDTO>> UpdateSeatStatus(List<int> seatIds);
+        public Task<SeatsResponseDTO> UpdateSeatStatus(int seatId);
     }
 }

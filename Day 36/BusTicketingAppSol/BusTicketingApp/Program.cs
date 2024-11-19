@@ -1,5 +1,8 @@
 using System.Text;
 using BusTicketingApp.Contexts;
+using BusTicketingApp.EmailInterface;
+using BusTicketingApp.EmailModels;
+using BusTicketingApp.EmailService;
 using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Repositories;
@@ -65,7 +68,9 @@ namespace BusTicketingApp
             builder.Services.AddScoped<IBusOperatorService, BusOperatorService>();
             builder.Services.AddScoped<IPaymentService, PaymentService>();
             builder.Services.AddScoped<IReviewService, ReviewService>();
-            builder.Services.AddScoped<ISeatService, SeatService>();    
+            builder.Services.AddScoped<ISeatService, SeatService>(); 
+            builder.Services.AddScoped<IEmailSender, EmailSender>(); 
+            
             builder.Services.AddScoped<IBusService, BusService>();
             #endregion
 
@@ -81,7 +86,10 @@ namespace BusTicketingApp
             #endregion
 
 
-
+            var emailConfig = builder.Configuration
+           .GetSection("EmailConfiguration")
+           .Get<EmailConfiguration>();
+            builder.Services.AddSingleton(emailConfig);
 
 
 
