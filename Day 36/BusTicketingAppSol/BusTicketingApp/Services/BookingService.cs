@@ -41,7 +41,7 @@ namespace BusTicketingApp.Services
 
        
 
-        public async Task<IEnumerable<BusResponseDTO>> GetAllBusesOnRoute(string from, string to, DateTime dateTime)
+        public async Task<IEnumerable<BusResponseDTO>> GetAllBusesOnRoute(string from, string to, DateTime dateTime, int pagenum, int pagesize)
         {
             try
             {
@@ -69,9 +69,20 @@ namespace BusTicketingApp.Services
                     };
                     result.Add(response);
                 }
+                pagenum = Math.Max(pagenum, 1);
+                pagesize = Math.Max(pagesize, 5);
 
-                
-                return result;
+                int total = result.Count();
+                int pageTotal = (int)Math.Ceiling((double)total / pagesize);
+
+                var returnBuses =       result
+                                        .Skip((pagenum - 1) * pagesize)
+                                        .Take(pagesize)
+                                        .ToList();
+
+
+
+                return returnBuses;
                 
 
             }
@@ -209,8 +220,16 @@ namespace BusTicketingApp.Services
         {
             try
             {
-                
-                var payment = await _paymentService.AddPayment(_mapper.Map<Payment>(paymentRequestDTO));
+                var addPayment = _mapper.Map<Payment>(paymentRequestDTO);
+               
+
+                //updating booking confirm status
+                var booking = await _repository.Get(paymentRequestDTO.BookingId);
+                booking.IsConfirmed = "Confirmed";
+                await _repository.Update(booking, booking.BookingId);
+
+                addPayment.TotalFare = booking.TotalFare;
+                var payment = await _paymentService.AddPayment(addPayment);
 
                 if (payment == null) throw new Exception("Cannot retrive  add payment");
 
@@ -239,10 +258,7 @@ namespace BusTicketingApp.Services
                     listOfSeatsDTO.Add(seatResponseDTO);
                 }
 
-                //updating booking confirm status
-                var booking = await _repository.Get(paymentRequestDTO.BookingId);
-                booking.IsConfirmed = "Confirmed";
-                await _repository.Update(booking, booking.BookingId);
+               
 
                 var route =await _routingService.GetRoute(booking.RouteId);
                 var response = new BookingResponseDTO()
@@ -383,5 +399,6 @@ namespace BusTicketingApp.Services
             _emailSender.SendEmail(message);
         }
 
+       
     }
 }

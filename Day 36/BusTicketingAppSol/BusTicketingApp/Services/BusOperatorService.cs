@@ -9,16 +9,18 @@ namespace BusTicketingApp.Services
     public class BusOperatorService : IBusOperatorService
     {
         private readonly IRepository<BusOperator,int> _busOperatorRepository;
+        private readonly IRepository<Booking,int> _bookingRepository;
         private readonly IReviewService _reviewService;
         private readonly IMapper _mapper;
         private readonly ILogger<BusOperatorService> _logger;
 
-        public BusOperatorService(IRepository<BusOperator, int> busOperatorRepository, IMapper mapper, ILogger<BusOperatorService> logger, IReviewService reviewService)
+        public BusOperatorService(IRepository<BusOperator, int> busOperatorRepository, IMapper mapper, ILogger<BusOperatorService> logger, IReviewService reviewService, IRepository<Booking, int> bookingRepository)
         {
             _busOperatorRepository = busOperatorRepository;
             _reviewService = reviewService;
             _mapper = mapper;
             _logger = logger;
+            _bookingRepository = bookingRepository;
         }
 
         public async Task<BusOperator> AddBusOperator(BusOperatorCreateDTO busOperatorCreateDTO)
@@ -43,24 +45,8 @@ namespace BusTicketingApp.Services
             try
             {
                 _logger.LogInformation($"Starting to update bus operator with ID: {id}");
-                //var existingBusOperator = await _busOperatorRepository.Get(id);
-                //if (existingBusOperator == null)
-                //{
-                //    _logger.LogWarning($"Bus operator with ID {id} not found for update.");
-                //    throw new Exception("Bus operator not found.");
-                //}
-
-                var updateBusOperator = new BusOperator
-                {
-                    CompanyName = busOperatorCreateDTO.CompanyName,
-                    Email = busOperatorCreateDTO.Email,
-                    LicenseNumber = busOperatorCreateDTO.LicenseNumber,
-                    OperatorContact = busOperatorCreateDTO.OperatorContact,
-                    OperatorName = busOperatorCreateDTO.OperatorName,
-                };
               
-                //_mapper.Map(busOperatorCreateDTO, existingBusOperator);
-                var updatedBusOperator = await _busOperatorRepository.Update(updateBusOperator, id);
+                var updatedBusOperator = await _busOperatorRepository.Update(_mapper.Map<BusOperator>(busOperatorCreateDTO), id);
                 _logger.LogInformation($"Successfully updated bus operator with ID: {id}");
                 return updatedBusOperator;
             }
@@ -115,6 +101,20 @@ namespace BusTicketingApp.Services
             }
         }
 
+        public async Task<IEnumerable<Booking>>  GetBookingsByBus(int busId)
+        {
+            try
+            {
+                var bookings = (await _bookingRepository.GetAll()).Where(b => b.BusId == busId);
+                if (bookings == null) throw new Exception("No bookings available with this bus");
+                return bookings;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            
+        }
         public async Task<ReviewResponseDTO> GetOperatorReview(int id)
         {
             try

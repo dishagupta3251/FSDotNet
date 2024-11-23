@@ -18,11 +18,11 @@ namespace BusTicketingApp.Controllers
         
         [HttpGet("SeeAllBuses")]
         [Authorize(Roles = "Customer")]
-        public async Task<ActionResult> GetBusesOnRoute(string from, string to, DateTime dateTime)
+        public async Task<ActionResult> GetBusesOnRoute(string from, string to, DateTime dateTime, int pagenum, int pagesize)
         {
             try
             {
-                var buses = await _bookingService.GetAllBusesOnRoute(from, to, dateTime);
+                var buses = await _bookingService.GetAllBusesOnRoute(from, to, dateTime,  pagenum,  pagesize);
                 return Ok(buses);
             }
             catch (Exception ex)

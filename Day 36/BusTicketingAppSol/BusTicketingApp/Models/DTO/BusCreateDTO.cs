@@ -11,5 +11,7 @@
         public int OperatorId { get; set; }
         public int RouteId { get; set; }
         public DaysOfWeek Day { get; set; }
+        public DateTime Departure { get; set; }
+        public DateTime Arrival { get; set; }
     }
 }

@@ -4,6 +4,8 @@
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; } = string.Empty;
+
+        public string Username {  get; set; } = string.Empty;   
         public int Age { get; set; } = 0;
         public string City { get; set; } = string.Empty;
         

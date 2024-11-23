@@ -9,6 +9,8 @@ namespace BusTicketingApp.Interfaces
         public Task<BusOperator> UpdateBusOperator(int id, BusOperatorCreateDTO busOperatorCreateDTO);
         public Task<BusOperator> GetBusOperatorById(int id);
 
+        public Task<IEnumerable<Booking>> GetBookingsByBus(int busId);
+
         public Task<ReviewResponseDTO> GetOperatorReview(int id);
         public Task<IEnumerable<BusOperator>> GetAllBusOperators();
     }

@@ -1,5 +1,6 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using AutoMapper;
 using BusTicketingApp.EmailInterface;
 using BusTicketingApp.EmailModels;
@@ -26,6 +27,11 @@ namespace BusTicketingApp.Services
             _customerRepository = customerRepository;
             _busOperatorRepository = busOperatorRepository;
             _emailSender = emailSender;
+        }
+        private bool IsEmail(string input)
+        {
+            var emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            return Regex.IsMatch(input, emailPattern);
         }
         public async Task<OperationStatusDTO> Delete(string key)
         {
@@ -68,8 +74,18 @@ namespace BusTicketingApp.Services
 
         public async Task<LoginResponseDTO> Login(LoginRequestDTO loginRequestDTO)
         {
-
-            var user = await _userRepository.Get(loginRequestDTO.Username);
+            var users = (await _userRepository.GetAll()).ToList();
+            var user = new User();
+            if(IsEmail(loginRequestDTO.Input))
+            {
+                user = users.First(u => u.Email == loginRequestDTO.Input);
+            }   
+            else
+            {
+                user.Username = user.Username.ToLower();
+                user = users.First(u => u.Username == loginRequestDTO.Input);
+            }
+            
             if (user == null)
             {
                 throw new Exception("User not found");
@@ -109,8 +125,9 @@ namespace BusTicketingApp.Services
                 User _user = new User
                 {
                     FirstName = user.FirstName,
-                    Username = user.FirstName + user.ContactNumber.Substring(7),
+                    Username = (user.FirstName + user.ContactNumber.Substring(7)).ToLower(),
                     Password = passwordHash,
+                    Email=user.Email,
                     PasswordHash = hmac.Key,
                     Role = user.Role
                 };
@@ -206,6 +223,7 @@ namespace BusTicketingApp.Services
                         {
                             OperatorContact = user.ContactNumber,
                             OperatorName =user.FirstName + " " + user.LastName,
+                            Username=addedUser.Username,
                             Email = user.Email,
                             UserId=addedUser.UserId
                             
@@ -222,6 +240,7 @@ namespace BusTicketingApp.Services
                         var newCustomer = new Customer
                         {
                             CustomerName = user.FirstName + " " + user.LastName,
+                            Username = addedUser.Username,
                             Contact=user.ContactNumber,
                             Email=user.Email,
                             UserId=addedUser.UserId,

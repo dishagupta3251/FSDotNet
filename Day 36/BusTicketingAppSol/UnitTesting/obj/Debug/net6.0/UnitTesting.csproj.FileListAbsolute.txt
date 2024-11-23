@@ -1,10 +1,4 @@
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\bin\Debug\net6.0\CoverletSourceRootsMapping
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.AssemblyReference.cache
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfoInputs.cache
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfo.cs
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.CoreCompileInputs.cache
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.sourcelink.json
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\bin\Debug\net6.0\testhost.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\bin\Debug\net6.0\BusTicketingApp.deps.json
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\bin\Debug\net6.0\BusTicketingApp.runtimeconfig.json
@@ -153,6 +147,12 @@ C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\U
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\bin\Debug\net6.0\BusTicketingApp.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\bin\Debug\net6.0\BusTicketingApp.pdb
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.AssemblyReference.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfoInputs.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfo.cs
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.sourcelink.json
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTest.8DCDB1EF.Up2Date
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\UnitTesting.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\UnitTesting\obj\Debug\net6.0\refint\UnitTesting.dll

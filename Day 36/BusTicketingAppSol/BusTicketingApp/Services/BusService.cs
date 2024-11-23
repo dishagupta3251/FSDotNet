@@ -40,6 +40,8 @@ namespace BusTicketingApp.Services
                     BusId=addedBus.BusId,
                     Day=bus.Day,
                     RouteId=bus.RouteId,
+                    Arrival=bus.Arrival,
+                    Departure=bus.Departure,
 
 
                 };
@@ -135,6 +137,7 @@ namespace BusTicketingApp.Services
                     PremiumFare=bus.PremiumFare,
                     Seats= seatsResponseDTOs
                 };
+
                 return busWithSeatsResponseDTO;
             }
             catch

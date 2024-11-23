@@ -2,12 +2,14 @@
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BusTicketingApp.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("AllowAll")]
     [ApiController]
     public class UserController : ControllerBase
     {

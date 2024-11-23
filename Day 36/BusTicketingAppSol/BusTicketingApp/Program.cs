@@ -92,7 +92,17 @@ namespace BusTicketingApp
             builder.Services.AddSingleton(emailConfig);
 
 
-
+            #region CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+                });
+            });
+            #endregion
 
 
 
@@ -145,7 +155,7 @@ namespace BusTicketingApp
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseCors("AllowAll");
             app.UseHttpsRedirection();
 
             app.UseAuthentication();

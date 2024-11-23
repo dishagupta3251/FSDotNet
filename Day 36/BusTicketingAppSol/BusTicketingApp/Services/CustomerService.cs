@@ -64,13 +64,14 @@ namespace BusTicketingApp.Services
                 var customer = _mapper.Map<Customer>(customerCreateDTO);
                 var updatedCustomer = await _customerRepository.Update(customer, id);
                 string body = $@"
-<!DOCTYPE html>
-<html>
-<head>
-<h1>OK</h1>
-</head>
+                            <!DOCTYPE html>
+                                <html>
+                                <head>
+                                <h1>OK</h1>
+                                </head>
 
-</html>";
+                                </html>";
+
 
                 SendMail(updatedCustomer.Email, "Customer Profile Updated",body );
 

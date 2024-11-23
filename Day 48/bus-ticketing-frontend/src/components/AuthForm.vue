@@ -1,101 +1,167 @@
 <template>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
-<div class="container" id="container">
-	<div class="form-container sign-up-container">
-		<form action="#">
-			<h1>Create Account</h1>
-			<div class="social-container">
-        <a href="#" class="social" aria-label="Facebook">
-  <i class="fab fa-facebook-f"></i>
-</a>
-<a href="#" class="social" aria-label="Google Plus">
-  <i class="fab fa-google-plus-g"></i>
-</a>
-<a href="#" class="social" aria-label="LinkedIn">
-  <i class="fab fa-linkedin-in"></i>
-</a>
+	<div :class="['container', { 'right-panel-active': isSignUp }]">
 
+		<div class="form-container sign-up-container">
+			<form>
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<a href="#" class="social" target="_blank" aria-label="Facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a href="#" class="social" target="_blank" aria-label="Google">
+						<i class="fab fa-google-plus-g"></i>
+					</a>
+					<a href="#" class="social" target="_blank" aria-label="LinkedIn">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+				</div>
+				<span>or use your email for registration</span>
+				<input v-model="fname" placeholder="First Name" />
+				<input v-model="lname" placeholder="Last Name" />
+				<input v-model="contact" placeholder="Contact" />
+				<input v-model="email" placeholder="Email" />
+				<input v-model="registerPassword" type="password" placeholder="Password" />
+				<!-- Role Dropdown -->
+				<div class="dropdown">
+					<label for="role">Role:</label>
+					<select v-model="role" id="role" required>
+						<option value="" disabled>Select your role</option>
+						<option value="2">Admin</option>
+						<option value="1">Bus Operator</option>
+						<option value="0">Customer</option>
+					</select>
+				</div>
+				<button type="submit" @click="register">Sign Up</button>
+			</form>
+		</div>
+
+		<div class="form-container sign-in-container">
+			<form>
+				<h1>Sign In</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your account</span>
+				<input v-model="input" placeholder="Email or Username" />
+				<input v-model="loginPassword" type="password" placeholder="Password" />
+				<a href="#">Forgot your password?</a>
+				<button type="submit" @click="login">Sign In</button>
+			</form>
+		</div>
+
+		<div>
+			<div v-if="showToastMessage" class="toast">
+				{{ username }}
 			</div>
-			<span>or use your email for registration</span>
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button style="background-color: white;">Sign Up</button>
-		</form>
-	</div>
-	<div class="form-container sign-in-container">
-		<form action="#">
-			<h1>Sign in</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			<span>or use your account</span>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Log In</button>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-left">
-				<h1>Welcome Back!</h1>
-				<p>To keep connected with us please login with your personal info</p>
-				<button class="ghost" id="signIn">Log In</button>
-			</div>
-			<div class="overlay-panel overlay-right">
-				<h1>Hello!!</h1>
-				<p>Enter your personal details and start journey with us</p>
-				<button class="ghost" id="signUp" >Sign Up</button>
+		</div>
+
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" @click="toggleSignIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Hello, Friend!</h1>
+					<p>Enter your personal details and start your journey with us</p>
+					<button class="ghost" @click="toggleSignUp">Sign Up</button>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
 
 </template>
 
 <script>
+import router from '@/router';
+import { Register, Login } from "@/script/UserAuthenticateService"
+
 export default {
-  name:"AuthForm",
-  data() {
-    return {
-     
-      loginEmail: '',
-      loginPassword: '',
-      
-      
-      registerName: '',
-      registerEmail: '',
-      registerPassword: '',
-      
-     
-      isRightPanelActive: false,
-    };
-  },
-  methods: {
-    toggleForm() {
-     
-      this.isRightPanelActive = !this.isRightPanelActive;
-    },
-    handleLogin() {
-      // Placeholder for the actual login logic
-      console.log('Logging in with:', this.loginEmail, this.loginPassword);
-      // Send login details to your backend for verification
-    },
-    handleRegister() {
-      // Placeholder for the actual registration logic
-      console.log('Registering with:', this.registerName, this.registerEmail, this.registerPassword);
-      // Send registration details to your backend to create a new user
-    },
-  },
+	name: 'AuthForm',
+	data() {
+		return {
+			showToastMessage: false,
+			username: '',
+			isSignUp: false,
+			input: '',
+			fname: '',
+			lname: '',
+			contact: '',
+			email: '',
+			loginPassword: '',
+			registerPassword: '',
+			role: ''
+		};
+	},
+	methods: {
+
+		toggleSignUp() {
+			this.isSignUp = true;
+		},
+
+		toggleSignIn() {
+			this.isSignUp = false;
+		},
+		register(event) {
+
+			event.preventDefault();
+			Register(this.fname, this.lname, this.registerPassword, this.contact, this.email, this.role)
+				.then((response) => {
+
+					console.log(response)
+					this.showToastMessage = true;
+					this.username = "Registered" + response.data.message
+					setTimeout(() => {
+						this.showToastMessage = false;
+						router.push('/custdashboard')
+					}, 1000);
+
+				})
+				.catch((err) => {
+					alert(err.response.data);
+				});
+
+		},
+
+
+		login(event) {
+			event.preventDefault();
+			Login(this.input, this.loginPassword)
+				.then((response) => {
+					sessionStorage.setItem("token", response.data.token);
+					console.log(response);
+					alert(response.data.username + ' is logged in');
+				})
+				.catch((err) => { alert(err.response.data) });
+		}
+
+	},
 };
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
 h1 {
 	font-weight: bold;
 	margin: 0;
@@ -117,6 +183,39 @@ span {
 	font-size: 12px;
 }
 
+.toast {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	background-color: #28a745;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	font-size: 14px;
+	animation: fadeInOut 3s ease forwards;
+}
+
+/* Fade-in and Fade-out Animation */
+@keyframes fadeInOut {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+
+	10%,
+	90% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+}
+
 a {
 	color: #333;
 	font-size: 14px;
@@ -124,14 +223,10 @@ a {
 	margin: 15px 0;
 }
 
-
 button {
 	border-radius: 20px;
-	border: 1px solid #1E90FF; /* Bright Blue */
-background-color: #1E90FF; /* Fallback color */
-background: linear-gradient(to right, #1E90FF, #32CD32); /* Blue to Green */
-
-
+	border: 1px solid rgb(205 121 31);
+	background-color: rgb(205 121 31);
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -149,7 +244,7 @@ button:focus {
 	outline: none;
 }
 
-.ghost {
+button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
@@ -163,6 +258,7 @@ form {
 	padding: 0 50px;
 	height: 100%;
 	text-align: center;
+
 }
 
 input {
@@ -176,14 +272,15 @@ input {
 .container {
 	background-color: #fff;
 	border-radius: 10px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	position: relative;
+	margin-top: 70px;
 	overflow: hidden;
+
 	width: 768px;
 	max-width: 100%;
-	min-height: 480px;
-  
+	min-height: 500px;
+
 }
 
 .form-container {
@@ -218,12 +315,15 @@ input {
 }
 
 @keyframes show {
-	0%, 49.99% {
+
+	0%,
+	49.99% {
 		opacity: 0;
 		z-index: 1;
 	}
-	
-	50%, 100% {
+
+	50%,
+	100% {
 		opacity: 1;
 		z-index: 5;
 	}
@@ -240,16 +340,12 @@ input {
 	z-index: 100;
 }
 
-.container.right-panel-active .overlay-container{
+.container.right-panel-active .overlay-container {
 	transform: translateX(-100%);
 }
 
 .overlay {
-  border: 1px solid #1E90FF; /* Bright Blue */
-background-color: #1E90FF; /* Fallback color */
-background: linear-gradient(to right, #1E90FF, #32CD32); /* Blue to Green */
-
-
+	background: rgb(19 68 50);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -258,12 +354,12 @@ background: linear-gradient(to right, #1E90FF, #32CD32); /* Blue to Green */
 	left: -100%;
 	height: 100%;
 	width: 200%;
-  transform: translateX(0);
+	transform: translateX(0);
 	transition: transform 0.6s ease-in-out;
 }
 
 .container.right-panel-active .overlay {
-  transform: translateX(50%);
+	transform: translateX(50%);
 }
 
 .overlay-panel {
@@ -299,7 +395,8 @@ background: linear-gradient(to right, #1E90FF, #32CD32); /* Blue to Green */
 }
 
 .social-container {
-	margin: 20px 0;
+	margin: 10px 0;
+	/* Reduced margin for social container */
 }
 
 .social-container a {
@@ -309,32 +406,72 @@ background: linear-gradient(to right, #1E90FF, #32CD32); /* Blue to Green */
 	justify-content: center;
 	align-items: center;
 	margin: 0 5px;
+	height: 35px;
 	height: 40px;
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	.form-container {
+		width: 100%;
+		padding: 20px;
+		/* Adjusted padding for smaller screen */
+	}
+
+	.sign-up-container,
+	.sign-in-container {
+		width: 100%;
+	}
+
+	.overlay-container {
+		display: none;
+	}
+
+	.social-container a {
+		font-size: 18px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.social-container {
+		text-align: center;
+	}
+
+	.form-container input,
+	.form-container select {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	button {
+		width: 100%;
+	}
+
+	.overlay-panel {
+		width: 100%;
+	}
+
+	.overlay-left,
+	.overlay-right {
+		transform: translateX(0);
+		width: 100%;
+	}
 }
 
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
+@media (max-width: 480px) {
+	.social-container a {
+		width: 30px;
+		height: 30px;
+		font-size: 16px;
+	}
 }
 </style>

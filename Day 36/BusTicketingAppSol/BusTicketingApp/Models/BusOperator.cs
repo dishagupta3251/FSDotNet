@@ -8,6 +8,7 @@ namespace BusTicketingApp.Models
         public int OperatorId { get; set; }
         
         public string OperatorName { get; set; }
+        public string Username { get; set; }
         public string LicenseNumber { get; set; } = string.Empty;
         public string CompanyName { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;

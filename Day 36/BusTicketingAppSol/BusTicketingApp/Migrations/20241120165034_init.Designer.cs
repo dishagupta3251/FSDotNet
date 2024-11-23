@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BusTicketingApp.Migrations
 {
     [DbContext(typeof(TicketingContext))]
-    [Migration("20241117173027_init")]
+    [Migration("20241120165034_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -171,6 +171,10 @@ namespace BusTicketingApp.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("OperatorId");
 
                     b.HasIndex("UserId")
@@ -187,12 +191,18 @@ namespace BusTicketingApp.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BusScheduleId"), 1L, 1);
 
+                    b.Property<DateTime>("Arrival")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("BusId")
                         .HasColumnType("int");
 
                     b.Property<string>("Day")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Departure")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("RouteId")
                         .HasColumnType("int");
@@ -236,6 +246,10 @@ namespace BusTicketingApp.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("CustomerId");
 
                     b.HasIndex("UserId")
@@ -257,6 +271,9 @@ namespace BusTicketingApp.Migrations
 
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
+
+                    b.Property<decimal>("TotalFare")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Type")
                         .IsRequired()
@@ -371,6 +388,10 @@ namespace BusTicketingApp.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"), 1L, 1);
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
                         .IsRequired()

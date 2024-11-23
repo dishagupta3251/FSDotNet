@@ -7,7 +7,9 @@ C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\B
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\BusTicketingApp.pdb
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\MailKit.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -28,14 +30,18 @@ C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\B
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\NETCore.MailKit.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Formats.Asn1.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Windows.Extensions.dll
@@ -49,6 +55,7 @@ C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\B
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\obj\Debug\net6.0\BusTicketingApp.csproj.AssemblyReference.cache
@@ -73,10 +80,3 @@ C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\B
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\obj\Debug\net6.0\BusTicketingApp.pdb
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\obj\Debug\net6.0\BusTicketingApp.genruntimeconfig.cache
 C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\obj\Debug\net6.0\ref\BusTicketingApp.dll
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\MailKit.dll
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\MimeKit.dll
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\NETCore.MailKit.dll
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Formats.Asn1.dll
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\Disha.Gupta.PYRAMIDINDIA\Documents\Training\Day 36\BusTicketingAppSol\BusTicketingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll

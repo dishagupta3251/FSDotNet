@@ -87,7 +87,10 @@ namespace BusTicketingApp.Repositories
                 {
                     existingCustomer.CustomerName = entity.CustomerName;
                 }
-
+                if (!string.IsNullOrEmpty(entity.Username))
+                {
+                    existingCustomer.Username = entity.Username;
+                }
                 if (entity.Age != 0) 
                 {
                     existingCustomer.Age = entity.Age;
