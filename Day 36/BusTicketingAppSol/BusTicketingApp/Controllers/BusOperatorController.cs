@@ -19,7 +19,7 @@ namespace BusTicketingApp.Controllers
        
 
         [HttpPatch("BusOperatorProfileUpdate")]
-        [Authorize(Roles = "BusOperator")]
+        //[Authorize(Roles = "BusOperator")]
 
         public async Task<IActionResult> UpdateBusOperator(int id, BusOperatorCreateDTO busOperatorCreateDTO)
         {

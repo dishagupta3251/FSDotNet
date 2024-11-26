@@ -17,7 +17,7 @@ namespace BusTicketingApp.Controllers
         }
         
         [HttpGet("SeeAllBuses")]
-        [Authorize(Roles = "Customer")]
+        //[Authorize(Roles = "Customer")]
         public async Task<ActionResult> GetBusesOnRoute(string from, string to, DateTime dateTime, int pagenum, int pagesize)
         {
             try
@@ -32,7 +32,7 @@ namespace BusTicketingApp.Controllers
         }
         
         [HttpGet("busAndSeatsDetails")]
-        [Authorize(Roles = "Customer")]
+        //[Authorize(Roles = "Customer")]
         public async Task<ActionResult> GetBusDetailsWithSeats(int busId)
         {
             try

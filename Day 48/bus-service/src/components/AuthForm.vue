@@ -5,7 +5,7 @@
 
 		<div class="form-container sign-up-container">
 			<form>
-				<h1>Create Account</h1>
+				<h1>Create account</h1>
 				<div class="social-container">
 					<a href="#" class="social" target="_blank" aria-label="Facebook">
 						<i class="fab fa-facebook-f"></i>
@@ -24,10 +24,11 @@
 				<input v-model="email" placeholder="Email" />
 				<input v-model="registerPassword" type="password" placeholder="Password" />
 				<!-- Role Dropdown -->
+
 				<div class="dropdown">
-					<label for="role">Role:</label>
+
 					<select v-model="role" id="role" required>
-						<option value="" disabled>Select your role</option>
+						<option value="" disabled selected>Select your role</option>
 						<option value="2">Admin</option>
 						<option value="1">Bus Operator</option>
 						<option value="0">Customer</option>
@@ -118,7 +119,7 @@ export default {
 					this.username = "Registered" + response.data.message
 					setTimeout(() => {
 						this.showToastMessage = false;
-						router.push('/custdashboard')
+						router.push('/search')
 					}, 1000);
 
 				})
@@ -188,7 +189,7 @@ span {
 	top: 20px;
 	left: 20px;
 	background-color: #28a745;
-	color: white;
+	color: FFFAFF;
 	padding: 15px 20px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -235,6 +236,51 @@ button {
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
 }
+
+.dropdown select option[value=""] {
+	color: #aaa;
+	/* Placeholder text color */
+}
+
+/* Style the dropdown container */
+.dropdown {
+	width: 100%;
+	margin: 10px 0;
+}
+
+
+.dropdown label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #555;
+}
+
+
+.dropdown select {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #f3f3f3;
+	/* Matches input field color */
+	font-size: 16px;
+	box-sizing: border-box;
+	appearance: none;
+	/* Removes default styling */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+
+
+	background-position: right 10px center;
+	background-size: 10px;
+}
+
+/* Ensure dropdown container maintains alignment */
+.dropdown {
+	position: relative;
+}
+
 
 button:active {
 	transform: scale(0.95);
@@ -345,7 +391,7 @@ input {
 }
 
 .overlay {
-	background: rgb(19 68 50);
+	background: rgb(0 121 145);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -389,6 +435,8 @@ input {
 	right: 0;
 	transform: translateX(0);
 }
+
+.dropdowm {}
 
 .container.right-panel-active .overlay-right {
 	transform: translateX(20%);

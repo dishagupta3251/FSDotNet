@@ -2,7 +2,9 @@
     <div class="search">
         <!-- Header Section -->
         <header class="header">
-            <div class="logo">Bus</div>
+            <div class="logo">
+                <img src="../../../public/Screenshot_2024-11-25_124942-removebg-preview.png">
+            </div>
             <nav class="nav">
                 <a href="#">Help</a>
                 <a href="#">Profile</a>
@@ -11,32 +13,39 @@
 
         <!-- Main Content -->
         <main class="main-content">
-            <h1 class="title">
-                Book your journey now and explore the world with comfort and ease!
-            </h1>
+
 
             <!-- Horizontal Search Bar -->
             <div class="search-bar">
-                <div class="input-group">
-                    <label for="source">Source</label>
-                    <input id="source" type="text" placeholder="Source" />
+                <div class="search">
+
+                    <div class="search-bar">
+                        <div class="input-group">
+                            <label for="source">Source</label>
+                            <input id="source" type="text" v-model="source" placeholder="Source" />
+                        </div>
+                        <div class="input-group">
+                            <label for="destination">Destination</label>
+                            <input id="destination" type="text" v-model="destination" placeholder="Destination" />
+                        </div>
+                        <div class="input-group">
+                            <label for="date">Date</label>
+                            <input id="date" type="date" v-model="date" />
+                        </div>
+                        <button class="search-button" @click="search">Search</button>
+                    </div>
+
                 </div>
-                <div class="input-group">
-                    <label for="destination">Destination</label>
-                    <input id="destination" type="text" placeholder="Destination" />
-                </div>
-                <div class="input-group">
-                    <label for="date">Date</label>
-                    <input id="date" type="date" />
-                </div>
-                <button class="search-button">Search</button>
             </div>
-
-
         </main>
+    </div>
 
-        <!-- Features Section -->
-        <!-- <div class="features">
+
+
+
+
+    <!-- Features Section -->
+    <!-- <div class="features">
             <div class="feature">
                 <h3>36 Million</h3>
             </div>
@@ -47,12 +56,40 @@
                 <h3>200,000+</h3>
             </div>
         </div> -->
-    </div>
+
 </template>
 
 <script>
+
+
+
 export default {
-    name: "App",
+    name: "SearchBus",
+    props: {
+
+    },
+    data() {
+        return {
+            source: '',
+            destination: '',
+            date: ''
+        }
+    },
+    methods: {
+        search() {
+
+            this.$router.push({
+                name: 'SearchResult',
+                query: {
+                    source: this.source,
+                    destination: this.destination,
+                    date: this.date
+                }
+            });
+
+        }
+    }
+
 };
 </script>
 
@@ -75,23 +112,24 @@ body {
 
 /* Header Styles */
 .header {
-
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    padding: 25px 30px;
+    padding: 15px 30px;
     background-color: white;
-    border-bottom: 1px solid rgb(10, 39, 28);
-    box-shadow: 0 1px 2px rgb(0, 10, 6);
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgb(212, 221, 217);
+    box-shadow: 0 1px 2px rgb(221, 228, 225);
 }
 
 .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: rgb(205 121 31);
+
+
+    width: 10px;
 }
+
 
 .nav {
     display: flex;
@@ -101,9 +139,11 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: black;
-    font-size: 0.9em;
+    color: rgba(205, 121, 31, 0.856);
+    font-size: 1em;
+    font-style: normal;
 }
+
 
 .lang-select {
     padding: 5px;
@@ -118,18 +158,26 @@ body {
 
     width: 100%;
     text-align: center;
-    height: 280px;
-    background-image: url('../../public/Screenshot\ 2024-11-22\ 105120.png');
-    /* Replace 'your-image.jpg' with the path to your image */
+    height: 350px;
+    background-image: url('../../../public/Screenshot\ 2024-11-22\ 105120.png');
+
     background-size: cover;
-    /* Ensures the image covers the entire section */
+
     background-position: center;
-    /* Centers the image */
+
     background-repeat: no-repeat;
 
     color: white;
 
 
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
 }
 
 .title {
@@ -146,14 +194,10 @@ body {
     align-items: flex-end;
     justify-content: center;
     margin-bottom: 40px;
-    padding: 20px 0;
+    padding: 45px 0;
 }
 
-.input-group {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 .input-group label {
     font-size: 0.85em;
@@ -161,12 +205,12 @@ body {
     font-weight: bold;
 }
 
-.input-group input {
+/* .input-group input {
     padding: 10px;
     font-size: 0.9em;
     border: 1px solid #ddd;
     border-radius: 4px;
-}
+} */
 
 .search-button {
     padding: 10px 20px;
@@ -188,6 +232,11 @@ body {
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
+}
+
+img {
+    height: 50px;
+    width: 70px;
 }
 
 .feature {

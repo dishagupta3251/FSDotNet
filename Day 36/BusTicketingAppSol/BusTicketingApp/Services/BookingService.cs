@@ -22,9 +22,11 @@ namespace BusTicketingApp.Services
         private readonly ILogger<BookingService> _logger;
         private readonly IRepository<Booking,int> _repository;
         private readonly IRepository<SeatsBooked, int> _seatsBookedRepository;
+        private readonly IRepository<BusSchedule, int> _busScheduleRepository;
+        private readonly IRepository<BusOperator,int> _busOperatorRepository;
         private readonly IEmailSender _emailSender;
 
-        public BookingService(ISeatService seatService, IBusService busService, IRoutingService routingService, IRepository<Booking,int> repository,IPaymentService paymentService,IMapper mapper,ILogger<BookingService> logger, IRepository<SeatsBooked, int> seatsBookedRepository, IEmailSender emailSender,ICustomerService customerService)
+        public BookingService(ISeatService seatService, IBusService busService, IRoutingService routingService, IRepository<Booking,int> repository,IPaymentService paymentService,IMapper mapper,ILogger<BookingService> logger, IRepository<SeatsBooked, int> seatsBookedRepository, IEmailSender emailSender,ICustomerService customerService,IRepository<BusSchedule,int> busSchedule, IRepository<BusOperator,int> busOperator)
         {
 
             _busService = busService;
@@ -35,8 +37,11 @@ namespace BusTicketingApp.Services
             _mapper=mapper;
             _logger = logger;
             _customerService = customerService;
+            _busScheduleRepository = busSchedule;
+            _busOperatorRepository = busOperator;
             _paymentService = paymentService;
             _emailSender = emailSender;
+
         }
 
        
@@ -50,12 +55,18 @@ namespace BusTicketingApp.Services
                 var checkDestination = routes.FirstOrDefault(l => l.Destination == to).Destination ?? throw new Exception("Destination not available");
 
                 var routeId = await _routingService.GetIdByJourney(checkSource, checkDestination);
+
                 var buses =await _busService.GetBusesByRouteAndDay(routeId, dateTime);
 
                 List<BusResponseDTO> result = new List<BusResponseDTO>();
                 foreach (var bus  in buses)
                 {
                     var seats = (await _seatService.GetAllSeats()).Where(s => s.IsBooked == false && s.BusId==bus.BusId);
+
+                    var operatorBus= await _busOperatorRepository.Get(bus.OperatorID);
+
+                    var schedule=(await _busScheduleRepository.GetAll()).FirstOrDefault(s=>s.BusId==bus.BusId);
+
                     var response = new BusResponseDTO()
                     {
                         BusId=bus.BusId,
@@ -65,6 +76,9 @@ namespace BusTicketingApp.Services
                         Status = bus.Status.ToString(),
                         StandardFare = bus.StandardFare,
                         PremiumFare = bus.PremiumFare,
+                        CompanyName=operatorBus.CompanyName,
+                        Arrival=schedule.Arrival,
+                        Departure=schedule.Departure,
                         JourneyDetails=from.ToUpper()+" "+"TO"+" "+to.ToUpper(),
                     };
                     result.Add(response);

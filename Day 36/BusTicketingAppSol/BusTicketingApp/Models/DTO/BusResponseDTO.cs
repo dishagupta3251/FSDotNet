@@ -12,6 +12,11 @@ namespace BusTicketingApp.Models.DTO
         public string Status { get; set; } = string.Empty;
         public decimal StandardFare { get; set; }
         public decimal PremiumFare { get; set; }
+        public string CompanyName { get; set; }=string.Empty;
+
+        public DateTime Arrival {  get; set; }
+
+        public DateTime Departure { get; set; }
 
         public string JourneyDetails { get; set; } = string.Empty;
     }

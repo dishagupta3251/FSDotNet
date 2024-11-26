@@ -2,7 +2,9 @@
     <div class="landingpage">
         <!-- Navigation Bar -->
         <header class="header">
-            <div class="logo">Bus</div>
+            <div class="logo">
+                <img src="../../public/Screenshot_2024-11-25_124942-removebg-preview.png" alt="Logo">
+            </div>
             <nav class="nav">
                 <a href="#">Help</a>
                 <router-link to="/auth">Login</router-link>
@@ -18,7 +20,7 @@
             <!-- Left Side: Search Section -->
             <div class="search-section">
                 <h2>Search for a Bus</h2>
-                <form>
+                <form @submit.prevent="searchBus">
                     <div class="form-group">
                         <label for="from">From:</label>
                         <input type="text" id="from" v-model="from" placeholder="Enter departure city" />
@@ -31,26 +33,19 @@
                         <label for="date">Date:</label>
                         <input type="date" id="date" v-model="date" />
                     </div>
-                    <button type="submit" class="search-btn" @click="searchBus">Search</button>
+                    <button type="submit" class="search-btn">Search</button>
                 </form>
             </div>
-            <div>
-                <div v-if="showToastMessage" class="toast">
-                    Need to Sign in First!
-                </div>
-            </div>
+
+
             <!-- Right Side: Image Section -->
-            <div class="image-section">
-                <img src="group-buses-driving-along-road-sunset_157027-4307.avif" alt="Bus" />
-            </div>
+            <div class="image-section"></div>
         </div>
     </div>
 </template>
 
 <script>
 import router from '@/router';
-import { GetBuses } from '@/script/LandingPageService';
-
 
 export default {
     name: "LandingPage",
@@ -63,29 +58,12 @@ export default {
         }
     },
     methods: {
-        searchBus(event) {
-            event.preventDefault();
-            const date = new Date(this.date).toISOString()
-            GetBuses(this.from, this.to, date)
-                .then((response) => { console.log(response.data) }
-                )
-                .catch((err) => {
-                    alert(err.response.data)
-                }
-                );
-            this.loginRedirect()
+        searchBus() {
+            router.push('/auth')
 
-        },
-        loginRedirect() {
-            this.showToastMessage = true;
-            setTimeout(() => {
-                this.showToastMessage = false;
-                router.push('/auth')
-            }, 1000);
-        },
+        }
     }
 }
-
 </script>
 
 <style scoped>
@@ -95,17 +73,15 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30px;
-    background-color: rgb(19 68 50);
-
-    border-bottom: 1px solid rgb(10, 39, 28);
-    box-shadow: 0 1px 2px rgb(0, 10, 6);
+    padding: 15px 30px;
+    background-color: white;
+    border-bottom: 1px solid rgb(186, 201, 195);
+    box-shadow: 0 1px 2px rgb(221, 228, 225);
 }
 
 .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: rgb(205 121 31);
+    width: 50px;
+    height: auto;
 }
 
 .nav {
@@ -116,7 +92,7 @@ export default {
 
 .nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(205, 121, 31);
     font-size: 1em;
 }
 
@@ -124,16 +100,9 @@ export default {
     padding: 5px;
     font-size: 0.9em;
     border-radius: 4px;
-    border: 1px solid #ddd;
-}
-
-.btn {
     background-color: rgb(205 121 31);
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 15px;
+    border: 1px solid #ddd;
 }
 
 .toast {
@@ -141,7 +110,7 @@ export default {
     top: 20px;
     left: 20px;
     background-color: #28a745;
-    color: white;
+    color: #fff;
     padding: 15px 20px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -150,7 +119,6 @@ export default {
     animation: fadeInOut 3s ease forwards;
 }
 
-/* Fade-in and Fade-out Animation */
 @keyframes fadeInOut {
     0% {
         opacity: 0;
@@ -177,9 +145,10 @@ export default {
 
 .search-section {
     text-decoration: none;
+    margin-top: 100px;
     flex: 0.7;
     padding: 2rem;
-    background-color: #f9f9f9ef;
+    background-color: white;
     font-size: medium;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -220,19 +189,19 @@ export default {
     background-color: rgb(168, 94, 14);
 }
 
-/* Styling the image section */
 .image-section {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-}
+    background-image: url('../../public/scene.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    height: 100vh;
 
-.image-section img {
-    max-width: 100%;
-    height: auto;
+    z-index: -1;
 
-    border-radius: 8px;
 }
 </style>

@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AuthForm from "./components/AuthForm.vue";
-import CustomerDashboard from "./components/DashBoard/CustomerDashboard.vue";
 import AdminDashboard from "./components/DashBoard/AdminDashboard.vue";
-import SearchBus from "./components/SearchBus.vue";
+import SearchBus from "./components/BusServices/SearchBus.vue";
 import LandingPage from "./components/LandingPage.vue";
+import SearchResult from "./components/BusServices/SearchResult.vue";
+import SeatsSelection from "./components/BusServices/SeatsSelection.vue";
 
 
 
@@ -12,11 +13,10 @@ import LandingPage from "./components/LandingPage.vue";
 const routes = [
     { path: '/', component: LandingPage },
     { path: '/auth', component: AuthForm },
-    { path: '/custdashboard', component: CustomerDashboard },
     { path: '/admindashboard', component: AdminDashboard },
-    { path: '/search', component: SearchBus }
-
-
+    { path: '/search', name: 'SearchBus', component: SearchBus },
+    { path: '/seats/:id', name: 'Seats', component: SeatsSelection },
+    { path: '/searchResult', name: 'SearchResult', component: SearchResult }
 ];
 
 const router = createRouter({
