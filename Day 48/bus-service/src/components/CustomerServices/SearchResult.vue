@@ -1,16 +1,7 @@
 <template>
     <div class="main">
         <!-- Search Bar Section -->
-        <header class="header">
-            <div class="logo">
-                <img src="../../../public/Screenshot_2024-11-25_124942-removebg-preview.png">
-            </div>
-            <nav class="nav">
-                <a href="#">Help</a>
-                <a href="#">Profile</a>
-            </nav>
-        </header>
-
+        <CustomerNavbar />
 
         <header class="search-bar">
             <div class="route">
@@ -81,8 +72,13 @@
 
 <script>
 import { GetBuses } from '../../script/BusService';
+import CustomerNavbar from './CustomerNavbar.vue';
 
 export default {
+    name: "SearchResult",
+    components: {
+        CustomerNavbar
+    },
     data() {
         return {
             buses: [],
@@ -242,7 +238,7 @@ export default {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
-    background: FFFAFF;
+    background: white;
     border-radius: 5px;
 }
 

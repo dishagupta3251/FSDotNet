@@ -1,19 +1,9 @@
 <template>
     <div class="search">
-        <!-- Header Section -->
-        <header class="header">
-            <div class="logo">
-                <img src="../../../public/Screenshot_2024-11-25_124942-removebg-preview.png">
-            </div>
-            <nav class="nav">
-                <a href="#">Help</a>
-                <a href="#">Profile</a>
-            </nav>
-        </header>
+        <CustomerNavbar />
 
         <!-- Main Content -->
         <main class="main-content">
-
 
             <!-- Horizontal Search Bar -->
             <div class="search-bar">
@@ -32,7 +22,10 @@
                             <label for="date">Date</label>
                             <input id="date" type="date" v-model="date" />
                         </div>
-                        <button class="search-button" @click="search">Search</button>
+                        <div class="button-group">
+                            <button class="search-button" style="margin-top: 18px;" @click="search">Search</button>
+                        </div>
+
                     </div>
 
                 </div>
@@ -60,13 +53,12 @@
 </template>
 
 <script>
-
-
+import CustomerNavbar from './CustomerNavbar.vue';
 
 export default {
     name: "SearchBus",
-    props: {
-
+    components: {
+        CustomerNavbar
     },
     data() {
         return {
@@ -111,46 +103,6 @@ body {
 }
 
 /* Header Styles */
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    border-bottom: 1px solid rgb(212, 221, 217);
-    box-shadow: 0 1px 2px rgb(221, 228, 225);
-}
-
-.logo {
-
-
-    width: 10px;
-}
-
-
-.nav {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.nav a {
-    text-decoration: none;
-    color: rgba(205, 121, 31, 0.856);
-    font-size: 1em;
-    font-style: normal;
-}
-
-
-.lang-select {
-    padding: 5px;
-    font-size: 0.9em;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-}
 
 /* Main Content Styles */
 .main-content {
@@ -180,6 +132,11 @@ input {
     width: 100%;
 }
 
+.button-group {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
     font-size: 1.8em;
     font-weight: bold;
@@ -191,10 +148,12 @@ input {
 .search-bar {
     display: flex;
     gap: 10px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     margin-bottom: 40px;
     padding: 45px 0;
+
+
 }
 
 
@@ -203,14 +162,16 @@ input {
     font-size: 0.85em;
     margin-bottom: 5px;
     font-weight: bold;
+
+
 }
 
-/* .input-group input {
+.input-group input {
     padding: 10px;
     font-size: 0.9em;
     border: 1px solid #ddd;
-    border-radius: 4px;
-} */
+    border-radius: 7px;
+}
 
 .search-button {
     padding: 10px 20px;

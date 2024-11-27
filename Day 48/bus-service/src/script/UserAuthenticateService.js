@@ -1,10 +1,17 @@
 import axios from 'axios'
 
-export function Login(input, password) {
-    return axios.post('https://localhost:7176/api/User/Login', {
-        input: input,
-        password: password
-    });
+export const Login = async (input, password) => {
+    try {
+        var response = await axios.post('https://localhost:7176/api/User/Login', {
+            input: input,
+            password: password
+        });
+        return response;
+    }
+    catch (error) {
+        console.log(error);
+    }
+
 }
 
 export function Register(fname, lname, password, contact, email, role) {

@@ -79,8 +79,9 @@
 </template>
 
 <script>
-import router from '@/router';
-import { Register, Login } from "@/script/UserAuthenticateService"
+import router from '@/script/router';
+import { Register, Login } from "@/script/UserAuthenticateService";
+import { jwtDecode } from 'jwt-decode';
 
 export default {
 	name: 'AuthForm',
@@ -116,11 +117,11 @@ export default {
 
 					console.log(response)
 					this.showToastMessage = true;
-					this.username = "Registered" + response.data.message
+					this.username = response.data.data
 					setTimeout(() => {
 						this.showToastMessage = false;
-						router.push('/search')
-					}, 1000);
+						router.push('/auth')
+					});
 
 				})
 				.catch((err) => {
@@ -130,15 +131,34 @@ export default {
 		},
 
 
-		login(event) {
+		async login(event) {
 			event.preventDefault();
-			Login(this.input, this.loginPassword)
-				.then((response) => {
-					sessionStorage.setItem("token", response.data.token);
+			const res = await Login(this.input, this.loginPassword)
+			if (res.status == 200) {
+				sessionStorage.setItem("token", res.data.token);
+				const token = res.data.token;
+				const decoded = jwtDecode(token);
+				const role = decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+				localStorage.setItem("role", role);
+				if (role == "Customer") {
 					router.push('/search')
+				} else if (role == "BusOperator") {
 
-				})
-				.catch((err) => { alert(err.response.data) });
+					router.push('/operatordashboard')
+				}
+				else if (role == "Admin") {
+
+					router.push('/admindashboard')
+				}
+				else {
+
+					router.push('/')
+				}
+
+
+
+			}
+
 		}
 
 	},
@@ -189,7 +209,7 @@ span {
 	top: 20px;
 	left: 20px;
 	background-color: #28a745;
-	color: FFFAFF;
+	color: white;
 	padding: 15px 20px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -436,7 +456,7 @@ input {
 	transform: translateX(0);
 }
 
-.dropdowm {}
+/* .dropdowm {} */
 
 .container.right-panel-active .overlay-right {
 	transform: translateX(20%);

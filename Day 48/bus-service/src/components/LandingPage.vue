@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import router from '@/router';
+import router from '@/script/router';
 
 export default {
     name: "LandingPage",
@@ -69,6 +69,7 @@ export default {
 <style scoped>
 /* Styling the Navbar */
 .header {
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -79,9 +80,8 @@ export default {
     box-shadow: 0 1px 2px rgb(221, 228, 225);
 }
 
-.logo {
-    width: 50px;
-    height: auto;
+.logo img {
+    width: 70px;
 }
 
 .nav {
@@ -140,18 +140,37 @@ export default {
 /* Styling the main content */
 .content {
     display: flex;
-    margin: 2rem;
+    margin: 0 10px;
+    position: relative;
+    align-items: center;
 }
 
 .search-section {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 40%;
     text-decoration: none;
     margin-top: 100px;
-    flex: 0.7;
     padding: 2rem;
-    background-color: white;
+    background-color: rgb(255 255 255 / 86%);
     font-size: medium;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 850px) {
+    .search-section {
+        width: 60%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 630px) {
+    .search-section {
+        width: 90%;
+        left: 5%;
+    }
 }
 
 .search-section h2 {
@@ -170,10 +189,15 @@ export default {
 }
 
 .form-group input {
+    outline: none;
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.form-group input::placeholder {
+    color: black;
 }
 
 .search-btn {
@@ -190,10 +214,9 @@ export default {
 }
 
 .image-section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
     padding: 2rem;
     background-image: url('../../public/scene.jpg');
     background-size: cover;

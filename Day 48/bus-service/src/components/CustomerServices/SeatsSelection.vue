@@ -22,35 +22,46 @@
             Proceed to Book
         </button>
     </div> -->
-    <div>
-        <p>
-            A:Aisle
-            W:Window
-        </p>
-    </div>
-    <div v-for="seat in seats" :key="seat.seatsId">
-        <p>{{ seat.seatsId }}</p>
-        <p>{{ seat.seat }}</p>
-        <p>{{ seat.price }}</p>
+    <div class="main">
+        <CustomerNavbar />
+        <div style="padding: 40px;">
+            <p>
+                A:Aisle
+                W:Window
+            </p>
+        </div>
+        <div class="seats-detail">
+            <div v-for="seat in seats" :key="seat.seatsId"
+                :class="['seat-item', { selected: selectedSeats.includes(seat.seatsId) }]"
+                @click="toggleSeatSelection(seat.seatsId)">
+                <p>{{ seat.seatsId }}</p>
+                <p>{{ seat.seat }}</p>
+                <p>{{ seat.price }}</p>
 
+            </div>
+
+            <div>
+                <button class="book-seat">Book</button>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
 import { GetSeats } from '../../script/BusService';
+import CustomerNavbar from './CustomerNavbar.vue';
 
 export default {
     name: "SeatSelection",
-    // props: {
-    //     totalRows: { type: Number, default: 10 },
-    //     seatsPerRow: { type: Number, default: 4 },
-    //     bookedSeats: { type: Array, default: () => [] },
-    // },
+    components: {
+        CustomerNavbar
+    },
     data() {
         return {
             // selectedSeats: [],
             seats: [],
-            id: ''
+            id: '',
+            selectedSeats: []
         };
     },
     // created() {
@@ -64,6 +75,15 @@ export default {
                     console.log(this.seats);
 
                 })
+        },
+        toggleSeatSelection(seatId) {
+            if (this.selectedSeats.includes(seatId)) {
+
+                this.selectedSeats = this.selectedSeats.filter((id) => id !== seatId);
+            } else {
+
+                this.selectedSeats.push(seatId);
+            }
         },
 
     },
@@ -102,68 +122,67 @@ export default {
 </script>
 
 <style scoped>
-/* .seat-selection {
+.seats-detail {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
-    background-color: #f7f7f7;
+    justify-content: center;
     padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.seats-detail>div {
     border: 1px solid #ddd;
     border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    background-color: #ffffff;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
-.seat-row {
-    display: grid;
-    grid-template-columns: repeat(4, 50px);
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 10px;
+
+.seats-detail>div:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    background-color: rgb(205 121 31);
 }
 
-.seat {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    cursor: pointer;
+
+.seats-detail p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #333;
 }
 
-.booked-seat {
-    background-color: #d84e55;
-    color: #fff;
-    cursor: not-allowed;
+
+.seats-detail p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
 }
 
-.selected-seat {
-    background-color: #4caf50;
-    color: #fff;
-}
 
-.available-seat:hover {
-    background-color: #e0f7fa;
-}
-
-.proceed-btn {
-    background-color: #d84e55;
-    color: #fff;
+.book-seat {
+    margin-top: 15px;
     padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.proceed-btn:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
+.book-seat:hover {
+    background-color: #0056b3;
 }
-
-.selected-seats {
-    text-align: center;
-} */
 </style>
