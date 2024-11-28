@@ -34,6 +34,21 @@ namespace BusTicketingApp.Controllers
             }
         }
 
+        [HttpGet("BusesWithOperator")]
+        //[Authorize(Roles = "BusOperator")]
+        public async Task<ActionResult<Bus>> GetBusesByOperator(int userId)
+        {
+            try
+            {
+                var buses = await _busOperatorService.GetBusesByOperator(userId);
+                return Ok(buses);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new {message=ex.Message});
+            }
+        }
+
         [HttpGet("{id}")]
         [Authorize(Roles = "BusOperator")]
 

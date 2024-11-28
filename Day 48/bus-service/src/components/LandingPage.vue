@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import router from '@/script/router';
+
 
 export default {
     name: "LandingPage",
@@ -59,7 +59,14 @@ export default {
     },
     methods: {
         searchBus() {
-            router.push('/auth')
+            this.$router.push({
+                name: 'SearchResult',
+                query: {
+                    source: this.from,
+                    destination: this.to,
+                    date: this.date
+                }
+            });
 
         }
     }
@@ -140,7 +147,7 @@ export default {
 /* Styling the main content */
 .content {
     display: flex;
-    margin: 0 10px;
+    margin: 0 0px;
     position: relative;
     align-items: center;
 }
@@ -190,14 +197,15 @@ export default {
 
 .form-group input {
     outline: none;
-    width: 100%;
+    width: 99%;
+    height: 50px;
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 .form-group input::placeholder {
-    color: black;
+    color: rgba(0, 0, 0, 0.616);
 }
 
 .search-btn {

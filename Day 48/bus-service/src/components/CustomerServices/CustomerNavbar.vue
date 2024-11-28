@@ -6,13 +6,19 @@
         <nav class="nav">
             <a href="#">Help</a>
             <a href="#">History</a>
-            <a href="#">Profile</a>
+            <a><button @click="logout()">Logout</button></a>
         </nav>
     </header>
 </template>
 <script>
 export default {
     name: "CustomerNavbar",
+    methods: {
+        logout() {
+            sessionStorage.clear();
+            this.$router.push("/auth");
+        }
+    }
 }
 </script>
 <style scope>
@@ -25,6 +31,7 @@ export default {
     background-color: white;
     position: fixed;
     top: 0;
+    z-index: 99;
     border-bottom: 1px solid rgb(212, 221, 217);
     box-shadow: 0 1px 2px rgb(221, 228, 225);
 }

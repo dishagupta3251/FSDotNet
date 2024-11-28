@@ -1,4 +1,6 @@
 <template>
+
+
     <div class="main">
         <!-- Search Bar Section -->
         <CustomerNavbar />
@@ -47,23 +49,45 @@
 
             <!-- Bus List Section -->
             <section class="bus-list">
+                <div class="travel">
+                    <h6>{{ source }} </h6>
+                    <p> &rarr;</p>
+                    <h6>{{ destination }}</h6>
+                </div>
                 <div class="bus-item" v-for="bus in buses" :key="bus.busId">
-                    <div class="bus-details">
-
-                        <h4>{{ bus.busNumber }}</h4>
-                        <div class="display">
-                            <div>Type: {{ bus.busType }}</div>
-                            <div>Seats Available: {{ bus.seatsLeft }}</div>
-                            <div>Status: {{ bus.status }}</div>
-                            <div>StandardFare: INR {{ bus.standardFare }}</div>
-                            <div>PremiumFare: INR {{ bus.premiumFare }}</div>
-                            <div>Company: {{ bus.companyName }}</div>
-                            <div>Arrival: {{ formatDate(bus.arrival) }}</div>
-                            <div>Departure: {{ formatDate(bus.departure) }}</div>
+                    <div class="bus-company-busnumber-mapper">
+                        <div class="busCompany my-1">{{ bus.companyName }}</div>
+                        <div class="busNumber my-1">{{ bus.busNumber }}</div>
+                        <div class="busType my-1">{{ bus.busType }}</div>
+                    </div>
+                    <div class="bus-departure-arrival d-flex gap-4 mt-4">
+                        <div class="departureContent-mapper">
+                            <h4 class="">{{ formatDate(bus.departure) }}</h4>
+                            <p class="station">Departure</p>
+                        </div>
+                        <div class="arrivalContent-mapper">
+                            <h4>{{ formatDate(bus.arrival) }}</h4>
+                            <p class="station">Arrival</p>
                         </div>
                     </div>
-
-                    <button class="view-seats-btn" @click="watch(bus.busId)">View Seats</button>
+                    <div class="priceContentMapper mt-4">
+                        <p class="m-0 priceTitle">Starts from</p>
+                        <div><span class="priceValue">₹{{ bus.standardFare }}</span> <span
+                                class="price-type">(StandardFare)</span></div>
+                        <div><span class="priceValue">₹{{ bus.premiumFare }}</span> <span
+                                class="price-type">(PremiumFare)</span>
+                        </div>
+                    </div>
+                    <div class="seatContent mt-5">
+                        <div><span class="seatAvailableValue mx-1">{{ bus.seatsLeft }}</span><span
+                                class="seat-text">Seats
+                                available</span></div>
+                        <!-- <div>Status: {{ bus.status }}</div> -->
+                    </div>
+                    <button class=" view-seats-btn" @click="watch(bus.busId)">View Seats</button>
+                    <div class="about-text">Why {{ bus.companyName
+                        }} | PhotosBoarding & Dropping
+                        | Points | Reviews | Booking policies | Bus | Route</div>
                 </div>
             </section>
         </div>
@@ -136,9 +160,16 @@ export default {
 
 <style scoped>
 .main {
-    height: 100%;
+    height: 50%;
     width: 100%;
     margin: 0%;
+
+}
+
+.travel {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 
 }
 
@@ -199,15 +230,95 @@ export default {
     cursor: pointer;
 }
 
-.display {
+/* .display {
     margin-top: 20px;
     display: flex;
+ 
+ 
+} */
 
-
+.bus-details-mapper {
+    padding: 20px;
 }
+
+
+.busCompany {
+    color: #113979;
+    font-weight: bolder;
+}
+
+.busNumber {
+    font-weight: bolder;
+}
+
+.busType,
+.station,
+.seat-text {
+    font-size: small;
+    color: #7e7e8c;
+}
+
+.departureContent-mapper h4,
+.arrivalContent-mapper h4 {
+    color: #3e3e52;
+    font-weight: bolder;
+}
+
+.priceTitle {
+    color: #3e3e52;
+    font-size: 14px;
+}
+
+.priceValue {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.price-type {
+    font-size: smaller;
+}
+
+.seatAvailableValue,
+.seat-text {
+    font-size: medium;
+    color: #7e7e8c;
+}
+
+.seatAvailableValue {
+    color: rgb(32, 30, 30);
+}
+
+.about-text {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: #0056b3;
+    opacity: 0;
+    transition: 1.2s ease-out;
+}
+
 
 .modify-btn:hover {
     background-color: #0056b3;
+}
+
+
+.view-seats-btn {
+    font-size: smaller;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 7px 20px;
+    border: none;
+    outline: none;
+    background: orangered;
+    color: white;
+    transition: 0.4s ease-out;
+}
+
+.view-seats-btn:hover {
+    background-color: rgba(255, 68, 0, 0.349);
 }
 
 .content {
@@ -217,8 +328,8 @@ export default {
 
 .filters {
     width: 20%;
-    padding: 30px;
-
+    padding: 20px;
+    font-size: medium;
     background-color: FFFAFF;
     border-right: 1px solid #ccc;
 }
@@ -232,35 +343,43 @@ export default {
     padding: 20px;
 }
 
+.bus-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.bus-item:hover .about-text {
+    opacity: 1;
+}
+
 .bus-item {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 40px;
+    margin-bottom: 30px;
     background: white;
-    border-radius: 5px;
+    position: relative;
+    transition: 0.5s ease-out;
 }
 
 .bus-details {
     display: flex;
 }
 
-.view-seats-btn {
-    background-color: rgb(205 121 31);
-    color: FFFAFF;
-    border: none;
-
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
+/* .view-seats-btn {
+background-color: rgb(205 121 31);
+color: FFFAFF;
+border: none;
+ 
+padding: 5px 10px;
+border-radius: 5px;
+cursor: pointer;
 }
-
-.view-seats-btn:hover {
-    background-color: rgb(155, 87, 14);
-}
-
+ 
+ 
+ 
 .rating-price .low {
-    color: red;
-}
+color: red;
+}*/
 </style>

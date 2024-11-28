@@ -2,6 +2,7 @@
 using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
+using MimeKit.Tnef;
 
 
 namespace BusTicketingApp.Services
@@ -10,14 +11,16 @@ namespace BusTicketingApp.Services
     {
         private readonly IRepository<BusOperator,int> _busOperatorRepository;
         private readonly IRepository<Booking,int> _bookingRepository;
+        private readonly IBusService _busService;
         private readonly IReviewService _reviewService;
         private readonly IMapper _mapper;
         private readonly ILogger<BusOperatorService> _logger;
 
-        public BusOperatorService(IRepository<BusOperator, int> busOperatorRepository, IMapper mapper, ILogger<BusOperatorService> logger, IReviewService reviewService, IRepository<Booking, int> bookingRepository)
+        public BusOperatorService(IRepository<BusOperator, int> busOperatorRepository, IMapper mapper, ILogger<BusOperatorService> logger, IReviewService reviewService, IRepository<Booking, int> bookingRepository,IBusService busService)
         {
             _busOperatorRepository = busOperatorRepository;
             _reviewService = reviewService;
+            _busService = busService;
             _mapper = mapper;
             _logger = logger;
             _bookingRepository = bookingRepository;
@@ -114,6 +117,21 @@ namespace BusTicketingApp.Services
                 throw new Exception(ex.Message);
             }
             
+        }
+
+        public async Task<IEnumerable<Bus>> GetBusesByOperator(int userId)
+        {
+            try
+            {
+                var id = (await _busOperatorRepository.GetAll()).FirstOrDefault(o => o.UserId == userId).OperatorId;
+                var buses = (await _busService.GetAllBuses()).Where(b => b.OperatorID == id);
+                if (buses == null) throw new Exception("No buses found with operator id");
+                return buses;
+            }
+            catch
+            {
+                throw new Exception();
+            }
         }
         public async Task<ReviewResponseDTO> GetOperatorReview(int id)
         {

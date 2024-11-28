@@ -34,7 +34,7 @@ namespace BusTicketingApp.Controllers
             }
         }
         [HttpGet("GetAllBuses")]
-        [Authorize(Roles = "BusOperator")]
+        //[Authorize(Roles = "BusOperator")]
         
         public async Task<ActionResult<IEnumerable<Bus>>> GetAll()
         {

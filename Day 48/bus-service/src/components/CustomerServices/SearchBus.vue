@@ -6,30 +6,30 @@
         <main class="main-content">
 
             <!-- Horizontal Search Bar -->
-            <div class="search-bar">
-                <div class="search">
 
-                    <div class="search-bar">
-                        <div class="input-group">
-                            <label for="source">Source</label>
-                            <input id="source" type="text" v-model="source" placeholder="Source" />
-                        </div>
-                        <div class="input-group">
-                            <label for="destination">Destination</label>
-                            <input id="destination" type="text" v-model="destination" placeholder="Destination" />
-                        </div>
-                        <div class="input-group">
-                            <label for="date">Date</label>
-                            <input id="date" type="date" v-model="date" />
-                        </div>
-                        <div class="button-group">
-                            <button class="search-button" style="margin-top: 18px;" @click="search">Search</button>
-                        </div>
+            <div class="search">
 
+                <div class="search-bar">
+                    <div class="input-group">
+                        <label for="source">Source</label>
+                        <input id="source" type="text" v-model="source" placeholder="Source" />
+                    </div>
+                    <div class="input-group">
+                        <label for="destination">Destination</label>
+                        <input id="destination" type="text" v-model="destination" placeholder="Destination" />
+                    </div>
+                    <div class="input-group">
+                        <label for="date">Date</label>
+                        <input id="date" type="date" v-model="date" />
+                    </div>
+                    <div class="button-group">
+                        <button class="search-button" style="margin-top: 18px;" @click="search">Search</button>
                     </div>
 
                 </div>
+
             </div>
+
         </main>
     </div>
 
@@ -130,6 +130,7 @@ input {
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
+
 }
 
 .button-group {
@@ -148,10 +149,12 @@ input {
 .search-bar {
     display: flex;
     gap: 10px;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
     padding: 45px 0;
+
 
 
 }
@@ -166,12 +169,12 @@ input {
 
 }
 
-.input-group input {
+/* .input-group input {
     padding: 10px;
     font-size: 0.9em;
     border: 1px solid #ddd;
-    border-radius: 7px;
-}
+    border-radius: 10px;
+} */
 
 .search-button {
     padding: 10px 20px;

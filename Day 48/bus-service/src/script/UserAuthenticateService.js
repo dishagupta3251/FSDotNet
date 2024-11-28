@@ -1,5 +1,6 @@
 import axios from 'axios'
 
+
 export const Login = async (input, password) => {
     try {
         var response = await axios.post('https://localhost:7176/api/User/Login', {
@@ -24,3 +25,4 @@ export function Register(fname, lname, password, contact, email, role) {
         role: +role
     });
 }
+

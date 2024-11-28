@@ -3,7 +3,10 @@
 </template>
 <script>
 export default {
-    name: "OperatorBuses"
+    name: "OperatorBuses",
+    mounted() {
+        console.log("Operator");
+    }
 }
 </script>
 <style scoped></style>

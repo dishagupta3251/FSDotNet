@@ -139,7 +139,8 @@ export default {
 				const token = res.data.token;
 				const decoded = jwtDecode(token);
 				const role = decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
-				localStorage.setItem("role", role);
+				sessionStorage.setItem("role", role);
+				sessionStorage.setItem("id", res.data.userId);
 				if (role == "Customer") {
 					router.push('/search')
 				} else if (role == "BusOperator") {
@@ -152,7 +153,7 @@ export default {
 				}
 				else {
 
-					router.push('/')
+					router.push('/search')
 				}
 
 
@@ -321,8 +322,8 @@ form {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 0 50px;
-	height: 100%;
+	padding: 8px 20px;
+	height: 99%;
 	text-align: center;
 
 }
@@ -331,7 +332,7 @@ input {
 	background-color: #eee;
 	border: none;
 	padding: 12px 15px;
-	margin: 8px 0;
+	margin: 5px 0;
 	width: 100%;
 }
 
@@ -340,12 +341,13 @@ input {
 	border-radius: 10px;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	position: relative;
-	margin-top: 70px;
+	margin-top: 60px;
+	font-size: small;
 	overflow: hidden;
 	margin-left: 305px;
 	width: 768px;
-	max-width: 100%;
-	min-height: 500px;
+	max-width: 90%;
+	min-height: 526px;
 
 }
 
@@ -411,7 +413,7 @@ input {
 }
 
 .overlay {
-	background: rgb(0 121 145);
+	background: #1ebba1;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;

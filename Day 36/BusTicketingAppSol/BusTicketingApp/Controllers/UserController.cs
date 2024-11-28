@@ -40,29 +40,61 @@ namespace BusTicketingApp.Controllers
         [HttpPost("Login")]
         public async Task<ActionResult<LoginResponseDTO>> Login(LoginRequestDTO loginRequest)
         {
-
-            var user = await _userServices.Login(loginRequest);
-            return Ok(user);
-
+            try
+            {
+                var user = await _userServices.Login(loginRequest);
+                return Ok(user);
+            }
+            catch
+            {
+                throw new Exception("Error loading login request");
+            }
+           
         }
         [HttpGet("GetById")]
         public async Task<ActionResult<UserProfileDTO>> Get(string username)
         {
-            var user = await _userServices.GetById(username);
-            return Ok(user);
+            try
+            {
+                var user = await _userServices.GetById(username);
+                return Ok(user);
+            }
+            catch
+            {
+                throw new Exception("Cannot get profile");
+            }
+            
         }
-        [Authorize(Roles ="Admin")]
+       // [Authorize(Roles ="Admin")]
         [HttpGet("GetAllUsers")]
         public async Task<ActionResult<User>> GetAll()
         {
-            var users=await _userServices.GetAll();
-            return Ok(users);
+            try
+            {
+                var users = await _userServices.GetAll();
+                return Ok(users);
+            }
+            catch
+            {
+                throw new Exception("Cannot get all users");    
+            }
+            
         }
+
         [HttpPut("username")]
         public async Task<ActionResult<OperationStatusDTO>> UpdateUserPassword(string username,string password)
         {
-               var status = await _userServices.UpdatePassword(username,password);
-               return Ok(status);
+            try
+            {
+                var status = await _userServices.UpdatePassword(username, password);
+                return Ok(status);
+
+            }
+            catch
+            {
+                throw new Exception("Cannot update password");
+            }
+
 
         }
     }

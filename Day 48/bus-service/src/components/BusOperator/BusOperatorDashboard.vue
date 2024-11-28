@@ -1,8 +1,9 @@
 <template>
-    <DashboardLayout :menuItems="menuItems">
+    <main>
+        <DashboardLayout :menuItems="menuItems" />
         <router-view />
-        <h1>Hello</h1>
-    </DashboardLayout>
+    </main>
+
 </template>
 <script>
 
@@ -15,7 +16,7 @@ export default {
     data() {
         return {
             menuItems: [
-                { name: "Dashboard", link: "/operatordashboard", icon: "bx bx-grid-alt" },
+                { name: "OperatorDashboard", link: "/operatordashboard", icon: "bx bxs-dashboard" },
                 { name: "Customers", link: "/operatordashboard/customers", icon: "bx bx-user" },
                 { name: "Buses", link: "/operatordashboard/buses", icon: "bx bx-file" },
                 { name: "Reviews", link: "/operatordashboard/reviews", icon: "bx bxs-bank" },
@@ -25,3 +26,8 @@ export default {
 }
 
 </script>
+<style scoped>
+main {
+    display: flex;
+}
+</style>

@@ -12,6 +12,11 @@
                 </RouterLink>
                 <span class="tooltip">{{ item.name }}</span>
             </li>
+            <li @click="logout()">
+                <i class="bx bx-power-off"></i>
+                <span class="link_name">Logout</span>
+                <span class="tooltip">Logout</span>
+            </li>
         </ul>
     </div>
 </template>
@@ -42,6 +47,10 @@ export default {
         toggleSideBar() {
             this.isSideBarOpen = !this.isSideBarOpen;
 
+        },
+        logout() {
+            sessionStorage.clear();
+            this.$router.push("/auth");
         }
     },
 
@@ -51,7 +60,7 @@ export default {
 <style>
 :root {
     --color-default: #1ebba1;
-    --color-second: #2786c5;
+    --color-second: rgb(205 121 31);
     --color-white: #fff;
     --color-body: #e4e9f7;
     --color-light: #e0e0e0;
@@ -61,7 +70,7 @@ export default {
 .sidebar {
     min-height: 100dvh;
     width: 78px;
-    padding: 6px 14px;
+    padding: 6px 2px;
     z-index: 99;
     background-color: var(--color-default);
     transition: all .5s ease;
@@ -83,7 +92,7 @@ export default {
 
 .sidebar .logo_details .icon {
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 5.0s ease;
 }
 
 
@@ -119,6 +128,7 @@ export default {
 .sidebar i {
     color: var(--color-white);
     height: 60px;
+
     line-height: 60px;
     min-width: 50px;
     font-size: 25px;
@@ -127,7 +137,8 @@ export default {
 
 .sidebar .nav-list {
     margin-top: 20px;
-    /* height: 100%; */
+    padding: 0 15px;
+
 }
 
 .sidebar li {
@@ -173,7 +184,7 @@ export default {
     width: 35px;
     border: none;
     border-radius: 5px;
-    background-color: var(--color-second);
+    background-color: var(--color-white);
     transition: all .5s ease;
 }
 
@@ -186,7 +197,7 @@ export default {
     padding: 0 20px 0 50px;
 }
 
-.sidebar .bx-search {
+/* .sidebar .bx-search {
     position: absolute;
     top: 50%;
     left: 0;
@@ -194,7 +205,7 @@ export default {
     font-size: 22px;
     background-color: var(--color-second);
     color: var(--color-white);
-}
+} */
 
 .sidebar li a {
     display: flex;
@@ -240,7 +251,7 @@ export default {
 .sidebar li a:hover .link_name,
 .sidebar li a:hover i {
     transition: all 0.5s ease;
-    color: var(--color-default)
+    color: var(--color-second)
 }
 
 .sidebar.open li a .link_name {

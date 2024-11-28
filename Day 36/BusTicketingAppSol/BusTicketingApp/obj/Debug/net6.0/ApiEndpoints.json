@@ -173,6 +173,32 @@
   },
   {
     "ContainingType": "BusTicketingApp.Controllers.BusOperatorsController",
+    "Method": "GetBusesByOperator",
+    "RelativePath": "api/BusOperators/BusesWithOperator",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BusTicketingApp.Models.Bus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BusTicketingApp.Controllers.BusOperatorsController",
     "Method": "UpdateBusOperator",
     "RelativePath": "api/BusOperators/BusOperatorProfileUpdate",
     "HttpMethod": "PATCH",

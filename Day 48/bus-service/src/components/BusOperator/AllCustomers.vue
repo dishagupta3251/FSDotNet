@@ -1,29 +1,23 @@
 <template>
-    <main>
-        <BusOperatorDashboard />
-        <router-view />
-        <h1>{{ customer }}</h1>
+    <main class="main">
+        <h1> Hello {{ customer }}</h1>
     </main>
 </template>
 <script>
-import BusOperatorDashboard from './BusOperatorDashboard.vue';
+
 
 export default {
     name: "AllCustomers",
-    components: {
-        BusOperatorDashboard
-    },
+
     data() {
         return {
             customer: 'Hello'
         }
+    },
+    mounted() {
+        console.log('Rendered')
     }
 
 }
 </script>
-<style scoped>
-h1 {
-    margin-left: 100px;
-    color: black
-}
-</style>
+<style scoped></style>
