@@ -30,7 +30,7 @@ const routes = [
     {
         path: '/admindashboard',
         component: AdminDashboard,
-        meta: { requireAdmin: true, role: "Admin" },
+        meta: { requireAuth: true, role: "Admin" },
         children: [
             { path: "users", component: AdminUsers },
             { path: "allbuses", component: AllBuses },
@@ -59,6 +59,7 @@ const routes = [
         path: '/searchResult',
         name: 'SearchResult',
         component: SearchResult,
+
     },
     {
         path: '/seat/:id',

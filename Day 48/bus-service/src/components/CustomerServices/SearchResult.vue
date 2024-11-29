@@ -22,11 +22,17 @@
             <!-- Filter Section -->
             <aside class="filters">
 
-                <div class="filter-group">
-                    <h3>Seat Availability</h3>
-                    <ul>
-                        <li><input type="checkbox" id="single" /> Single Seats (205)</li>
-                    </ul>
+                <div class="filter-group-type">
+                    <h4>Type</h4>
+                    <div class="d-flex align-items-center">
+                        <p>AC</p>
+                        <input type="checkbox" id="single" />
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <p>Non-AC</p>
+
+                        <input type="checkbox" id="single" />
+                    </div>
                 </div>
                 <div class="filter-group">
                     <h3>Arrival Time</h3>
@@ -49,11 +55,7 @@
 
             <!-- Bus List Section -->
             <section class="bus-list">
-                <div class="travel">
-                    <h6>{{ source }} </h6>
-                    <p> &rarr;</p>
-                    <h6>{{ destination }}</h6>
-                </div>
+
                 <div class="bus-item" v-for="bus in buses" :key="bus.busId">
                     <div class="bus-company-busnumber-mapper">
                         <div class="busCompany my-1">{{ bus.companyName }}</div>
@@ -78,16 +80,18 @@
                                 class="price-type">(PremiumFare)</span>
                         </div>
                     </div>
-                    <div class="seatContent mt-5">
+                    <div class="seatContent mt-4">
+                        <div :class="['blinking-text']" :style="{ color: busColor(bus.status) }">{{ bus.status }}</div>
                         <div><span class="seatAvailableValue mx-1">{{ bus.seatsLeft }}</span><span
                                 class="seat-text">Seats
                                 available</span></div>
-                        <!-- <div>Status: {{ bus.status }}</div> -->
+
                     </div>
                     <button class=" view-seats-btn" @click="watch(bus.busId)">View Seats</button>
-                    <div class="about-text">Why {{ bus.companyName
-                        }} | PhotosBoarding & Dropping
-                        | Points | Reviews | Booking policies | Bus | Route</div>
+                    <div class="about-text">
+                        <p>Booking policies</p>
+                        <p>{{ bus.companyName }}</p>
+                    </div>
                 </div>
             </section>
         </div>
@@ -108,7 +112,7 @@ export default {
             buses: [],
             source: '',
             destination: '',
-            date: ''
+            date: '',
         };
     },
     computed: {
@@ -141,7 +145,11 @@ export default {
             console.log(id);
             this.$router.push({ name: 'Seats', params: { id: id } });
 
+        },
+        busColor(status) {
+            return status === 'Running' ? 'green' : 'red';
         }
+
     },
     mounted() {
 
@@ -163,6 +171,7 @@ export default {
     height: 50%;
     width: 100%;
     margin: 0%;
+    background-color: #f9f9ff;
 
 }
 
@@ -172,6 +181,7 @@ export default {
     gap: 20px;
 
 }
+
 
 .header {
     width: 100%;
@@ -200,7 +210,7 @@ export default {
 
 .nav a {
     text-decoration: none;
-    color: FFFAFF;
+    color: white;
     font-size: 1em;
 }
 
@@ -208,11 +218,14 @@ export default {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    padding: 10px 10px;
-    background-color: FFFAFF;
-
+    align-items: end;
+    position: fixed;
+    z-index: 2;
+    height: 99px;
+    padding: 19px 42px;
+    background-color: white;
     border-bottom: 1px solid rgb(230, 241, 237);
-    box-shadow: 0 1px 2px rgb(161, 167, 164);
+    box-shadow: 0 1px 2px rgb(192, 197, 195);
 }
 
 .route {
@@ -222,10 +235,11 @@ export default {
 }
 
 .modify-btn {
-    background-color: #007bff;
-    color: FFFAFF;
+    background-color: rgb(205 121 31);
+    color: white;
     border: none;
-    padding: 5px 15px;
+    align-items: end;
+    padding: 2px 15px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -288,10 +302,13 @@ export default {
     color: rgb(32, 30, 30);
 }
 
+
 .about-text {
     position: absolute;
-    bottom: 10px;
-    font-size: 14px;
+    display: flex;
+    bottom: 1px;
+    gap: 20px;
+    font-size: 12px;
     color: #0056b3;
     opacity: 0;
     transition: 1.2s ease-out;
@@ -299,7 +316,7 @@ export default {
 
 
 .modify-btn:hover {
-    background-color: #0056b3;
+    background-color: rgb(148, 79, 5);
 }
 
 
@@ -312,7 +329,7 @@ export default {
     padding: 7px 20px;
     border: none;
     outline: none;
-    background: orangered;
+    background: rgb(205 121 31);
     color: white;
     transition: 0.4s ease-out;
 }
@@ -324,23 +341,28 @@ export default {
 .content {
     width: 100%;
     display: flex;
+
 }
 
 .filters {
     width: 20%;
     padding: 20px;
+    margin-top: 170px;
     font-size: medium;
-    background-color: FFFAFF;
+    background-color: white;
     border-right: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(192, 197, 195);
 }
 
-.filter-group {
+.filter-group-type {
+    display: inline;
     margin-bottom: 20px;
 }
 
 .bus-list {
     width: 80%;
     padding: 20px;
+    margin-top: 150px;
 }
 
 .bus-item:hover {
@@ -365,6 +387,28 @@ export default {
 
 .bus-details {
     display: flex;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking-text {
+    text-align: right;
+    margin-top: 5%;
+    font-size: 15px;
+    color: green;
+    animation: blink 3s infinite;
 }
 
 /* .view-seats-btn {
