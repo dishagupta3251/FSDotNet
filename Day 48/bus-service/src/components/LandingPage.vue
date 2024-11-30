@@ -37,6 +37,15 @@
                 </form>
             </div>
 
+            <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex" v-if="show">
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
 
             <!-- Right Side: Image Section -->
             <div class="image-section"></div>
@@ -46,7 +55,6 @@
 
 <script>
 
-
 export default {
     name: "LandingPage",
     data() {
@@ -54,21 +62,28 @@ export default {
             from: '',
             to: '',
             date: '',
-            showToastMessage: false
+            show: true,
         }
     },
     methods: {
         searchBus() {
-            this.$router.push({
-                name: 'SearchResult',
-                query: {
-                    source: this.from,
-                    destination: this.to,
-                    date: this.date
-                }
-            });
+            const token = sessionStorage.getItem("token");
+            if (!token) {
+                this.$router.push('/auth');
+            }
+            else {
+                this.$router.push({
+                    name: 'SearchResult',
+                    query: {
+                        source: this.from,
+                        destination: this.to,
+                        date: this.date
+                    }
+                });
+            }
 
-        }
+        },
+
     }
 }
 </script>

@@ -184,6 +184,7 @@ export default {
 import { ref, computed, onMounted } from "vue";
 import axios from "axios";
 
+
 export default {
     name: "SeatSelection",
     props: {
@@ -204,7 +205,6 @@ export default {
             )
         );
 
-        // Fetch seats from the backend
         const fetchSeats = async () => {
             try {
                 const response = await axios.get(`/api/seats/${props.busId}`);

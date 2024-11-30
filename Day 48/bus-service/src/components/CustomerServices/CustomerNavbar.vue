@@ -7,7 +7,7 @@
         </div>
         <nav class="nav">
             <a href="#">Help</a>
-            <a>About</a>
+            <a href="#">Contact</a>
             <div class="dropdown">
                 <button class="dropbtn">Dropdown</button>
                 <div class="dropdown-content">
@@ -94,7 +94,7 @@ export default {
 .logo {
 
 
-    width: 10px;
+    width: 30px;
 }
 
 

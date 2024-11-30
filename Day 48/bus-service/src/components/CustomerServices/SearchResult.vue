@@ -4,96 +4,102 @@
     <div class="main">
         <!-- Search Bar Section -->
         <CustomerNavbar />
+        <div>
+            <header class="search-bar">
+                <div class="route">
 
-        <header class="search-bar">
-            <div class="route">
+                    <span>{{ source }}</span>
+                    <i class="arrow-icon">→</i>
+                    <span>{{ destination }}</span>
+                    <span class="date">{{ formattedDate }}</span>
+                </div>
+                <button class="modify-btn" @click="modifySearch">Modify</button>
+            </header>
+            <div class="content">
+                <!-- Filter Section -->
+                <aside class="filters">
 
-                <span>{{ source }}</span>
-                <i class="arrow-icon">→</i>
-                <span>{{ destination }}</span>
-                <span class="date">{{ formattedDate }}</span>
+                    <div class="filter-group-type">
+                        <h3>Type</h3>
+                        <div class="typeSelectorMapper d-flex align-items-center">
+                            <label for="ac">AC</label>
+                            <input type="checkbox" id="ac" name="ac">
+                        </div>
+                        <div class="typeSelectorMapper d-flex align-items-center">
+                            <label for="nonAc">Non-AC</label>
+                            <input type="checkbox" id="nonAc" name="nonAc" />
+                        </div>
+                    </div>
+                    <div class="filter-group mt-4">
+                        <h3>Arrival Time</h3>
+                        <div class="arrivalTimeSelectorMapper d-flex align-items-center">
+                            <label for="before6am">Before 6 am</label>
+                            <input type="checkbox" id="before6am" name="before6am">
+                        </div>
+                        <div class="arrivalTimeSelectorMapper d-flex align-items-center">
+                            <label for="6amto12pm">6 am to 12 pm</label>
+                            <input type="checkbox" id="6amto12pm" name="6amto12pm" />
+                        </div>
+                        <div class="arrivalTimeSelectorMapper d-flex align-items-center">
+                            <label for="12pmto6pm">12 pm to 6 pm </label>
+                            <input type="checkbox" id="12pmto6pm" name="12pmto6pm" />
+                        </div>
+                        <div class="arrivalTimeSelectorMapper d-flex align-items-center">
+                            <label for="after6pm"> After 6 pm </label>
+                            <input type="checkbox" id="after6pm" name="after6pm">
+                        </div>
+                    </div>
+
+                </aside>
+
+                <!-- Bus List Section -->
+                <section class="bus-list">
+                    <DotLottieVue class="loading" v-if="loading" autoplay loop
+                        src="https://lottie.host/4480640a-0a4e-4a35-95bd-48e4dddb1690/IL1ds5D6Vz.lottie" />
+                    <div>
+                        <div class="bus-item" v-for="bus in buses" :key="bus.busId">
+                            <div class="bus-company-busnumber-mapper">
+                                <div class="busCompany my-1">{{ bus.companyName }}</div>
+                                <div class="busNumber my-1">{{ bus.busNumber }}</div>
+                                <div class="busType my-1">{{ bus.busType }}</div>
+                            </div>
+                            <div class="bus-departure-arrival d-flex gap-4 mt-4">
+                                <div class="departureContent-mapper">
+                                    <h4 class="">{{ formatDate(bus.departure) }}</h4>
+                                    <p class="station">Departure</p>
+                                </div>
+                                <div class="arrivalContent-mapper">
+                                    <h4>{{ formatDate(bus.arrival) }}</h4>
+                                    <p class="station">Arrival</p>
+                                </div>
+                            </div>
+                            <div class="priceContentMapper mt-4">
+                                <p class="m-0 priceTitle">Starts from</p>
+                                <div><span class="priceValue">₹{{ bus.standardFare }}</span> <span
+                                        class="price-type">(StandardFare)</span></div>
+                                <div><span class="priceValue">₹{{ bus.premiumFare }}</span> <span
+                                        class="price-type">(PremiumFare)</span>
+                                </div>
+                            </div>
+                            <div class="seatContent mt-4">
+                                <div :class="['blinking-text']" :style="{ color: busColor(bus.status) }">{{ bus.status
+                                    }}
+                                </div>
+                                <div><span class="seatAvailableValue mx-1">{{ bus.seatsLeft }}</span><span
+                                        class="seat-text">Seats
+                                        available</span></div>
+
+                            </div>
+                            <button class=" view-seats-btn" @click="watch(bus.busId)">View Seats</button>
+                            <div class="about-text">
+                                <p>Booking policies</p>
+                                <p>{{ bus.companyName }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
             </div>
-            <button class="modify-btn" @click="modifySearch">Modify</button>
-        </header>
-
-
-
-        <div class="content">
-            <!-- Filter Section -->
-            <aside class="filters">
-
-                <div class="filter-group-type">
-                    <h4>Type</h4>
-                    <div class="d-flex align-items-center">
-                        <p>AC</p>
-                        <input type="checkbox" id="single" />
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <p>Non-AC</p>
-
-                        <input type="checkbox" id="single" />
-                    </div>
-                </div>
-                <div class="filter-group">
-                    <h3>Arrival Time</h3>
-                    <ul>
-                        <li><input type="checkbox" id="before6am" /> Before 6 am </li>
-                        <li><input type="checkbox" id="6amto12pm" /> 6 am to 12 pm </li>
-                        <li><input type="checkbox" id="12pmto6pm" /> 12 pm to 6 pm </li>
-                        <li><input type="checkbox" id="after6pm" /> After 6 pm </li>
-                    </ul>
-                </div>
-                <div class="filter-group">
-                    <h3>Boarding Point</h3>
-                    <input type="text" placeholder="Boarding Point" />
-                </div>
-                <div class="filter-group">
-                    <h3>Dropping Point</h3>
-                    <input type="text" placeholder="Dropping Point" />
-                </div>
-            </aside>
-
-            <!-- Bus List Section -->
-            <section class="bus-list">
-
-                <div class="bus-item" v-for="bus in buses" :key="bus.busId">
-                    <div class="bus-company-busnumber-mapper">
-                        <div class="busCompany my-1">{{ bus.companyName }}</div>
-                        <div class="busNumber my-1">{{ bus.busNumber }}</div>
-                        <div class="busType my-1">{{ bus.busType }}</div>
-                    </div>
-                    <div class="bus-departure-arrival d-flex gap-4 mt-4">
-                        <div class="departureContent-mapper">
-                            <h4 class="">{{ formatDate(bus.departure) }}</h4>
-                            <p class="station">Departure</p>
-                        </div>
-                        <div class="arrivalContent-mapper">
-                            <h4>{{ formatDate(bus.arrival) }}</h4>
-                            <p class="station">Arrival</p>
-                        </div>
-                    </div>
-                    <div class="priceContentMapper mt-4">
-                        <p class="m-0 priceTitle">Starts from</p>
-                        <div><span class="priceValue">₹{{ bus.standardFare }}</span> <span
-                                class="price-type">(StandardFare)</span></div>
-                        <div><span class="priceValue">₹{{ bus.premiumFare }}</span> <span
-                                class="price-type">(PremiumFare)</span>
-                        </div>
-                    </div>
-                    <div class="seatContent mt-4">
-                        <div :class="['blinking-text']" :style="{ color: busColor(bus.status) }">{{ bus.status }}</div>
-                        <div><span class="seatAvailableValue mx-1">{{ bus.seatsLeft }}</span><span
-                                class="seat-text">Seats
-                                available</span></div>
-
-                    </div>
-                    <button class=" view-seats-btn" @click="watch(bus.busId)">View Seats</button>
-                    <div class="about-text">
-                        <p>Booking policies</p>
-                        <p>{{ bus.companyName }}</p>
-                    </div>
-                </div>
-            </section>
         </div>
     </div>
 </template>
@@ -101,11 +107,12 @@
 <script>
 import { GetBuses } from '../../script/BusService';
 import CustomerNavbar from './CustomerNavbar.vue';
-
+import { DotLottieVue } from '@lottiefiles/dotlottie-vue'
 export default {
     name: "SearchResult",
     components: {
-        CustomerNavbar
+        CustomerNavbar,
+        DotLottieVue
     },
     data() {
         return {
@@ -113,6 +120,7 @@ export default {
             source: '',
             destination: '',
             date: '',
+            loading: true,
         };
     },
     computed: {
@@ -127,7 +135,7 @@ export default {
             GetBuses(source, destination, formattedDate)
                 .then((response) => {
                     this.buses = response.data;
-                    console.log(response)
+                    this.loading = false;
                 })
                 .catch((err) => {
                     console.error(err);
@@ -221,8 +229,8 @@ export default {
     align-items: end;
     position: fixed;
     z-index: 2;
-    height: 99px;
-    padding: 19px 42px;
+    height: 140px;
+    padding: 15px 42px;
     background-color: white;
     border-bottom: 1px solid rgb(230, 241, 237);
     box-shadow: 0 1px 2px rgb(192, 197, 195);
@@ -234,12 +242,24 @@ export default {
     /* align-items: center; */
 }
 
+.typeSelectorMapper input,
+.arrivalTimeSelectorMapper input {
+    cursor: pointer;
+    width: auto;
+}
+
+.typeSelectorMapper label,
+.arrivalTimeSelectorMapper label {
+    flex: 1;
+    cursor: pointer;
+}
+
 .modify-btn {
     background-color: rgb(205 121 31);
     color: white;
     border: none;
     align-items: end;
-    padding: 2px 15px;
+    padding: 1px 15px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -359,6 +379,14 @@ export default {
     margin-bottom: 20px;
 }
 
+.filters h3 {
+    font-weight: bolder;
+    border-bottom: 4px solid rgb(205 121 31);
+    color: #3e3e52;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
 .bus-list {
     width: 80%;
     padding: 20px;
@@ -404,26 +432,17 @@ export default {
 }
 
 .blinking-text {
-    text-align: right;
+    text-align: center;
     margin-top: 5%;
     font-size: 15px;
     color: green;
     animation: blink 3s infinite;
 }
 
-/* .view-seats-btn {
-background-color: rgb(205 121 31);
-color: FFFAFF;
-border: none;
- 
-padding: 5px 10px;
-border-radius: 5px;
-cursor: pointer;
+.loading {
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 400px;
 }
- 
- 
- 
-.rating-price .low {
-color: red;
-}*/
 </style>

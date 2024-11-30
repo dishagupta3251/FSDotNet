@@ -27,7 +27,7 @@
                             <td>{{ bus.numberOfSeats }}</td>
                             <td>{{ bus.standardFare }}</td>
                             <td>{{ bus.premiumFare }}</td>
-                            <td class="status">{{ getStatus(bus.status).stat }}</td>
+                            <td :class="['status']" :style="{ color: busColor(bus.status) }">{{ bus.status }}</td>
                             <td><button type="button" class="btn btn-primary">Details</button></td>
                             <td><button type="button" class="btn btn-info">Info</button></td>
                             <td><button type="button" class="btn btn-danger">Delete</button></td>
@@ -45,10 +45,7 @@ export default {
     data() {
         return {
             buses: [],
-            busStatus: {
-                stat: '',
-                color: ''
-            }
+
         }
     },
     methods: {
@@ -63,23 +60,12 @@ export default {
             if (type == 0) return "AC"
             return "Non-AC"
         },
-        getStatus(status) {
-            if (status == 0) {
-
-                return {
-                    stat: "Running",
-                    color: "green"
-                }
-            }
-            else {
-                return {
-                    stat: "Stopped",
-                    color: "red"
-                }
-            }
+        getColor(status) {
+            return status == "Running" ? 'green' : 'red';
         }
-
     },
+
+
     mounted() {
         this.getBuses();
     }

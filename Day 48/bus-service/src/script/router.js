@@ -9,7 +9,6 @@ import PaymentsHistory from "@/components/Admin/PaymentsHistory.vue";
 import AllCustomers from "@/components/BusOperator/AllCustomers.vue";
 import OperatorBuses from "@/components/BusOperator/OperatorBuses.vue";
 import OperatorReviews from "@/components/BusOperator/OperatorReviews.vue";
-import LandingPage from "@/components/LandingPage.vue";
 import SearchBus from "@/components/CustomerServices/SearchBus.vue";
 import SearchResult from "@/components/CustomerServices/SearchResult.vue";
 import SeatsSelection from "@/components/CustomerServices/SeatsSelection.vue";
@@ -17,6 +16,8 @@ import BusOperatorDashboard from "@/components/BusOperator/BusOperatorDashboard.
 import DashboardLayout from "@/components/DashboardLayout.vue";
 import UnauthorizedPage from "@/components/UnauthorizedPage.vue";
 import { jwtDecode } from "jwt-decode";
+import LandingPage from "@/components/LandingPage.vue";
+
 
 
 
@@ -78,7 +79,6 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-    console.log(to.meta.requireAuth);
     if (to.meta.requireAuth) {
         const token = sessionStorage.getItem("token");
         if (token) {
