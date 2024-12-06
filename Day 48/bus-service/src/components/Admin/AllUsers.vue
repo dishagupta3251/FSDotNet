@@ -11,9 +11,9 @@
                             <th scope="col">Username</th>
                             <th scope="col">Email</th>
                             <th scope="col">Role</th>
-                            <th scope="col">Status</th>
                             <th scope="col">Delete</th>
-                            <th scope="col">Details</th>
+                            <th scope="col">Info</th>
+
                         </tr>
                     </thead>
                     <tbody>
@@ -23,9 +23,9 @@
                             <td>{{ user.username }}</td>
                             <td>{{ user.email }}</td>
                             <td>{{ getRoleLabel(user.role) }}</td>
-                            <td><button type="button" class="btn btn-primary">Active</button></td>
+
                             <td><button type="button" class="btn btn-danger">Delete</button></td>
-                            <td><button type="button" class="btn btn-info">Info..</button></td>
+                            <td><button type="button" class="btn btn-info">Info</button></td>
                         </tr>
                     </tbody>
                 </table>

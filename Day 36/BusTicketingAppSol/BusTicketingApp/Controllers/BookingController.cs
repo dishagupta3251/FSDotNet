@@ -17,7 +17,7 @@ namespace BusTicketingApp.Controllers
         }
         
         [HttpGet("SeeAllBuses")]
-        //[Authorize(Roles = "Customer")]
+        [Authorize(Roles = "Customer")]
         public async Task<ActionResult> GetBusesOnRoute(string from, string to, DateTime dateTime, int pagenum, int pagesize)
         {
             try
@@ -52,7 +52,7 @@ namespace BusTicketingApp.Controllers
 
        
         [HttpPost("BookBus")]
-        [Authorize(Roles = "Customer")]
+        //[Authorize(Roles = "Customer")]
         public async Task<ActionResult> Booking(SeatSelectionRequestDTO seatSelectionRequest)
         {
             try
@@ -79,7 +79,7 @@ namespace BusTicketingApp.Controllers
 
        
         [HttpPost("payment")]
-        [Authorize(Roles = "Customer")]
+        //[Authorize(Roles = "Customer")]
         public async Task<ActionResult> InitiatePayment(PaymentRequestDTO paymentRequest)
         {
             try
@@ -94,7 +94,7 @@ namespace BusTicketingApp.Controllers
         }
         
         [HttpGet("history")]
-        [Authorize(Roles = "Customer")]
+        //[Authorize(Roles = "Customer")]
         public async Task<ActionResult> GetBookingHistory(int customerId)
         {
             try

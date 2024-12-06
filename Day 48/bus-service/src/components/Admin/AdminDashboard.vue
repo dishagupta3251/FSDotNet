@@ -2,8 +2,11 @@
 
     <main>
 
-        <DashboardLayout :menuItems="Items" />
-        <router-view />
+        <DashboardLayout :menuItems="Items" :profile="profile" :logout="logout" />
+        <div class="router-view">
+
+            <router-view />
+        </div>
     </main>
 
 </template>
@@ -25,7 +28,10 @@ export default {
                 { id: 5, name: "Payments", link: "/admindashboard/payments", icon: "bx bx-money" },
                 { id: 6, name: "Routes", link: "/admindashboard/routes", icon: "bx bx-trip" },
                 { id: 7, name: "Bookings", link: "/admindashboard/bookings", icon: "bx bxs-bookmark-star" },
-            ]
+            ],
+            profile: { name: "Profile", link: "/admindashboard/users", icon: "bx bx-user-circle" },
+            logout:
+                { id: 2, name: "Logout", link: "../auth", icon: "bx bx-log-out-circle" }
         }
     }
 }
@@ -34,5 +40,12 @@ export default {
 <style scoped>
 main {
     display: flex;
+}
+
+.router-view {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>

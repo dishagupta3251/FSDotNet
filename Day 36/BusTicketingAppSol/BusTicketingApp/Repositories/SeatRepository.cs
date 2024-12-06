@@ -84,8 +84,6 @@ namespace BusTicketingApp.Repositories
                 var existingSeat = await Get(key);
                 existingSeat.IsBooked = entity.IsBooked;
                 existingSeat.SeatNumber = entity.SeatNumber;
-
-               
                 await _ticketingContext.SaveChangesAsync();
 
                 return existingSeat;

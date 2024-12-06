@@ -45,11 +45,11 @@ namespace BusTicketingApp.Controllers
                 var user = await _userServices.Login(loginRequest);
                 return Ok(user);
             }
-            catch
-            {
-                throw new Exception("Error loading login request");
-            }
            
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
         [HttpGet("GetById")]
         public async Task<ActionResult<UserProfileDTO>> Get(string username)
@@ -65,8 +65,9 @@ namespace BusTicketingApp.Controllers
             }
             
         }
-       // [Authorize(Roles ="Admin")]
+      
         [HttpGet("GetAllUsers")]
+         [Authorize(Roles ="Admin")]
         public async Task<ActionResult<User>> GetAll()
         {
             try

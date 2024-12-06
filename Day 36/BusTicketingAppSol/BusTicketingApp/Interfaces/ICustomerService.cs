@@ -8,6 +8,8 @@ namespace BusTicketingApp.Interfaces
         Task<Customer> AddCustomer(CustomerCreateDTO customerCreateDTO);
         Task<Customer> UpdateCustomer(int id, CustomerCreateDTO customerCreateDTO);
         Task<Customer> GetCustomerById(int id);
+
+        Task<Customer> GetCustomerByUsername(string username);
         Task<IEnumerable<Customer>> GetAllCustomers();
     }
 }

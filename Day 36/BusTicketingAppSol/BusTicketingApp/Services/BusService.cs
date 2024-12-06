@@ -14,16 +14,18 @@ namespace BusTicketingApp.Services
         private readonly IRepository<BusSchedule, int> _busScheduleRepository;
         private readonly IRepository<Seats, int> _seatRepository;
         private readonly IRepository<AvailableRoute, int> _availableRouteRepository;
-        private readonly IRepository<SeatsBooked, int> _seatsBookedRespository;
+        private readonly IRoutingService _routingService;
+        private readonly IRepository< SeatsBooked,int> _seatsBookedRepository;
         private readonly IMapper _mapper;
 
-        public BusService(IRepository<Bus,int> repository,IRepository<BusSchedule,int> repository1,IMapper mapper, IRepository<Seats,int> repository2,IRepository<AvailableRoute,int> repository3, IRepository<SeatsBooked,int> repository4)
+        public BusService(IRepository<Bus,int> repository,IRepository<BusSchedule,int> repository1,IMapper mapper, IRepository<Seats,int> repository2,IRepository<AvailableRoute,int> repository3, IRoutingService routingService,IRepository<SeatsBooked,int> repository4)
         {
             _busRepository = repository;
             _busScheduleRepository = repository1;
             _seatRepository= repository2;
-            _seatsBookedRespository = repository4;
+            _routingService = routingService;
             _availableRouteRepository= repository3;
+            _seatsBookedRepository = repository4;
             _mapper = mapper;
         }
         public async Task<Bus> BuildBus(BusCreateDTO bus)
@@ -85,56 +87,36 @@ namespace BusTicketingApp.Services
             try
             {
                 var bus =await _busRepository.Get(id);
-                var seats = (await _seatRepository.GetAll()).Where(s => s.BusId == id && s.IsBooked==false).ToList();
+                var seats = (await _seatRepository.GetAll()).Where(s => s.BusId == id).ToList();
+                var route = await _routingService.GetRoute(bus.RouteId);
                 if (bus == null || seats == null) throw new Exception();
 
                 List<SeatsResponseDTO> seatsResponseDTOs = new List<SeatsResponseDTO>();
 
                 
-                var seatsBooked = (await _seatsBookedRespository.GetAll()).Where(s => s.SeatStatus.ToString()=="Pending"&& s.BusId==id).ToList();
-
-                if(seatsBooked.Count==0)
-                {
-                    foreach(var seat in seats)
-                    {
-                        var response = new SeatsResponseDTO()
-                        {
-                            SeatId = seat.SeatsId,
-                            Seat = seat.SeatNumber + seat.SeatType,
-                            Price = seat.Price,
-                        };
-                        seatsResponseDTOs.Add(response);
-                    }
-                }
-                else
-                {
+  
                     foreach (var seat in seats)
                     {
-                        var seatBook = seatsBooked.FirstOrDefault(s => s.SeatId == seat.SeatsId);
-                        if (seatBook == null)
-                        {
+                       
                             var response = new SeatsResponseDTO()
                             {
                                 SeatId = seat.SeatsId,
                                 Seat = seat.SeatNumber + seat.SeatType,
                                 Price = seat.Price,
+                                Status=seat.IsBooked,
                             };
                             seatsResponseDTOs.Add(response);
-                        }
+                     }
 
-
-                    }
-
-                }
 
                 
                 
                 BusWithSeatsResponseDTO busWithSeatsResponseDTO = new BusWithSeatsResponseDTO()
                 {
                     BusNumber=bus.BusNumber,
-                    BusType=bus.BusType.ToString(),
-                    StandardFare=bus.StandardFare,
-                    PremiumFare=bus.PremiumFare,
+                    BusId=bus.BusId,
+                    Source=route.Origin,
+                    Destination=route.Destination,
                     Seats= seatsResponseDTOs
                 };
 

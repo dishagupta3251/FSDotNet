@@ -57,7 +57,8 @@ public class SeatService : ISeatService
                 {
                     SeatId = seatId,
                     Seat = seat.SeatNumber + seat.SeatType.ToString(),
-                    Price = seat.Price
+                    Price = seat.Price,
+                    Status=seat.IsBooked,
                 };
 
                 

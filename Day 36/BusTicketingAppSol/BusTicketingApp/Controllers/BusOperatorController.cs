@@ -1,6 +1,7 @@
 ﻿using BusTicketingApp.Interfaces;
 using BusTicketingApp.Models;
 using BusTicketingApp.Models.DTO;
+using BusTicketingApp.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,7 +20,7 @@ namespace BusTicketingApp.Controllers
        
 
         [HttpPatch("BusOperatorProfileUpdate")]
-        //[Authorize(Roles = "BusOperator")]
+        [Authorize(Roles = "BusOperator")]
 
         public async Task<IActionResult> UpdateBusOperator(int id, BusOperatorCreateDTO busOperatorCreateDTO)
         {
@@ -35,7 +36,7 @@ namespace BusTicketingApp.Controllers
         }
 
         [HttpGet("BusesWithOperator")]
-        //[Authorize(Roles = "BusOperator")]
+        [Authorize(Roles = "BusOperator")]
         public async Task<ActionResult<Bus>> GetBusesByOperator(int userId)
         {
             try
@@ -49,7 +50,21 @@ namespace BusTicketingApp.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetOperatorByUsername")]
+        public async Task<ActionResult<BusOperator>> GetOperatorByUsername(string username)
+        {
+            try
+            {
+                var busOperator = await _busOperatorService.GetBusOperatorByUsername(username);
+                return Ok(busOperator);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+        }
+
+        [HttpGet("GetBusOperatorById")]
         [Authorize(Roles = "BusOperator")]
 
         public async Task<ActionResult<BusOperator>> GetBusOperatorById(int id)

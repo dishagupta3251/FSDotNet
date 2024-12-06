@@ -1,21 +1,17 @@
 <template>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+	<DotLottieVue class="loading" v-if="loading" autoplay loop
+		src="https://lottie.host/4480640a-0a4e-4a35-95bd-48e4dddb1690/IL1ds5D6Vz.lottie" />
 
-	<div :class="['container', { 'right-panel-active': isSignUp }]">
+	<div :class="['container', { 'right-panel-active': isSignUp }]" v-if="loading == false">
 
 		<div class="form-container sign-up-container">
 			<form>
 				<h1>Create account</h1>
 				<div class="social-container">
-					<a href="#" class="social" target="_blank" aria-label="Facebook">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-					<a href="#" class="social" target="_blank" aria-label="Google">
-						<i class="fab fa-google-plus-g"></i>
-					</a>
-					<a href="#" class="social" target="_blank" aria-label="LinkedIn">
-						<i class="fab fa-linkedin-in"></i>
-					</a>
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 				<span>or use your email for registration</span>
 				<input v-model="fname" placeholder="First Name" />
@@ -34,7 +30,7 @@
 						<option value="0">Customer</option>
 					</select>
 				</div>
-				<button type="submit" @click="register">Sign Up</button>
+				<button type="submit" style="margin-top: 10px;" @click="register">Sign Up</button>
 			</form>
 		</div>
 
@@ -47,18 +43,12 @@
 					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 				<span>or use your account</span>
-				<input v-model="input" placeholder="Email or Username" />
-				<input v-model="loginPassword" type="password" placeholder="Password" />
+				<input type="text" v-model="input" placeholder="Email or Username" />
+				<input type="password" v-model="loginPassword" placeholder="Password" />
 				<a href="#">Forgot your password?</a>
-				<button type="submit" @click="login">Sign In</button>
+				<button type="submit" @click="showAnimation">Sign In</button>
 			</form>
 		</div>
-
-		<!-- <div>
-			<div v-if="showToastMessage" class="toast">
-				{{ username }}
-			</div>
-		</div> -->
 
 		<div class="overlay-container">
 			<div class="overlay">
@@ -77,31 +67,13 @@
 
 
 	</div>
-	<div class="toast align-items-center text-bg-primary border-0" style="z-index:1000" role="alert"
-		aria-live="assertive" aria-atomic="true" v-if="showToastMessage">
-		<div class="d-flex">
-			<div class="toast-body">
-				{{ errorMessage }}
-			</div>
-			<button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
-				aria-label="Close"></button>
-		</div>
-	</div>
 
-	<button @click="showErrorToast">Toggle</button>
-	<button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
 
-	<div class="toast-container position-fixed bottom-0 end-0 p-3">
-		<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-			<div class="toast-header">
-				<strong class="me-auto">Bootstrap</strong>
-				<small>11 mins ago</small>
-				<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-			</div>
-			<div class="toast-body">
-				Hello, world! This is a toast message.
-			</div>
-		</div>
+	<div>
+		<b-toast v-model="showToastMessage" auto-hide-delay="5000" :title="toastTitle" :variant="toastType"
+			style="position: fixed; top: 0; right: 0; padding: 1rem; z-index: 1000;">
+			{{ toastContent }}
+		</b-toast>
 	</div>
 
 </template>
@@ -109,14 +81,21 @@
 <script>
 import router from '@/script/router';
 import { Register, Login } from "@/script/UserAuthenticateService";
+import { GetCustomer } from '@/script/BusService';
 import { jwtDecode } from 'jwt-decode';
+import { DotLottieVue } from '@lottiefiles/dotlottie-vue'
+import { GetOperator } from '@/script/OperatorService';
+
 
 
 export default {
 	name: 'AuthForm',
+	components: {
+		DotLottieVue
+	},
 	data() {
 		return {
-			showToastMessage: true,
+
 			username: '',
 			isSignUp: false,
 			input: '',
@@ -127,7 +106,12 @@ export default {
 			loginPassword: '',
 			registerPassword: '',
 			role: '',
-			errorMessage: ''
+			errorMessage: '',
+			loading: false,
+			showToastMessage: false,
+			toastType: '',
+			toastContent: '',
+			toastTitle: ''
 		};
 	},
 	methods: {
@@ -144,39 +128,67 @@ export default {
 			event.preventDefault();
 			Register(this.fname, this.lname, this.registerPassword, this.contact, this.email, this.role)
 				.then((response) => {
-					this.showToastMessage = true;
 					this.username = response.data.data
-					setTimeout(() => {
-						this.showToastMessage = false;
-						router.push('/auth')
-					});
+					this.toggleSignIn();
+					this.makeToast("success", "Welcome to our platform, " + this.username, "Registration Successful");
 
 				})
 				.catch((err) => {
-					alert(err.response.data);
+					console.log(err);
+					if (err.response.data.errorMessage)
+						this.makeToast("success", err.response.data.errorMessage, "Registration Failed");
+
+					if (err.response.data.errors.Password) {
+						this.makeToast("warning", err.response.data.errors.Password[0], "");
+
+					} if (err.response.data.errors.ContactNumber) {
+						this.makeToast("warning", err.response.data.errors.ContactNumber[0], "Registration failed");
+
+					}
+					if (err.response.data.errors.FirstName) {
+						this.makeToast("warning", err.response.data.errors.FirstName[0], "Registration failed");
+					}
 				});
 
 		},
 
 
-		async login(event) {
-			event.preventDefault();
+		async login() {
 
 			try {
 				const res = await Login(this.input, this.loginPassword);
 
 				if (res.status === 200) {
 					sessionStorage.setItem("token", res.data.token);
+					console.log(res.data);
 					const token = res.data.token;
 					const decoded = jwtDecode(token);
 					const role = decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
 					sessionStorage.setItem("role", role);
 					sessionStorage.setItem("id", res.data.userId);
 
+
 					// Navigate based on role
 					if (role === "Customer") {
+						GetCustomer(res.data.username)
+							.then((response) => {
+								const customerData = response.data;
+								sessionStorage.setItem("customer", JSON.stringify(customerData));
+							})
+							.catch((error) => {
+								console.error("Error fetching customer data:", error);
+							});
 						router.push("/search");
 					} else if (role === "BusOperator") {
+						console.log(role);
+						GetOperator(res.data.username)
+							.then((res) => {
+								const operator = res.data;
+								sessionStorage.setItem("operator", JSON.stringify(operator));
+							})
+							.catch((error) => {
+								console.error("Error fetching operator:", error);
+							});
 						router.push("/operatordashboard");
 					} else if (role === "Admin") {
 						router.push("/admindashboard");
@@ -185,12 +197,25 @@ export default {
 					}
 				}
 			} catch (err) {
-				this.errorMessage = "Incorrect username or password!";
-				this.showErrorToast();
+				this.loading = false;
+				console.log("ErrorMessage" + err);
+				console.log(err.response.data.message)
+				if (err?.response?.data?.message) {
+					this.makeToast("warning", err?.response?.data?.message, "Login failed");
+				}
 			}
 		},
 
-		showErrorToast() {
+
+		showAnimation() {
+			this.loading = true;
+			this.login();
+
+		},
+		makeToast(type, content, title) {
+			this.toastType = type;
+			this.toastContent = content;
+			this.toastTitle = title;
 			this.showToastMessage = true;
 		},
 	},
@@ -288,6 +313,13 @@ button {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+}
+
+.loading {
+	height: 200px;
+	width: 200px;
+	margin-top: 250px;
+	margin-left: 600px;
 }
 
 .dropdown select option[value=""] {

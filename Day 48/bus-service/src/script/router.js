@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import AuthForm from "@/components/AuthForm.vue";
 import AdminDashboard from "@/components/Admin/AdminDashboard.vue";
 import AllBuses from "@/components/Admin/AllBuses.vue";
-import AdminUsers from "@/components/Admin/AdminUsers.vue";
+import AllUsers from "@/components/Admin/AllUsers.vue";
 import BusOperators from "@/components/Admin/BusOperators.vue";
 import BusRoutes from "@/components/Admin/BusRoutes.vue";
 import PaymentsHistory from "@/components/Admin/PaymentsHistory.vue";
@@ -17,6 +17,11 @@ import DashboardLayout from "@/components/DashboardLayout.vue";
 import UnauthorizedPage from "@/components/UnauthorizedPage.vue";
 import { jwtDecode } from "jwt-decode";
 import LandingPage from "@/components/LandingPage.vue";
+import CustomerNavbar from "@/components/CustomerServices/CustomerNavbar.vue";
+// import CustomerProfile from "@/components/CustomerServices/CustomerProfile.vue";
+import BookingDetails from "@/components/CustomerServices/BookingDetails.vue";
+import PaymentPage from "@/components/CustomerServices/PaymentPage.vue";
+import BookingHistory from "@/components/CustomerServices/BookingHistory.vue";
 
 
 
@@ -33,7 +38,7 @@ const routes = [
         component: AdminDashboard,
         meta: { requireAuth: true, role: "Admin" },
         children: [
-            { path: "users", component: AdminUsers },
+            { path: "users", component: AllUsers },
             { path: "allbuses", component: AllBuses },
             { path: "operators", component: BusOperators },
             { path: "payments", component: PaymentsHistory },
@@ -67,7 +72,44 @@ const routes = [
         name: 'Seats',
         component: SeatsSelection,
         meta: { requireAuth: true, role: "Customer" },
+        props: (route) => ({
+            id: route.params.id,
+            seatsLeft: route.query.seatsLeft,
+            totalSeats: route.query.totalSeats,
+        }),
+        children: [
+            {
+                path: 'bookingDetails',
+                name: 'BookingDetails',
+                component: BookingDetails,
+
+
+            }
+        ]
     },
+    {
+        path: '/customerNavbar',
+        name: 'CustomerNavbar',
+        component: CustomerNavbar,
+        meta: { requireAuth: true, role: "Customer" },
+
+    },
+    // {
+    //     path: "/profile",
+    //     name: 'CustomerProfile',
+    //     component: CustomerProfile
+    // },
+    {
+        path: "/payment",
+        name: 'PaymentPage',
+        component: PaymentPage
+    },
+    {
+        path: "/history",
+        name: 'BookingHistory',
+        component: BookingHistory
+    }
+
 ];
 
 

@@ -6,5 +6,6 @@
         public int SeatId { get; set; }
         public string Seat { get; set; } = string.Empty;
         public decimal Price { get; set; }
+        public bool Status { get; set; }
     }
 }

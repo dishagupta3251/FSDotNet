@@ -17,7 +17,7 @@ namespace BusTicketingApp.Controllers
             _routingService=routingService;
         }
         [HttpPost("CreateRoute")]
-        [Authorize(Roles = "BusOperator")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<AvailableRoute>> CreateRoute(AvailableRouteDTO availableRouteDTO)
         {
             try

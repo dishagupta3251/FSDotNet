@@ -1,5 +1,13 @@
 import axios from './AxiosInterceptor'
 
+
+export function GetCustomer(username) {
+    return axios.get('https://localhost:7176/api/Customers/GetCustomerByUsername', {
+        params: { username: username }
+    });
+
+}
+
 export function GetBuses(from, to, dateTime) {
     return axios.get('https://localhost:7176/api/Booking/SeeAllBuses', {
         params: {
@@ -14,9 +22,15 @@ export function GetBuses(from, to, dateTime) {
 }
 
 export function GetSeats(id) {
-    return axios.get(`https://localhost:7176/api/Booking/busAndSeatsDetails`, {
-        params: {
-            busId: id
-        }
-    });
+    try {
+        return axios.get(`https://localhost:7176/api/Booking/busAndSeatsDetails`, {
+            params: {
+                busId: id
+            }
+        });
+    }
+    catch (error) {
+        console.log(error);
+    }
+
 }

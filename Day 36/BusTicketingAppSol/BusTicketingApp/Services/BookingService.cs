@@ -51,7 +51,9 @@ namespace BusTicketingApp.Services
             try
             {
                 var routes = (await _routingService.GetAllRoutes()).ToList();
-                var checkSource = routes.FirstOrDefault(r => r.Origin == from).Origin ?? throw new Exception("Source not available");
+                var checkSource = routes.FirstOrDefault(r => r.Origin == from).Origin;
+                    if (checkSource == null)
+                    throw new Exception("Route is not available");
                 var checkDestination = routes.FirstOrDefault(l => l.Destination == to).Destination ?? throw new Exception("Destination not available");
 
                 var routeId = await _routingService.GetIdByJourney(checkSource, checkDestination);
@@ -69,17 +71,18 @@ namespace BusTicketingApp.Services
 
                     var response = new BusResponseDTO()
                     {
-                        BusId=bus.BusId,
-                        BusNumber =bus.BusNumber,
+                        BusId = bus.BusId,
+                        BusNumber = bus.BusNumber,
                         BusType = bus.BusType.ToString(),
                         SeatsLeft = seats.Count(),
+                        TotalSeats = bus.NumberOfSeats,
                         Status = bus.Status.ToString(),
                         StandardFare = bus.StandardFare,
                         PremiumFare = bus.PremiumFare,
-                        CompanyName=operatorBus.CompanyName,
-                        Arrival=schedule.Arrival,
-                        Departure=schedule.Departure,
-                        JourneyDetails=from.ToUpper()+" "+"TO"+" "+to.ToUpper(),
+                        CompanyName = operatorBus.CompanyName,
+                        Arrival = schedule.Arrival,
+                        Departure = schedule.Departure,
+                        JourneyDetails = from.ToUpper() + " " + "TO" + " " + to.ToUpper(),
                     };
                     result.Add(response);
                 }
@@ -137,16 +140,10 @@ namespace BusTicketingApp.Services
                 foreach (var id in seatsId)
             {
                 var seat =await _seatService.SeatById(id);
-                calculateCost = calculateCost + seat.Price;
+                    seatsBookedForCustomer = seatsBookedForCustomer + "," + id;
+                    calculateCost = calculateCost + seat.Price;
             }
           
-           
-            foreach (var id in seatsId){
-                   
-                    seatsBookedForCustomer = seatsBookedForCustomer+","+ id;
-                   
-
-            }
             var booking = new Booking()
             {
                 BusId=bus.BusId,
@@ -245,7 +242,7 @@ namespace BusTicketingApp.Services
                 addPayment.TotalFare = booking.TotalFare;
                 var payment = await _paymentService.AddPayment(addPayment);
 
-                if (payment == null) throw new Exception("Cannot retrive  add payment");
+                if (payment == null) throw new Exception("Cannot add payment");
 
 
                
@@ -261,14 +258,7 @@ namespace BusTicketingApp.Services
 
                     seat_booked.SeatStatus = Status.Confirmed;
                     var seat=await _seatService.SeatById(seat_booked.SeatId);
-                    seat.IsBooked = true;
-                    await _seatService.UpdateSeatStatus(seat.SeatsId);
-                    var seatResponseDTO = new SeatsResponseDTO()
-                    {
-                        SeatId = seat_booked.Id,
-                        Seat = seat.SeatNumber + seat.SeatType.ToString(),
-                        Price= seat.Price,
-                    };
+                    var seatResponseDTO=await _seatService.UpdateSeatStatus(seat.SeatsId);
                     listOfSeatsDTO.Add(seatResponseDTO);
                 }
 

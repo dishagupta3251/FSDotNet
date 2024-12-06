@@ -30,8 +30,11 @@ namespace BusTicketingApp.Services
         }
         private bool IsEmail(string input)
         {
-            var emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
-            return Regex.IsMatch(input, emailPattern);
+            
+                var emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+                return Regex.IsMatch(input, emailPattern);
+
+           
         }
         public async Task<OperationStatusDTO> Delete(string key)
         {
@@ -88,7 +91,7 @@ namespace BusTicketingApp.Services
             
             if (user == null)
             {
-                throw new Exception("User not found");
+                throw new Exception("Invalid email or password");
             }
             HMACSHA256 hmac = new HMACSHA256(user.PasswordHash);
             byte[] passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginRequestDTO.Password));

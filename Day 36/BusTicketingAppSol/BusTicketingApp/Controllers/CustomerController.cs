@@ -65,8 +65,23 @@ namespace BusTicketingApp.Controllers
             }
         }
 
+        [HttpGet("GetCustomerByUsername")]
+        public async Task<ActionResult<Customer>> GetCustomerByUsername(string username)
+       {
+            try
+            {
+                var customer = await _customerService.GetCustomerByUsername(username);
+                return Ok(customer);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+        }
+
+
         [HttpGet("GetAllCustomer")]
-        [Authorize(Roles = "Admin,BusOperator")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<Customer>>> GetAllCustomers()
         {
             try

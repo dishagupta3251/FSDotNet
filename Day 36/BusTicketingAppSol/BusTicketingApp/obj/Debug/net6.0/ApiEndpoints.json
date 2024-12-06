@@ -239,6 +239,32 @@
     ]
   },
   {
+    "ContainingType": "BusTicketingApp.Controllers.BusOperatorsController",
+    "Method": "GetOperatorByUsername",
+    "RelativePath": "api/BusOperators/GetOperatorByUsername",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BusTicketingApp.Models.BusOperator",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BusTicketingApp.Controllers.CustomersController",
     "Method": "AddCustomer",
     "RelativePath": "api/Customers/CreateCustomer",
@@ -295,6 +321,32 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BusTicketingApp.Models.Customer",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BusTicketingApp.Controllers.CustomersController",
+    "Method": "GetCustomerByUsername",
+    "RelativePath": "api/Customers/GetCustomerByUsername",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

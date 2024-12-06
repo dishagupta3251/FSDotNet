@@ -22,8 +22,7 @@ namespace BusTicketingApp.Models
         public string BusNumber { get; set; }=string.Empty;
         public BusTypes BusType {  get; set; }
 
-        [Required(ErrorMessage ="Cannot be empty")]
-        public int NumberOfSeats { get; set; }  
+        public int NumberOfSeats { get; set; }
         public BusStatus Status { get; set; }
         public decimal StandardFare { get; set; }
         public decimal PremiumFare { get; set; }

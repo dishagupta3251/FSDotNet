@@ -17,8 +17,8 @@ namespace BusTicketingApp.Controllers
             _busService = busService;
         }
         [HttpPost("CreateBus")]
-        //[Authorize(Roles = "BusOperator")]
-        
+        [Authorize(Roles = "BusOperator")]
+
         public async Task<ActionResult<int>> AddBus(BusCreateDTO busCreateDTO)
         {
             try
@@ -34,8 +34,8 @@ namespace BusTicketingApp.Controllers
             }
         }
         [HttpGet("GetAllBuses")]
-        //[Authorize(Roles = "BusOperator")]
-        
+        [Authorize(Roles = "BusOperator")]
+
         public async Task<ActionResult<IEnumerable<Bus>>> GetAll()
         {
             try

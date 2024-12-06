@@ -23,31 +23,43 @@
                         <h3>Type</h3>
                         <div class="typeSelectorMapper d-flex align-items-center">
                             <label for="ac">AC</label>
-                            <input type="checkbox" id="ac" name="ac">
+                            <input type="checkbox" :value="1" id="ac" @change="onCheckboxClick($event)" name="ac">
                         </div>
                         <div class="typeSelectorMapper d-flex align-items-center">
                             <label for="nonAc">Non-AC</label>
-                            <input type="checkbox" id="nonAc" name="nonAc" />
+                            <input type="checkbox" :value="2" id="nonAc" @change="onCheckboxClick($event)"
+                                name="nonAc" />
                         </div>
                     </div>
                     <div class="filter-group mt-4">
                         <h3>Arrival Time</h3>
                         <div class="arrivalTimeSelectorMapper d-flex align-items-center">
                             <label for="before6am">Before 6 am</label>
-                            <input type="checkbox" id="before6am" name="before6am">
+                            <input type="checkbox" :value="1" id="before6am" @change="onCheckboxClickTime($event)"
+                                name="before6am">
                         </div>
                         <div class="arrivalTimeSelectorMapper d-flex align-items-center">
                             <label for="6amto12pm">6 am to 12 pm</label>
-                            <input type="checkbox" id="6amto12pm" name="6amto12pm" />
+                            <input type="checkbox" :value="2" id="6amto12pm" @change="onCheckboxClickTime($event)"
+                                name="6amto12pm" />
                         </div>
                         <div class="arrivalTimeSelectorMapper d-flex align-items-center">
                             <label for="12pmto6pm">12 pm to 6 pm </label>
-                            <input type="checkbox" id="12pmto6pm" name="12pmto6pm" />
+                            <input type="checkbox" :value="3" id="12pmto6pm" @change="onCheckboxClickTime($event)"
+                                name="12pmto6pm" />
                         </div>
-                        <div class="arrivalTimeSelectorMapper d-flex align-items-center">
+                        <div class="arrivalTimeSelectorMapper d-flex align-items-center" style="margin-bottom: 30px;">
                             <label for="after6pm"> After 6 pm </label>
-                            <input type="checkbox" id="after6pm" name="after6pm">
+                            <input type="checkbox" :value="4" id="after6pm" @change="onCheckboxClickTime($event)"
+                                name="after6pm">
                         </div>
+                    </div>
+                    <div class="filter-group-type">
+                        <h3>Operators Available</h3>
+                        <div class="typeSelectorMapper d-flex align-items-center" v-for="name in names" :key="name">
+                            <p class="m-0">{{ name }}</p>
+                        </div>
+
                     </div>
 
                 </aside>
@@ -56,6 +68,12 @@
                 <section class="bus-list">
                     <DotLottieVue class="loading" v-if="loading" autoplay loop
                         src="https://lottie.host/4480640a-0a4e-4a35-95bd-48e4dddb1690/IL1ds5D6Vz.lottie" />
+                    <div v-if="notfound" class="notfound">
+                        <DotLottieVue autoplay loop style="height: 150px;margin-top: 80px;"
+                            src="https://lottie.host/f10beee0-175f-4cf7-9f3c-9a3404d304e5/1jK8lAy4cb.lottie" />
+                        <p style="color: grey; margin-left: 480px">No buses found</p>
+                    </div>
+
                     <div>
                         <div class="bus-item" v-for="bus in buses" :key="bus.busId">
                             <div class="bus-company-busnumber-mapper">
@@ -90,7 +108,10 @@
                                         available</span></div>
 
                             </div>
-                            <button class=" view-seats-btn" @click="watch(bus.busId)">View Seats</button>
+
+                            <button class=" view-seats-btn" :disabled="bus.status == 'Regret'"
+                                @click="watch(bus.busId)">View
+                                Seats</button>
                             <div class="about-text">
                                 <p>Booking policies</p>
                                 <p>{{ bus.companyName }}</p>
@@ -102,17 +123,23 @@
             </div>
         </div>
     </div>
+    <BookingDetails></BookingDetails>
+    <FooterDetails />
 </template>
 
 <script>
 import { GetBuses } from '../../script/BusService';
 import CustomerNavbar from './CustomerNavbar.vue';
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue'
+import FooterDetails from '../FooterDetails.vue';
+
+
 export default {
     name: "SearchResult",
     components: {
         CustomerNavbar,
-        DotLottieVue
+        DotLottieVue,
+        FooterDetails
     },
     data() {
         return {
@@ -120,7 +147,12 @@ export default {
             source: '',
             destination: '',
             date: '',
-            loading: true,
+            data: '',
+            names: [],
+            loading: false,
+            isChecked: false,
+            notfound: false,
+
         };
     },
     computed: {
@@ -135,11 +167,18 @@ export default {
             GetBuses(source, destination, formattedDate)
                 .then((response) => {
                     this.buses = response.data;
+                    console.log(this.buses);
+                    this.data = response.data
+                    if (response.data.length == 0) {
+                        this.notfound = true;
+
+                    }
                     this.loading = false;
+                    this.operatorDetails();
+
                 })
                 .catch((err) => {
-                    console.error(err);
-                    alert('Error fetching buses.');
+                    console.log(err);
                 });
         },
         formatDate(dateString) {
@@ -150,12 +189,62 @@ export default {
             this.$router.push({ name: 'SearchBus' });
         },
         watch(id) {
-            console.log(id);
-            this.$router.push({ name: 'Seats', params: { id: id } });
+            const bus = this.buses.find((bus) => bus.busId === id);
+            this.$router.push({
+                name: 'Seats', params: {
+                    id: id,
+                },
+                query:
+                {
+                    seatsLeft: bus.seatsLeft,
+                    totalSeats: bus.totalSeats
+                }
+            });
 
         },
         busColor(status) {
             return status === 'Running' ? 'green' : 'red';
+        },
+        operatorDetails() {
+            const allNames = this.buses.map((bus) => bus.companyName);
+            this.names = [...new Set(allNames)];
+        },
+        onCheckboxClick(event) {
+            if (event.target.checked) {
+                const value = event.target.value;
+                const type = value == 1 ? "AC" : "Non_AC";
+                this.buses = this.buses.filter((bus) => bus.busType === type);
+            }
+            else {
+                this.buses = this.data;
+            }
+
+        },
+        onCheckboxClickTime(event) {
+            if (event.target.checked) {
+                const value = parseInt(event.target.value, 10);
+
+                this.buses = this.data.filter((bus) => {
+                    const arrivalHour = new Date(bus.arrival).getHours();
+                    switch (value) {
+                        case 1:
+                            return arrivalHour < 6;
+                        case 2:
+                            return arrivalHour >= 6 && arrivalHour < 12;
+                        case 3:
+                            return arrivalHour >= 12 && arrivalHour < 18;
+                        case 4:
+                            return arrivalHour >= 18;
+                        default:
+                            return true;
+
+                    }
+                });
+                if (this.buses.length == 0) this.notfound = true;
+            } else {
+                this.notfound = false;
+                this.buses = this.data;
+            }
         }
 
     },
@@ -166,9 +255,10 @@ export default {
         this.source = source;
         this.destination = destination;
         this.date = date;
-
-
+        this.loading = true;
         this.fetchBuses(this.source, this.destination, this.date);
+
+
     }
 
 };
@@ -229,7 +319,7 @@ export default {
     align-items: end;
     position: fixed;
     z-index: 2;
-    height: 140px;
+    height: 130px;
     padding: 15px 42px;
     background-color: white;
     border-bottom: 1px solid rgb(230, 241, 237);
@@ -239,11 +329,14 @@ export default {
 .route {
     display: flex;
     gap: 10px;
-    /* align-items: center; */
+    margin-top: 20px;
+    height: 25px;
+    align-items: center;
 }
 
 .typeSelectorMapper input,
 .arrivalTimeSelectorMapper input {
+
     cursor: pointer;
     width: auto;
 }

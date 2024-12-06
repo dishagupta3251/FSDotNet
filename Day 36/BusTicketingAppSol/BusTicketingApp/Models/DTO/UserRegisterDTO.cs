@@ -16,9 +16,11 @@ namespace BusTicketingApp.Models.DTO
         [MinLength(6, ErrorMessage = "Password must be at least 6 characters long")]
         public string Password { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Cannot be empty")]
-        [StringLength(10)]
+        [Required(ErrorMessage = "Contact cannot be empty")]
+        [StringLength(10, ErrorMessage = "Contact must be at least 10 characters long")]
         public string ContactNumber { get; set; } = string.Empty;
+
+       
         public string Email { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Role cannot be empty")]

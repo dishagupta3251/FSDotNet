@@ -108,6 +108,8 @@ namespace BusTicketingApp.Services
         }
 
 
+
+
         public async Task<IEnumerable<Customer>> GetAllCustomers()
         {
             try
@@ -126,6 +128,21 @@ namespace BusTicketingApp.Services
             {
                 _logger.LogError($"Error occurred while fetching customers: {ex.Message}");
                 throw new Exception("An error occurred while fetching customers.");
+            }
+        }
+
+        public async Task<Customer> GetCustomerByUsername(string username)
+        {
+            try
+            {
+                var customer = (await _customerRepository.GetAll()).FirstOrDefault(c => c.Username == username);
+                if (customer == null) throw new Exception("Cannot find user");
+                return customer;
+
+            }
+            catch
+            {
+                throw new Exception();
             }
         }
     }

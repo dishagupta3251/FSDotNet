@@ -31,7 +31,7 @@
                     </div>
                     <div class="form-group">
                         <label for="date">Date:</label>
-                        <input type="date" id="date" v-model="date" />
+                        <input type="date" id="date" v-model="date" :min="minDate" />
                     </div>
                     <button type="submit" class="search-btn">Search</button>
                 </form>
@@ -50,26 +50,52 @@
             <!-- Right Side: Image Section -->
             <div class="image-section"></div>
         </div>
+        <FooterDetails />
+        <!-- <footer>
+            
+        </footer> -->
+
     </div>
+    <div>
+        <b-toast v-model="showToastMessage" auto-hide-delay="3000" :title="toastTitle" :variant="toastType"
+            style="position: fixed; top: 0; right: 0; padding: 1rem; z-index: 1000;">
+            {{ toastContent }}
+        </b-toast>
+    </div>
+
 </template>
 
 <script>
+import FooterDetails from './FooterDetails.vue';
+
 
 export default {
     name: "LandingPage",
+    components: {
+        FooterDetails
+    },
     data() {
         return {
             from: '',
             to: '',
             date: '',
             show: true,
+            showToastMessage: false,
+            toastType: '',
+            toastContent: '',
+            toastTitle: '',
+            minDate: '',
         }
     },
     methods: {
         searchBus() {
             const token = sessionStorage.getItem("token");
             if (!token) {
-                this.$router.push('/auth');
+                this.makeToast("info", "Need to Sign-in first!", "Info")
+                setTimeout(() => {
+                    this.$router.push('/auth');
+                }, 3000);
+
             }
             else {
                 this.$router.push({
@@ -83,8 +109,33 @@ export default {
             }
 
         },
+        makeToast(type, content, title) {
+            console.log("This is called");
+            this.toastType = type;
+            this.toastContent = content;
+            this.showToastMessage = true;
+            this.toastTitle = title;
+            // setTimeout(() => {
+            //     this.showToastMessage = false;
+            // }, 5000);
+        },
+        setMinDate() {
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            let mm = today.getMonth() + 1;
+            let dd = today.getDate();
 
-    }
+
+            if (mm < 10) mm = '0' + mm;
+            if (dd < 10) dd = '0' + dd;
+
+            this.minDate = `${yyyy}-${mm}-${dd}`;
+        },
+
+    },
+    mounted() {
+        this.setMinDate();
+    },
 }
 </script>
 
@@ -245,9 +296,16 @@ export default {
     background-size: cover;
     background-position: center;
     opacity: 0.8;
-    height: 100vh;
+    height: 110vh;
 
     z-index: -1;
 
+}
+
+footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin-top: 45%;
 }
 </style>

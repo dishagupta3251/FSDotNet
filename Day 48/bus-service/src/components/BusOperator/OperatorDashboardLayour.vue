@@ -2,8 +2,8 @@
 
     <div class="sidebar" :class="{ open: isSideBarOpen }">
         <div class="logo_details">
-            <img src="../../public/Screenshot_2024-11-25_124942-removebg-preview.png" id="btn" @click="toggleSideBar"
-                alt="Logo">
+            <!-- <img src="../../public/Screenshot_2024-11-25_124942-removebg-preview.png" id="btn" @click="toggleSideBar"
+                alt="Logo"> -->
         </div>
         <ul class="nav-list">
             <li v-for="item in menuItems" :key="item.id">
@@ -13,13 +13,13 @@
                 </RouterLink>
                 <span class="tooltip">{{ item.name }}</span>
             </li>
-            <li style="margin-top: 150px;">
+            <!-- <li style="margin-top: 150px;">
                 <RouterLink :to="profile.link">
                     <i :class="profile.icon"></i>
                     <span class="link_name">{{ profile.name }}</span>
                 </RouterLink>
                 <span class="tooltip">{{ profile.name }}</span>
-            </li>
+            </li> -->
             <li @click="removeItem()">
                 <RouterLink :to="logout.link">
                     <i :class="logout.icon"></i>

@@ -158,5 +158,20 @@ namespace BusTicketingApp.Services
                 throw new Exception();
             }
         }
+
+        public async Task<BusOperator> GetBusOperatorByUsername(string username)
+        {
+            try
+            {
+                var busOperator = (await _busOperatorRepository.GetAll()).FirstOrDefault(o => o.Username == username);
+                if (busOperator == null) throw new Exception("Cannot find user");
+                return busOperator;
+
+            }
+            catch
+            {
+                throw new Exception();
+            }
+        }
     }
 }

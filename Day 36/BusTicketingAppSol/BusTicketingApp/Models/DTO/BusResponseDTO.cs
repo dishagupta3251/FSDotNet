@@ -9,6 +9,8 @@ namespace BusTicketingApp.Models.DTO
         public string BusNumber { get; set; } = string.Empty;
         public string BusType { get; set; }
         public int SeatsLeft { get; set; }
+
+        public int TotalSeats { get; set; }
         public string Status { get; set; } = string.Empty;
         public decimal StandardFare { get; set; }
         public decimal PremiumFare { get; set; }
