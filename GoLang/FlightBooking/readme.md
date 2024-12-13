@@ -3,7 +3,7 @@
 ## Overview
 The **Flight Booking System** is a console-based application implemented in Go, designed for managing flights. It features distinct modules for admin and user functionalities, ensuring seamless interaction for searching and managing flight details.
 
----
+
 
 ## Features
 
@@ -35,7 +35,6 @@ The **Flight Booking System** is a console-based application implemented in Go, 
 - **View Search Results**:
   - Displays detailed results for searched flights, including source, destination, airline, price, class, and available seats.
 
----
 
 ## Usage Workflow
 
@@ -66,7 +65,7 @@ The **Flight Booking System** is a console-based application implemented in Go, 
 - **View Results**:
   - Displays flight details such as company, price, type, source, destination, date, and seats.
 
----
+
 
 ## Validation Features
 - **Date Validation**:
@@ -75,7 +74,7 @@ The **Flight Booking System** is a console-based application implemented in Go, 
 - **Input Validation**:
   - Prompts for invalid entries in menus and ensures correct data input.
 
----
+
 
 ## Example Scenarios
 
@@ -94,7 +93,6 @@ The **Flight Booking System** is a console-based application implemented in Go, 
   - Provide the unique flight ID (e.g., `1`) of the flight to delete.
   - Confirm deletion.
 
----
 
 ### User
 - **Search for Flights**:
@@ -107,7 +105,24 @@ The **Flight Booking System** is a console-based application implemented in Go, 
 - **Apply Filters**:
   - Sort results by price or filter by a specific airline.
 
----
+## Output Screenshots
+
+### Admin Panel
+
+  ![ Flight Screenshot](Screenshots/Screenshot%202024-12-13%20205157.png)
+
+
+  ![ Flight Screenshot](Screenshots/Screenshot%202024-12-13%20205158.png)
+
+  
+  ![ Flights Screenshot](Screenshots/Screenshot%202024-12-13%20205540.png)
+
+### User Panel
+
+  ![ Flights Screenshot](Screenshots/Screenshot%202024-12-13%20211341.png)
+
+ 
+  ![ Screenshot](Screenshots/Screenshot%202024-12-13%20211612.png)
 
 ## Notes
 - This system is a console-based application and requires user input for all operations.
