@@ -1,0 +1,17 @@
+Worst case table for n=5
+
+
+Algorithm	         Comparisons	Swaps
+
+Bubble Sort	            10	         10
+Insertion Sort	        10	         10
+Selection Sort	        10            4
+
+
+
+n=5, the best-case :
+
+Algorithm          	Comparisons	     Swaps
+Bubble Sort         	10	           0
+Insertion Sort	         4	           0
+Selection Sort	        10	           4

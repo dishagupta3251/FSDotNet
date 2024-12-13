@@ -1,15 +1,14 @@
 package SortingAlgo
 
-func InsertionSort(arr []int) []int {
-	for i := 1; i < len(arr); i++ {
-		key := arr[i]
-		j := i - 1
-		for j >= 0 && arr[j] > key {
-			arr[j+1] = arr[j]
-			j--
+func InsertionSort(array []int) []int {
+	for unsortedIndex := 1; unsortedIndex < len(array); unsortedIndex++ {
+		currentValue := array[unsortedIndex]
+		sortedIndex := unsortedIndex - 1
+		for sortedIndex >= 0 && array[sortedIndex] > currentValue {
+			array[sortedIndex+1] = array[sortedIndex]
+			sortedIndex--
 		}
-
-		arr[j+1] = key
+		array[sortedIndex+1] = currentValue
 	}
-	return arr
+	return array
 }

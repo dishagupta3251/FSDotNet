@@ -1,14 +1,14 @@
 package SortingAlgo
 
-func BubbleSort(arr []int) []int {
-	for i := 0; i < len(arr)-1; i++ {
-		for j := 0; j < len(arr)-1-i; j++ {
-			if arr[j] > arr[j+1] {
-				arr[j], arr[j+1] = arr[j+1], arr[j]
+func BubbleSort(array []int) []int {
+	for currentPass := 0; currentPass < len(array)-1; currentPass++ {
+		for currentIndex := 0; currentIndex < len(array)-1-currentPass; currentIndex++ {
+			if array[currentIndex] > array[currentIndex+1] {
+				array[currentIndex], array[currentIndex+1] = array[currentIndex+1], array[currentIndex]
 			}
 		}
 	}
-	return arr
+	return array
 }
 
 // 2 5 9 8 7

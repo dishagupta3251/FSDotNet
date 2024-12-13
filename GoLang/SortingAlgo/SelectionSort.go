@@ -1,16 +1,14 @@
 package SortingAlgo
 
-func SelectionSort(arr []int) []int {
-	for i := 0; i < len(arr)-1; i++ {
-
-		smallestIndex := i
-		for j := i + 1; j < len(arr); j++ {
-			if arr[j] < arr[smallestIndex] {
-				smallestIndex = j
+func SelectionSort(array []int) []int {
+	for currentIndex := 0; currentIndex < len(array)-1; currentIndex++ {
+		smallestValueIndex := currentIndex
+		for searchIndex := currentIndex + 1; searchIndex < len(array); searchIndex++ {
+			if array[searchIndex] < array[smallestValueIndex] {
+				smallestValueIndex = searchIndex
 			}
 		}
-
-		arr[i], arr[smallestIndex] = arr[smallestIndex], arr[i]
+		array[currentIndex], array[smallestValueIndex] = array[smallestValueIndex], array[currentIndex]
 	}
-	return arr
+	return array
 }

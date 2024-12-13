@@ -1,22 +1,31 @@
 package main
 
 import (
-	"Problems/SortingAlgo"
+	"Problems/FlightBooking"
 	"fmt"
 )
 
-//"Problems/Bank"
-//calculator "Problems/Calculator"
-
 func main() {
 
-	//Bank.Service()
-	//calculator.Calculator()
-	arr := []int{64, 34, 29, 4, 22, 11, 90}
-	fmt.Println("Original array:", arr)
-	fmt.Println()
-	fmt.Println("Sorted array with Bubble Sort:", SortingAlgo.BubbleSort(arr))
-	fmt.Println("Sorted array with Insertion Sort:", SortingAlgo.InsertionSort(arr))
-	fmt.Println("Sorted array with Selection Sort:", SortingAlgo.SelectionSort(arr))
+	fmt.Println("Welcome to the FlightBooking Service.")
+	input := -1
+	for input != 0 {
+		fmt.Println("\nChoose an option:")
+		fmt.Println("1. User")
+		fmt.Println("2. Admin")
+		fmt.Println("0. Exit")
+		fmt.Scan(&input)
+		switch input {
+		case 1:
+			FlightBooking.UserService()
+		case 2:
+			FlightBooking.AdminService()
+		case 0:
+			fmt.Println("Thank you for using our service.")
+			return
+		default:
+			fmt.Println("Invalid option.")
+		}
+	}
 
 }
