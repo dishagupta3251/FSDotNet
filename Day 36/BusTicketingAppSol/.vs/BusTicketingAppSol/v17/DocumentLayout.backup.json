@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\repositories\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\repositories\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\repositories\\busoperatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\repositories\\busoperatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\controllers\\routecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85D3FA9E-3DEF-4768-86C0-40656468C3A5}|UnitTesting\\UnitTesting.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\unittesting\\repositorytest\\seatsbookedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{85D3FA9E-3DEF-4768-86C0-40656468C3A5}|UnitTesting\\UnitTesting.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\unittesting\\repositorytest\\userrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85D3FA9E-3DEF-4768-86C0-40656468C3A5}|UnitTesting\\UnitTesting.csproj|solutionrelative:unittesting\\repositorytest\\userrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\services\\busoperatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\repositories\\seatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\services\\busservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\repositories\\seatsbookedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\repositories\\seatsbookedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -125,10 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\repositories\\availablerouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\repositories\\availablerouterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\repositories\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\repositories\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\models\\dto\\seatsresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -183,20 +195,12 @@
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\models\\busoperator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\models\\dto\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\controllers\\busoperatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -233,10 +237,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\models\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\models\\dto\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\repositories\\busoperatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|solutionrelative:busticketingapp\\repositories\\busoperatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A001B2DC-6DE8-4616-B71A-CDC9C53FCE64}|BusTicketingApp\\BusTicketingApp.csproj|c:\\users\\disha.gupta.pyramidindia\\documents\\training\\day 36\\busticketingappsol\\busticketingapp\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -408,37 +408,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 223,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AvailableRouteRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
-              "RelativeDocumentMoniker": "UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
-              "RelativeToolTip": "UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwF0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T06:30:41.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BookingService.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Services\\BookingService.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BookingService.cs",
-              "RelativeToolTip": "BusTicketingApp\\Services\\BookingService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAjwDgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:33:32.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "BusOperatorService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BusOperatorService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Services\\BusOperatorService.cs",
@@ -451,20 +425,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SeatsBookedRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
-              "RelativeDocumentMoniker": "UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
-              "RelativeToolTip": "UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwA8AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "RouteController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\RouteController.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\RouteController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\RouteController.cs",
+              "RelativeToolTip": "BusTicketingApp\\Controllers\\RouteController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:39:28.066Z",
+              "WhenOpened": "2024-11-07T11:02:48.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\UserService.cs",
+              "RelativeToolTip": "BusTicketingApp\\Services\\UserService.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAqwPQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T06:34:04.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BusOperatorController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusOperatorController.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\BusOperatorController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusOperatorController.cs",
+              "RelativeToolTip": "BusTicketingApp\\Controllers\\BusOperatorController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T08:52:34.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BusController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusController.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\BusController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusController.cs",
+              "RelativeToolTip": "BusTicketingApp\\Controllers\\BusController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:43:26.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BusOperatorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
+              "RelativeToolTip": "BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAIA6wFYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T06:37:40.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BusService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BusService.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Services\\BusService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BusService.cs",
+              "RelativeToolTip": "BusTicketingApp\\Services\\BusService.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAjwMgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:32:41.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusRepository.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\BusRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusRepository.cs",
+              "RelativeToolTip": "BusTicketingApp\\Repositories\\BusRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAWwEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T04:42:07.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\UserRepositoryTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\RepositoryTest\\UserRepositoryTest.cs",
@@ -477,33 +529,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RouteController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\RouteController.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\RouteController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\RouteController.cs",
-              "RelativeToolTip": "BusTicketingApp\\Controllers\\RouteController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "SeatsBookedRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
+              "RelativeDocumentMoniker": "UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
+              "RelativeToolTip": "UnitTesting\\RepositoryTest\\SeatsBookedRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T11:02:48.182Z",
+              "WhenOpened": "2024-11-17T17:39:28.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\UserService.cs*",
-              "RelativeToolTip": "BusTicketingApp\\Services\\UserService.cs*",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAqwPQAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "BusTicketingApp\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BookingService.cs",
+              "RelativeToolTip": "BusTicketingApp\\Services\\BookingService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAjwDgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T06:34:04.841Z",
+              "WhenOpened": "2024-11-12T16:33:32.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
+              "Title": "AvailableRouteRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
+              "RelativeDocumentMoniker": "UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
+              "RelativeToolTip": "UnitTesting\\RepositoryTest\\AvailableRouteRepositoryTest.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T06:30:41.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "BookingControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\ControllerTest\\BookingControllerTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\ControllerTest\\BookingControllerTest.cs",
@@ -516,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "PaymentRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\PaymentRequestDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\PaymentRequestDTO.cs",
@@ -529,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\Booking.cs",
@@ -542,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\BookingController.cs",
@@ -555,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "BusOperatorControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\ControllerTest\\BusOperatorControllerTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\ControllerTest\\BusOperatorControllerTest.cs",
@@ -568,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "CustomerCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\CustomerCreateDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\CustomerCreateDTO.cs",
@@ -581,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "BookingRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\RepositoryTest\\BookingRepositoryTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\RepositoryTest\\BookingRepositoryTest.cs",
@@ -594,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\CustomerController.cs",
@@ -607,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "CustomerControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\ControllerTest\\CustomerControllerTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\ControllerTest\\CustomerControllerTest.cs",
@@ -620,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "UserControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\ControllerTest\\UserControllerTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\ControllerTest\\UserControllerTest.cs",
@@ -633,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Services\\CustomerService.cs",
@@ -646,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\Review.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\Review.cs",
@@ -659,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\ReviewController.cs",
@@ -672,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "ReviewControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\ControllerTest\\ReviewControllerTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\ControllerTest\\ReviewControllerTest.cs",
@@ -685,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "UserRegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\UserRegisterDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\UserRegisterDTO.cs",
@@ -698,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\UserController.cs",
@@ -711,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "BookingServiceTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\ServicesTest\\BookingServiceTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\ServicesTest\\BookingServiceTest.cs",
@@ -724,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "BookingResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\BookingResponseDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\BookingResponseDTO.cs",
@@ -737,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "BusOperatorServiceTest.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\UnitTesting\\ServicesTest\\BusOperatorServiceTest.cs",
               "RelativeDocumentMoniker": "UnitTesting\\ServicesTest\\BusOperatorServiceTest.cs",
@@ -750,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "SeatRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\SeatRepository.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\SeatRepository.cs",
@@ -763,20 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BusService.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BusService.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Services\\BusService.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\BusService.cs",
-              "RelativeToolTip": "BusTicketingApp\\Services\\BusService.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAgwLoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T05:32:41.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "SeatsBookedRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\SeatsBookedRepository.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\SeatsBookedRepository.cs",
@@ -789,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "RoutingService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\RoutingService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Services\\RoutingService.cs",
@@ -802,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "AvailableRouteRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\AvailableRouteRepository.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\AvailableRouteRepository.cs",
@@ -815,20 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "BusRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusRepository.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\BusRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusRepository.cs",
-              "RelativeToolTip": "BusTicketingApp\\Repositories\\BusRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T04:42:07.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "SeatsResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\SeatsResponseDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\SeatsResponseDTO.cs",
@@ -841,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "TicketingContext.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Contexts\\TicketingContext.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Contexts\\TicketingContext.cs",
@@ -854,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "SeatsBooked.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\SeatsBooked.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\SeatsBooked.cs",
@@ -867,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "BookingRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BookingRepository.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\BookingRepository.cs",
@@ -880,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\CustomerRepository.cs",
@@ -893,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "SeatService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\SeatService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Services\\SeatService.cs",
@@ -906,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\Customer.cs",
@@ -919,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "SeatSelectionRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\SeatSelectionRequestDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\SeatSelectionRequestDTO.cs",
@@ -932,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "BusWithSeatsResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\BusWithSeatsResponseDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\BusWithSeatsResponseDTO.cs",
@@ -945,7 +984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "BusResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\BusResponseDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\BusResponseDTO.cs",
@@ -958,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "BusCreateDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\BusCreateDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\BusCreateDTO.cs",
@@ -971,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "Bus.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\Bus.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\Bus.cs",
@@ -984,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "BusOperator.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\BusOperator.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\BusOperator.cs",
@@ -997,20 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "BusController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusController.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\BusController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusController.cs",
-              "RelativeToolTip": "BusTicketingApp\\Controllers\\BusController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:43:26.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "LoginRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\LoginRequestDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\LoginRequestDTO.cs",
@@ -1023,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "LoginResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\LoginResponseDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\LoginResponseDTO.cs",
@@ -1036,20 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "BusOperatorController.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusOperatorController.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Controllers\\BusOperatorController.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Controllers\\BusOperatorController.cs",
-              "RelativeToolTip": "BusTicketingApp\\Controllers\\BusOperatorController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwDoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:52:34.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\User.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\User.cs",
@@ -1062,7 +1075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "IBusOperatorService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Interfaces\\IBusOperatorService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Interfaces\\IBusOperatorService.cs",
@@ -1075,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Interfaces\\ICustomerService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Interfaces\\ICustomerService.cs",
@@ -1088,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "AvailableRouteDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\AvailableRouteDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\AvailableRouteDTO.cs",
@@ -1101,7 +1114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "IBookingService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Interfaces\\IBookingService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Interfaces\\IBookingService.cs",
@@ -1114,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "ISeatService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Interfaces\\ISeatService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Interfaces\\ISeatService.cs",
@@ -1127,7 +1140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Seats.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\Seats.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\Seats.cs",
@@ -1140,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Services\\ReviewService.cs",
@@ -1154,18 +1167,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 58,
-              "Title": "BusOperatorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
-              "RelativeDocumentMoniker": "BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
-              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
-              "RelativeToolTip": "BusTicketingApp\\Repositories\\BusOperatorRepository.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAowFYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T06:37:40.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
               "Title": "UserProfileDTO.cs",
               "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Day 36\\BusTicketingAppSol\\BusTicketingApp\\Models\\DTO\\UserProfileDTO.cs",
               "RelativeDocumentMoniker": "BusTicketingApp\\Models\\DTO\\UserProfileDTO.cs",
