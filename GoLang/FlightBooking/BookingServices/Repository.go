@@ -1,4 +1,4 @@
-package FlightBooking
+package BookingServices
 
 type Search struct {
 	From string
