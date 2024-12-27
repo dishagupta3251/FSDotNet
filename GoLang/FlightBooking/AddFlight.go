@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	BookingServices "mymodule/BookingServices"
+	"mymodule/model"
 	"net/http"
+	"strconv"
 
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
@@ -11,28 +12,54 @@ import (
 )
 
 func AddFlight(ctx *gin.Context) {
-	var flight BookingServices.Flight
+	var flight model.Flights
 	ctx.ShouldBindJSON(&flight)
 
-	var existingFlight BookingServices.Flight
+	// * 1 Get User Email from Claims
 
-	flightNotFoundError := flightDbConnector.Where("id = ?", flight.Id).First(&existingFlight).Error
+	userEmail := ctx.GetString("userEmail")
+
+	if userEmail == "" {
+		logger.Error("failed to get the token from the header")
+		ctx.JSON(http.StatusInternalServerError, gin.H{"message": "failed to get the token from the header"})
+		return
+	}
+
+	// * 2. Check user role
+	userRole := ctx.GetString("userRole")
+	if userRole != "admin" {
+		logger.Error("User is not authorized to add a flight")
+		ctx.JSON(http.StatusUnauthorized, gin.H{"message": "User is not authorized to add a flight"})
+		return
+	}
+
+	// * 3. Check for Existing Flight.
+	// var existingFlight flightstructs.FlightStruct
+	var existingFlight model.Flights
+
+	flightNotFoundError := flightDbConnector.Where("Id= ?", flight.ID).First(&existingFlight).Error
 
 	if flightNotFoundError == gorm.ErrRecordNotFound {
-		newFlight := &BookingServices.Flight{Id: flight.Id, CompanyName: flight.CompanyName, Price: flight.Price, Type: flight.Type, Source: flight.Source, Destination: flight.Destination, Seats: flight.Seats, Date: flight.Date}
 
-		primaryKey := flightDbConnector.Create(newFlight)
+		//  Get the user from the database
+		var user model.User
+		flightDbConnector.Where("email = ?", userEmail).First(&user)
 
+		//  adding the user id inside the flight
+		flight.UserId = strconv.FormatUint(uint64(user.ID), 10)
+
+		primaryKey := flightDbConnector.Create(&flight)
 		if primaryKey.Error != nil {
-			logger.Error("Failed to Add Flight", zap.Int("flight id", flight.Id), zap.Error(primaryKey.Error))
+			logger.Error("Failed to Add Flight", zap.Uint("flight id ", flight.ID), zap.Error(primaryKey.Error))
 			ctx.JSON(http.StatusConflict, gin.H{"message": "The Flight is already added"})
 			return
 		}
-		logger.Info(fmt.Sprintf("Flight added successfully", flight.Id))
+
+		logger.Info(fmt.Sprintf("flight %s created successfully", flight.ID))
 		ctx.JSON(http.StatusCreated, gin.H{"message": "Flight added successfully"})
 
 	} else {
-		logger.Warn("User Flight Already Exist", zap.Int("flight Id", flight.Id))
+		logger.Warn("User Flight Already Exist", zap.Uint("flight number", flight.ID))
 		ctx.JSON(http.StatusConflict, gin.H{"message": "Flight Already Exist"})
 	}
 
