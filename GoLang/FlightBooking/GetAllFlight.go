@@ -15,12 +15,22 @@ func GetAllFlights(ctx *gin.Context) {
 		return
 	}
 
+	// Fetching the user in user db
+
+	email := ctx.GetString("userEmail")
+	var user model.User
+	err := flightDbConnector.Where("email = ?", email).First(&user).Error
+	if err != nil {
+		ctx.JSON(http.StatusInternalServerError, gin.H{"message": "Error retrieving user"})
+		return
+	}
+
 	// Fetch all flights from the database
 	var flights []model.Flights
-	err := flightDbConnector.Find(&flights).Error
+	flightErr := flightDbConnector.Where("user_id = ?", user.ID).Find(&flights).Error
 
 	// Handle potential errors while retrieving flights
-	if err != nil {
+	if flightErr != nil {
 		ctx.JSON(http.StatusInternalServerError, gin.H{"message": "Error retrieving flights"})
 		return
 	}
@@ -31,6 +41,11 @@ func GetAllFlights(ctx *gin.Context) {
 		return
 	}
 
+	var flightDTO []model.FlightDTO
+	for _, flight := range flights {
+		flightDTO = append(flightDTO, model.FlightDTO{Id: flight.Id, Source: flight.Source, Destination: flight.Destination, Type: flight.Type, Seats: flight.Seats, Fair: flight.Fair, Airline: flight.Airline, Date: flight.Date})
+	}
+
 	// If flights are found, send them in the response
-	ctx.JSON(http.StatusOK, gin.H{"flights": flights})
+	ctx.JSON(http.StatusOK, gin.H{"flights": flightDTO})
 }

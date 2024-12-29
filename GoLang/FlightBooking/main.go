@@ -41,14 +41,15 @@ func main() {
 	// ? Unprotected Routes
 	httpServer.POST("/save-user", AddUser)
 	httpServer.POST("/login-user", Login)
+	httpServer.GET("/search-flight", SearchFlight)
 
 	// ? Protected Routes
 	httpServer.Use(jwt.AuthorizeJwtToken())
 	httpServer.POST("/add-flight", AddFlight)
 	httpServer.GET("/getall-flight", GetAllFlights)
-	//httpServer.GET("/search-flight", SearchFlight)
+	httpServer.PUT("/update-flight/:id", UpdateFlight)
 	httpServer.DELETE("/delete-flight/:id", DeleteFlight)
 
 	// running the server
-	httpServer.Run(":8081")
+	httpServer.Run(":8082")
 }

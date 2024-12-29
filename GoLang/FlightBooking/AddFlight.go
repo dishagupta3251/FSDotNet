@@ -37,7 +37,7 @@ func AddFlight(ctx *gin.Context) {
 	// var existingFlight flightstructs.FlightStruct
 	var existingFlight model.Flights
 
-	flightNotFoundError := flightDbConnector.Where("Id= ?", flight.ID).First(&existingFlight).Error
+	flightNotFoundError := flightDbConnector.Where("Id= ?", flight.Id).First(&existingFlight).Error
 
 	if flightNotFoundError == gorm.ErrRecordNotFound {
 
@@ -50,16 +50,16 @@ func AddFlight(ctx *gin.Context) {
 
 		primaryKey := flightDbConnector.Create(&flight)
 		if primaryKey.Error != nil {
-			logger.Error("Failed to Add Flight", zap.Uint("flight id ", flight.ID), zap.Error(primaryKey.Error))
+			logger.Error("Failed to Add Flight", zap.String("flight id ", flight.Id), zap.Error(primaryKey.Error))
 			ctx.JSON(http.StatusConflict, gin.H{"message": "The Flight is already added"})
 			return
 		}
 
-		logger.Info(fmt.Sprintf("flight %s created successfully", flight.ID))
+		logger.Info(fmt.Sprintf("flight %s created successfully", flight.Id))
 		ctx.JSON(http.StatusCreated, gin.H{"message": "Flight added successfully"})
 
 	} else {
-		logger.Warn("User Flight Already Exist", zap.Uint("flight number", flight.ID))
+		logger.Warn("User Flight Already Exist", zap.String("flight number", flight.Id))
 		ctx.JSON(http.StatusConflict, gin.H{"message": "Flight Already Exist"})
 	}
 

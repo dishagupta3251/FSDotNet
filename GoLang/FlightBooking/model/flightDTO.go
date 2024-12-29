@@ -1,13 +1,8 @@
 package model
 
-import (
-	"time"
+import "time"
 
-	"gorm.io/gorm"
-)
-
-type Flights struct {
-	gorm.Model
+type FlightDTO struct {
 	Id          string `gorm:"unique"`
 	Source      string `gorm:"not null"`
 	Destination string `gorm:"not null"`
