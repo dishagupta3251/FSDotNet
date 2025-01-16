@@ -1,0 +1,444 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\models\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\models\\dto\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\unittesting\\controllertest\\customercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|solutionrelative:unittesting\\controllertest\\customercontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\unittesting\\repositorytest\\customerrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|solutionrelative:unittesting\\repositorytest\\customerrepositorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\exceptions\\couldnotdeleteexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\exceptions\\couldnotdeleteexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\exceptions\\collectionemptyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\unittesting\\servicetest\\customerservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|solutionrelative:unittesting\\servicetest\\customerservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\unittesting\\unittesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21210677-6254-4048-A389-801326368907}|UnitTesting\\UnitTesting.csproj|solutionrelative:unittesting\\unittesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\exceptions\\couldnotupdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\exceptions\\couldnotupdateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\exceptions\\couldnotaddexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\exceptions\\couldnotaddexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\context\\bankingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\context\\bankingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\mapper\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\mapper\\customerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\bankingcustomermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\bankingcustomermanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103081403_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BankingCustomerManagement\\Migrations\\20250103081403_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103073408_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BankingCustomerManagement\\Migrations\\20250103073408_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|c:\\users\\disha.gupta.pyramidindia\\source\\repos\\bankingcustomermanagementsol\\bankingcustomermanagement\\migrations\\20250103111010_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27832D5-9CE5-4447-9BD1-3ABDE08AC5CE}|BankingCustomerManagement\\BankingCustomerManagement.csproj|solutionrelative:bankingcustomermanagement\\migrations\\20250103111010_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 223,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerRepositoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\RepositoryTest\\CustomerRepositoryTest.cs",
+              "RelativeDocumentMoniker": "UnitTesting\\RepositoryTest\\CustomerRepositoryTest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\RepositoryTest\\CustomerRepositoryTest.cs",
+              "RelativeToolTip": "UnitTesting\\RepositoryTest\\CustomerRepositoryTest.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAA2wGgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:04:01.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwCAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:39:32.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Program.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Program.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:15:13.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:27:05.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Models\\Customer.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Models\\Customer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T06:45:29.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Services\\CustomerService.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAASwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:07:58.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Models\\DTO\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Models\\DTO\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Models\\DTO\\CustomerDTO.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Models\\DTO\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:31:41.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:15:38.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\ControllerTest\\CustomerControllerTest.cs",
+              "RelativeDocumentMoniker": "UnitTesting\\ControllerTest\\CustomerControllerTest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\ControllerTest\\CustomerControllerTest.cs",
+              "RelativeToolTip": "UnitTesting\\ControllerTest\\CustomerControllerTest.cs",
+              "ViewState": "AgIAADEBAAAAAAAAAAAYwEUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T02:39:48.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\appsettings.json",
+              "RelativeToolTip": "BankingCustomerManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-03T06:49:30.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T09:59:46.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CollectionEmptyException.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Exceptions\\CollectionEmptyException.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CollectionEmptyException.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Exceptions\\CollectionEmptyException.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:19:28.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CouldNotDeleteException.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CouldNotDeleteException.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Exceptions\\CouldNotDeleteException.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CouldNotDeleteException.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Exceptions\\CouldNotDeleteException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:49:56.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\ServiceTest\\CustomerServiceTest.cs",
+              "RelativeDocumentMoniker": "UnitTesting\\ServiceTest\\CustomerServiceTest.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\ServiceTest\\CustomerServiceTest.cs",
+              "RelativeToolTip": "UnitTesting\\ServiceTest\\CustomerServiceTest.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:16:50.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CouldNotUpdateException.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CouldNotUpdateException.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Exceptions\\CouldNotUpdateException.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CouldNotUpdateException.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Exceptions\\CouldNotUpdateException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:50:13.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CouldNotAddException.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CouldNotAddException.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Exceptions\\CouldNotAddException.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Exceptions\\CouldNotAddException.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Exceptions\\CouldNotAddException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:38:56.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitTesting.csproj",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\UnitTesting.csproj",
+              "RelativeDocumentMoniker": "UnitTesting\\UnitTesting.csproj",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\UnitTesting\\UnitTesting.csproj",
+              "RelativeToolTip": "UnitTesting\\UnitTesting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-03T12:16:07.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BankingContext.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Context\\BankingContext.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Context\\BankingContext.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Context\\BankingContext.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Context\\BankingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T06:38:23.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250103111010_init.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103111010_init.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Migrations\\20250103111010_init.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103111010_init.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Migrations\\20250103111010_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T11:10:10.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Mapper\\CustomerProfile.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Mapper\\CustomerProfile.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Mapper\\CustomerProfile.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Mapper\\CustomerProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T10:35:40.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BankingCustomerManagement.csproj",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\BankingCustomerManagement.csproj",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\BankingCustomerManagement.csproj",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\BankingCustomerManagement.csproj",
+              "RelativeToolTip": "BankingCustomerManagement\\BankingCustomerManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-03T07:34:57.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:36:25.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250103081403_init.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103081403_init.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Migrations\\20250103081403_init.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103081403_init.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Migrations\\20250103081403_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T08:14:03.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250103073408_init.cs",
+              "DocumentMoniker": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103073408_init.cs",
+              "RelativeDocumentMoniker": "BankingCustomerManagement\\Migrations\\20250103073408_init.cs",
+              "ToolTip": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\source\\repos\\BankingCustomerManagementSol\\BankingCustomerManagement\\Migrations\\20250103073408_init.cs",
+              "RelativeToolTip": "BankingCustomerManagement\\Migrations\\20250103073408_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T07:34:08.712Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 213,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 190,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

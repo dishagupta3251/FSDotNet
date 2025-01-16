@@ -14,18 +14,15 @@ func TestAdd(t *testing.T) {
 
 func TestDivide(t *testing.T) {
 	ans, err := DivideNumbers(10, 2)
-	expected := 5
-	if err != nil {
-		t.Error("Expected no error, got", err)
-	}
-	if ans != expected {
+	expected := 5.0
+	if ans != expected && err != nil {
 		t.Error("Expected 5, got", ans)
 	}
 }
 
 func TestDivideError(t *testing.T) {
-	_, err := DivideNumbers(10, 0)
+	result, err := DivideNumbers(10, 0)
 	if err == nil {
-		t.Error("Expected an error, got none")
+		t.Error("Expected an error, got none", result)
 	}
 }

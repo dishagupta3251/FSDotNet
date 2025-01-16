@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BusTicketingApp",
+    "\\BusTicketingApp\\Contexts",
+    "\\BusTicketingApp\\Controllers",
+    "\\BusTicketingApp\\Models",
+    "\\BusTicketingApp\\Repositories",
+    "\\BusTicketingApp\\Services",
+    "\\UnitTesting",
+    "\\UnitTesting\\RepositoryTest",
+    "\\UnitTesting\\ServicesTest"
+  ],
+  "SelectedNode": "\\BusTicketingApp\\Services\\BusOperatorService.cs",
+  "PreviewInSolutionExplorer": false
+}

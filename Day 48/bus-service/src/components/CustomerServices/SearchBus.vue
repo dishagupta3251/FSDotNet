@@ -2,7 +2,6 @@
     <div class="search">
         <CustomerNavbar />
 
-        <!-- Main Content -->
         <main class="main-content">
 
 

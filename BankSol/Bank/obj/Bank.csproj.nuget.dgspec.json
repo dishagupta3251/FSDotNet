@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Bank.csproj": {}
+    "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Assessment\\BankSol\\Bank\\Bank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Bank.csproj": {
+    "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Assessment\\BankSol\\Bank\\Bank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Bank.csproj",
+        "projectUniqueName": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Assessment\\BankSol\\Bank\\Bank.csproj",
         "projectName": "Bank",
-        "projectPath": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\Bank.csproj",
-        "packagesPath": "C:\\Users\\Disha.Gupta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Disha.Gupta\\source\\repos\\BankSol\\Bank\\obj\\",
+        "projectPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Assessment\\BankSol\\Bank\\Bank.csproj",
+        "packagesPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\Documents\\Training\\Assessment\\BankSol\\Bank\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Disha.Gupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Disha.Gupta.PYRAMIDINDIA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

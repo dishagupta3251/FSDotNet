@@ -1,11 +1,11 @@
 <template>
     <footer class="footer">
         <div class="footer-container">
-            <!-- redBus Logo and Description -->
+
             <div class="footer-section">
             </div>
 
-            <!-- About redBus Section -->
+
             <div class="footer-section">
                 <h3>About Bus</h3>
                 <ul>
@@ -21,7 +21,7 @@
                 </ul>
             </div>
 
-            <!-- Info Section -->
+
             <div class="footer-section">
                 <h3>Info</h3>
                 <ul>
@@ -38,7 +38,7 @@
                 </ul>
             </div>
 
-            <!-- Global Sites Section -->
+
             <div class="footer-section">
                 <h3>Global Sites</h3>
                 <ul>
@@ -53,7 +53,6 @@
                 </ul>
             </div>
 
-            <!-- Partners Section -->
             <div class="footer-section">
                 <h3>Our Partners</h3>
                 <ul>

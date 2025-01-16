@@ -4,15 +4,14 @@ import (
 	"fmt"
 	"mymodule/model"
 	"net/http"
-	"time"
 
 	"github.com/gin-gonic/gin"
 )
 
 type Search struct {
 	From string `json:"from"`
-	To   string `json:"to"`
-	Date string `json:"date"` // Change to string to match JSON input
+	//To   string `json:"to"`
+	//Date string `json:"date"` // Change to string to match JSON input
 }
 
 func SearchFlight(ctx *gin.Context) {
@@ -23,26 +22,26 @@ func SearchFlight(ctx *gin.Context) {
 	}
 
 	// Parse the Date field from string to time.Time
-	layout := "2006-01-02T15:04:05Z"
-	parsedDate, err := time.Parse(layout, search.Date)
-	if err != nil {
-		ctx.JSON(http.StatusBadRequest, gin.H{"message": "Invalid date format"})
-		return
-	}
+	// layout := "2006-01-02T15:04:05Z"
+	// parsedDate, err := time.Parse(layout, search.Date)
+	// if err != nil {
+	// 	ctx.JSON(http.StatusBadRequest, gin.H{"message": "Invalid date format"})
+	// 	return
+	// }
 
-	formattedDate := parsedDate.Format("2006-01-02 15:04:05") // Format to match the database
+	//formattedDate := parsedDate.Format("2006-01-02 15:04:05") // Format to match the database
 
 	fmt.Println("From:", search.From)
-	fmt.Println("To:", search.To)
-	fmt.Println("Date:", formattedDate)
+	//fmt.Println("To:", search.To)
+	// fmt.Println("Date:", formattedDate)
 
 	var flights []model.Flights
-	flightErr := flightDbConnector.Where("source = ? AND destination = ? AND date = ?", search.From, search.To, formattedDate).Find(&flights).Error
+	flightErr := flightDbConnector.Where("source = ?", search.From).Find(&flights).Error
 	if flightErr != nil {
 		ctx.JSON(http.StatusInternalServerError, gin.H{"message": "Error retrieving flights"})
 		return
 	}
-
+	fmt.Println(flights[0])
 	if len(flights) == 0 {
 		ctx.JSON(http.StatusOK, gin.H{"message": "No flights available"})
 		return

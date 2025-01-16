@@ -2,7 +2,6 @@
 
 
     <div class="main">
-        <!-- Search Bar Section -->
         <CustomerNavbar />
         <div>
             <header class="search-bar">
@@ -16,7 +15,6 @@
                 <button class="modify-btn" @click="modifySearch">Modify</button>
             </header>
             <div class="content">
-                <!-- Filter Section -->
                 <aside class="filters">
 
                     <div class="filter-group-type">
@@ -64,7 +62,6 @@
 
                 </aside>
 
-                <!-- Bus List Section -->
                 <section class="bus-list">
                     <DotLottieVue class="loading" v-if="loading" autoplay loop
                         src="https://lottie.host/4480640a-0a4e-4a35-95bd-48e4dddb1690/IL1ds5D6Vz.lottie" />

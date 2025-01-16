@@ -41,7 +41,9 @@ namespace BusTicketingApp.Repositories
                 }
                 return user;
             }
-            catch { throw new NotFoundException("User"); }
+            catch { 
+                throw new NotFoundException("User");
+            }
            
         }
 

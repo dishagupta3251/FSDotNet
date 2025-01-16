@@ -1,0 +1,2794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.8887999999999999" branch-rate="0.78" version="1.9" timestamp="1736134196" lines-covered="728" lines-valid="819" branches-covered="39" branches-valid="50">
+  <sources>
+    <source>C:\Users\Disha.Gupta.PYRAMIDINDIA\</source>
+  </sources>
+  <packages>
+    <package name="BankingCustomerManagement" line-rate="0.7706000000000001" branch-rate="0.78" complexity="97">
+      <classes>
+        <class name="CustomerRepository" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Repositories\CustomerRepository.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(BankingCustomerManagement.Context.BankingContext,Microsoft.Extensions.Logging.ILogger`1&lt;CustomerRepository&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="10" branch="False" />
+                <line number="15" hits="10" branch="False" />
+                <line number="16" hits="10" branch="False" />
+                <line number="17" hits="10" branch="False" />
+                <line number="18" hits="10" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="10" branch="False" />
+            <line number="15" hits="10" branch="False" />
+            <line number="16" hits="10" branch="False" />
+            <line number="17" hits="10" branch="False" />
+            <line number="18" hits="10" branch="False" />
+          </lines>
+        </class>
+        <class name="CustomerRepository/&lt;Add&gt;d__3" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Repositories\CustomerRepository.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="6" branch="False" />
+                <line number="23" hits="6" branch="False" />
+                <line number="24" hits="6" branch="False" />
+                <line number="25" hits="5" branch="False" />
+                <line number="26" hits="5" branch="False" />
+                <line number="27" hits="5" branch="False" />
+                <line number="29" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+                <line number="33" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="6" branch="False" />
+            <line number="23" hits="6" branch="False" />
+            <line number="24" hits="6" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="26" hits="5" branch="False" />
+            <line number="27" hits="5" branch="False" />
+            <line number="29" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="33" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="CustomerRepository/&lt;Delete&gt;d__4" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Repositories\CustomerRepository.cs" line-rate="0.875" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.875" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="36" hits="2" branch="False" />
+                <line number="38" hits="2" branch="False" />
+                <line number="39" hits="2" branch="False" />
+                <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="180" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="36" hits="2" branch="False" />
+            <line number="38" hits="2" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="180" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CustomerRepository/&lt;Get&gt;d__5" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Repositories\CustomerRepository.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="59" hits="6" branch="False" />
+                <line number="61" hits="6" branch="False" />
+                <line number="62" hits="6" branch="False" />
+                <line number="63" hits="6" branch="False" />
+                <line number="64" hits="9" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="359" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="3" branch="False" />
+                <line number="67" hits="3" branch="False" />
+                <line number="68" hits="3" branch="False" />
+                <line number="69" hits="3" branch="False" />
+                <line number="71" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="59" hits="6" branch="False" />
+            <line number="61" hits="6" branch="False" />
+            <line number="62" hits="6" branch="False" />
+            <line number="63" hits="6" branch="False" />
+            <line number="64" hits="9" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="359" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="65" hits="3" branch="False" />
+            <line number="67" hits="3" branch="False" />
+            <line number="68" hits="3" branch="False" />
+            <line number="69" hits="3" branch="False" />
+            <line number="71" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="CustomerRepository/&lt;GetAll&gt;d__6" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Repositories\CustomerRepository.cs" line-rate="0.5" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.5" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="74" hits="2" branch="False" />
+                <line number="76" hits="2" branch="False" />
+                <line number="77" hits="2" branch="False" />
+                <line number="78" hits="2" branch="False" />
+                <line number="80" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="214" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="81" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="83" hits="0" branch="False" />
+                <line number="86" hits="2" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="94" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="74" hits="2" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="77" hits="2" branch="False" />
+            <line number="78" hits="2" branch="False" />
+            <line number="80" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="214" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="81" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="83" hits="0" branch="False" />
+            <line number="86" hits="2" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="94" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="CustomerRepository/&lt;Update&gt;d__7" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Repositories\CustomerRepository.cs" line-rate="0.9189" branch-rate="0.9285" complexity="14">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.9189" branch-rate="0.9285" complexity="14">
+              <lines>
+                <line number="97" hits="2" branch="False" />
+                <line number="99" hits="2" branch="False" />
+                <line number="100" hits="2" branch="False" />
+                <line number="101" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="180" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="209" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="104" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="107" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="259" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="108" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="112" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="309" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="115" hits="1" branch="False" />
+                <line number="117" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="359" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="118" hits="0" branch="False" />
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="False" />
+                <line number="122" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="409" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="123" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+                <line number="127" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="459" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
+                <line number="143" hits="1" branch="False" />
+                <line number="144" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="97" hits="2" branch="False" />
+            <line number="99" hits="2" branch="False" />
+            <line number="100" hits="2" branch="False" />
+            <line number="101" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="180" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="209" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="104" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="107" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="259" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="108" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="112" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="309" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="115" hits="1" branch="False" />
+            <line number="117" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="359" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="118" hits="0" branch="False" />
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="False" />
+            <line number="122" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="409" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="123" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="127" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="459" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
+            <line number="142" hits="1" branch="False" />
+            <line number="143" hits="1" branch="False" />
+            <line number="144" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Program" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="48" hits="0" branch="False" />
+                <line number="49" hits="0" branch="False" />
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="53" hits="0" branch="False" />
+                <line number="56" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="62" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="78" hits="0" branch="False" />
+                <line number="82" hits="0" branch="False" />
+                <line number="86" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="92" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="266" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="93" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="95" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="48" hits="0" branch="False" />
+            <line number="49" hits="0" branch="False" />
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="53" hits="0" branch="False" />
+            <line number="56" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="62" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="78" hits="0" branch="False" />
+            <line number="82" hits="0" branch="False" />
+            <line number="86" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="92" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="266" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="93" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="95" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GenerateAccountNumber" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="28" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="59" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="13" branch="False" />
+                <line number="30" hits="13" branch="False" />
+                <line number="31" hits="13" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="34" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(BankingCustomerManagement.Interfaces.IRepository`2&lt;BankingCustomerManagement.Models.Customer,System.Int32&gt;,AutoMapper.IMapper)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="28" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="59" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="13" branch="False" />
+            <line number="30" hits="13" branch="False" />
+            <line number="31" hits="13" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="34" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;&gt;c__DisplayClass10_0" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetCustomerByLastName&gt;b__0" signature="(BankingCustomerManagement.Models.Customer)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="138" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="138" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;&gt;c__DisplayClass11_0" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetCustomerByAccountNumber&gt;b__0" signature="(BankingCustomerManagement.Models.Customer)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="153" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="153" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;&gt;c__DisplayClass12_0" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetCustomerByPhoneNumber&gt;b__0" signature="(BankingCustomerManagement.Models.Customer)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="163" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="163" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;&gt;c__DisplayClass9_0" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetCustomerByFirstName&gt;b__0" signature="(BankingCustomerManagement.Models.Customer)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="117" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="117" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;AddCustomer&gt;d__4" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="2" branch="False" />
+                <line number="38" hits="2" branch="False" />
+                <line number="39" hits="2" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="36" hits="2" branch="False" />
+            <line number="38" hits="2" branch="False" />
+            <line number="39" hits="2" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;DeleteCustomer&gt;d__5" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="2" branch="False" />
+                <line number="55" hits="2" branch="False" />
+                <line number="56" hits="2" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="53" hits="2" branch="False" />
+            <line number="55" hits="2" branch="False" />
+            <line number="56" hits="2" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;GetAll&gt;d__6" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="65" hits="10" branch="False" />
+                <line number="67" hits="10" branch="False" />
+                <line number="68" hits="10" branch="False" />
+                <line number="70" hits="11" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="172" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="71" hits="9" branch="False" />
+                <line number="73" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="77" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="65" hits="10" branch="False" />
+            <line number="67" hits="10" branch="False" />
+            <line number="68" hits="10" branch="False" />
+            <line number="70" hits="11" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="172" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="71" hits="9" branch="False" />
+            <line number="73" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="77" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;GetCustomerByAccountNumber&gt;d__11" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="152" hits="2" branch="False" />
+                <line number="154" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="203" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="155" hits="1" branch="False" />
+                <line number="156" hits="1" branch="False" />
+                <line number="158" hits="1" branch="False" />
+                <line number="159" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="152" hits="2" branch="False" />
+            <line number="154" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="203" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="155" hits="1" branch="False" />
+            <line number="156" hits="1" branch="False" />
+            <line number="158" hits="1" branch="False" />
+            <line number="159" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;GetCustomerByFirstName&gt;d__9" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="113" hits="2" branch="False" />
+                <line number="115" hits="2" branch="False" />
+                <line number="116" hits="2" branch="False" />
+                <line number="118" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="239" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="125" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="113" hits="2" branch="False" />
+            <line number="115" hits="2" branch="False" />
+            <line number="116" hits="2" branch="False" />
+            <line number="118" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="239" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;GetCustomerById&gt;d__7" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="80" hits="2" branch="False" />
+                <line number="82" hits="2" branch="False" />
+                <line number="83" hits="2" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="80" hits="2" branch="False" />
+            <line number="82" hits="2" branch="False" />
+            <line number="83" hits="2" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;GetCustomerByLastName&gt;d__10" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="134" hits="2" branch="False" />
+                <line number="136" hits="2" branch="False" />
+                <line number="137" hits="2" branch="False" />
+                <line number="139" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="239" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="140" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
+                <line number="144" hits="1" branch="False" />
+                <line number="146" hits="2" branch="False" />
+                <line number="147" hits="1" branch="False" />
+                <line number="149" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="134" hits="2" branch="False" />
+            <line number="136" hits="2" branch="False" />
+            <line number="137" hits="2" branch="False" />
+            <line number="139" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="239" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="140" hits="1" branch="False" />
+            <line number="142" hits="1" branch="False" />
+            <line number="144" hits="1" branch="False" />
+            <line number="146" hits="2" branch="False" />
+            <line number="147" hits="1" branch="False" />
+            <line number="149" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;GetCustomerByPhoneNumber&gt;d__12" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="162" hits="2" branch="False" />
+                <line number="164" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="203" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="165" hits="1" branch="False" />
+                <line number="166" hits="1" branch="False" />
+                <line number="168" hits="1" branch="False" />
+                <line number="169" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="162" hits="2" branch="False" />
+            <line number="164" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="203" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="165" hits="1" branch="False" />
+            <line number="166" hits="1" branch="False" />
+            <line number="168" hits="1" branch="False" />
+            <line number="169" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Services.CustomerService/&lt;UpdateCustomer&gt;d__8" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Services\CustomerService.cs" line-rate="1" branch-rate="0.5" complexity="12">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.5" complexity="12">
+              <lines>
+                <line number="92" hits="2" branch="False" />
+                <line number="94" hits="2" branch="False" />
+                <line number="95" hits="2" branch="False" />
+                <line number="97" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="190" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="98" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="228" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="99" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="266" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="100" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="304" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="101" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="342" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="102" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="380" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="104" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="92" hits="2" branch="False" />
+            <line number="94" hits="2" branch="False" />
+            <line number="95" hits="2" branch="False" />
+            <line number="97" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="190" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="98" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="228" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="99" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="266" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="100" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="304" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="101" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="342" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="102" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="380" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="104" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Models.Customer" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Models\Customer.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="get_CustId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="39" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="82" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DateOfBirth" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="27" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="69" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Address" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_City" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="61" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="61" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="65" branch="False" />
+              </lines>
+            </method>
+            <method name="get_AccountNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="50" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="39" branch="False" />
+            <line number="12" hits="82" branch="False" />
+            <line number="14" hits="27" branch="False" />
+            <line number="16" hits="69" branch="False" />
+            <line number="19" hits="32" branch="False" />
+            <line number="23" hits="61" branch="False" />
+            <line number="25" hits="61" branch="False" />
+            <line number="27" hits="65" branch="False" />
+            <line number="28" hits="50" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Models.DTO.CustomerDTO" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Models\DTO\CustomerDTO.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="21" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Address" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="11" branch="False" />
+              </lines>
+            </method>
+            <method name="get_City" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DateOfBirth" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhoneNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="14" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="21" branch="False" />
+            <line number="12" hits="16" branch="False" />
+            <line number="16" hits="11" branch="False" />
+            <line number="20" hits="14" branch="False" />
+            <line number="24" hits="14" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="31" hits="14" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Mapper.CustomerProfile" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Mapper\CustomerProfile.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Exceptions.CollectionEmptyException" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Exceptions\CollectionEmptyException.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Exceptions.CouldNotAddException" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Exceptions\CouldNotAddException.cs" line-rate="0.8" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Exceptions.CouldNotDeleteException" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Exceptions\CouldNotDeleteException.cs" line-rate="0.8" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Exceptions.CouldNotUpdateException" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Exceptions\CouldNotUpdateException.cs" line-rate="0.8" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Exceptions.NotFoundException" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Exceptions\NotFoundException.cs" line-rate="0.8" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Message" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="8" branch="False" />
+                <line number="10" hits="8" branch="False" />
+                <line number="11" hits="8" branch="False" />
+                <line number="12" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="False" />
+            <line number="9" hits="8" branch="False" />
+            <line number="10" hits="8" branch="False" />
+            <line number="11" hits="8" branch="False" />
+            <line number="12" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(BankingCustomerManagement.Interfaces.ICustomerService)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="20" branch="False" />
+                <line number="16" hits="20" branch="False" />
+                <line number="17" hits="20" branch="False" />
+                <line number="18" hits="20" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="20" branch="False" />
+            <line number="16" hits="20" branch="False" />
+            <line number="17" hits="20" branch="False" />
+            <line number="18" hits="20" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;AddCustomer&gt;d__2" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+                <line number="33" hits="1" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="36" hits="1" branch="False" />
+                <line number="37" hits="1" branch="False" />
+                <line number="39" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="33" hits="1" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="36" hits="1" branch="False" />
+            <line number="37" hits="1" branch="False" />
+            <line number="39" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;DeleteCustomer&gt;d__3" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="47" hits="2" branch="False" />
+                <line number="48" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="54" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="44" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="47" hits="2" branch="False" />
+            <line number="48" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="54" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;FetchCustomerByAccount&gt;d__9" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="128" hits="2" branch="False" />
+                <line number="129" hits="2" branch="False" />
+                <line number="130" hits="2" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="2" branch="False" />
+                <line number="133" hits="1" branch="False" />
+                <line number="135" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="128" hits="2" branch="False" />
+            <line number="129" hits="2" branch="False" />
+            <line number="130" hits="2" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="2" branch="False" />
+            <line number="133" hits="1" branch="False" />
+            <line number="135" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;FetchCustomerByFirstName&gt;d__6" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="2" branch="False" />
+                <line number="90" hits="2" branch="False" />
+                <line number="91" hits="2" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="98" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="88" hits="2" branch="False" />
+            <line number="90" hits="2" branch="False" />
+            <line number="91" hits="2" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="98" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;FetchCustomerByLastName&gt;d__7" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="102" hits="2" branch="False" />
+                <line number="104" hits="2" branch="False" />
+                <line number="105" hits="2" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="112" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="102" hits="2" branch="False" />
+            <line number="104" hits="2" branch="False" />
+            <line number="105" hits="2" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="112" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;FetchCustomerByPhoneNumber&gt;d__8" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="115" hits="2" branch="False" />
+                <line number="117" hits="2" branch="False" />
+                <line number="118" hits="2" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+                <line number="125" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="115" hits="2" branch="False" />
+            <line number="117" hits="2" branch="False" />
+            <line number="118" hits="2" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+            <line number="125" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;GetAllCustomers&gt;d__4" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="2" branch="False" />
+                <line number="61" hits="2" branch="False" />
+                <line number="62" hits="2" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="69" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="59" hits="2" branch="False" />
+            <line number="61" hits="2" branch="False" />
+            <line number="62" hits="2" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="69" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;GetCustomerById&gt;d__5" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="2" branch="False" />
+                <line number="76" hits="2" branch="False" />
+                <line number="77" hits="2" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="84" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="74" hits="2" branch="False" />
+            <line number="76" hits="2" branch="False" />
+            <line number="77" hits="2" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="84" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Controllers.CustomerController/&lt;UpdateCustomer&gt;d__10" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Controllers\CustomerController.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="140" hits="3" branch="False" />
+                <line number="141" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="36" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="142" hits="1" branch="False" />
+                <line number="143" hits="1" branch="False" />
+                <line number="147" hits="2" branch="False" />
+                <line number="148" hits="2" branch="False" />
+                <line number="149" hits="1" branch="False" />
+                <line number="151" hits="1" branch="False" />
+                <line number="152" hits="1" branch="False" />
+                <line number="153" hits="1" branch="False" />
+                <line number="155" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="140" hits="3" branch="False" />
+            <line number="141" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="36" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="142" hits="1" branch="False" />
+            <line number="143" hits="1" branch="False" />
+            <line number="147" hits="2" branch="False" />
+            <line number="148" hits="2" branch="False" />
+            <line number="149" hits="1" branch="False" />
+            <line number="151" hits="1" branch="False" />
+            <line number="152" hits="1" branch="False" />
+            <line number="153" hits="1" branch="False" />
+            <line number="155" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="BankingCustomerManagement.Context.BankingContext" filename="source\repos\BankingCustomerManagementSol\BankingCustomerManagement\Context\BankingContext.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Customers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="29" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="10" branch="False" />
+                <line number="9" hits="10" branch="False" />
+                <line number="11" hits="10" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="29" branch="False" />
+            <line number="8" hits="10" branch="False" />
+            <line number="9" hits="10" branch="False" />
+            <line number="11" hits="10" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="UnitTesting" line-rate="0.9953" branch-rate="1" complexity="57">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.5.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="Details" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="12" branch="False" />
+                <line number="31" hits="12" branch="False" />
+                <line number="32" hits="12" branch="False" />
+                <line number="33" hits="12" branch="False" />
+                <line number="34" hits="12" branch="False" />
+                <line number="35" hits="12" branch="False" />
+                <line number="36" hits="12" branch="False" />
+                <line number="37" hits="12" branch="False" />
+                <line number="38" hits="12" branch="False" />
+                <line number="39" hits="12" branch="False" />
+                <line number="40" hits="12" branch="False" />
+                <line number="41" hits="12" branch="False" />
+                <line number="42" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="CustomerList" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="AddCustomerException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="92" hits="2" branch="False" />
+                <line number="93" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerByIdException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
+                <line number="110" hits="2" branch="False" />
+                <line number="111" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAllException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="130" hits="2" branch="False" />
+                <line number="131" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="UpdateCustomerException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="151" hits="1" branch="False" />
+                <line number="152" hits="1" branch="False" />
+                <line number="153" hits="1" branch="False" />
+                <line number="155" hits="2" branch="False" />
+                <line number="156" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="DeleteCustomerException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="172" hits="1" branch="False" />
+                <line number="173" hits="1" branch="False" />
+                <line number="175" hits="2" branch="False" />
+                <line number="176" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerByFirstNameException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="193" hits="1" branch="False" />
+                <line number="194" hits="1" branch="False" />
+                <line number="195" hits="1" branch="False" />
+                <line number="196" hits="1" branch="False" />
+                <line number="197" hits="1" branch="False" />
+                <line number="199" hits="2" branch="False" />
+                <line number="200" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerByLastNameException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="218" hits="1" branch="False" />
+                <line number="219" hits="1" branch="False" />
+                <line number="220" hits="1" branch="False" />
+                <line number="221" hits="1" branch="False" />
+                <line number="222" hits="1" branch="False" />
+                <line number="225" hits="2" branch="False" />
+                <line number="226" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerByAccountNumberException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="244" hits="1" branch="False" />
+                <line number="245" hits="1" branch="False" />
+                <line number="246" hits="1" branch="False" />
+                <line number="247" hits="1" branch="False" />
+                <line number="249" hits="2" branch="False" />
+                <line number="250" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerByPhoneNumberException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="267" hits="1" branch="False" />
+                <line number="268" hits="1" branch="False" />
+                <line number="269" hits="1" branch="False" />
+                <line number="270" hits="1" branch="False" />
+                <line number="272" hits="2" branch="False" />
+                <line number="273" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
+                <line number="25" hits="1" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="12" branch="False" />
+            <line number="31" hits="12" branch="False" />
+            <line number="32" hits="12" branch="False" />
+            <line number="33" hits="12" branch="False" />
+            <line number="34" hits="12" branch="False" />
+            <line number="35" hits="12" branch="False" />
+            <line number="36" hits="12" branch="False" />
+            <line number="37" hits="12" branch="False" />
+            <line number="38" hits="12" branch="False" />
+            <line number="39" hits="12" branch="False" />
+            <line number="40" hits="12" branch="False" />
+            <line number="41" hits="12" branch="False" />
+            <line number="42" hits="12" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="92" hits="2" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
+            <line number="110" hits="2" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="130" hits="2" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="151" hits="1" branch="False" />
+            <line number="152" hits="1" branch="False" />
+            <line number="153" hits="1" branch="False" />
+            <line number="155" hits="2" branch="False" />
+            <line number="156" hits="1" branch="False" />
+            <line number="172" hits="1" branch="False" />
+            <line number="173" hits="1" branch="False" />
+            <line number="175" hits="2" branch="False" />
+            <line number="176" hits="1" branch="False" />
+            <line number="193" hits="1" branch="False" />
+            <line number="194" hits="1" branch="False" />
+            <line number="195" hits="1" branch="False" />
+            <line number="196" hits="1" branch="False" />
+            <line number="197" hits="1" branch="False" />
+            <line number="199" hits="2" branch="False" />
+            <line number="200" hits="1" branch="False" />
+            <line number="218" hits="1" branch="False" />
+            <line number="219" hits="1" branch="False" />
+            <line number="220" hits="1" branch="False" />
+            <line number="221" hits="1" branch="False" />
+            <line number="222" hits="1" branch="False" />
+            <line number="225" hits="2" branch="False" />
+            <line number="226" hits="1" branch="False" />
+            <line number="244" hits="1" branch="False" />
+            <line number="245" hits="1" branch="False" />
+            <line number="246" hits="1" branch="False" />
+            <line number="247" hits="1" branch="False" />
+            <line number="249" hits="2" branch="False" />
+            <line number="250" hits="1" branch="False" />
+            <line number="267" hits="1" branch="False" />
+            <line number="268" hits="1" branch="False" />
+            <line number="269" hits="1" branch="False" />
+            <line number="270" hits="1" branch="False" />
+            <line number="272" hits="2" branch="False" />
+            <line number="273" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="24" hits="1" branch="False" />
+            <line number="25" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;AddCustomerTest&gt;d__6" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="49" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;DeleteCustomerTest&gt;d__14" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="160" hits="1" branch="False" />
+                <line number="161" hits="1" branch="False" />
+                <line number="162" hits="1" branch="False" />
+                <line number="164" hits="1" branch="False" />
+                <line number="166" hits="1" branch="False" />
+                <line number="167" hits="1" branch="False" />
+                <line number="168" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="160" hits="1" branch="False" />
+            <line number="161" hits="1" branch="False" />
+            <line number="162" hits="1" branch="False" />
+            <line number="164" hits="1" branch="False" />
+            <line number="166" hits="1" branch="False" />
+            <line number="167" hits="1" branch="False" />
+            <line number="168" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;GetAllTest&gt;d__10" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="115" hits="1" branch="False" />
+                <line number="116" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="123" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="115" hits="1" branch="False" />
+            <line number="116" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="123" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;GetCustomerByAccountNumberTest&gt;d__20" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="230" hits="1" branch="False" />
+                <line number="231" hits="1" branch="False" />
+                <line number="232" hits="1" branch="False" />
+                <line number="233" hits="1" branch="False" />
+                <line number="234" hits="1" branch="False" />
+                <line number="236" hits="1" branch="False" />
+                <line number="238" hits="1" branch="False" />
+                <line number="239" hits="1" branch="False" />
+                <line number="240" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="230" hits="1" branch="False" />
+            <line number="231" hits="1" branch="False" />
+            <line number="232" hits="1" branch="False" />
+            <line number="233" hits="1" branch="False" />
+            <line number="234" hits="1" branch="False" />
+            <line number="236" hits="1" branch="False" />
+            <line number="238" hits="1" branch="False" />
+            <line number="239" hits="1" branch="False" />
+            <line number="240" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;GetCustomerByFirstNameTest&gt;d__16" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="179" hits="1" branch="False" />
+                <line number="180" hits="1" branch="False" />
+                <line number="181" hits="1" branch="False" />
+                <line number="182" hits="1" branch="False" />
+                <line number="183" hits="1" branch="False" />
+                <line number="185" hits="1" branch="False" />
+                <line number="187" hits="1" branch="False" />
+                <line number="188" hits="1" branch="False" />
+                <line number="189" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="179" hits="1" branch="False" />
+            <line number="180" hits="1" branch="False" />
+            <line number="181" hits="1" branch="False" />
+            <line number="182" hits="1" branch="False" />
+            <line number="183" hits="1" branch="False" />
+            <line number="185" hits="1" branch="False" />
+            <line number="187" hits="1" branch="False" />
+            <line number="188" hits="1" branch="False" />
+            <line number="189" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;GetCustomerByIdTest&gt;d__8" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="104" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="104" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;GetCustomerByLastNameTest&gt;d__18" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="204" hits="1" branch="False" />
+                <line number="205" hits="1" branch="False" />
+                <line number="206" hits="1" branch="False" />
+                <line number="207" hits="1" branch="False" />
+                <line number="208" hits="1" branch="False" />
+                <line number="210" hits="1" branch="False" />
+                <line number="212" hits="1" branch="False" />
+                <line number="213" hits="1" branch="False" />
+                <line number="214" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="204" hits="1" branch="False" />
+            <line number="205" hits="1" branch="False" />
+            <line number="206" hits="1" branch="False" />
+            <line number="207" hits="1" branch="False" />
+            <line number="208" hits="1" branch="False" />
+            <line number="210" hits="1" branch="False" />
+            <line number="212" hits="1" branch="False" />
+            <line number="213" hits="1" branch="False" />
+            <line number="214" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;GetCustomerByPhoneNumberTest&gt;d__22" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="254" hits="1" branch="False" />
+                <line number="255" hits="1" branch="False" />
+                <line number="256" hits="1" branch="False" />
+                <line number="257" hits="1" branch="False" />
+                <line number="259" hits="1" branch="False" />
+                <line number="261" hits="1" branch="False" />
+                <line number="262" hits="1" branch="False" />
+                <line number="263" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="254" hits="1" branch="False" />
+            <line number="255" hits="1" branch="False" />
+            <line number="256" hits="1" branch="False" />
+            <line number="257" hits="1" branch="False" />
+            <line number="259" hits="1" branch="False" />
+            <line number="261" hits="1" branch="False" />
+            <line number="262" hits="1" branch="False" />
+            <line number="263" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ServiceTest.CustomerServiceTest/&lt;UpdateCustomerTest&gt;d__12" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ServiceTest\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="135" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="137" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="141" hits="1" branch="False" />
+                <line number="143" hits="1" branch="False" />
+                <line number="145" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
+                <line number="147" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="135" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="137" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="141" hits="1" branch="False" />
+            <line number="143" hits="1" branch="False" />
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+            <line number="147" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.RepositoryTest.CustomerRepositoryTest" filename="source\repos\BankingCustomerManagementSol\UnitTesting\RepositoryTest\CustomerRepositoryTest.cs" line-rate="0.9767" branch-rate="1" complexity="7">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="10" branch="False" />
+                <line number="25" hits="10" branch="False" />
+                <line number="26" hits="10" branch="False" />
+                <line number="27" hits="10" branch="False" />
+                <line number="29" hits="10" branch="False" />
+                <line number="30" hits="10" branch="False" />
+                <line number="31" hits="10" branch="False" />
+                <line number="32" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="AddCustomerDetails" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="5" branch="False" />
+                <line number="35" hits="5" branch="False" />
+                <line number="36" hits="5" branch="False" />
+                <line number="37" hits="5" branch="False" />
+                <line number="38" hits="5" branch="False" />
+                <line number="39" hits="5" branch="False" />
+                <line number="40" hits="5" branch="False" />
+                <line number="41" hits="5" branch="False" />
+                <line number="42" hits="5" branch="False" />
+                <line number="43" hits="5" branch="False" />
+                <line number="44" hits="5" branch="False" />
+                <line number="45" hits="5" branch="False" />
+                <line number="46" hits="5" branch="False" />
+                <line number="47" hits="5" branch="False" />
+              </lines>
+            </method>
+            <method name="TestAddException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="2" branch="False" />
+                <line number="61" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestDeleteException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="2" branch="False" />
+                <line number="76" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TestGetException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="2" branch="False" />
+                <line number="91" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="GetAllTestException" signature="()" line-rate="0.75" branch-rate="1" complexity="1">
+              <lines>
+                <line number="106" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="2" branch="False" />
+                <line number="109" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="UpdateTestException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="125" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="132" hits="2" branch="False" />
+                <line number="133" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="10" branch="False" />
+            <line number="25" hits="10" branch="False" />
+            <line number="26" hits="10" branch="False" />
+            <line number="27" hits="10" branch="False" />
+            <line number="29" hits="10" branch="False" />
+            <line number="30" hits="10" branch="False" />
+            <line number="31" hits="10" branch="False" />
+            <line number="32" hits="10" branch="False" />
+            <line number="34" hits="5" branch="False" />
+            <line number="35" hits="5" branch="False" />
+            <line number="36" hits="5" branch="False" />
+            <line number="37" hits="5" branch="False" />
+            <line number="38" hits="5" branch="False" />
+            <line number="39" hits="5" branch="False" />
+            <line number="40" hits="5" branch="False" />
+            <line number="41" hits="5" branch="False" />
+            <line number="42" hits="5" branch="False" />
+            <line number="43" hits="5" branch="False" />
+            <line number="44" hits="5" branch="False" />
+            <line number="45" hits="5" branch="False" />
+            <line number="46" hits="5" branch="False" />
+            <line number="47" hits="5" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="2" branch="False" />
+            <line number="61" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="2" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="2" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="2" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="125" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="132" hits="2" branch="False" />
+            <line number="133" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.RepositoryTest.CustomerRepositoryTest/&lt;AddTest&gt;d__6" filename="source\repos\BankingCustomerManagementSol\UnitTesting\RepositoryTest\CustomerRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.RepositoryTest.CustomerRepositoryTest/&lt;GetAllTest&gt;d__12" filename="source\repos\BankingCustomerManagementSol\UnitTesting\RepositoryTest\CustomerRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.RepositoryTest.CustomerRepositoryTest/&lt;TestDelete&gt;d__8" filename="source\repos\BankingCustomerManagementSol\UnitTesting\RepositoryTest\CustomerRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.RepositoryTest.CustomerRepositoryTest/&lt;TestGet&gt;d__10" filename="source\repos\BankingCustomerManagementSol\UnitTesting\RepositoryTest\CustomerRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.RepositoryTest.CustomerRepositoryTest/&lt;UpdateTest&gt;d__14" filename="source\repos\BankingCustomerManagementSol\UnitTesting\RepositoryTest\CustomerRepositoryTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="115" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+            <line number="115" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="121" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="20" branch="False" />
+                <line number="23" hits="20" branch="False" />
+                <line number="24" hits="20" branch="False" />
+                <line number="25" hits="20" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerDetails" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="9" branch="False" />
+                <line number="29" hits="9" branch="False" />
+                <line number="30" hits="9" branch="False" />
+                <line number="31" hits="9" branch="False" />
+                <line number="32" hits="9" branch="False" />
+                <line number="33" hits="9" branch="False" />
+                <line number="34" hits="9" branch="False" />
+                <line number="35" hits="9" branch="False" />
+                <line number="36" hits="9" branch="False" />
+                <line number="37" hits="9" branch="False" />
+                <line number="38" hits="9" branch="False" />
+                <line number="39" hits="9" branch="False" />
+                <line number="40" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="GetCustomerList" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="20" branch="False" />
+            <line number="23" hits="20" branch="False" />
+            <line number="24" hits="20" branch="False" />
+            <line number="25" hits="20" branch="False" />
+            <line number="28" hits="9" branch="False" />
+            <line number="29" hits="9" branch="False" />
+            <line number="30" hits="9" branch="False" />
+            <line number="31" hits="9" branch="False" />
+            <line number="32" hits="9" branch="False" />
+            <line number="33" hits="9" branch="False" />
+            <line number="34" hits="9" branch="False" />
+            <line number="35" hits="9" branch="False" />
+            <line number="36" hits="9" branch="False" />
+            <line number="37" hits="9" branch="False" />
+            <line number="38" hits="9" branch="False" />
+            <line number="39" hits="9" branch="False" />
+            <line number="40" hits="9" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;AddCustomerControllerException&gt;d__7" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="1" branch="False" />
+                <line number="91" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="97" hits="1" branch="False" />
+                <line number="98" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="106" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="112" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="89" hits="1" branch="False" />
+            <line number="91" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+            <line number="96" hits="1" branch="False" />
+            <line number="97" hits="1" branch="False" />
+            <line number="98" hits="1" branch="False" />
+            <line number="99" hits="1" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="106" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="112" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;AddCustomerControllerTest&gt;d__5" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;AddCustomerModelTest&gt;d__6" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="1" branch="False" />
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="82" hits="1" branch="False" />
+                <line number="83" hits="1" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="72" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="82" hits="1" branch="False" />
+            <line number="83" hits="1" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;DeleteCustomerControllerTest&gt;d__12" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="171" hits="1" branch="False" />
+                <line number="172" hits="1" branch="False" />
+                <line number="174" hits="1" branch="False" />
+                <line number="176" hits="1" branch="False" />
+                <line number="178" hits="1" branch="False" />
+                <line number="179" hits="1" branch="False" />
+                <line number="180" hits="1" branch="False" />
+                <line number="181" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="171" hits="1" branch="False" />
+            <line number="172" hits="1" branch="False" />
+            <line number="174" hits="1" branch="False" />
+            <line number="176" hits="1" branch="False" />
+            <line number="178" hits="1" branch="False" />
+            <line number="179" hits="1" branch="False" />
+            <line number="180" hits="1" branch="False" />
+            <line number="181" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;DeleteCustomerException&gt;d__13" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="184" hits="1" branch="False" />
+                <line number="186" hits="1" branch="False" />
+                <line number="188" hits="1" branch="False" />
+                <line number="189" hits="1" branch="False" />
+                <line number="191" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="184" hits="1" branch="False" />
+            <line number="186" hits="1" branch="False" />
+            <line number="188" hits="1" branch="False" />
+            <line number="189" hits="1" branch="False" />
+            <line number="191" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByAccountControllerTest&gt;d__20" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="266" hits="1" branch="False" />
+                <line number="267" hits="1" branch="False" />
+                <line number="269" hits="1" branch="False" />
+                <line number="271" hits="1" branch="False" />
+                <line number="273" hits="1" branch="False" />
+                <line number="274" hits="1" branch="False" />
+                <line number="275" hits="1" branch="False" />
+                <line number="276" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="266" hits="1" branch="False" />
+            <line number="267" hits="1" branch="False" />
+            <line number="269" hits="1" branch="False" />
+            <line number="271" hits="1" branch="False" />
+            <line number="273" hits="1" branch="False" />
+            <line number="274" hits="1" branch="False" />
+            <line number="275" hits="1" branch="False" />
+            <line number="276" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByAccountException&gt;d__21" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="279" hits="1" branch="False" />
+                <line number="280" hits="1" branch="False" />
+                <line number="281" hits="1" branch="False" />
+                <line number="283" hits="1" branch="False" />
+                <line number="286" hits="1" branch="False" />
+                <line number="287" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="279" hits="1" branch="False" />
+            <line number="280" hits="1" branch="False" />
+            <line number="281" hits="1" branch="False" />
+            <line number="283" hits="1" branch="False" />
+            <line number="286" hits="1" branch="False" />
+            <line number="287" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByFirstNameControllerTest&gt;d__14" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="194" hits="1" branch="False" />
+                <line number="195" hits="1" branch="False" />
+                <line number="197" hits="1" branch="False" />
+                <line number="199" hits="1" branch="False" />
+                <line number="201" hits="1" branch="False" />
+                <line number="202" hits="1" branch="False" />
+                <line number="203" hits="1" branch="False" />
+                <line number="204" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="194" hits="1" branch="False" />
+            <line number="195" hits="1" branch="False" />
+            <line number="197" hits="1" branch="False" />
+            <line number="199" hits="1" branch="False" />
+            <line number="201" hits="1" branch="False" />
+            <line number="202" hits="1" branch="False" />
+            <line number="203" hits="1" branch="False" />
+            <line number="204" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByFirstNameException&gt;d__15" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="207" hits="1" branch="False" />
+                <line number="208" hits="1" branch="False" />
+                <line number="209" hits="1" branch="False" />
+                <line number="211" hits="1" branch="False" />
+                <line number="212" hits="1" branch="False" />
+                <line number="213" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="207" hits="1" branch="False" />
+            <line number="208" hits="1" branch="False" />
+            <line number="209" hits="1" branch="False" />
+            <line number="211" hits="1" branch="False" />
+            <line number="212" hits="1" branch="False" />
+            <line number="213" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByLastNameControllerTest&gt;d__16" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="217" hits="1" branch="False" />
+                <line number="218" hits="1" branch="False" />
+                <line number="220" hits="1" branch="False" />
+                <line number="222" hits="1" branch="False" />
+                <line number="224" hits="1" branch="False" />
+                <line number="225" hits="1" branch="False" />
+                <line number="226" hits="1" branch="False" />
+                <line number="227" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="217" hits="1" branch="False" />
+            <line number="218" hits="1" branch="False" />
+            <line number="220" hits="1" branch="False" />
+            <line number="222" hits="1" branch="False" />
+            <line number="224" hits="1" branch="False" />
+            <line number="225" hits="1" branch="False" />
+            <line number="226" hits="1" branch="False" />
+            <line number="227" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByLastNameException&gt;d__17" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="230" hits="1" branch="False" />
+                <line number="231" hits="1" branch="False" />
+                <line number="232" hits="1" branch="False" />
+                <line number="234" hits="1" branch="False" />
+                <line number="237" hits="1" branch="False" />
+                <line number="238" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="230" hits="1" branch="False" />
+            <line number="231" hits="1" branch="False" />
+            <line number="232" hits="1" branch="False" />
+            <line number="234" hits="1" branch="False" />
+            <line number="237" hits="1" branch="False" />
+            <line number="238" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByPhoneNumberControllerTest&gt;d__18" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="242" hits="1" branch="False" />
+                <line number="243" hits="1" branch="False" />
+                <line number="245" hits="1" branch="False" />
+                <line number="247" hits="1" branch="False" />
+                <line number="249" hits="1" branch="False" />
+                <line number="250" hits="1" branch="False" />
+                <line number="251" hits="1" branch="False" />
+                <line number="252" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="242" hits="1" branch="False" />
+            <line number="243" hits="1" branch="False" />
+            <line number="245" hits="1" branch="False" />
+            <line number="247" hits="1" branch="False" />
+            <line number="249" hits="1" branch="False" />
+            <line number="250" hits="1" branch="False" />
+            <line number="251" hits="1" branch="False" />
+            <line number="252" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;FetchCustomerByPhoneNumberException&gt;d__19" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="255" hits="1" branch="False" />
+                <line number="256" hits="1" branch="False" />
+                <line number="257" hits="1" branch="False" />
+                <line number="259" hits="1" branch="False" />
+                <line number="262" hits="1" branch="False" />
+                <line number="263" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="255" hits="1" branch="False" />
+            <line number="256" hits="1" branch="False" />
+            <line number="257" hits="1" branch="False" />
+            <line number="259" hits="1" branch="False" />
+            <line number="262" hits="1" branch="False" />
+            <line number="263" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;GetAllCustomersControllerTest&gt;d__8" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="122" hits="1" branch="False" />
+                <line number="124" hits="1" branch="False" />
+                <line number="126" hits="1" branch="False" />
+                <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
+            <line number="122" hits="1" branch="False" />
+            <line number="124" hits="1" branch="False" />
+            <line number="126" hits="1" branch="False" />
+            <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;GetAllCustomersControllerTestException&gt;d__9" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="133" hits="1" branch="False" />
+                <line number="134" hits="1" branch="False" />
+                <line number="136" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="139" hits="1" branch="False" />
+                <line number="140" hits="1" branch="False" />
+                <line number="141" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="133" hits="1" branch="False" />
+            <line number="134" hits="1" branch="False" />
+            <line number="136" hits="1" branch="False" />
+            <line number="138" hits="1" branch="False" />
+            <line number="139" hits="1" branch="False" />
+            <line number="140" hits="1" branch="False" />
+            <line number="141" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;GetCustomerByIdControllerTest&gt;d__10" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="145" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
+                <line number="148" hits="1" branch="False" />
+                <line number="150" hits="1" branch="False" />
+                <line number="152" hits="1" branch="False" />
+                <line number="153" hits="1" branch="False" />
+                <line number="154" hits="1" branch="False" />
+                <line number="155" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
+            <line number="148" hits="1" branch="False" />
+            <line number="150" hits="1" branch="False" />
+            <line number="152" hits="1" branch="False" />
+            <line number="153" hits="1" branch="False" />
+            <line number="154" hits="1" branch="False" />
+            <line number="155" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;GetCustomerByIdControllerTestException&gt;d__11" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="159" hits="1" branch="False" />
+                <line number="160" hits="1" branch="False" />
+                <line number="162" hits="1" branch="False" />
+                <line number="164" hits="1" branch="False" />
+                <line number="165" hits="1" branch="False" />
+                <line number="166" hits="1" branch="False" />
+                <line number="167" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="159" hits="1" branch="False" />
+            <line number="160" hits="1" branch="False" />
+            <line number="162" hits="1" branch="False" />
+            <line number="164" hits="1" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="166" hits="1" branch="False" />
+            <line number="167" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;UpdateCustomerControllerTest&gt;d__22" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="292" hits="1" branch="False" />
+                <line number="293" hits="1" branch="False" />
+                <line number="294" hits="1" branch="False" />
+                <line number="295" hits="1" branch="False" />
+                <line number="297" hits="1" branch="False" />
+                <line number="299" hits="1" branch="False" />
+                <line number="301" hits="1" branch="False" />
+                <line number="302" hits="1" branch="False" />
+                <line number="303" hits="1" branch="False" />
+                <line number="304" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="292" hits="1" branch="False" />
+            <line number="293" hits="1" branch="False" />
+            <line number="294" hits="1" branch="False" />
+            <line number="295" hits="1" branch="False" />
+            <line number="297" hits="1" branch="False" />
+            <line number="299" hits="1" branch="False" />
+            <line number="301" hits="1" branch="False" />
+            <line number="302" hits="1" branch="False" />
+            <line number="303" hits="1" branch="False" />
+            <line number="304" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;UpdateCustomerException&gt;d__23" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="307" hits="1" branch="False" />
+                <line number="308" hits="1" branch="False" />
+                <line number="309" hits="1" branch="False" />
+                <line number="310" hits="1" branch="False" />
+                <line number="312" hits="1" branch="False" />
+                <line number="315" hits="1" branch="False" />
+                <line number="316" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="307" hits="1" branch="False" />
+            <line number="308" hits="1" branch="False" />
+            <line number="309" hits="1" branch="False" />
+            <line number="310" hits="1" branch="False" />
+            <line number="312" hits="1" branch="False" />
+            <line number="315" hits="1" branch="False" />
+            <line number="316" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTesting.ControllerTest.CustomerControllerTest/&lt;UpdateCustomerModelTest&gt;d__24" filename="source\repos\BankingCustomerManagementSol\UnitTesting\ControllerTest\CustomerControllerTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="319" hits="1" branch="False" />
+                <line number="321" hits="1" branch="False" />
+                <line number="322" hits="1" branch="False" />
+                <line number="325" hits="1" branch="False" />
+                <line number="328" hits="1" branch="False" />
+                <line number="329" hits="1" branch="False" />
+                <line number="330" hits="1" branch="False" />
+                <line number="331" hits="1" branch="False" />
+                <line number="333" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="319" hits="1" branch="False" />
+            <line number="321" hits="1" branch="False" />
+            <line number="322" hits="1" branch="False" />
+            <line number="325" hits="1" branch="False" />
+            <line number="328" hits="1" branch="False" />
+            <line number="329" hits="1" branch="False" />
+            <line number="330" hits="1" branch="False" />
+            <line number="331" hits="1" branch="False" />
+            <line number="333" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
