@@ -1,9 +1,5 @@
 <template>
-    <h1>heelo
-
-
-
-    </h1>
+    <button class="btn btn-primary button" style="margin-left: 5%;" @click="handleBack">Back</button>
     <div class="container mt-5">
         <h2 class="mb-4">Payment Details</h2>
         <form @submit.prevent="submitPayment">
@@ -21,18 +17,10 @@
                 <div class="invalid-feedback">{{ errors.cvv }}</div>
             </div>
             <div class="mb-3">
-                <label for="expiryMonth" class="form-label">Expiry Month</label>
-                <input type="number" id="expiryMonth" class="form-control" v-model="payment.expiryMonth"
-                    @input="validateExpiryMonth" :class="{ 'is-invalid': errors.expiryMonth }" placeholder="MM" min="1"
-                    max="12" required>
-                <div class="invalid-feedback">{{ errors.expiryMonth }}</div>
-            </div>
-            <div class="mb-3">
-                <label for="expiryYear" class="form-label">Expiry Year</label>
-                <input type="number" id="expiryYear" class="form-control" v-model="payment.expiryYear"
-                    @input="validateExpiryYear" :class="{ 'is-invalid': errors.expiryYear }" placeholder="YYYY"
-                    :min="currentYear" required>
-                <div class="invalid-feedback">{{ errors.expiryYear }}</div>
+                <label for="expiry" class="form-label">Expiry (MM/YY)</label>
+                <input type="text" id="expiry" class="form-control" v-model="payment.expiry" @input="validateExpiry"
+                    :class="{ 'is-invalid': errors.expiry }" placeholder="MM/YY" maxlength="5" required>
+                <div class="invalid-feedback">{{ errors.expiry }}</div>
             </div>
             <button type="submit" class="btn btn-primary">Submit Payment</button>
         </form>
@@ -45,6 +33,11 @@
 </template>
 
 <script>
+import { AddSeats, Booking, Passengers } from '@/scripts/FlightBooking_Services';
+import { useBookingStore } from '@/store/bookingStore';
+import { usePassengerStore } from '@/store/passengerStore';
+import { useSeatStore } from '@/store/seatsStore';
+
 export default {
     name: 'PaymentDetails',
     data() {
@@ -52,45 +45,164 @@ export default {
             payment: {
                 ccNumber: '',
                 cvv: '',
-                expiryMonth: '',
-                expiryYear: ''
+                expiry: ''
+            },
+            errors: {
+                ccNumber: '',
+                cvv: '',
+                expiry: ''
             },
             bookingReference: null,
-            currentYear: new Date().getFullYear()
+            currentYear: new Date().getFullYear(),
+            seatStore: useSeatStore(),
+            bookingStore: useBookingStore(),
+            passengerStore: usePassengerStore()
         };
+    },
+    computed: {
+        isCCNumberInvalid() {
+            return this.errors.ccNumber !== '';
+        },
+        isCVVInvalid() {
+            return this.errors.cvv !== '';
+        },
+        isExpiryInvalid() {
+            return this.errors.expiry !== '';
+        }
     },
     methods: {
         validateCCNumber() {
             const regex = /^\d{16}$/;
-            return regex.test(this.payment.ccNumber);
+            this.errors.ccNumber = regex.test(this.payment.ccNumber) ? '' : 'Invalid credit card number';
         },
         validateCVV() {
             const regex = /^\d{3}$/;
-            return regex.test(this.payment.cvv);
+            this.errors.cvv = regex.test(this.payment.cvv) ? '' : 'Invalid CVV';
         },
-        validateExpiryMonth() {
-            const month = parseInt(this.payment.expiryMonth, 10);
-            return month >= 1 && month <= 12;
+        validateExpiry() {
+            const regex = /^(0[1-9]|1[0-2])\/(\d{2})$/;
+            if (regex.test(this.payment.expiry)) {
+                const [month, year] = this.payment.expiry.split('/').map(Number);
+                const fullYear = 2000 + year;
+                if (month >= 1 && month <= 12 && fullYear >= this.currentYear) {
+                    this.errors.expiry = '';
+                } else {
+                    this.errors.expiry = 'Invalid expiry date';
+                }
+            } else {
+                this.errors.expiry = 'Invalid expiry format';
+            }
         },
-        validateExpiryYear() {
-            const year = parseInt(this.payment.expiryYear, 10);
-            return year >= this.currentYear;
+        generateReferenceNumber() {
+            return Math.floor(Math.random() * 1000);
         },
-        // async submitPayment() {
-        //     const isCCNumberValid = this.validateCCNumber();
-        //     const isCVVValid = this.validateCVV();
-        //     const isExpiryMonthValid = this.validateExpiryMonth();
-        //     const isExpiryYearValid = this.validateExpiryYear();
+        generateBookingReference() {
+            const ref1 = this.generateReferenceNumber();
+            const ref2 = this.generateReferenceNumber();
+            return `BK${ref1}${ref2}`;
+        },
+        handleBack() {
+            this.seatStore.resetSeats();
+            this.$router.push("/seat");
+        },
+        async booking() {
+            try {
+                let response;
+                if (this.bookingStore.trip === 'oneway') {
+                    response = await Booking(
+                        this.bookingReference,
+                        this.bookingStore.trip,
+                        this.bookingStore.selectedFlight.Id,
+                        null,
+                        this.bookingStore.selectedFlight.selectedType,
+                        null,
+                        this.bookingStore.totalPrice
+                    );
+                } else {
+                    response = await Booking(
+                        this.bookingReference,
+                        this.bookingStore.trip,
+                        this.bookingStore.selectedFlight.id,
+                        this.bookingStore.selectedReturnFlight.id,
+                        this.bookingStore.selectedFlight.selectedType,
+                        this.bookingStore.selectedReturnFlight.selectedType,
+                        this.bookingStore.totalPrice
+                    );
+                }
+                console.log("Booking created successfully:", response.data);
+            } catch (error) {
+                console.error("Error creating booking:", error.response?.data || error);
+                throw error;
+            }
+        },
+        async addSeats() {
+            const bookingId = this.bookingReference;
+            const { departure, return: returnSeats } = this.seatStore.seats;
+            for (const seat of departure) {
+                try {
 
-        //     // if (isCCNumberValid && isCVVValid && isExpiryMonthValid && isExpiryYearValid) {
-
-        //     // } else {
-
-        //     // }
-        // }
+                    const response = await AddSeats(this.bookingStore.selectedFlight.Id, 'departure', seat, bookingId);
+                    console.log(`Seat added successfully for departure: ${seat}`, response.data);
+                } catch (error) {
+                    console.error(`Failed to add seat for departure: ${seat}`, error);
+                }
+            }
+            if (returnSeats.length > 0 && this.bookingStore.trip === 'roundtrip') {
+                for (const seat of returnSeats) {
+                    try {
+                        const response = await AddSeats(this.bookingStore.selectedReturnFlight.Id, 'return', seat, bookingId);
+                        console.log(`Seat added successfully for return: ${seat}`, response.data);
+                    } catch (error) {
+                        console.error(`Failed to add seat for return: ${seat}`, error);
+                    }
+                }
+            }
+        },
+        async addPassengers() {
+            const bookingId = this.bookingReference;
+            const passengers = this.passengerStore.passengers;
+            for (const passenger of passengers) {
+                try {
+                    const response = await Passengers(
+                        bookingId,
+                        passenger.title,
+                        passenger.firstName,
+                        passenger.lastName
+                    );
+                    console.log(`Passenger added successfully: ${passenger.firstName} ${passenger.lastName}`, response.data);
+                } catch (error) {
+                    console.error(`Failed to add passenger: ${passenger.firstName} ${passenger.lastName}`, error);
+                }
+            }
+        },
+        async submitPayment() {
+            this.validateCCNumber();
+            this.validateCVV();
+            this.validateExpiry();
+            if (!this.errors.ccNumber && !this.errors.cvv && !this.errors.expiry) {
+                this.bookingReference = this.generateBookingReference();
+                this.bookingStore.setId(this.bookingReference);
+                try {
+                    await this.booking();
+                    await this.addPassengers();
+                    await this.addSeats();
+                    this.$router.push("/confirm");
+                } catch (error) {
+                    alert("Error completing the booking process. Please try again.");
+                    console.error(error);
+                }
+            } else {
+                alert('Please fix the errors in the form.');
+            }
+        }
+    },
+    mounted() {
+        console.log(this.bookingStore.selectedFlight.Id);
     }
 };
 </script>
+
+
 
 <style>
 .is-invalid {

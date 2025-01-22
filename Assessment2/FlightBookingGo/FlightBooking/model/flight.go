@@ -5,13 +5,14 @@ import (
 )
 
 type Flight struct {
-	Id            string `gorm:"unique"`
-	Source        string `gorm:"not null"`
-	Destination   string `gorm:"not null"`
-	Seats         string `gorm:"not null"`
-	ArrivalTime   time.Time
-	DepartureTime time.Time
-	Airline       string `gorm:"not null"`
-	Fare          float64
-	Date          time.Time
+	Id            string    `gorm:"primaryKey"`
+	Source        string    `gorm:"not null" json:"source"`
+	Destination   string    `gorm:"not null" json:"destination"`
+	Seats         string    `gorm:"not null" json:"seats"`
+	ArrivalTime   time.Time `json:"arrivalTime"`
+	DepartureTime time.Time `json:"departureTime"`
+	Airline       string    `gorm:"not null" json:"airline"`
+	Fare          float64   `gorm:"not null" json:"fare"`
+	Date          time.Time `gorm:"not null" json:"date"`
+	Seat          []Seat    `gorm:"foreignKey:FlightId;references:Id"`
 }

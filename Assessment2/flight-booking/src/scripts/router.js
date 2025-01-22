@@ -1,3 +1,4 @@
+import ConfirmationPage from "@/components/ConfirmationPage.vue";
 import FlightBooking from "@/components/FlightBooking.vue"
 import FormDetails from "@/components/FormDetails.vue";
 import LandingPage from "@/components/LandingPage.vue";
@@ -11,12 +12,12 @@ const routes = [
     { path: '/', component: LandingPage },
     { path: '/search', component: FlightBooking },
     { path: '/result', component: SearchResult },
-    { path: '/seat', component: SeatMap },
     {
         path: '/form', component: FormDetails
     },
     { path: '/seat', component: SeatMap },
-    { path: '/payment', component: PaymentDetails }
+    { path: '/payment', component: PaymentDetails },
+    { path: '/confirm', component: ConfirmationPage }
 ]
 
 const router = createRouter({

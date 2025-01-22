@@ -10,7 +10,7 @@ import (
 )
 
 func DatabaseDsn() string {
-	// return fmt.Sprintf("root:mysql@tcp(127.0.0.1:3306)/flights?charset=utf8&parseTime=True&loc=Local")
+
 	return fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&parseTime=True&loc=Local",
 		os.Getenv("MYSQL_USER"),
 		os.Getenv("MYSQL_PASSWORD"),
@@ -26,6 +26,8 @@ func ConnectDB() *gorm.DB {
 	if err != nil {
 		panic("Failed to connect DB")
 	}
-	flightdb.AutoMigrate(&model.Flight{}, &model.Route{})
+
+	flightdb = flightdb.Debug()
+	flightdb.AutoMigrate(&model.Flight{}, &model.Route{}, &model.Booking{}, &model.Seat{}, &model.Passenger{})
 	return flightdb
 }

@@ -2,8 +2,8 @@
     <button class="btn btn-primary button" style="margin-left: 5%;" @click="handleBack()">Back</button>
     <div class="form-container">
         <form @submit.prevent="submitForm">
-            <div v-for="(passenger, index) in passengers" :key="index">
-                <h3>Passengers {{ index + 1 }}</h3>
+            <div v-for="(passenger, index) in passengerList" :key="index">
+                <h3>Passenger {{ index + 1 }}</h3>
                 <div class="form-row">
                     <div class="form-group">
                         <label for="title">Title</label>
@@ -29,28 +29,39 @@
                 </div>
             </div>
 
-
             <button type="submit" class="btn-submit">Submit</button>
         </form>
     </div>
 </template>
 
 <script>
+import { useBookingStore } from '../store/bookingStore';
+import { usePassengerStore } from '../store/passengerStore';
+
 export default {
     data() {
         return {
             passengers: [],
             submitted: false,
+            bookingStore: useBookingStore(),
+            passengerStore: usePassengerStore()
         };
+    },
+    computed: {
+        passengerList() {
+            return this.passengers;
+        },
     },
     methods: {
         submitForm() {
             this.submitted = true;
-            this.$router.push('/seat');
+            this.passengerStore.setPassengers(this.passengers);
+            console.log("Passengers:", this.passengerStore.passengers);
             console.log("Form Submitted", this.passengers);
+            this.$router.push('/seat');
         },
         initializePassengers() {
-            const numberOfPassengers = parseInt(sessionStorage.getItem("passengers"), 10);
+            const numberOfPassengers = this.bookingStore.passengers;
             this.passengers = Array.from({ length: numberOfPassengers }, () => ({
                 title: "",
                 firstName: "",
@@ -71,7 +82,6 @@ export default {
 .form-container {
     max-width: 900px;
     margin: 0 auto;
-
 }
 
 h3 {

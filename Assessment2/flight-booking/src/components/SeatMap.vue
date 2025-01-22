@@ -1,6 +1,18 @@
 <template>
-    <button class="btn btn-primary button" style="margin-left: 5%;" @click="handleBack()">Back</button>
-    <button class="btn btn-primary" @click="handleBack()">Back</button>
+    <div style="display: flex;">
+        <button class="btn btn-primary" style="margin-left: 5%;height: 46px;" @click="handleBack">Back</button>
+        <div class="total-fare">
+            <div>
+                <h3>Total Fare: ₹{{ totalFare }}</h3>
+            </div>
+            <button class="btn btn-primary button-continue" :disabled="!canContinue" @click="proceedToPayment">
+                Continue
+            </button>
+        </div>
+    </div>
+
+
+
     <div class="container">
         <h2>Select Seats</h2>
         <div class="legends">
@@ -18,41 +30,61 @@
             </div>
         </div>
         <div class="seat-layout">
-            <div class="seat-row" v-for="row in 30" :key="row">
+            <div class="seat-row" v-for="row in seatRows" :key="row">
                 <div class="seat-group">
-                    <div class="seat" v-for="seat in 3" :key="seat"
-                        :class="{ selected: isSelected(seatNumber(row, seat)), booked: isBooked(seatNumber(row, seat)) }"
+                    <div class="seat" v-for="seat in seatColumns" :key="seat" :class="getSeatClass(row, seat)"
                         @click="toggleSeatSelection(seatNumber(row, seat))">
                         {{ seatNumber(row, seat) }}
                     </div>
                 </div>
                 <div class="spacer"></div>
                 <div class="seat-group">
-                    <div class="seat" v-for="seat in 3" :key="seat"
-                        :class="{ selected: isSelected(seatNumber(row, seat + 3)), booked: isBooked(seatNumber(row, seat + 3)) }"
+                    <div class="seat" v-for="seat in seatColumns" :key="seat" :class="getSeatClass(row, seat + 3)"
                         @click="toggleSeatSelection(seatNumber(row, seat + 3))">
                         {{ seatNumber(row, seat + 3) }}
                     </div>
                 </div>
             </div>
         </div>
-        <button class="btn btn-primary" :disabled="!canContinue" @click="proceedToPayment">Continue</button>
+
+
+
+
     </div>
 </template>
 
 <script>
+import { useSeatStore } from "@/store/seatsStore";
+import { useBookingStore } from "@/store/bookingStore";
+import { usePassengerStore } from "@/store/passengerStore";
+import { GetBookedSeats } from "@/scripts/FlightBooking_Services";
+
+
 export default {
-    name: 'SeatMap',
+    name: "SeatMap",
+
     data() {
         return {
-            passengers: 0,
             selectedSeats: [],
-            bookedSeats: ['1', '4', '7'] // Example of booked seats
+            totalFare: 0, // Track the total fare dynamically
+            bookingStore: useBookingStore(),
+            passengerStore: usePassengerStore(),
+            seatStore: useSeatStore(),
+            bookedSeats: [], // Example of booked seats
         };
     },
     computed: {
+        passengers() {
+            return this.bookingStore.passengers;
+        },
         canContinue() {
             return this.selectedSeats.length === this.passengers;
+        },
+        seatRows() {
+            return 30;
+        },
+        seatColumns() {
+            return 3;
         }
     },
     methods: {
@@ -60,13 +92,21 @@ export default {
             return (row - 1) * 6 + seat;
         },
         toggleSeatSelection(seat) {
-            if (this.isBooked(seat)) return; // Prevent selection of booked seats
+            if (this.isBooked(seat)) return;
+
+            const Fare = this.bookingStore.selectedFlight.fare;
             const index = this.selectedSeats.indexOf(seat);
+
             if (index > -1) {
                 this.selectedSeats.splice(index, 1);
+                this.totalFare -= Fare;
             } else if (this.selectedSeats.length < this.passengers) {
                 this.selectedSeats.push(seat);
+                this.totalFare += Fare;
             }
+
+            this.seatStore.setSeats([...this.selectedSeats], 'departure');
+            this.bookingStore.setPrice(this.totalFare);
         },
         isSelected(seat) {
             return this.selectedSeats.includes(seat);
@@ -74,18 +114,52 @@ export default {
         isBooked(seat) {
             return this.bookedSeats.includes(seat);
         },
+        getSeatClass(row, seat) {
+            const seatNum = this.seatNumber(row, seat);
+            return {
+                selected: this.isSelected(seatNum),
+                booked: this.isBooked(seatNum),
+            };
+        },
+        addBookedSeats(seats) {
+            console.log("addBookedSeats", seats)
+            for (var i = 0; i < seats.length; i++) {
+                this.bookedSeats.push(seats[i]);
+            }
+        },
+        getbookedSeats(Id) {
+            console.log(Id)
+            GetBookedSeats(Id)
+                .then((response) => {
+                    console.log(response.data)
+                    this.addBookedSeats(response.data.data)
+                })
+                .catch((error) => console.error(error));
+        },
         proceedToPayment() {
-            // Logic to proceed to payment
+            this.$router.push("/payment");
         },
         handleBack() {
-            this.$router.push('/search');
-        }
+            this.seatStore.resetSeats();
+            this.passengerStore.resetPassengers();
+            this.$router.push("/form");
+        },
     },
     mounted() {
-        this.passengers = parseInt(sessionStorage.getItem('passengers'), 10) || 0;
+        this.totalFare = this.bookingStore.totalPrice;
+        if (this.bookingStore.trip === 'roundtrip') {
+            this.getbookedSeats(this.bookingStore.selectedReturnFlight.Id);
+        }
+        else {
+            console.log(this.bookingStore.selectedFlight.Id)
+            this.getbookedSeats(this.bookingStore.selectedFlight.Id);
+        }
+
     }
-};
+}
+
 </script>
+
 
 <style scoped>
 body {
@@ -101,7 +175,7 @@ body {
 .container {
     background-color: white;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     text-align: center;
     width: 400px;
@@ -173,5 +247,13 @@ h2 {
 
 .spacer {
     width: 40px;
+}
+
+.total-fare {
+    margin-left: 70%;
+}
+
+.button-continue {
+    margin-left: 70%;
 }
 </style>

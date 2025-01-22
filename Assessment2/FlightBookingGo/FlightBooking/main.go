@@ -2,7 +2,7 @@ package main
 
 import (
 	"mymodule/config"
-	"mymodule/repository"
+	"mymodule/services"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -31,17 +31,25 @@ func main() {
 	httpServer := gin.Default()
 
 	httpServer.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:8081"},
+		AllowOrigins:     []string{"http://localhost:8080"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
 		AllowCredentials: true,
 	}))
 
-	Repository := repository.FlightRepository{Db: db}
+	FlightServices := services.FlightRepository{Db: db}
+	BookingServices := services.BookingRepository{Db: db}
+	PassengerServices := services.PassengerRepository{Db: db}
+	SeatServices := services.SeatRepository{Db: db}
 
-	httpServer.GET("/get-source", Repository.GetSource)
-	httpServer.POST("/getall-flights", Repository.GetFlights)
-	httpServer.GET("/get-destination/:source", Repository.GetDestination)
+	httpServer.GET("/get-source", FlightServices.GetSource)
+	httpServer.POST("/getall-flights", FlightServices.GetFlights)
+	httpServer.GET("/get-destination/:source", FlightServices.GetDestination)
+	httpServer.POST("/create-booking", BookingServices.CreateBooking)
+	httpServer.POST("/add-passenger", PassengerServices.CreatePassenger)
+	httpServer.POST("/add-seats", SeatServices.AddSeats)
+	httpServer.GET("/get-seats/:flightId", SeatServices.GetBookedSeats)
+	httpServer.GET("/get-pdf/:bookingReference", BookingServices.GetPdf)
 	httpServer.Run(":8082")
 }

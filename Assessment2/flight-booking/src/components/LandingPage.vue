@@ -12,11 +12,6 @@
 </template>
 <script>
 import FooterDetails from './FooterDetails.vue';
-
-
-
-
-
 export default {
     name: 'LandingPage',
     components: {
